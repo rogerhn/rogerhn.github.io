@@ -1,0 +1,164 @@
+"translation": {
+          "AddYourNote": "Adicione sua nota",
+          // Global Menu
+          "Galaxy": "Galáxia",
+          "Stars": "Estrelas",
+          "Planets": "Planetas",
+          "Resources": "Recursos",
+          "Products": "Produtos",
+          "Exosuit": "Exotraje",
+          "Multitool": "Multiferramenta",
+          "Starship": "Nave",
+          "Buildings": "Construções",
+          "Freighter": "Cargueiros",
+          // ELEMENTS - Type
+          "Isotope_Common": "Elemento isótopo - Comum",
+          "Isotope_Uncommon": "Elemento isótopo - Incomum",
+          "Isotope_Rare": "Elemento isótopo - Raro",
+          "Silicate_Common": "Elemento silicato - Comum",
+          "Silicate_Uncommon": "Silicate Element - Uncommon",
+          "Silicate_Rare": "Silicate Element - Rare",
+          "Oxide_Common": "Oxide Element - Common",
+          "Oxide_Uncommon": "Oxide Element - Uncommon",
+          "Oxide_Rare": "Oxide Element - Rare",
+          "Neutral_Common": "Neutral Element - Common",
+          "Neutral_Uncommon": "Neutral Element - Uncommon",
+          "Neutral_Rare": "Neutral Element - Rare",
+          "Neutral_VeryRare": "Neutral Element - Very Rare",
+          "Precious_Common": "Precious Element - Common",
+          "Precious_Uncommon": "Precious Element - Uncommon",
+          "Precious_Rare": "Precious Element - Rare",
+          "Precious_VeryRare": "Precious Element - Very Rare",
+          // ELEMENTS - Carbon
+          "Carbon": "Carbono",
+          "Carbon_desc": "Elemento importante e abundante usado para recarregar armamento, equipamentos de mineração e o sistema de sobrevivência do exotraje.",
+          "Carbon_desc_2": "É encontrado nas árvores, plantas e outras vegetações de um planeta.",
+          // ELEMENTS - Thamium9
+          "Thamium9": "Tâmio9",
+          "Thamium9_desc": "Elemento poderoso usado para carregar equipamentos de mineração, armamento e sistemas de sobrevivência. É utilizado também na criação de produtos valiosos e dispositivos com tecnologia experimental.",
+          "Thamium9_desc_2": "É encontrado em flores vermelhas e na flora planetária.",
+          // ELEMENTS - Plutonium
+          "Plutonium": "Plutônio",
+          "Plutonium_desc": "Plutonium_desc",
+          "Plutonium_desc_2": "Plutonium_desc_2.",
+          "Plutonium_desc_3": "Plutonium_desc_3.",
+          // ELEMENTS - Heridium
+          "Heridium": "Herídio",
+          "Heridium_desc": "Elemento usado na criação de componentes essenciais à exploração espacial.",
+          "Heridium_desc_2": "É encontrado em terreno planetário. Geralmente, é destacado por cubos holográficos no visor do usuário após verificações locais..",
+          // ELEMENTS - Platinum
+          "Platinum": "Platinum",
+          "Platinum_desc": "Elemento poderoso usado para criar componentes de nave e exotraje valiosos. É um ingrediente essencial em muitas plantas tecnológicas.",
+          "Platinum_desc_2": "É encontrado na vegetação azul durante a exploração planetária..",
+          // ELEMENTS - Chrysonite
+          "Chrysonite": "Chrysonite",
+          "Chrysonite_desc": "Um elemento muito poderoso usado em várias plantas tecnológicas avançadas, componentes e receitas de produtos.",
+          "Chrysonite_desc_2": "É encontrado em estruturas de cristal azul.",
+          // ELEMENTS - Iron
+          "Iron": "Iron",
+          "Iron_desc": "Iron_desc",
+          "Iron_desc_2": "Iron_desc_2.",
+          "Iron_desc_3": "Iron_desc_3.",
+          // ELEMENTS - Zinc
+          "Zinc": "Zinc",
+          "Zinc_desc": "Zinc_desc",
+          "Zinc_desc_2": "Zinc_desc_2.",
+          "Zinc_desc_3": "Zinc_desc_3.",
+          // ELEMENTS - Titanium
+          "Titanium": "Titanium",
+          "Titanium_desc": "Titanium_desc",
+          "Titanium_desc_2": "Titanium_desc_2.",
+          "Titanium_desc_3": "Titanium_desc_3.",
+          // ELEMENTS - Nickel
+          "Nickel": "Nickel",
+          "Nickel_desc": "Nickel_desc",
+          "Nickel_desc_2": "Nickel_desc_2.",
+          "Nickel_desc_3": "Nickel_desc_3.",
+          // ELEMENTS - Iridium
+          "Iridium": "Iridium",
+          "Iridium_desc": "element_desc",
+          "Iridium_desc_2": "element_desc_2.",
+          "Iridium_desc_3": "element_desc_3.",
+          // ELEMENTS - Cooper
+          "Cooper": "Cooper",
+          "Cooper_desc": "element_desc",
+          "Cooper_desc_2": "element_desc_2.",
+          "Cooper_desc_3": "element_desc_3.",
+          // ELEMENTS - Gold
+          "Gold": "Gold",
+          "Gold_desc": "element_desc",
+          "Gold_desc_2": "element_desc_2.",
+          "Gold_desc_3": "element_desc_3.",
+          // ELEMENTS - Emeril
+          "Emeril": "Emeril",
+          "Emeril_desc": "element_desc",
+          "Emeril_desc_2": "element_desc_2.",
+          "Emeril_desc_3": "element_desc_3.",
+          // ELEMENTS - Aluminium
+          "Aluminium": "Aluminium",
+          "Aluminium_desc": "element_desc",
+          "Aluminium_desc_2": "element_desc_2.",
+          "Aluminium_desc_3": "element_desc_3.",
+          // ELEMENTS - Candensium
+          "Candensium": "Candensium",
+          "Candensium_desc": "element_desc",
+          "Candensium_desc_2": "element_desc_2.",
+          "Candensium_desc_3": "element_desc_3.",
+          // ELEMENTS - Fervidium
+          "Fervidium": "Fervidium",
+          "Fervidium_desc": "element_desc",
+          "Fervidium_desc_2": "element_desc_2.",
+          "Fervidium_desc_3": "element_desc_3.",
+          // ELEMENTS - Mordite
+          "Mordite": "Mordite",
+          "Mordite_desc": "element_desc",
+          "Mordite_desc_2": "element_desc_2.",
+          "Mordite_desc_3": "element_desc_3.",
+          // ELEMENTS - Pugneum
+          "Pugneum": "Pugneum",
+          "Pugneum_desc": "element_desc",
+          "Pugneum_desc_2": "element_desc_2.",
+          "Pugneum_desc_3": "element_desc_3.",
+          // ELEMENTS - Spadonium
+          "Spadonium": "Spadonium",
+          "Spadonium_desc": "element_desc",
+          "Spadonium_desc_2": "element_desc_2.",
+          "Spadonium_desc_3": "element_desc_3.",
+          // ELEMENTS - Tropheum
+          "Tropheum": "Tropheum",
+          "Tropheum_desc": "element_desc",
+          "Tropheum_desc_2": "element_desc_2.",
+          "Tropheum_desc_3": "element_desc_3.",
+          // ELEMENTS - Temerium
+          "Temerium": "Temerium",
+          "Temerium_desc": "element_desc",
+          "Temerium_desc_2": "element_desc_2.",
+          "Temerium_desc_3": "element_desc_3.",
+          // ELEMENTS - Coryzagen
+          "Coryzagen": "Coryzagen",
+          "Coryzagen_desc": "element_desc",
+          "Coryzagen_desc_2": "element_desc_2.",
+          "Coryzagen_desc_3": "element_desc_3.",
+          // ELEMENTS - Coprite
+          "Coprite": "Coprite",
+          "Coprite_desc": "element_desc",
+          "Coprite_desc_2": "element_desc_2.",
+          "Coprite_desc_3": "element_desc_3.",
+          // ELEMENTS - Rubeum
+          "Rubeum": "Rubeum",
+          "Rubeum_desc": "element_desc",
+          "Rubeum_desc_2": "element_desc_2.",
+          "Rubeum_desc_3": "element_desc_3.",
+          // ELEMENTS - Viridium
+          "Viridium": "Viridium",
+          "Viridium_desc": "element_desc",
+          "Viridium_desc_2": "element_desc_2.",
+          "Viridium_desc_3": "element_desc_3.",
+          // ELEMENTS - Cymatygen
+          "Cymatygen": "Cymatygen",
+          "Cymatygen_desc": "element_desc",
+          "Cymatygen_desc_2": "element_desc_2.",
+          "Cymatygen_desc_3": "element_desc_3.",
+          // Value
+          "Value": "Valor",
+        }

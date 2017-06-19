@@ -1,0 +1,41 @@
+
+require 'uri'
+require 'nokogiri'
+require 'json'
+require 'date'
+
+
+@HTMLDIR = "/Users/tandrews/Development/scripts/NMS_Atlas_App"
+@JSONDIR = "/Users/tandrews/Development/scripts/translation"
+
+begin
+	files = Dir.glob("#{@HTMLDIR}/*.html")
+    jsono = {}
+    c = 0
+	files.each do |file|
+        c = c + 1
+ 		doc = Nokogiri::HTML(File.open(file))
+		puts "PROCESSING FILE: #{file}..."
+
+        doc.traverse do |node|
+            key = node['data-i18n'];
+            if !key.nil? and key != ""
+                if !jsono.key?(key)
+                    jsono[key] = node.text
+                end
+            end
+        end
+	end
+    
+    jsono = {"translation": jsono}
+
+    File.open("#{@JSONDIR}/en_#{Time.now.to_i}.json", "w") {|f| f.write(JSON.pretty_generate(jsono)) }
+
+    puts "FINISHED PROCESSING #{c} FILES"
+
+	exit(0)
+rescue => error
+	puts "ERROR PROCESSING: #{error.message}\n\nFULL ERROR:\n#{error.backtrace}"
+end
+
+

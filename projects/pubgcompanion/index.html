@@ -1,0 +1,229 @@
+<head>
+  <title>Battlegrounds Companion</title>
+  <link rel="stylesheet" href="css/framework7.material.min.css">
+  <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">-->
+  <meta charset="utf-8">
+  <meta http-equiv="Cache-Control" content="no-cache"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#00cccc">
+  <link rel="icon" href="img/icon.png">
+</head>
+
+<body id="theme">
+  <div id="splash"></div>
+  <div class="statusbar-overlay"></div>
+  <div class="panel-overlay"></div>
+  <div class="panel panel-left panel-cover">
+    <div class="langswitch">
+      <p data-i18n="Language">Language</p>
+      <a class="lang en" data-lang="en" title="English"></a>
+      <a class="lang fr" data-lang="fr" title="French"></a>
+      <a class="lang it" data-lang="it" title="Italian"></a>
+      <a class="lang de" data-lang="de" title="German"></a>
+      <a class="lang es" data-lang="es" title="Spanish"></a>
+      <a class="lang ru" data-lang="ru" title="Russian"></a>
+      <a class="lang pl" data-lang="pl" title="Polish"></a>
+      <a class="lang nl" data-lang="nl" title="Dutch"></a>
+      <a class="lang br" data-lang="br" title="Brazilian"></a>
+      <a class="lang cn" data-lang="cn" title="Chinese"></a>
+      <a class="lang ko" data-lang="ko" title="Korean"></a>
+      <a class="lang ja" data-lang="ja" title="Japanese"></a>
+    </div>
+    <div class="themeChooser">
+      <p data-i18n="theme">Theme</p>
+      <div id="lightTheme" class="themeChange lightTheme">
+        <span class="themeText" data-i18n="LightTheme">LightTheme</span>
+      </div>
+      <div id="darkTheme" class="themeChange darkTheme">
+        <span class="themeText" data-i18n="DarkTheme">DarkTheme</span>
+      </div>
+    </div>
+    <div class="left-menu">
+      <a href="#" class="menu-item close-panel">
+        <i class="menu-galaxy"></i>
+        <span class="menu-text" data-i18n="Galaxy">Galaxy</span>
+      </a>
+      <a href="#" class="menu-item close-panel">
+        <i class="menu-stars"></i>
+        <span class="menu-text" data-i18n="Stars">Stars</span>
+      </a>
+      <a href="menu-planets.html" class="menu-item close-panel">
+        <i class="menu-planets"></i>
+        <span class="menu-text" data-i18n="Planets">Planets</span>
+      </a>
+      <a href="menu-resources.html" class="menu-item close-panel">
+        <i class="menu-resources"></i>
+        <span class="menu-text" data-i18n="Resources">Resources</span>
+      </a>
+      <a href="menu-products.html" class="menu-item close-panel">
+        <i class="menu-products"></i>
+        <span class="menu-text" data-i18n="Products">Products</span>
+      </a>
+      <a href="menu-exosuit.html" class="menu-item close-panel">
+        <i class="menu-exosuit"></i>
+        <span class="menu-text" data-i18n="Exosuit">Exosuit</span>
+      </a>
+      <a href="menu-multitool.html" class="menu-item close-panel">
+        <i class="menu-multitool"></i>
+        <span class="menu-text" data-i18n="Multitool">Multitool</span>
+      </a>
+      <a href="menu-starship.html" class="menu-item close-panel">
+        <i class="menu-starship"></i>
+        <span class="menu-text" data-i18n="Starship">Starship</span>
+      </a>
+      <a href="menu-structures.html" class="menu-item close-panel">
+        <i class="menu-structures"></i>
+        <span class="menu-text" data-i18n="Structures">Structures</span>
+      </a>
+      <a href="#" class="menu-item close-panel">
+        <i class="menu-freighter"></i>
+        <span class="menu-text" data-i18n="Freighter">Freighter</span>
+      </a>
+    </div>
+  </div>
+  <div class="selectedWpn item-list">
+	<i class=""></i>
+	<p class="name" datai18n=""></p>
+  </div>
+  <div class="views">
+    <div class="view view-main">
+      <div class="pages navbar-fixed">
+        <div data-page="index" class="page transparent">
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="center">
+                <i class="icon7"></i>
+                <span class="apptitle">Battlegrounds Companion</span>
+              </div>
+              <div class="right"><a href="#" class="open-panel link icon-only"><i class="icon icon-bars"></i></a></div>
+            </div>
+          </div>
+          <div class="page-content hide-bars-on-scroll">
+            <div class="mainbg">
+              <div class="companion"></div>
+            </div>
+            <div class="main-menu block">
+              <div class="menu-items">
+                <div class="menu-title">Equipment</div>
+                <div class="menu-items">
+                  <a href="menu-backpacks.html" class="menu-item">
+                    <i class="backpack3b"></i>
+                    <span class="menu-text" data-i18n="Backpacks">Backpacks</span>
+                  </a>
+                  <a href="menu-helmets.html" class="menu-item">
+                    <i class="helmet3a"></i>
+                    <span class="menu-text" data-i18n="Helmets">Helmets</span>
+                  </a>
+                  <a href="menu-vests.html" class="menu-item">
+                    <i class="vest3"></i>
+                    <span class="menu-text" data-i18n="Vests">Vests</span>
+                  </a>
+                  <a href="menu-clothes.html" class="menu-item">
+                    <i class="shirt-white"></i>
+                    <span class="menu-text" data-i18n="Clothes">Clothes</span>
+                  </a>
+                </div>
+              </div>
+			  <div class="menu-items">
+				  <div class="menu-title">Items</div>
+				  <a href="menu-health.html" class="menu-item">
+					<i class="firstaidkit"></i>
+					<span class="menu-text" data-i18n="Health">Health</span>
+				  </a>
+				  <a href="menu-ammunition.html" class="menu-item">
+					<i class="ammo556mm"></i>
+					<span class="menu-text" data-i18n="Ammos">Ammos</span>
+				  </a>
+				  <a href="attachments.html" class="menu-item disabled">
+					<i class="reddot"></i>
+					<span class="menu-text" data-i18n="Attachments">Attachments</span>
+				  </a>
+				  <a href="crate.html" class="menu-item disabled">
+					<i class="crate"></i>
+					<span class="menu-text" data-i18n="Crates">Crates</span>
+				  </a>
+			  </div>
+			  <div class="menu-items">
+              <div class="menu-title">Weapons</div>
+              <a href="menu-snipers.html" class="menu-item">
+                <i class="awm"></i>
+                <span class="menu-text" data-i18n="SniperRifles">Sniper Rifles</span>
+              </a>
+              <a href="menu-ar.html" class="menu-item">
+                <i class="akm"></i>
+                <span class="menu-text" data-i18n="AutoRifles">Auto Rifles</span>
+              </a>
+              <a href="menu-smg.html" class="menu-item">
+                <i class="ump9"></i>
+                <span class="menu-text" data-i18n="MachineGuns">Machine Guns</span>
+              </a>
+              <a href="menu-shotguns.html" class="menu-item">
+                <i class="s1897"></i>
+                <span class="menu-text" data-i18n="Shotguns">Shotguns</span>
+              </a>
+              <a href="menu-pistols.html" class="menu-item">
+                <i class="p1911"></i>
+                <span class="menu-text" data-i18n="Pistols">Pistols</span>
+              </a>
+              <a href="menu-bows.html" class="menu-item">
+                <i class="crossbow"></i>
+                <span class="menu-text" data-i18n="Bows">Bows</span>
+              </a>
+              <a href="menu-trowables.html" class="menu-item">
+                <i class="flash"></i>
+                <span class="menu-text" data-i18n="Trowables">Trowables</span>
+              </a>
+              <a href="menu-melee.html" class="menu-item">
+                <i class="pan"></i>
+                <span class="menu-text" data-i18n="Melee">Melee</span>
+              </a>
+			  </div>
+
+            </div>
+            <!--
+<div class="content-block-title">Side panels</div>
+<div class="content-block">
+<div class="row">
+<div class="col-50"><a href="#" data-panel="left" class="button open-panel">Left Panel</a></div>
+<div class="col-50"><a href="#" data-panel="right" class="button open-panel">Right Panel</a></div>
+</div>
+</div>
+-->
+          </div>
+        </div>
+      </div>
+	  <div class="wpns-bg"></div>
+	<div class="wpns-box">
+	  <div class="item-one">
+	  </div>
+	  <div class="clearbox">
+		<span class="close">Close</span>
+	  </div>
+	  <div class="item-two">
+	  </div>
+	</div>
+	<div class="compare"></div>
+	<div class="id-clicked">
+		<div class="id"></div>
+	</div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="js/framework7.min.js"></script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/i18next-1.6.3.min.js"></script>
+  <script type="text/javascript" src="js/my-app.js"></script>
+  <script type="text/javascript" src="js/pubgitems.js"></script>
+  <script type="text/javascript" src="js/pubg.js"></script>
+  <!-- myapp.js -->
+  <script type="text/javascript" src="js/i18next-function.js"></script>
+  <!-- i18next function -->
+  <script type="text/javascript" src="js/language.js"></script>
+  <!-- language.js -->
+</body>
+
+</html>
