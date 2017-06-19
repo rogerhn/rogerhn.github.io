@@ -279,7 +279,7 @@ for (var i = 0; i < PUBGITEMS.length; i++){
    '</div>'+
    '<div class="r-details">'+
    '<p>'+
-   '<a href="ammo-'+ pubgitems.ammo +'.html" class="ammo">'+
+   '<a href="'+ pubgitems.ammo +'.html" class="ammo">'+
    '<i class="ammo'+ pubgitems.ammoIcon +'"></i>'+
    '<span class="ivalue">'+ pubgitems.ammo +'</span>'+
    '<span class="capacity" data-capacity="'+ pubgitems.capacity +'">'+ pubgitems.capacity +'</span>'+
@@ -446,7 +446,7 @@ $(".bar").html
     var value = $(this).data("value");
     var capacity = $(this).parents('.single-item').find('.capacity').data("capacity");
     var newCapacity = $(this).data("capacity");
-    newCapacity = (newCapacity === undefined) ? "" : newCapacity;
+    newCapacity = (newCapacity == undefined) ? "" : newCapacity;
     var oldValue = $(this).parent().parent().parent().parent().parent().parent().find('.value.'+bonus).html();
     var newValue = +oldValue + +value;
     var attIcon = $(this).parent().find("i").attr('class');
