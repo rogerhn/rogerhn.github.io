@@ -693,8 +693,22 @@ $(".wpns-bg").removeClass("active");
 $("body").removeClass("no-scroll");
 $(".compare").removeClass("clicked-once");
 localStorage.removeItem('clonedWpn');
-$this.removeClass("hide");
+localStorage.removeItem('wpn-selected');
+//$this.removeClass("hide");
+$(".comparebox").removeClass("collapsed");
+$(".comparebox").removeClass("active");
+$(".showbox").removeClass("active");
 });
+$(".cancel").click(function(clear){
+$(".compare").removeClass("clicked-once");
+localStorage.removeItem('clonedWpn');
+localStorage.removeItem('wpn-selected');
+$(".selected-wpn i").attr('class', '');
+$(".selected-wpn .name").attr('datai18n', '');
+$(".selected-wpn .name").html('');
+$(".comparebox").removeClass("active");
+});
+
 $('.toggle-title').click(function(){
 $(this).toggleClass('active');
 $(this).find('.show').toggleClass('active');
@@ -733,10 +747,11 @@ if ($this.hasClass("clicked-once")) {
 $this.on( "click" );
 $this.removeClass("clicked-once");
 $this.removeClass("hide");
-$(this).addClass("hide");
+//$(this).addClass("hide");
 $(".wpns-box").addClass("active");
 $("body").addClass("no-scroll");
 $(".wpns-bg").addClass("active");
+$(".comparebox").removeClass("active");
 if ($(".item-two").html().length > 0) {
 $(".item-two").html("");
 } 
@@ -771,13 +786,15 @@ var cloneIcon = $(this).parents('.wpn-image').find('.icon-small').attr("class");
 var cloneNamei18n = $(this).parents('.item-details').find('.name').attr("datai18n");
 var cloneName = $(this).parents('.item-details').find('.name').html();
 console.log(cloneNamei18n);
-$(".selectedWpn i").attr('class', cloneIcon);
-$(".selectedWpn .name").attr('datai18n', cloneNamei18n);
-$(".selectedWpn .name").html(cloneName);
+$(".selected-wpn i").attr('class', cloneIcon);
+$(".selected-wpn .name").attr('datai18n', cloneNamei18n);
+$(".selected-wpn .name").html(cloneName);
+$(".comparebox").addClass("active");
 //$(".selectedWpn").addClass("active");
 //$(".item-one").append(clonedWeapon);
 $this.addClass("clicked-once");
 $(".item-two").html("");
+//$('.att').prop("checked", false);
 //console.log(clone);
 //console.log(clonedWeapon);
 //var clonedWpn = clone.get(0).outerHTML;
@@ -803,6 +820,11 @@ $('.closepopuplink').click(function(){
   $(this).parent().parent().parent().find('.single-popup').animate({top:'80px'},100);
   $('body').removeClass("no-scroll");
 });
+$('.showbox').click(function(){
+  $(this).toggleClass("active");
+  $(this).parent().toggleClass("collapsed");
+});
+
 
 $(".tabs-menu a").click(function(event) {
 event.preventDefault();

@@ -901,7 +901,7 @@ margin: 0 10px 10px;
 }
 .item-desc .description {
 font-size: 12px;
-font-family: "Open Sans";
+font-family: "Roboto";
 line-height: 15px;
 }
 
@@ -1340,6 +1340,83 @@ display: none;
 .card.microuzi .sights,
 .single-item.Pistol .sights{
 display: none;
+}
+
+.comparebox {
+    position: absolute;
+    bottom: -110;
+    display: block;
+    height: 110px;
+    width: 320px;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+	transition: all .2s ease;
+}
+.comparebox.active {
+	bottom: 0;
+}
+.comparetext {
+    display: block;
+    color: #fff;
+    background: #333;
+    padding: 5px 16px;
+    width: 288px;
+}
+.selected-wpn {
+    background: #cccccc;
+}
+.selected-wpn i {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.comparebox .name {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 80px;
+    margin: 0 0 0 10px;
+    font-size: 18px;
+}
+.showbox {
+	display: inline-block;
+    float: right;
+    background-image: url(../img/icons/arrowleft.png);
+    width: 32px;
+    height: 30px;
+    background-color: #ffd200;
+    background-size: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    position: absolute;
+    top: 1px;
+    right: 10px;
+}
+.showbox.active {
+	transform: rotate(180deg);
+}
+.comparebox.active.collapsed {
+    bottom: -80px;
+}
+
+.cancel {
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    font-size: 16px;
+    text-shadow: 0 1px 1px #0c0c0c, 0px -1px 1px #0c0c0c, 1px 0px 1px #0c0c0c, -1px 0px 1px #0c0c0c;
+    color: #fff;
+    width: 80px;
+    text-align: center;
+    background: #f44336;
+    border: 1px solid #333;
+    cursor: pointer;
+    height: 38px;
+    vertical-align: middle;
+    line-height: 38px;
 }
 
 

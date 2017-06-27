@@ -1476,7 +1476,7 @@ var ATTACHMENTS =
         "bonus": "rate",
         "value": "9",
         "capacity": "40",
-        "unique": "unique",
+        "unique": "mag",
         "verified": ""},
       {
         "attachment":"extendedquickdrawump9",
