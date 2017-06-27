@@ -22,12 +22,11 @@ background-size: 256px;
 transition-duration: .3s;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
+
 body {
 font-family: 'Roboto', Microsoft YaHei;
 font-weight: 400;
 font-size: 14px;
-width: 320px;
 margin: 0 auto;
 }
 
@@ -207,7 +206,7 @@ background-image: url(../img/atlas-icon-96px.png);
 }
 /* Left Menu */
 .langswitch {
-margin: 5px;
+margin: 5px 16px;
 display: inline-block;
 }
 
@@ -228,28 +227,23 @@ border: none;
 .panel.panel-left.panel-cover {
 padding-bottom: 56px;
 }
+.panel-left {
+background: #333;
+color: #fff;
+}
 .left-menu {
-border-top: 1px solid #BEBEBE;
+border-top: 1px solid #000;
 }
-.left-menu .menu-item {
-display: block;
-width: 250px;
-height: 32px;
-margin: 5px 0px;
-border-bottom: 1px solid #BEBEBE;
-padding: 4px 0px 4px 10px;
+.left-menu .item-list i {
+width: 48px;
+height: 48px;
 }
-.left-menu .menu-item i {
-width: 32px;
-height: 32px;
-float: left;
+
+.left-menu .item-list {
+height: 48px;
+line-height: 48px;
 }
-.left-menu .menu-text {
-line-height: 32px;
-text-align: left;
-margin-left: 10px;
-float: left;
-}
+
 /* End Left Menu */
 
 /* Page */
@@ -275,10 +269,13 @@ text-align: center;
 .mainbg {
 background-image: url(../img/main_bg.jpg);
 display: block;
-width: 320px;
+min-width: 320px;
+width: 100%;
+max-width: 360px;
 height: 150px;
 background-size: cover;
 background-repeat: no-repeat;
+background-position: center;
 margin: 0 auto;
 position: relative;
 }
@@ -308,28 +305,28 @@ margin: 0 auto;
 }
 .main-menu .menu-title {
 display: block;
-font-weight: 400;
-background: #333;
-padding: 5px 5px 5px 5px;
-margin: 1px 0 2px;
-color: #ffd200;
+background: #252525;
+padding: 5px 5px 5px 15px;
 position: relative;
-text-transform: uppercase;
+font-size: 15px;
+margin: 0;
+color: #ffd200;
+text-shadow: 0 1px 1px #0c0c0c, 0px -1px 1px #0c0c0c, 1px 0px 1px #0c0c0c, -1px 0px 1px #0c0c0c;
+border-bottom: 1px solid #000;
 }
 .menu-title {
 display: block;
-font-weight: 400;
-background: #333;
-padding: 3px 5px 3px 16px;
-margin: 0px;
-color: #ffd200;
+background: #252525;
+padding: 5px 5px 5px 15px;
 position: relative;
-text-transform: uppercase;
-border-bottom: 1px solid #000;
 font-size: 15px;
+margin: 0;
+color: #ffd200;
+text-shadow: 0 1px 1px #0c0c0c, 0px -1px 1px #0c0c0c, 1px 0px 1px #0c0c0c, -1px 0px 1px #0c0c0c;
+border-bottom: 1px solid #000;
 }
 .menu-items {
-    font-size: 0;
+font-size: 0;
 }
 .main-menu a {
 display: inline-block;
@@ -354,7 +351,7 @@ font-size: 12px;
 border-top: 1px solid #333;
 text-align: center;
 text-shadow: 0 2px 1px #0c0c0c, 0px -2px 1px #0c0c0c, 2px 0px 1px #0c0c0c, -2px 0px 1px #0c0c0c;
-line-height: 16px;
+line-height: 15px;
 width: 67px;
 padding: 4px 4px;
 height: 40px;
@@ -376,6 +373,7 @@ line-height: 60px;
 background-color: #272627;
 border-bottom: 1px solid #000;
 border-top: 1px solid #333;
+position: relative;
 }
 .item-list i {
 display: inline-block;
@@ -396,6 +394,28 @@ padding: 0 10px;
 text-shadow: 0 2px 1px #0c0c0c, 0px -2px 1px #0c0c0c, 2px 0px 1px #0c0c0c, -2px 0px 1px #0c0c0c;
 line-height: 20px;
 vertical-align: middle;
+}
+.item-list.attachment .name {
+width: 160px;
+}
+.item-list.attachment .list-info {
+width: 60px;
+}
+.item-list.attachment .info {
+text-transform: capitalize;
+color: #ffd200;
+}
+.attachableto {
+display: block;
+background: #131313;
+padding: 5px 5px 5px 10px;
+position: relative;
+font-size: 15px;
+margin: 0;
+color: #f0f0f0;
+transition: all .2s ease;
+text-shadow: 0 1px 1px #0c0c0c, 0px -1px 1px #0c0c0c, 1px 0px 1px #0c0c0c, -1px 0px 1px #0c0c0c;
+border-bottom: 1px solid #000;
 }
 .list-info {
 width: 80px;
@@ -441,8 +461,20 @@ line-height: normal;
 .twitchprimeshirt .info,
 .jeans-tan .info,
 .twitchprimecombatpants .info,
-.twitchprimeboots .info {
-    display: none;
+.twitchprimeboots .info,
+.grey-shirt .info,
+.pu-trenchcoat .info,
+.red-hitoptrainers .info,
+.twitchprimebalaclava .bp,
+.pu-bandana .bp,
+.twitchprimeshirt .bp,
+.jeans-tan .bp,
+.twitchprimecombatpants .bp,
+.twitchprimeboots .bp,
+.grey-shirt .bp,
+.pu-trenchcoat .bp,
+.red-hitoptrainers .bp{
+display: none;
 }
 
 /* General Css */
@@ -465,11 +497,36 @@ color: #ffd200;
 position: relative;
 cursor: pointer;
 }
+.content-block {
+margin: 0;
+background: #272627;
+}
+.text {
+color: #fff;
+margin: 0;
+padding: 8px 0;
+}
+.simpletext {
+color: #fff;
+padding: 2px 0;
+margin: 0;
+}
+.text-title {
+color: #fff;
+font-size: 15px;
+}
+.content-block .item-image {
+	height: 230px;
+}
+.content-block .item-image i {
+	width: 240px;
+	height: 240px;
+}
 .hidden-content {display: none;}
 .show {
 display: inline-block;
 float: right;
-background-image: url(http://www.infoshqip.com/wp-content/uploads/2016/07/arrowleft.png);
+background-image: url(../img/icons/arrowleft.png);
 width: 32px;
 height: 30px;
 background-color: #ffd200;
@@ -480,10 +537,9 @@ cursor: pointer;
 position: absolute;
 top: 1px;
 right: 10px;
-transform: rotate(-90deg);
 }
 .show.active {
-transform: rotate(90deg);
+transform: rotate(180deg);
 }
 
 
@@ -501,12 +557,116 @@ min-width: 300px;
 width: 100%;
 }
 */
+.titleblock {
+display: block;
+background: #2b2b2b;
+padding: 5px 5px 5px 15px;
+position: relative;
+font-size: 15px;
+margin: 0;
+color: #ffd200;
+text-shadow: 0 1px 1px #0c0c0c, 0px -1px 1px #0c0c0c, 1px 0px 1px #0c0c0c, -1px 0px 1px #0c0c0c;
+border-bottom: 1px solid #000;
+border-top: 1px solid #000;
+}
 .single-item {
 display: inline-block;
 background: #ccc;
 min-width: 320px;
 width: 100%;
 background-image: none;
+}
+.single-attachment {
+display: inline-block;
+background: #ccc;
+min-width: 320px;
+width: 100%;
+background-image: none;
+}
+.single-attachment .item-details .type {
+text-transform: capitalize;
+}
+
+.single-popup {
+display: none;
+background: #ccc;
+background-image: none;
+z-index: 3;
+margin: auto;
+width: 100%;
+height: 280px;
+top: 80px;
+left: 0;
+right: 0;
+position: absolute;
+}
+.single-popup .item-image {
+height: 240px;
+}
+.single-popup .item-image i {
+height: 240px;
+width: 240px;
+}
+.single-popup .item-details .name {
+margin: 0 40px 6px 0;
+}
+.backdrop {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%;
+background: #1d1d1d;
+z-index: 2;
+overflow-y: auto;
+}
+.closepopuplink:active {
+transform: scale(0.9);
+}
+.closepopuplink {
+background: #131313;
+box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .1);
+display: inline-block;
+width: 30px;
+height: 30px;
+margin: 0;
+position: absolute;
+right: 10px;
+top: 10px;
+border: 1px solid #000;
+transition: all .2s ease;
+cursor: pointer;
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
+}
+.closepopuplink::before {
+height: 16px;
+left: 13px;
+top: 7px;
+-webkit-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+.closepopuplink::after {
+height: 16px;
+right: 13px;
+top: 7px;
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.closepopuplink::before, .closepopuplink::after {
+background: #fff;
+content: '';
+display: block;
+position: absolute;
+width: 4px;
+transition: all .2s ease;
+-webkit-backface-visibility: hidden;
+-moz-backface-visibility: hidden;
+-ms-backface-visibility: hidden;
 }
 .item-details {
 padding: 10px 10px 5px;
@@ -555,7 +715,7 @@ right: 32px;
 }
 .r-details .capacity::after {
 content: "";
-background-image: url(http://megaicons.net/static/img/icons_sizes/8/178/32/military-magazin-icon.png);
+background-image: url(../img/icons/military-magazin-icon.png);
 background-size: cover;
 background-repeat: no-repeat;
 width: 12px;
@@ -677,7 +837,7 @@ vertical-align: bottom;
 margin: 0 5px 0 0;
 }
 .c-icon {
-background-image: url(http://www.freeiconspng.com/uploads/compare-icon-17.png);
+background-image: url(../img/icons/compare.png);
 }
 .wpn-desc {
 line-height: 17px;
@@ -703,6 +863,12 @@ z-index: 1;
 }
 .item-details .ivalue {
 margin: 0 5px;
+}
+.item-details .lvalue {
+margin-left: 5px;
+}
+.item-details .rvalue {
+margin-right: 5px;
 }
 .item-details .type {
 
@@ -939,159 +1105,159 @@ float: left;
 
 /* Compare Weapons Box */
 .wpns-bg {
-	display: none;
+display: none;
 }
 .wpns-bg.active {
-    display: block;
-    position: fixed;
-    background: rgba(29, 29, 29, 0.9);
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 2;
-    height: 100%;
+display: block;
+position: fixed;
+background: rgba(29, 29, 29, 0.9);
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 2;
+height: 100%;
 }
 .wpns-box {
-    width: 320px;
-    margin: auto;
-    position: absolute;
-    top: -1000px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    opacity: 1;
-    transition: 0.3s ease-out;
-	display: none;
+width: 320px;
+margin: auto;
+position: absolute;
+top: -1000px;
+left: 0;
+bottom: 0;
+right: 0;
+opacity: 1;
+transition: 0.3s ease-out;
+display: none;
 }
 .wpns-box.active {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: #1d1d1d;
-    transition: 0.3s ease-out;
-    opacity: 1;
-    z-index: 3;
-    overflow-y: auto;
-    width: 320px;
-    margin: auto;
-	display: block;
+position: fixed;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background: #1d1d1d;
+transition: 0.3s ease-out;
+opacity: 1;
+z-index: 3;
+overflow-y: auto;
+width: 320px;
+margin: auto;
+display: block;
 }
 .item-one {
-    position: absolute;
-	display: inline-block;
-    left: 0px;
-    transition: all 0.3s ease-out;
+position: absolute;
+display: inline-block;
+left: 0px;
+transition: all 0.3s ease-out;
 }
 .item-two {
-    position: absolute;
-	display: inline-block;
-    right: 0px;
-    transition: all 0.3s ease-out;
+position: absolute;
+display: inline-block;
+right: 0px;
+transition: all 0.3s ease-out;
 }
 .clearbox {
-    display: inline-block;
-    text-align: center;
-    vertical-align: top;
-    position: absolute;
-    width: 100%;
-    top: 10px;
-    text-transform: uppercase;
-    font-size: 12px;
-    cursor: pointer;
+display: inline-block;
+text-align: center;
+vertical-align: top;
+position: absolute;
+width: 100%;
+top: 10px;
+text-transform: uppercase;
+font-size: 12px;
+cursor: pointer;
 }
 .close {
-    background-color: #ffd200;
-    padding: 10px;
-    margin-top: -11px;
-    display: inline-block;
-    color: #222;
-    font-weight: 500;
+background-color: #ffd200;
+padding: 10px;
+margin-top: -11px;
+display: inline-block;
+color: #222;
+font-weight: 500;
 }
 .wpns-box .card {
-	box-shadow: none;
+box-shadow: none;
 }
 .wpns-box .single-item {
-    width: 132px;
-	min-width: 132px;
+width: 132px;
+min-width: 132px;
 }
 .wpns-box .item-details {
-    min-height: 124px;
+min-height: 124px;
 }
 .wpns-box .item-details .name {
-    font-size: 14px;
+font-size: 14px;
 }
 .wpns-box .l-details {
-    display: none;
+display: none;
 }
 .wpns-box .r-details {
-    float: none;
-    width: 100%;
-    font-size: 12px;
-    text-align: left;
+float: none;
+width: 100%;
+font-size: 12px;
+text-align: left;
 }
 .wpns-box a {
-    pointer-events: none;
-    cursor: default;
+pointer-events: none;
+cursor: default;
 }
 .wpns-box .ammo i {
-    display: none;
+display: none;
 }
 .wpns-box .item-image {
-    margin: 0 auto 0px;
+margin: 0 auto 0px;
 }
 .wpns-box .item-image i {
-    width: 80px;
-    height: 80px;
+width: 80px;
+height: 80px;
 }
 .wpns-box .icon-small {
-    display: block;
-    margin: 0 auto;
+display: block;
+margin: 0 auto;
 }
 .wpns-box .verified, .wpns-box .icon-large {
-    display: none;
+display: none;
 }
 .wpns-box .large, .wpns-box .slots {
-    display: none;
+display: none;
 }
 .wpns-box .compare, .wpns-box .wpn-desc {
-    display: none;
+display: none;
 }
 .wpns-box .item-one .value {
-    right: -38px;
-    color: #fcd000;
-    font-size: 13px;
-    text-shadow: none;
-    font-weight: 400;
-    text-align: left;
-    width: 22px;
+right: -38px;
+color: #fcd000;
+font-size: 13px;
+text-shadow: none;
+font-weight: 400;
+text-align: left;
+width: 22px;
 }
 .wpns-box .item-one .bonus-bar {
-    right: 0px;
-    top: 0px;
-    position: absolute;
+right: 0px;
+top: 0px;
+position: absolute;
 }
 .wpns-box .item-one .inner-bar {
-    right: 0px;
-    top: 0px;
-    position: absolute;
+right: 0px;
+top: 0px;
+position: absolute;
 }
 .wpns-box .item-two .value {
-    left: -38px;
-    color: #fcd000;
-    font-size: 13px;
-    text-shadow: none;
-    font-weight: 400;
-    text-align: right;
-    width: 22px;
+left: -38px;
+color: #fcd000;
+font-size: 13px;
+text-shadow: none;
+font-weight: 400;
+text-align: right;
+width: 22px;
 }
 .wpns-box .item-stats {
-    padding: 0 10px 10px 10px;
+padding: 0 10px 10px 10px;
 }
 .wpns-box .item-one .item-stats {
-    text-align: right;
+text-align: right;
 }
 .clear {
 text-align: center;
@@ -1163,17 +1329,17 @@ overflow: hidden;
 vertical-align: middle;
 }
 .hide {
-    display: none;
+display: none;
 }
 .selectedWpn {
-	display: none;
+display: none;
 }
 .card.vss .attachs,
 .card.s1897 .sights,
 .card.s686 .sights,
 .card.microuzi .sights,
 .single-item.Pistol .sights{
-	display: none;
+display: none;
 }
 
 
@@ -1289,8 +1455,11 @@ top: 0px;
 display: none;
 }
 }
-@media screen and (device-width: 640px) {
-
+@media screen and (device-width: 360px) {
+.mainbg {
+width: 360px;
+height: 180px;
+}
 }
 @media screen and (min-width:645px) {
 

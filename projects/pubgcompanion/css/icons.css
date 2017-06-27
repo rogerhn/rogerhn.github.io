@@ -106,7 +106,7 @@ background-image: url(../img/weapons/12gauge.png);
 .ammo300magnum {
 background-image: url(../img/weapons/300magnum.png);
 }
-.ammo45 {
+.ammo45acp {
 background-image: url(../img/weapons/45acp.png);
 }
 .ammo556mm {
@@ -222,6 +222,12 @@ background-image: url(../img/clothes/trenchcoat.png);
 }
 .crate {
 background-image: url(../img/items/crate.png);
+}
+.twitchprimebox {
+background-image: url(../img/items/twitchprimebox.png); 
+}
+.preordercrate {
+background-image: url(../img/items/preordercrate.png); 
 }
 /* WEAPONS LARGE */
 .p92-large {
@@ -517,9 +523,6 @@ background-image: url(../img/clothes/twitchprimebalaclava.png);
 }
 .twitchprimeboots {
 background-image: url(../img/clothes/twitchprimeboots.png); 
-}
-.twitchprimebox {
-background-image: url(../img/clothes/twitchprimebox.png); 
 }
 .twitchprimecombatpants {
 background-image: url(../img/clothes/twitchprimecombatpants.png); 

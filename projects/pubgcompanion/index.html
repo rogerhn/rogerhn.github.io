@@ -21,18 +21,19 @@
     <div class="langswitch">
       <p data-i18n="Language">Language</p>
       <a class="lang en" data-lang="en" title="English"></a>
-      <a class="lang fr" data-lang="fr" title="French"></a>
-      <a class="lang it" data-lang="it" title="Italian"></a>
-      <a class="lang de" data-lang="de" title="German"></a>
-      <a class="lang es" data-lang="es" title="Spanish"></a>
-      <a class="lang ru" data-lang="ru" title="Russian"></a>
-      <a class="lang pl" data-lang="pl" title="Polish"></a>
-      <a class="lang nl" data-lang="nl" title="Dutch"></a>
-      <a class="lang br" data-lang="br" title="Brazilian"></a>
-      <a class="lang cn" data-lang="cn" title="Chinese"></a>
-      <a class="lang ko" data-lang="ko" title="Korean"></a>
-      <a class="lang ja" data-lang="ja" title="Japanese"></a>
+      <a class="lang fr disabled" data-lang="fr" title="French"></a>
+      <a class="lang it disabled" data-lang="it" title="Italian"></a>
+      <a class="lang de disabled" data-lang="de" title="German"></a>
+      <a class="lang es disabled" data-lang="es" title="Spanish"></a>
+      <a class="lang ru disabled" data-lang="ru" title="Russian"></a>
+      <a class="lang pl disabled" data-lang="pl" title="Polish"></a>
+      <a class="lang nl disabled" data-lang="nl" title="Dutch"></a>
+      <a class="lang br disabled" data-lang="br" title="Brazilian"></a>
+      <a class="lang cn disabled" data-lang="cn" title="Chinese"></a>
+      <a class="lang ko disabled" data-lang="ko" title="Korean"></a>
+      <a class="lang ja disabled" data-lang="ja" title="Japanese"></a>
     </div>
+	<!--
     <div class="themeChooser">
       <p data-i18n="theme">Theme</p>
       <div id="lightTheme" class="themeChange lightTheme">
@@ -42,46 +43,31 @@
         <span class="themeText" data-i18n="DarkTheme">DarkTheme</span>
       </div>
     </div>
+	-->
     <div class="left-menu">
-      <a href="#" class="menu-item close-panel">
-        <i class="menu-galaxy"></i>
-        <span class="menu-text" data-i18n="Galaxy">Galaxy</span>
+      <a href="menu-backpacks.html" class="item-list close-panel">
+        <i class="backpack3b"></i>
+        <span class="name" data-i18n="Backpacks">Backpacks</span>
       </a>
-      <a href="#" class="menu-item close-panel">
-        <i class="menu-stars"></i>
-        <span class="menu-text" data-i18n="Stars">Stars</span>
+	  <a href="menu-helmets.html" class="item-list close-panel">
+        <i class="helmet3a"></i>
+        <span class="name" data-i18n="Helmets">Helmets</span>
       </a>
-      <a href="menu-planets.html" class="menu-item close-panel">
-        <i class="menu-planets"></i>
-        <span class="menu-text" data-i18n="Planets">Planets</span>
+	  <a href="menu-vests.html" class="item-list close-panel">
+        <i class="vest3"></i>
+        <span class="name" data-i18n="Vests">Vests</span>
       </a>
-      <a href="menu-resources.html" class="menu-item close-panel">
-        <i class="menu-resources"></i>
-        <span class="menu-text" data-i18n="Resources">Resources</span>
+	  <a href="menu-clothes.html" class="item-list close-panel">
+        <i class="shirt-white"></i>
+        <span class="name" data-i18n="Clothes">Clothes</span>
       </a>
-      <a href="menu-products.html" class="menu-item close-panel">
-        <i class="menu-products"></i>
-        <span class="menu-text" data-i18n="Products">Products</span>
+	  <a href="menu-health.html" class="item-list close-panel">
+        <i class="firstaidkit"></i>
+        <span class="name" data-i18n="Health">Health</span>
       </a>
-      <a href="menu-exosuit.html" class="menu-item close-panel">
-        <i class="menu-exosuit"></i>
-        <span class="menu-text" data-i18n="Exosuit">Exosuit</span>
-      </a>
-      <a href="menu-multitool.html" class="menu-item close-panel">
-        <i class="menu-multitool"></i>
-        <span class="menu-text" data-i18n="Multitool">Multitool</span>
-      </a>
-      <a href="menu-starship.html" class="menu-item close-panel">
-        <i class="menu-starship"></i>
-        <span class="menu-text" data-i18n="Starship">Starship</span>
-      </a>
-      <a href="menu-structures.html" class="menu-item close-panel">
-        <i class="menu-structures"></i>
-        <span class="menu-text" data-i18n="Structures">Structures</span>
-      </a>
-      <a href="#" class="menu-item close-panel">
-        <i class="menu-freighter"></i>
-        <span class="menu-text" data-i18n="Freighter">Freighter</span>
+	  <a href="menu-ammunition.html" class="item-list close-panel">
+        <i class="ammo556mm"></i>
+        <span class="name" data-i18n="Ammos">Ammos</span>
       </a>
     </div>
   </div>
@@ -138,11 +124,11 @@
 					<i class="ammo556mm"></i>
 					<span class="menu-text" data-i18n="Ammos">Ammos</span>
 				  </a>
-				  <a href="attachments.html" class="menu-item disabled">
+				  <a href="menu-attachments.html" class="menu-item">
 					<i class="reddot"></i>
 					<span class="menu-text" data-i18n="Attachments">Attachments</span>
 				  </a>
-				  <a href="crate.html" class="menu-item disabled">
+				  <a href="menu-crates.html" class="menu-item">
 					<i class="crate"></i>
 					<span class="menu-text" data-i18n="Crates">Crates</span>
 				  </a>
@@ -165,6 +151,8 @@
                 <i class="s1897"></i>
                 <span class="menu-text" data-i18n="Shotguns">Shotguns</span>
               </a>
+			  </div>
+			  <div class="menu-items">
               <a href="menu-pistols.html" class="menu-item">
                 <i class="p1911"></i>
                 <span class="menu-text" data-i18n="Pistols">Pistols</span>
