@@ -38,6 +38,10 @@ $(document).ready(function() {
     $('#theme').addClass(theme);
     localStorage['theme'] = theme;
   });
+  $('.showbox').click(function(){
+  $(this).toggleClass("active");
+  $(this).parent().toggleClass("collapsed");
+});
 });
 
 $$(document).on('pageInit', function(e) {

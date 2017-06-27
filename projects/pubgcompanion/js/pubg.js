@@ -820,10 +820,7 @@ $('.closepopuplink').click(function(){
   $(this).parent().parent().parent().find('.single-popup').animate({top:'80px'},100);
   $('body').removeClass("no-scroll");
 });
-$('.showbox').click(function(){
-  $(this).toggleClass("active");
-  $(this).parent().toggleClass("collapsed");
-});
+
 
 
 $(".tabs-menu a").click(function(event) {
