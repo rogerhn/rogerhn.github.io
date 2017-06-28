@@ -1358,11 +1358,15 @@ display: none;
 	bottom: 0;
 }
 .comparetext {
-    display: block;
-    color: #fff;
-    background: #333;
-    padding: 5px 16px;
-    width: 288px;
+display: block;
+color: #131313;
+background: #ffffff;
+padding: 4px 15px;
+width: 100%;
+font-size: 15px;
+border-bottom: 1px solid #000;
+font-weight: 500;
+border-top: 1px solid #000;
 }
 .selected-wpn {
     background: #cccccc;
