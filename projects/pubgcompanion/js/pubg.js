@@ -3,6 +3,10 @@ $$(document).on('pageInit', function(e) {
 for (var i = 0; i < PUBGITEMS.length; i++){
 var pubg = PUBGITEMS[i];
 pubg['icon2'] = (pubg['icon2'] == undefined) ? "none" : pubg['icon2'];
+pubg['icontext'] = (pubg['icontext'] == undefined) ? "" : pubg['icontext'];
+pubg['icontext2'] = (pubg['icontext2'] == undefined) ? "" : pubg['icontext2'];
+pubg['icontexti18'] = (pubg['icontexti18'] == undefined) ? "" : pubg['icontexti18'];
+pubg['icontext2i18'] = (pubg['icontext2i18'] == undefined) ? "" : pubg['icontext2i18'];
 pubg['capacity'] = (pubg['capacity'] == undefined) ? "" : pubg['capacity'];
 pubg['type'] = (pubg['type'] == undefined) ? "" : pubg['type'];
 pubg['amount'] = (pubg['amount'] == undefined) ? "" : pubg['amount'];
@@ -69,14 +73,26 @@ $(".helmets." + pubg.item).html
 '<p class="name" datai18n="'+pubg.i18name+'">'+pubg.name+'</p>'+
 '<div class="l-details">'+
 '<p>'+
-'<span class="cap" datai18n="Protection">Protection:</span>'+
+'<span class="cap" datai18n="'+pubg.i18type+'">'+pubg.type+':</span>'+
 '<span class="ivalue">'+pubg.amount+'</span>'+
+'</p>'+
+'</div>'+
+'<div class="r-details">'+
+'<p>'+
+'<span class="cap" datai18n="'+pubg.dmgtexti18+'">'+pubg.dmgtext+':</span>'+
+'<span class="ivalue">'+pubg.dmgreduction+'</span>'+
 '</p>'+
 '</div>'+
 '</div>'+
 '<div class="item-image">'+
+'<div class="icon1">'+
 '<i class="'+pubg.icon+'"></i>'+
+'<p class="icontext" datai18n="'+ pubg.icontexti18 +'">'+ pubg.icontext +'</p>' +
+'</div>'+
+'<div class="icon2">'+
 '<i class="'+pubg.icon2+'"></i>'+
+'<p class="icontext" datai18n="'+ pubg.icontext2i18 +'">'+ pubg.icontext2 +'</p>' +
+'</div>'+
 '</div>'+
 '<div class="item-desc">'+
 '<span class="description" datai18n="'+pubg.i18desc+'">'+pubg.desc+'</span>'+
@@ -99,12 +115,16 @@ $(".vests." + pubg.item).html
 '<p class="name" datai18n="'+pubg.i18name+'">'+pubg.name+'</p>'+
 '<div class="l-details">'+
 '<p>'+
-'<span class="cap" datai18n="Protection">Protection:</span>'+
+'<span class="cap" datai18n="'+pubg.i18type+'">'+pubg.type+':</span>'+
 '<span class="ivalue">'+pubg.amount+'</span>'+
 '</p>'+
 '</div>'+
 '<div class="r-details">'+
 '<p>'+
+'<span class="cap" datai18n="'+pubg.dmgtexti18+'">'+pubg.dmgtext+':</span>'+
+'<span class="ivalue">'+pubg.dmgreduction+'</span>'+
+'<p>'+
+'</p>'+
 '<span class="cap" datai18n="Capacity">Capacity:</span>'+
 '<span class="ivalue">'+pubg.capacity+'</span>'+
 '</p>'+
@@ -310,6 +330,45 @@ $(".melee." + pubg.item).html
 '<span class="description" datai18n="'+pubg.i18desc+'">'+pubg.desc+'</span>'+
 '</div>'+
 '</div>')
+
+$(".card-vehicles." + pubg.item).html
+('<a href="#" class="item-list popuplink">' +
+'<i class="'+ pubg.item +'"></i>' +
+'<p class="name" datai18n="'+ pubg.item +'">'+ pubg.name +'</p>' +
+'<div class="list-info">'+
+'<p class="info" datai18n="MaxSpeed">Max Speed:</p>'+
+'<p class="info-value">'+pubg.maxspeed+'</p>'+
+'</div>'+
+'</a>'+
+'<div class="backdrop"></div>'+
+'<div class="single-popup">'+
+'<div class="item-details">'+
+'<p class="name" datai18n="'+pubg.item+'">'+pubg.name+'</p>'+
+'<div class="closepopuplink"></div>'+
+'</div>'+
+'<div class="item-image">'+
+'<i class="'+pubg.item+'"></i>'+
+'</div>'+
+'<div class="item-details">'+
+'<div class="l-details">'+
+'<p>'+
+'<span class="cap" datai18n="Seats">Seats:</span>'+
+'<span class="ivalue" >'+pubg.seats+'</span>'+
+'</p>'+
+'<p>'+
+'<span class="cap" datai18n="Armor">Armor:</span>'+
+'<span class="ivalue" >'+pubg.health+'</span>'+
+'</p>'+
+'</div>'+
+'<div class="r-details">'+
+'<p>'+
+'<span class="cap" datai18n="MaxSpeed">Max Speed:</span>'+
+'<span class="ivalue" >'+pubg.maxspeed+'</span>'+
+'</p>'+
+'</div>'+
+'</div>'+
+'</div>'
+)
 
 
 
@@ -525,6 +584,8 @@ $(".clothes." + pubg.item).html
 '</div>'+
 '</div>')
 }
+
+
 
 $(".bar").html
 ('<div class="bar1">'+
@@ -821,6 +882,21 @@ $('.closepopuplink').click(function(){
   $('body').removeClass("no-scroll");
 });
 
+// PRESETS FOR WEAPONS
+
+$("sksfullload").click(function(){
+$(".compensatorsks .att").click();
+$(".extendedquickdrawsks .att").click();
+$(".cheekpadsks .att").click();
+});
+//Clear all attachments checked
+/*
+$(".clearattachs").click(function(){
+if ($(".att").is(":checked")) {
+$(".att").prop('checked',true).click();
+}
+});
+*/
 
 
 $(".tabs-menu a").click(function(event) {

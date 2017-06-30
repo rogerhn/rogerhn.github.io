@@ -91,6 +91,9 @@ background-image: url(../img/items/EnergyDrink.png);
 .adrenaline {
 background-image: url(../img/items/AdrenalineSyringe.png);
 }
+.gascan {
+background-image: url(../img/items/GasCan.png);
+}
 .vest1 {
 background-image: url(../img/items/VestLv1.png);
 }
@@ -120,6 +123,9 @@ background-image: url(../img/weapons/9mm.png);
 }
 .bolt {
 background-image: url(../img/weapons/bolt.png);
+}
+.p18c {
+background-image: url(../img/weapons/P18C.png);
 }
 .p92 {
 background-image: url(../img/weapons/P92.png);
@@ -165,6 +171,9 @@ background-image: url(../img/weapons/M16A4.png);
 }
 .scar-l {
 background-image: url(../img/weapons/SCAR-L.png);
+}
+.groza {
+background-image: url(../img/weapons/Groza.png);
 }
 .awm {
 background-image: url(../img/weapons/AWM.png);
@@ -230,6 +239,9 @@ background-image: url(../img/items/twitchprimebox.png);
 background-image: url(../img/items/preordercrate.png); 
 }
 /* WEAPONS LARGE */
+.p18c-large {
+background-image: url(../img/weapons-large/P18C.png);
+}
 .p92-large {
 background-image: url(../img/weapons-large/P92.png);
 }
@@ -271,6 +283,9 @@ background-image: url(../img/weapons-large/M416.png);
 }
 .m16a4-large {
 background-image: url(../img/weapons-large/M16A4.png);
+}
+.groza-large {
+background-image: url(../img/weapons-large/Groza.png);
 }
 .scar-l-large {
 background-image: url(../img/weapons-large/SCAR-L.png);
@@ -535,6 +550,12 @@ background-image: url(../img/clothes/vintagebaseballhat-white.png);
 }
 .workingboots {
 background-image: url(../img/clothes/workingboots.png); 
+}
+.vehicles {
+background-image: url(../img/vehicles/dacia.png); 
+}
+.dacia {
+background-image: url(../img/vehicles/dacia-image.jpg); 
 }
 
 
