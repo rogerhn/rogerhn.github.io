@@ -1,0 +1,43 @@
+https://steamcommunity.com/market/priceoverview/?currency=7&appid=578080&market_hash_name=TRIUMPH%20CRATE
+
+http://steamcommunity.com/market/listings/578080/TRIUMPH%20CRATE
+
+<?php
+$string = file_get_contents('http://steamcommunity.com/market/listings/578080/TRIUMPH%20CRATE');
+$attrList = explode('<span class="market_commodity_orders_header_promote">',$string);
+$N=count($attrList);
+for ($i=1;$i<$N;$i++){
+    $prices[$i-1] = explode('</span>',$attrList[$i])[0];
+}
+print_r($attrList);
+?>
+
+<?php
+$json = file_get_contents("http://steamcommunity.com/market/priceoverview/?currency=7&appid=578080&market_hash_name=TRIUMPH%20CRATE");
+    $decode = json_decode($json,1);
+    echo $decode['median_price'];
+
+?>
+
+<?php
+$string = file_get_contents('http://steamcommunity.com/market/listings/730/AK-47%20|%20Vulcan%20%28Battle-Scarred%29');
+$attrList = explode('<span class="market_listing_price market_listing_price_with_fee">',$string);
+$N=count($attrList);
+for ($i=1;$i<$N;$i++){
+    $prices[$i-1] = explode('</span>',$attrList[$i])[0];
+}
+print_r($prices);
+?>
+
+
+
+/*** steamMarketPricing ***/
+
+var steamMarketPricing = require("steam-market-pricing")
+const market = require('steam-market-pricing');
+
+const names = [
+  'RAIDER CRATE', 'TRIUMPH CRATE', 'MILITIA CRATE', 'BIKER CRATE', 'SURVIVOR CRATE', 'WANDERER CRATE', 'FEVER CRATE', 'DESPERADO CRATE', 'GAMESCOM INVITATIONAL CRATE', 'WHITE HAT RANGERS SET'
+];
+
+market.getItemsPrices(578080, names).then(items => names.forEach(name => console.log(`${name}: ${items[name].median_price}`)));
