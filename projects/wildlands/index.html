@@ -1,0 +1,315 @@
+<html>
+  <head>
+    <title>Wildlands Map - Interactive map for Ghost Recon Wildlands</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Interactive Map for Ghost Recon Wildlands, weapons locations, bonus medals, skill points and more. Now multilanguage">
+    <meta name="keywords" content="Ghost Recon Wildlands Interactive Map - Weapon Cases, Skill Points, Bonus Medals, Side Missions, Items and more!">
+    <meta name="author" content="Roger Nobrega & Luis Mika">
+    <link type="text/css" rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css" />
+    <link type="text/css" rel="stylesheet" href="https://turbo87.github.io/sidebar-v2/css/leaflet-sidebar.css" />
+    <link type="text/css" rel="stylesheet" href="https://mrmufflon.github.io/Leaflet.Coordinates/dist/Leaflet.Coordinates-0.1.3.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body onload="init()">
+    <div id="sidebar" class="sidebar collapsed">
+      <!-- Nav tabs -->
+      <div class="sidebar-tabs">
+        <ul role="tablist">
+          <li><a href="#home" role="tab"><i class="home"></i></a></li>
+          <li><a href="#medals" role="tab"><i class="medals"></i></a></li>
+          <li><a href="#skills" role="tab"><i class="skills"></i></a></li>
+          <li><a href="#accessory" role="tab"><i class="accessory"></i></a></li>
+          <li><a href="#weapons" role="tab"><i class="weapons"></i></a></li>
+          <li><a href="#settings" role="tab"><i class="settings"></i></a></li>
+        </ul>
+        <ul role="tablist"></ul>
+      </div>
+      <!-- Tab panes -->
+      <div class="sidebar-content">
+        <div class="sidebar-pane" id="home">
+          <span class="sidebar-close">
+            <i class="wild-arrow"></i>
+          </span>
+          <img class="logo-menu" src="https://rogerhn.github.io/projects/wildlands/assets/img/wildlandsmap-white.png" alt="WildlandsMap - Interactive Map Ghost Recon Wildlands" />
+          <div class="content">
+            <ul class="markers-list">
+              <li>
+                <i class="allmarkers"></i>
+                <input type="checkbox" id="allmarkers" class="cc" />
+                <label for="allmarkers" class="cl" data-i18n="Allmarkers">All markers</label>
+              </li>
+            </ul>
+            <div class="toggle-content">
+              <span class="toggle-title" data-i18n="Provinces">Provinces</span>
+              <div class="hidden-content">
+                <ul class="markers-list">
+                  <li>
+                    <i class="regions"></i>
+                    <input type="checkbox" id="provinces" class="cc" />
+                    <label for="provinces" class="cl" data-i18n="ShowProvinces">Show Provinces</label>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <p class="list-title" data-i18n="Collectibles">Collectibles</p>
+            <ul class="markers-list">
+              <li>
+                <i class="intel"></i>
+                <input type="checkbox" id="intel" class="cc" />
+                <label for="intel" class="cl" data-i18n="Intel">Intel</label>
+              </li>
+              <li>
+                <i class="kingslayerFile"></i>
+                <input type="checkbox" id="kingslayerFile" class="cc" />
+                <label for="kingslayerFile" class="cl" data-i18n="KingslayerFile">Kingslayer File</label>
+              </li>
+              <li>
+                <i class="bonusMedal"></i>
+                <input type="checkbox" id="bonusMedal" class="cc" />
+                <label for="bonusMedal" class="cl" data-i18n="BonusMedal">Bonus Medal</label>
+              </li>
+              <li>
+                <i class="skillPoint"></i>
+                <input type="checkbox" id="skillPoint" class="cc" />
+                <label for="skillPoint" class="cl" data-i18n="SkillPoint">Skill Point</label>
+              </li>
+              <li>
+                <i class="accessoryCase"></i>
+                <input type="checkbox" id="accessoryCase" class="cc" />
+                <label for="accessoryCase" class="cl" data-i18n="AccessoryCase">Accessory Case</label>
+              </li>
+              <li>
+                <i class="weaponCase"></i>
+                <input type="checkbox" id="weaponCase" class="cc" />
+                <label for="weaponCase" class="cl" data-i18n="WeaponCase">Weapon Case</label>
+              </li>
+            </ul>
+          </div>
+          <div class="content">
+            <p class="list-title" data-i18n="SideMissions">Side Missions</p>
+            <ul class="markers-list">
+              <li>
+                <i class="breachCommCenter"></i>
+                <input type="checkbox" id="breachCommCenter" class="cc" />
+                <label for="breachCommCenter" class="cl" data-i18n="BreachCommCenter">Breach Comm Center</label>
+              </li>
+              <li>
+                <i class="defendRadio"></i>
+                <input type="checkbox" id="defendRadio" class="cc" />
+                <label for="defendRadio" class="cl" data-i18n="DefendRadio">Defend Radio</label>
+              </li>
+              <li>
+                <i class="hackAntenna"></i>
+                <input type="checkbox" id="hackAntenna" class="cc" />
+                <label for="hackAntenna" class="cl" data-i18n="HackAntenna">Hack Antenna</label>
+              </li>
+              <li>
+                <i class="intimidateSicario"></i>
+                <input type="checkbox" id="intimidateSicario" class="cc" />
+                <label for="intimidateSicario" class="cl" data-i18n="IntimidateSicario">Intimidate Sicario</label>
+              </li>
+              <li>
+                <i class="parachuteDrop"></i>
+                <input type="checkbox" id="parachuteDrop" class="cc" />
+                <label for="parachuteDrop" class="cl" data-i18n="ParachuteDrop">Parachute Drop</label>
+              </li>
+              <li>
+                <i class="stealHelicopter"></i>
+                <input type="checkbox" id="stealHelicopter" class="cc" />
+                <label for="stealHelicopter" class="cl" data-i18n="StealTheHelicopter">Steal The Helicopter</label>
+              </li>
+              <li>
+                <i class="stealPlane"></i>
+                <input type="checkbox" id="stealPlane" class="cc" />
+                <label for="stealPlane" class="cl" data-i18n="stealThePlane">Steal The Plane</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="sidebar-pane" id="medals">
+          <span class="sidebar-close"><i class="wild-arrow"></i></span>
+          <p class="list-title" data-i18n="BonusMedals">Bonus Medals</p>
+          <h6 class="item-title">Item</h6>
+        </div>
+        <div class="sidebar-pane" id="skills">
+          <span class="sidebar-close"><i class="wild-arrow"></i></span>
+          <p class="list-title" data-i18n="Skills">Skills</p>
+        </div>
+        <div class="sidebar-pane" id="accessory">
+          <span class="sidebar-close"><i class="wild-arrow"></i></span>
+          <p class="list-title" data-i18n="Accessories">Accessories</p>
+        </div>
+        <div class="sidebar-pane" id="weapons">
+          <span class="sidebar-close"><i class="wild-arrow"></i></span>
+          <p class="list-title" data-i18n="Weapons">Weapons</p>
+          <div class="toggle">
+            <span class="toggle-content title">Assault Rifles</span>
+            <div class="hidden-content">
+              <ul class="items-list">
+                  <li>
+                  <a class="locate" href="#" data-marker="SR3M">SR3M</a>
+                  <span class="text">Found in P.N de Agua Verde</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="556XI">556XI</a>
+                  <span class="text">Found in La Caimanes</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="AK-12">AK-12</a>
+                  <span class="text">Found in Tabacal</span>
+                  </li>
+                  <li>
+                  <a class="locate " href="#" data-marker="AUGA3">AUG A3</a>
+                  <span class="text">Found in Barvechos</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="G2">G2</a>
+                  <span class="text">Found in Inca Camina</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="L85A2">L85A2</a>
+                  <span class="text">Found in Espiritu Santu</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="R5RGP">R5 RGP</a>
+                  <span class="text">Found in Monte Puncu</span>
+                  </li> MONTUYOC
+                  <li>
+                  <a class="locate" href="#" data-marker="ACR">ACR</a>
+                  <span class="text">Found in Media Luna</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="AK-47">AK-47</a>
+                  <span class="text">Found in Libertad</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="M4A1">M4A1</a>
+                  <span class="text">Found in Flor de Oro</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="MK17">MK 17</a>
+                  <span class="text">Found in Flor de Oro</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="805BRENA2">805 BREN A2</a>
+                  <span class="text">Found in Villa Verde</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="TAR-21">TAR-21</a>
+                  <span class="text">Found in Montuyoc</span>
+                  </li>
+                  <li>
+                  </li>
+                </ul>
+            </div>
+          </div>
+          <div class="toggle">
+            <span class="toggle-content title">Sniper Rifles</span>
+            <div class="hidden-content">
+              <ul class="items-list">
+                  <li>
+                  <a class="locate" href="#" data-marker="M40A5">M40A5</a>
+                  <span class="text">Found in Itacua</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="M1891">M1891</a>
+                  <span class="text">Found in La Cruz</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="SR25">SR25</a>
+                  <span class="text">Found in Caimanes</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="Dragunov">Dragunov (SVD)</a>
+                  <span class="text">Found in Caimanes</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="G28">G28</a>
+                  <span class="text">Found in San Mateo</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="SRSA1">SRSA1</a>
+                  <span class="text">Found in Mojocoyo</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="HTI">HTI</a>
+                  <span class="text">Found in Montuyoc</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="L115A3">L115A3</a>
+                  <span class="text">Found in Monte Puncu</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="MK14">MK14</a>
+                  <span class="text">Found in Koani</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="MSR">MSR</a>
+                  <span class="text">Found in Montuyoc</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="SR-1">SR-1</a>
+                  <span class="text">Found in Koani</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="LanzaSagradaExotic">Lanza Sagrada Exotic</a>
+                  <span class="text">Found in La Santera</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="TheWarhawkExotic">The Warhawk Exotic</a>
+                  <span class="text">Found in Boston Reed</span>
+                  </li>
+                  <li>
+                  <a class="locate" href="#" data-marker="SuperShortyShotgun">Super Shorty Shotgun</a>
+                  </li>
+                </ul>
+            </div>
+            <a class="locate" href="#" data-marker="SuperShortyShotgun">Super Shorty Shotgun</a>
+          </div>
+        </div>
+        <div class="sidebar-pane" id="settings">
+          <span class="sidebar-close"><i class="wild-arrow"></i></span>
+          <p class="list-title" data-i18n="languagechange">Change Language</p>
+          <div class="language text">
+            <div class="langbuttons">
+              <a class="lang en" data-lang="en" href="#" title="English"></a>
+              <a class="lang br" data-lang="br" href="#" title="Portuguese, Brazilian"></a>
+              <a class="lang ru" data-lang="ru" href="#" title="Russian"></a>
+              <a class="lang de" data-lang="de" href="#" title="German"></a>
+              <a class="lang cn" data-lang="cn" href="#" title="Chinese"></a>
+              <a class="lang pl" data-lang="pl" href="#" title="Polish"></a>
+              <a class="lang ro" data-lang="ro" href="#" title="Romanian"></a>
+              <a class="lang tr" data-lang="tr" href="#" title="Turkish"></a>
+              <a class="lang it" data-lang="it" href="#" title="Italian"></a>
+              <a class="lang es" data-lang="es" href="#" title="Spanish"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="map" class="sidebar-map"></div>
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Leaflet -->
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+    <!-- Leaflet Coordinates -->
+    <script src="https://mrmufflon.github.io/Leaflet.Coordinates/dist/Leaflet.Coordinates-0.1.3.min.js" charset="utf-8"></script>
+    <!-- Leaflet Hash -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-hash/0.2.1/leaflet-hash.min.js" charset="utf-8"></script>
+    <!-- Sidebar v2 -->
+    <script src="leaflet-sidebar.js" type="text/javascript"></script>
+    <!-- i18next -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/i18next/1.6.3/i18next-1.6.3.js"></script>
+    <!-- JS -->
+    <script src="markers.js" type="text/javascript"></script>
+    <script src="regions.js" type="text/javascript"></script>
+    <script src="lang.js"></script>
+    <!-- js -->
+    <script src="functions.js" type="text/javascript"></script>
+  </body>
+
+</html>
