@@ -1,0 +1,2550 @@
+body {
+  font-family: 'Roboto', Microsoft YaHei;
+  font-weight: 400;
+  font-size: 14px;
+}
+body .navbar,
+body .subnavbar,
+body .toolbar {
+  background: #03bdbd;
+}
+.navbar-fixed .navbar, .navbar-through .navbar{
+  box-shadow: none;
+}
+.navbar .center, .subnavbar .center {
+  font-family: 'GeoNMS', Microsoft YaHei;
+  font-size: 32px;
+}
+.navbar-fixed .page-content,
+.navbar-fixed.pages .page-content,
+.navbar-fixed.view .page-content,
+.navbar-through .page-content,
+.navbar-through.pages .page-content,
+.navbar-through.view .page-content {
+  margin-top: 56px;
+  padding-top: 0px;
+}
+.page {
+  padding-bottom: 56px;
+}
+/*
+body.with-panel-left-cover .views {
+    -webkit-transform: translate3d(260px,0,0);
+    transform: translate3d(260px,0,0);
+    transition: all 0.3s ease;
+}
+.views {
+    transform: translate3d(0px,0,0);
+}*/
+.disabled {
+    opacity: 0.3;
+}
+.page-content {
+  background-color: #1f3341;
+  padding-bottom: 106px;
+}
+p {
+    margin: 5px 0;
+}
+
+.center {
+  text-align: center;
+}
+
+i.icon7 {
+  width: 48px;
+  height: 48px;
+  float: left;
+  margin: 4px 10px 4px 4px;
+  background-size: contain;
+  background-image: url(../img/atlas-icon-96px.png);
+}
+
+/* DEBUG */
+.to_do {
+  font-family: consolas;
+  font-size: 12px;
+  color: #fff;
+  margin: 0 15px;
+}
+.todo:before {
+  content: "*";
+  margin-right: 5px;
+}
+/* Settings - Language */
+.titleblock.language {
+    font-size: 22px;
+    color: #fff;
+    text-shadow: 0px 2px 3px #000;
+    margin: 10px 15px;
+}
+.langswitch {
+  display: inline-block;
+  width: 100%;
+}
+.lang {
+  display: flex;
+  margin: 0 auto;
+  color: #E2E2E2;
+  cursor: pointer;
+  border-bottom: 1px solid #14363c;
+}
+.lang i {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.lang-text {
+  display: flex;
+  width: 100%;
+  font-size: 16px;
+  position: relative;
+  line-height: 48px;
+  padding: 0 15px 0 15px;
+  -o-transition: .1s ease-out;
+  -ms-transition: .1s ease-out;
+  -moz-transition: .1s ease-out;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out;
+}
+.lang.active {
+  color: #ffd54a;
+}
+.checkmark {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  right: 0px;
+  top: 0px;
+  position: relative;
+  z-index: 2;
+  flex-shrink: 0;
+  background-image: url(../img/icons/CHECKBOX.OFF.png);
+  background-position: center;
+}
+.checkmark.active {
+  background-image: url(../img/icons/CHECKBOX.ON.png);
+}
+/* Left Menu */
+.panel.panel-left.panel-cover {
+    padding-bottom: 56px;
+}
+.panel {
+  background: #1f3341;
+}
+.left-menu {
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+.left-menu .menu-item {
+  display: flex;
+  width: 100%;
+  height: 48px;
+  line-height: 75px;
+  background-color: #1f3341;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.10);
+  position: relative;
+  padding: 0;
+  align-items: center;
+}
+.left-menu .menu-item i {
+  width: 38px;
+  height: 38px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  flex-shrink: 0;
+  margin: 0 5px;
+  align-items: center;
+  display: flex;
+}
+.left-menu .menu-text {
+  display: flex;
+    align-items: center;
+    color: #f9f9f9;
+    font-size: 13px;
+    padding: 0 10px 0 5px;
+    text-shadow: 0 2px 1px #0c0c0c, 0px -2px 1px #0c0c0c, 2px 0px 1px #0c0c0c, -2px 0px 1px #0c0c0c;
+    line-height: 20px;
+    text-align: left;
+    width: 100%;
+}
+/* End Left Menu */
+
+/* Page */
+
+
+
+.content-block.left {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: left;
+}
+.content-block.center {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* Main Menu */
+.main-menu.block {
+  font-size: 0;
+  padding: 10px 0;
+}
+.menu-item {
+  display: inline-block;
+  margin: 0px;
+  width: 100px;
+  text-align: center;
+  padding: 3px;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+  vertical-align: top;
+}
+.menu-items {
+  text-align: center;
+}
+.menu-item i {
+  width: 90px;
+  height: 90px;
+  display: block;
+  margin: 0px auto;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  vertical-align: middle;
+}
+
+.menu-text {
+  font-family: 'Roboto', Microsoft YaHei;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100px;
+  text-transform: capitalize;
+  color: #fff;
+  padding: 8px 5px 10px;
+}
+
+/* End Main Menu */
+@font-face {
+  font-family: 'GeoNMS';
+  src: url('../fonts/nms_font.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* Galaxy Page */
+/* Desktop
+.content {
+    display: inline-block;
+    width: 100%;
+    float: none;
+    margin: 5px 0;
+}
+.imgblock {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	max-width: 320px;
+	margin: 10px auto;
+	float: right;
+}
+*/
+/* Galaxy Page */
+.item-list.galaxies {
+  display: inline-block;
+}
+.galaxytextblock {
+  display: flex;
+  flex-direction: column;
+  line-height: 20px;
+  padding: 0 8px;
+  margin: 0;
+  color: #fff;
+  text-shadow: 0px 1px 0px #000;
+  text-transform: capitalize;
+  height: 48px;
+  width: 100%;
+  justify-content: center;
+}
+.galaxylisttext {
+  display: flex;
+  align-items: center;
+  color: #f9f9f9;
+  font-size: 13px;
+  padding: 0 10px;
+  line-height: 20px;
+  text-align: left;
+  text-shadow: 0px 1px 0px #000;
+  margin: 0;
+}
+.galaxylisttext .number {
+  margin: 0 5px 0 0;
+}
+.galaxylisttext .galaxytypetext {
+  margin: 0 5px 0 0;
+}
+.galaxylisttext .name {
+  font-size: 15px;
+}
+.menu-item-galaxy {
+  display: inline-block;
+  margin: 5px 0px;
+  width: 100px;
+  height: 120px;
+  text-align: center;
+  padding: 3px;
+  background-color: transparent;
+  color: #333;
+  cursor: pointer;
+}
+.menu-item-galaxy i {
+	width: 90px;
+	height: 90px;
+	display: block;
+	margin: 0px auto;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	vertical-align: middle;
+}
+
+.menu-text-galaxy {
+	font-family: 'Roboto', Microsoft YaHei;
+	font-size: 13px;
+	font-weight: 500;
+	line-height: 14px;
+	height: 32px;
+	display: table-cell;
+	vertical-align: middle;
+	width: 100px;
+}
+.content {
+	display: block;
+	width: 100%;
+	float: none;
+	margin: 0;
+	background: #3B4B5B;
+}
+.imgblock {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-width: 360px;
+	margin: 0 auto;
+}
+.imgblock img {
+	width: 100%;
+	height: auto;
+}
+.starsimg, .galaxyimg {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: block;
+	width: 100%;
+	height: 206px;
+}
+.title-block.galaxy:before {
+	height: 3px;
+	display: block;
+	content: '';
+}
+
+.title-block {
+	padding: 0;
+	margin: 0;
+	height: 53px
+}
+.title-block i {
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  float: left;
+}
+.galaxy {
+	background: #4B6C91;
+	border-top: 4px solid #64B4FF;
+}
+.title-block.galaxy:before,
+.item-list .galaxy:before{
+    background: #354C66;
+}
+
+h3.title {
+	font-family: GeoNMS;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: #FFF;
+	margin: 0px;
+	padding: 12px 0 12px 60px;
+}
+.content .text p {
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 400;
+	padding: 0px 16px;
+	margin: 5px 0;
+	color: #E2E2E2;
+}
+
+.lightyears {
+	margin: 0 5px;
+	color: #fff;
+}
+
+hr {
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&1+0,0+100 */
+background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+height: 1px;
+margin: 0px 0px 8px;
+border: none;
+}
+.accordion-item {
+	background: #ddd;
+}
+.accordion-item .item-list .item-block.galaxy {
+	margin: 0px 10px 10px 0px;
+}
+.accordion-item .accordion-item-toggle:before {
+	content: "";
+	background-image: url(../img/arrow-down.png);
+	background-size: contain;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 0px;
+	top: 8px;
+}
+.accordion-item.accordion-item-expanded .accordion-item-toggle:before {
+	content: "";
+	background-image: url(../img/arrow-up.png);
+	background-size: contain;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	left: 0px;
+	top: 7px;
+}
+
+.accordion-item-toggle {
+	margin: 0px 10px;
+	font-size: 16px;
+	padding-left: 20px;
+	position: relative;
+	cursor: pointer;
+	line-height: 32px;
+}
+.accordion-item-content {
+    padding: 0 10px;
+}
+
+/* End Galaxy Page */
+/* Stars Page */
+.title-block.stars:before {
+	height: 3px;
+	display: block;
+	content: '';
+}
+.title-block.stars:before {
+    background: #740700;
+}
+.title-block {
+	padding: 0;
+	margin: 0;
+	background: #4B6C91;
+}
+.stars {
+    background: #86191C;
+}
+/* End Stars Page */
+
+
+/* Resources */
+
+/* item-card Group Css */
+
+
+/* /Resources CSS NEXT*/
+.resources-all,
+.resources,
+.resources-fuel,
+.products,
+.buildings,
+.techsuit,
+.techweapon,
+.techship,
+.techfreighter,
+.products,
+.plants,
+.treasures {
+  background: none;
+}
+div.card{
+  display: inline-block;
+  background: none;
+  box-shadow: none;
+  margin: 0px;
+  vertical-align: top;
+}
+.card.TECHFRAG .value {
+    visibility: hidden;
+}
+/* UNUSED ITEMS */
+.item-list .list.T_ENERGY,
+.item-list .list.T_JET,
+.item-list .list.T_SHIELD,
+.item-list .list.T_UNW,
+.item-list .list.T_RAD,
+.item-list .list.T_TOX,
+.item-list .list.T_COLDPROT,
+.item-list .list.T_HOTPROT,
+.item-list .list.T_SCAN,
+.item-list .list.T_LASER,
+.item-list .list.T_BOLT,
+.item-list .list.T_GRENADE,
+.item-list .list.T_T_GREN,
+.item-list .list.T_RAIL,
+.item-list .list.T_SHOTGUN,
+.item-list .list.T_SMG,
+.item-list .list.T_SHIPJUMP,
+.item-list .list.T_HDRIVE,
+.item-list .list.T_SHIPSHLD,
+.item-list .list.T_SHIPGUN,
+.item-list .list.T_SHIPLAS,
+.item-list .list.T_SHIPSHOT,
+.item-list .list.T_SHIPMINI,
+.item-list .list.T_SHIPBLOB,
+.structures .card.CORRIDOR_WINDOW,
+.structures .card.HEALTHPLANT,
+.structures .card.NPCEXPLORER001,
+.structures .card.CUBELADDER,
+.list.HEALTHPLANT {
+  display:none;
+}
+.search_results .item-list .list{
+  display:none;
+}
+.searchbox {
+  text-align: center;
+  padding: 10px 15px 10px;
+  background: #064053;
+}
+
+.searchbox label {
+  color: #fff;
+  font-family: 'GeoNMS', Microsoft YaHei;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.searchbox {
+  padding: 5px 15px 5px;
+  background: #064053;
+}
+.searchbox .input_searchbox {
+  background-color: #095c77;
+  border: 1px solid #142025;
+  height: 24px;
+  color: #fff;
+  padding: 2px 6px 0;
+}
+.results_found,
+.no_results_found {
+    display: block;
+    position: absolute;
+    text-align: center;
+    background-color: #064053;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px;
+    left: 0;
+    right: 0;
+}
+.search_results {
+  display: none;
+  position: fixed;
+  top: 122px;
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: scroll;
+}
+.search_close:before{
+  content: "\2716";
+  display: block;
+  cursor: pointer;
+  font-size: 20px;
+  position: fixed;
+  width: 32px;
+  height: 32px;
+  display: block;
+  right: 25px;
+  color: #fff;
+  text-align: center;
+  font-family: -webkit-body;
+  top: 90px;
+  line-height: 32px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.blocktitle {
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  background: #004580;
+}
+.tinfo {
+  font-size: 11px;
+  margin: 0;
+  font-weight: 500;
+}
+
+
+.item-card {
+  text-align: center;
+  border: 1px solid #fff;
+  padding: 0 5px;
+  background-color: #fff;
+  color: #333;
+  display: inline-block;
+  margin: 4px;
+  box-shadow: 0px 4px 2px rgba(0,0,0,0.50);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  width: 100px;
+  transition: 0.1s ease;
+}
+.item-card:active {
+  box-shadow: 0px 2px 2px rgba(0,0,0,0.50);
+  transform: translateY(2px);
+  transition: 0.1s ease;
+}
+.item-card .ename, .item-card .name {
+  font-family: 'Roboto', Microsoft YaHei;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 15px;
+  height: 45px;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100px;
+}
+.item-card .icon_card {
+  position: relative;
+}
+.item-card i {
+  background-size: contain;
+  width: 95px;
+  height: 95px;
+  display: block;
+  margin: 0 auto;
+}
+.item-card i.message{
+  max-width: none;
+}
+.item-card .symbol {
+  position: absolute;
+  top: 3%;
+  left: 8%;
+  font-size: 13px;
+  color: #333;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.75);
+  padding: 0px 8px;
+  border-radius: 15px;
+}
+.item-card .value {
+  line-height: 24px;
+  min-height: 20px;
+  display: inline-block;
+  color: #ed3b3b;
+  font-family: 'Roboto', Microsoft YaHei;
+  font-weight: 500;
+  font-size: 13px;
+}
+.item-card .value i {
+  width: 14px;
+  height: 14px;
+  background-size: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+  margin: 0px 0px 0px 4px;
+}
+/* NEXT */
+/* Single Item Nanite */
+.single-block .header .item-nanite i,
+.item-list .nanite i,
+.nanite {background-color: #1e354e;}
+.single-block .item-nanite,
+.item-list .nanite {
+  border-top: 4px solid #1e354e;
+  background-color: #1a2e40;
+}
+.craft .item-nanite {
+  background-color: #1a2e40;
+}
+/* Middle Border */
+.single-block .item-nanite:before,
+.item-list .nanite:before {
+  background: #172636;
+}
+/* End Single Item nanite */
+
+/* Single Item fuels */
+.single-block .header .item-fuel i,
+.item-list .fuel i,
+.fuel {background-color: #bb3830;}
+.single-block .item-fuel,
+.item-list .fuel {
+  border-top: 4px solid #bb3830;
+  background-color: #7c3330;
+}
+.craft .item-fuel {
+  background-color: #7c3330;
+}
+/* Middle Border */
+.single-block .item-fuel:before,
+.item-list .fuel:before {
+  background: #6a2b2a;
+}
+/* End Single Item fuels */
+
+/* Single Item High Energy */
+.single-block .header .item-high_energy i,
+.item-list .high_energy i,
+.high_energy {background-color: #355a7d;}
+.single-block .item-high_energy,
+.item-list .high_energy {
+  border-top: 4px solid #355a7d;
+  background-color: #29445d;
+}
+.craft .item-high_energy {
+  background-color: #29445d;
+}
+/* Middle Border */
+.single-block .item-high_energy:before,
+.item-list .high_energy:before {
+  background: #233a4f;
+}
+/* End Single High Energy */
+
+/* Single Item Neutron */
+.single-block .header .item-neutron i,
+.item-list .neutron i,
+.neutron {background-color: #dedcd1;}
+.single-block .item-neutron,
+.item-list .neutron {
+  border-top: 4px solid #dedcd1;
+  background-color: #909591;
+}
+.craft .item-neutron {
+  background-color: #909591;
+}
+/* Middle Border */
+.single-block .item-neutron:before,
+.item-list .neutron:before {
+  background: #7b7f7b;
+}
+/* End Single Neutron */
+
+/* Single Item metallics */
+.single-block .header .item-metallic i,
+.item-list .metallic i,
+.metallic {background-color: #8a7f72;}
+.single-block .item-metallic,
+.item-list .metallic {
+  border-top: 4px solid #8a7f72;
+  background-color: #5c5a55;
+}
+.craft .item-metallic {
+  background-color: #5c5a55;
+}
+/* Middle Border */
+.single-block .item-metallic:before,
+.item-list .metallic:before {
+  background: #4e4d48;
+}
+/* End Single Item metallics */
+
+/* Single Item catalytics */
+
+.single-block .header .item-catalytic i,
+.item-list .catalytic i,
+.catalytic {background-color: #f26d15;}
+.single-block .item-catalytic,
+.item-list .catalytic{
+  border-top: 4px solid #f26d15;
+  background-color: #9a4f1d;
+}
+.craft .item-catalytic {
+  background-color: #9a4f1d;
+}
+/* Middle Border */
+.single-block .item-catalytic:before,
+.item-list .catalytic:before {
+  background: #834319;
+}
+/* End Single Item catalytics */
+
+/* Single Item Cave */
+.single-block .header .item-cave i,
+.item-list .cave i,
+.cave  {background-color: #005c83;}
+.single-block .item-cave,
+.item-list .cave {
+  border-top: 4px solid #005c83;
+  background-color: #0a4763;
+}
+.craft .item-cave {background-color: #0a4763;}
+/* Middle Border */
+.single-block .item-cave:before,
+.item-list .cave:before {
+  background: #093c54;
+}
+/* End Single Item Cave */
+
+/* Single Item Aquatic */
+.single-block .header .item-aquatic i,
+.item-list .aquatic i,
+.aquatic {background-color: #1e8a42;}
+.single-block .item-aquatic,
+.item-list .aquatic {
+  border-top: 4px solid #1e8a42;
+  background-color: #1b6139;
+}
+.craft .item-aquatic {background-color: #1b6139;}
+/* Middle Border */
+.single-block .item-aquatic:before,
+.item-list .aquatic:before {
+  background: #175331;
+}
+/* End Single Item Aquatic */
+
+/* Single Item StellarYellow */
+.single-block .header .item-stellar_yellow i,
+.item-list .stellar_yellow i,
+.stellar_yellow {background-color: #e59001;}
+.single-block .item-stellar_yellow,
+.item-list .stellar_yellow {
+  border-top: 4px solid #e59001;
+  background-color: #946715;
+}
+.craft .item-stellar_yellow {background-color: #946715;}
+/* Middle Border */
+.single-block .item-stellar_yellow:before,
+.item-list .stellar_yellow:before {
+  background: #7e5812;
+}
+/* End Single Item StellarYellow */
+
+/* Single Item StellarRed */
+.single-block .header .item-stellar_red i,
+.item-list .stellar_red i,
+.stellar_red {background-color: #7b0000;}
+.single-block .item-stellar_red,
+.item-list .stellar_red {
+  border-top: 4px solid #7b0000;
+  background-color: #551014;
+}
+.craft .item-stellar_red {background-color: #551014;}
+/* Middle Border */
+.single-block .item-stellar_red:before,
+.item-list .stellar_red:before {
+  background: #480e11;
+}
+/* End Single Item StellarRed */
+
+/* Single Item StellarGreen */
+.single-block .header .item-stellar_green i,
+.item-list .stellar_green i,
+.stellar_green {background-color: #36611c;}
+.single-block .item-stellar_green,
+.item-list .stellar_green {
+  border-top: 4px solid #36611c;
+  background-color: #2c4a24;
+}
+.craft .item-stellar_green{background-color: #2c4a24;}
+/* Middle Border */
+.single-block .item-stellar_green:before,
+.item-list .stellar_green:before {
+  background: #253f1f;
+}
+/* End Single Item StellarGreen */
+
+/* Single Item StellarBlue */
+.single-block .header .item-stellar_blue i,
+.item-list .stellar_blue i,
+.stellar_blue {background-color: #01387d;}
+.single-block .item-stellar_blue,
+.item-list .stellar_blue {
+  border-top: 4px solid #01387d;
+  background-color: #0c325e;
+}
+.craft .item-stellar_blue{background-color: #0c325e;}
+/* Middle Border */
+.single-block .item-stellar_blue:before,
+.item-list .stellar_blue:before {
+  background: #0a2b4f;
+}
+/* End Single Item StellarBlue */
+
+/* Single Item Earth Paraffinium */
+.single-block .header .item-earth_paraffinium i,
+.item-list .earth_paraffinium i,
+.earth_paraffinium {background-color: #4e404f;}
+.single-block .item-earth_paraffinium,
+.item-list .earth_paraffinium {
+  border-top: 4px solid #4e404f;
+  background-color: #383441;
+}
+.craft .item-earth_paraffinium{background-color: #383441;}
+/* Middle Border */
+.single-block .item-earth_paraffinium:before,
+.item-list .earth_paraffinium:before {
+  background: #302c37;
+}
+/* End Single Item Earth Paraffinium */
+
+/* Single Item Earth Pyrite */
+.single-block .header .item-earth_pyrite i,
+.item-list .earth_pyrite i,
+.earth_pyrite {background-color: #e57002;}
+.single-block .item-earth_pyrite,
+.item-list .earth_pyrite {
+  border-top: 4px solid #e57002;
+  background-color: #925113;
+}
+.craft .item-earth_pyrite{background-color: #925113;}
+/* Middle Border */
+.single-block .item-earth_pyrite:before,
+.item-list .earth_pyrite:before {
+  background: #7c4510;
+}
+/* End Single Item Earth Pyrite */
+
+/* Single Item Earth Ammonia */
+.single-block .header .item-earth_ammonia i,
+.item-list .earth_ammonia i,
+.earth_ammonia {background-color: #00a64d;}
+.single-block .item-earth_ammonia,
+.item-list .earth_ammonia {
+  border-top: 4px solid #00a64d;
+  background-color: #09723f;
+}
+.craft .item-earth_ammonia{background-color: #09723f;}
+/* Middle Border */
+.single-block .item-earth_ammonia:before,
+.item-list .earth_ammonia:before {
+  background: #086135;
+}
+/* End Single Item Earth Ammonia */
+
+/* Single Item Earth Uranium */
+.single-block .header .item-earth_uranium i,
+.item-list .earth_uranium i,
+.earth_uranium {background-color: #ffad00;}
+.single-block .item-earth_uranium,
+.item-list .earth_uranium {
+  border-top: 4px solid #ffad00;
+  background-color: #a27610;
+}
+.craft .item-earth_uranium{background-color: #a27610;}
+/* Middle Border */
+.single-block .item-earth_uranium:before,
+.item-list .earth_uranium:before {
+  background: #8a640e;
+}
+/* End Single Item Earth Uranium */
+
+/* Single Item Earth Dioxite */
+.single-block .header .item-earth_dioxite i,
+.item-list .earth_dioxite i,
+.earth_dioxite {background-color: #1e4fd0;}
+.single-block .item-earth_dioxite,
+.item-list .earth_dioxite {
+  border-top: 4px solid #1e4fd0;
+  background-color: #1b3d8d;
+}
+.craft .item-earth_dioxite{background-color: #1b3d8d;}
+/* Middle Border */
+.single-block .item-earth_dioxite:before,
+.item-list .earth_dioxite:before {
+  background: #173478;
+}
+/* End Single Item Earth Dioxite */
+
+/* Single Item Earth Phosphorus */
+.single-block .header .item-earth_phosphorus i,
+.item-list .earth_phosphorus i,
+.earth_phosphorus {background-color: #db2400;}
+.single-block .item-earth_phosphorus,
+.item-list .earth_phosphorus {
+  border-top: 4px solid #db2400;
+  background-color: #8c2410;
+}
+.craft .item-earth_phosphorus{background-color: #8c2410;}
+/* Middle Border */
+.single-block .item-earth_phosphorus:before,
+.item-list .earth_phosphorus:before {
+  background: #781f0e;
+}
+/* End Single Item Earth Phosphorus */
+
+/* Single Item Mordite */
+.single-block .header .item-harvested_sub i,
+.item-list .harvested_sub i,
+.harvested_sub {background-color: #512741;}
+.single-block .item-harvested_sub,
+.item-list .harvested_sub {
+  border-top: 4px solid #512741;
+  background-color: #3a2537;
+}
+.craft .item-harvested_sub{background-color: #3a2537;}
+/* Middle Border */
+.single-block .item-harvested_sub:before,
+.item-list .harvested_sub:before {
+  background: #311f2f;
+}
+/* End Single Item Mordite */
+
+/* Single Item Pugneum */
+.single-block .header .item-deaddrone i,
+.item-list .deaddrone i,
+.deaddrone {background-color: #4d2957;}
+.single-block .item-deaddrone,
+.item-list .deaddrone {
+  border-top: 4px solid #4d2957;
+  background-color: #372744;
+}
+.craft .item-deaddrone{background-color: #372744;}
+/* Middle Border */
+.single-block .item-deaddrone:before,
+.item-list .deaddrone:before {
+  background: #2f213a;
+}
+/* End Single Item Pugneum */
+
+/* Single Item Silver */
+.single-block .header .item-asteroid_silver i,
+.item-list .asteroid_silver i,
+.asteroid_silver {background-color: #8a7f72;}
+.single-block .item-asteroid_silver,
+.item-list .asteroid_silver {
+  border-top: 4px solid #8a7f72;
+  background-color: #5c5a54;
+}
+.craft .item-asteroid_silver{background-color: #5c5a54;}
+/* Middle Border */
+.single-block .item-asteroid_silver:before,
+.item-list .asteroid_silver:before {
+  background: #4e4d47;
+}
+/* End Single Item Silver */
+
+/* Single Item Gold */
+.single-block .header .item-asteroid_gold i,
+.item-list .asteroid_gold i,
+.asteroid_gold {background-color: #aa6e06;}
+.single-block .item-asteroid_gold,
+.item-list .asteroid_gold {
+  border-top: 4px solid #aa6e06;
+  background-color: #6f5014;
+}
+.craft .item-asteroid_gold{background-color: #6f5014;}
+/* Middle Border */
+.single-block .item-asteroid_gold:before,
+.item-list .asteroid_gold:before {
+  background: #5e4411;
+}
+/* End Single Item Gold */
+
+/* Single Item Platinum */
+.single-block .header .item-asteroid_platinum i,
+.item-list .asteroid_platinum i,
+.asteroid_platinum {background-color: #507575;}
+.single-block .item-asteroid_platinum,
+.item-list .asteroid_platinum {
+  border-top: 4px solid #507575;
+  background-color: #395456;
+}
+.craft .item-asteroid_platinum{background-color: #395456;}
+/* Middle Border */
+.single-block .item-asteroid_platinum:before,
+.item-list .asteroid_platinum:before {
+  background: #314749;
+}
+/* End Single Item Platinum */
+
+/* Single Item Sulphurine */
+.single-block .header .item-gas_sulphurine i,
+.item-list .gas_sulphurine i,
+.gas_sulphurine {background-color: #265e3a;}
+.single-block .item-gas_sulphurine,
+.item-list .gas_sulphurine {
+  border-top: 4px solid #265e3a;
+  background-color: #204633;
+}
+.craft .item-gas_sulphurine{background-color: #204633;}
+/* Middle Border */
+.single-block .item-gas_sulphurine:before,
+.item-list .gas_sulphurine:before {
+  background: #1b3c2b;
+}
+/* End Single Item Sulphurine */
+
+/* Single Item Radon */
+.single-block .header .item-gas_radon i,
+.item-list .gas_radon i,
+.gas_radon {background-color: #4c3780;}
+.single-block .item-gas_radon,
+.item-list .gas_radon {
+  border-top: 4px solid #4c3780;
+  background-color: #372f5d;
+}
+.craft .item-gas_radon{background-color: #372f5d;}
+/* Middle Border */
+.single-block .item-gas_radon:before,
+.item-list .gas_radon:before {
+  background: #2f284f;
+}
+/* End Single Item Radon */
+
+/* Single Item Nitrogen */
+.single-block .header .item-gas_nitrogen i,
+.item-list .gas_nitrogen i,
+.gas_nitrogen {background-color: #de921f;}
+.single-block .item-gas_nitrogen,
+.item-list .gas_nitrogen {
+  border-top: 4px solid #de921f;
+  background-color: #8e6623;
+}
+.craft .item-gas_nitrogen{background-color: #8e6623;}
+/* Middle Border */
+.single-block .item-gas_nitrogen:before,
+.item-list .gas_nitrogen:before {
+  background: #79571e;
+}
+/* End Single Item Nitrogen */
+
+/* Single Item Fungal Mould */
+.single-block .header .item-plant_fungal_mould i,
+.item-list .plant_fungal_mould i,
+.plant_fungal_mould {background-color: #00a64d;}
+.single-block .item-plant_fungal_mould,
+.item-list .plant_fungal_mould {
+  border-top: 4px solid #00a64d;
+  background-color: #09723e;
+}
+.craft .item-plant_fungal_mould{background-color: #09723e;}
+/* Middle Border */
+.single-block .item-plant_fungal_mould:before,
+.item-list .plant_fungal_mould:before {
+  background: #086135;
+}
+/* End Single Item Fungal Mould */
+
+/* Single Item Frost Crystal */
+.single-block .header .item-plant_frost_crystal i,
+.item-list .plant_frost_crystal i,
+.plant_frost_crystal {background-color: #1e4fd0;}
+.single-block .item-plant_frost_crystal,
+.item-list .plant_frost_crystal {
+  border-top: 4px solid #1e4fd0;
+  background-color: #1b3d8d;
+}
+.craft .item-plant_frost_crystal {background-color: #1b3d8d;}
+/* Middle Border */
+.single-block .item-plant_frost_crystal:before,
+.item-list .plant_frost_crystal:before {
+  background: #173478;
+}
+/* End Single Item Frost Crystal */
+
+/* Single Item Gamma Root */
+.single-block .header .item-plant_gamma_root i,
+.item-list .plant_gamma_root i,
+.plant_gamma_root {background-color: #c5871d;}
+.single-block .item-plant_gamma_root,
+.item-list .plant_gamma_root {
+  border-top: 4px solid #c5871d;
+  background-color: #7f5f21;
+}
+.craft .item-plant_gamma_root {background-color: #7f5f21;}
+/* Middle Border */
+.single-block .item-plant_gamma_root:before,
+.item-list .plant_gamma_root:before {
+  background: #6c511c;
+}
+/* End Single Item Gamma Root */
+
+/* Single Item Cactus Flesh */
+.single-block .header .item-plant_cactus_flesh i,
+.item-list .plant_cactus_flesh i,
+.plant_cactus_flesh {background-color: #239626;}
+.single-block .item-plant_cactus_flesh,
+.item-list .plant_cactus_flesh {
+  border-top: 4px solid #239626;
+  background-color: #1e6827;
+}
+.craft .item-plant_cactus_flesh {background-color: #1e6827;}
+/* Middle Border */
+.single-block .item-plant_cactus_flesh:before,
+.item-list .plant_cactus_flesh:before {
+  background: #1a5921;
+}
+/* End Single Item Cactus Flesh */
+
+/* Single Item Solanium */
+.single-block .header .item-plant_solanium i,
+.item-list .plant_solanium i,
+.plant_solanium {background-color: #b94318;}
+.single-block .item-plant_solanium,
+.item-list .plant_solanium {
+  border-top: 4px solid #b94318;
+  background-color: #78361e;
+}
+.craft .item-plant_solanium {background-color: #78361e;}
+/* Middle Border */
+.single-block .item-plant_solanium:before,
+.item-list .plant_solanium:before {
+  background: #662e1a;
+}
+/* End Single Item Solanium */
+
+/* Single Item Star Bulb */
+.single-block .header .item-plant_star_bulb i,
+.item-list .plant_star_bulb i,
+.plant_star_bulb {background-color: #208dab;}
+.single-block .item-plant_star_bulb,
+.item-list .plant_star_bulb {
+  border-top: 4px solid #208dab;
+  background-color: #1c6377;
+}
+.craft .item-plant_star_bulb {background-color: #1c6377;}
+/* Middle Border */
+.single-block .item-plant_star_bulb:before,
+.item-list .plant_star_bulb:before {
+  background: #185465;
+}
+/* End Single Item Star Bulb */
+
+/* Single Item Marrow Bulb */
+.single-block .header .item-plant_marrow_bulb i,
+.item-list .plant_marrow_bulb i,
+.plant_marrow_bulb {background-color: #5b6f35;}
+.single-block .item-plant_marrow_bulb,
+.item-list .plant_marrow_bulb {
+  border-top: 4px solid #5b6f35;
+  background-color: #405130;
+}
+.craft .item-plant_marrow_bulb {background-color: #405130;}
+/* Middle Border */
+.single-block .item-plant_marrow_bulb:before,
+.item-list .plant_marrow_bulb:before {
+  background: #364529;
+}
+/* End Single Item Marrow Bulb */
+
+/* Single Item Kelp Sac */
+.single-block .header .item-plant_kelp_sac i,
+.item-list .plant_kelp_sac i,
+.plant_kelp_sac {background-color: #005c83;}
+.single-block .item-plant_kelp_sac,
+.item-list .plant_kelp_sac {
+  border-top: 4px solid #005c83;
+  background-color: #09455f;
+}
+.craft .item-plant_kelp_sac {background-color: #09455f;}
+/* Middle Border */
+.single-block .item-plant_kelp_sac:before,
+.item-list .plant_kelp_sac:before {
+  background: #083b51;
+}
+/* End Single Item Kelp Sac */
+
+/* Single Item Coprite */
+.single-block .header .item-plant_coprite i,
+.item-list .plant_coprite i,
+.plant_coprite {background-color: #79502e;}
+.single-block .item-plant_coprite,
+.item-list .plant_coprite {
+  border-top: 4px solid #79502e;
+  background-color: #523e2c;
+}
+.craft .item-plant_coprite {background-color: #523e2c;}
+/* Middle Border */
+.single-block .item-plant_coprite:before,
+.item-list .plant_coprite:before {
+  background: #463525;
+}
+/* End Single Item Coprite */
+
+/* Single Item Junk */
+.single-block .header .item-junk i,
+.item-list .junk i,
+.junk {background-color: #5b6f35;}
+.single-block .item-junk,
+.item-list .junk {
+  border-top: 4px solid #5b6f35;
+  background-color: #405130;
+}
+.craft .item-junk {background-color: #405130;}
+/* Middle Border */
+.single-block .item-junk:before,
+.item-list .junk:before {
+  background: #364529;
+}
+/* End Single Item Junk */
+
+/* Single Item Yellow */
+.single-block .header .item-yellow i,
+.item-list .yellow i,
+.yellow {background-color: #f3a923;}
+.single-block .item-yellow,
+.item-list .yellow {
+  border-top: 4px solid #f3a923;
+  background-color: #9d7629;
+}
+.craft .item-yellow {background-color: #9d7629;}
+/* Middle Border */
+.single-block .item-yellow:before,
+.item-list .yellow:before {
+  background: #866423;
+}
+/* End Single Item Yellow */
+
+/* Single Item Pink */
+.single-block .header .item-pink i,
+.item-list .pink i,
+.pink {background-color: #c01746;}
+.single-block .item-pink,
+.item-list .pink {
+  border-top: 4px solid #c01746;
+  background-color: #7c1d3e;
+}
+.craft .item-pink {
+  background-color: #7c1d3e;
+}
+/* Middle Border */
+.single-block .item-pink:before,
+.item-list .pink:before {
+  background: #6a1935;
+}
+/* End Single Item Pink */
+
+/* Single Item Grey */
+.single-block .header .item-grey i,
+.item-list .grey i,
+.grey {background-color: #cccccc;}
+.single-block .item-grey,
+.item-list .grey {
+  border-top: 4px solid #cccccc;
+  background-color: #83888a;
+}
+.craft .item-grey {
+  background-color: #83888a;
+}
+/* Middle Border */
+.single-block .item-grey:before,
+.item-list .grey:before {
+  background: #6f7475   ;
+}
+/* End Single Item Grey */
+
+/* Single Item Blue */
+.single-block .header .item-blue i,
+.item-list .blue i,
+.blue {background-color: #0063b7;}
+.single-block .item-blue,
+.item-list .blue {
+  border-top: 4px solid #0063b7;
+  background-color: #09497e;
+}
+.craft .item-blue {
+  background-color: #09497e;
+}
+/* Middle Border */
+.single-block .item-blue:before,
+.item-list .blue:before {
+  background: #083e6b   ;
+}
+/* End Single Item Blue */
+
+/* Single Item Fuel Deposit */
+.single-block .header .item-fuel_dep i,
+.item-list .fuel_dep i,
+.fuel_dep {background-color: #bb3830;}
+.single-block .item-fuel_dep,
+.item-list .fuel_dep {
+  border-top: 4px solid #bb3830;
+  background-color: #79302d;
+}
+.craft .item-fuel_dep {
+  background-color: #79302d;
+}
+/* Middle Border */
+.single-block .item-fuel_dep:before,
+.item-list .fuel_dep:before {
+  background: #672926   ;
+}
+/* End Single Item Carbon Deposit */
+
+/* Single Item Metal Deposit */
+.single-block .header .item-metal_dep i,
+.item-list .metal_dep i,
+.metal_dep {background-color: #8a7f72;}
+.single-block .item-metal_dep,
+.item-list .metal_dep {
+  border-top: 4px solid #8a7f72;
+  background-color: #5c5a54;
+}
+.craft .item-metal_dep {
+  background-color: #5c5a54;
+}
+/* Middle Border */
+.single-block .item-metal_dep:before,
+.item-list .metal_dep:before {
+  background: #4e4d47   ;
+}
+/* End Single Item Metal Deposit */
+
+/* Single Item Cobalt Deposit */
+.single-block .header .item-cobalt_dep i,
+.item-list .cobalt_dep i,
+.cobalt_dep {background-color: #005c83;}
+.single-block .item-cobalt_dep,
+.item-list .cobalt_dep {
+  border-top: 4px solid #005c83;
+  background-color: #09455f;
+}
+.craft .item-cobalt_dep {
+  background-color: #09455f;
+}
+/* Middle Border */
+.single-block .item-cobalt_dep:before,
+.item-list .cobalt_dep:before {
+  background: #083b51   ;
+}
+/* End Single Item Cobalt Deposit */
+
+/* Single Item Chlorine Deposit */
+.single-block .header .item-chlorine_dep i,
+.item-list .chlorine_dep i,
+.chlorine_dep {background-color: #1e8a42;}
+.single-block .item-chlorine_dep,
+.item-list .chlorine_dep {
+  border-top: 4px solid #1e8a42;
+  background-color: #1b6138;
+}
+.craft .item-chlorine_dep {
+  background-color: #1b6138;
+}
+/* Middle Border */
+.single-block .item-chlorine_dep:before,
+.item-list .chlorine_dep:before {
+  background: #175330   ;
+}
+/* End Single Item Chlorine Deposit */
+
+/* Single Item Sodium Deposit */
+.single-block .header .item-sodium_dep i,
+.item-list .sodium_dep i,
+.sodium_dep {background-color: #f26d15;}
+.single-block .item-sodium_dep,
+.item-list .sodium_dep {
+  border-top: 4px solid #f26d15;
+  background-color: #9a4f1d;
+}
+.craft .item-sodium_dep {
+  background-color: #9a4f1d;
+}
+/* Middle Border */
+.single-block .item-sodium_dep:before,
+.item-list .sodium_dep:before {
+  background: #834319   ;
+}
+/* End Single Item Sodium Deposit */
+
+/* Single Item Trade Commodity */
+.single-block .header .item-trade_com i,
+.item-list .trade_com i,
+.trade_com {background-color: #007951;}
+.single-block .item-trade_com,
+.item-list .trade_com {
+  border-top: 4px solid #007951;
+  background-color: #095741;
+}
+.craft .item-trade_com {
+  background-color: #095741;
+}
+/* Middle Border */
+.single-block .item-trade_com:before,
+.item-list .trade_com:before {
+  background: #084a37   ;
+}
+/* End Single Item Trade Commodity */
+
+/* Single Item Buildings */
+.single-block .header .item-buildings i,
+.item-list .buildings i,
+.buildings {background-color: #2c7c9f;}
+.single-block .item-buildings,
+.item-list .buildings {
+  background-color: #23586f;
+}
+.craft .item-buildings {
+  background-color: #23586f;
+}
+/* Middle Border */
+.single-block .item-buildings:before,
+.item-list .buildings:before {
+  background: #1e4b5e   ;
+}
+/* End Single Item Trade Commodity */
+
+/* Single Item Monstrosity */
+.single-block .header .item-monstrosity i,
+.item-list .monstrosity i,
+.monstrosity {background-color: #447317;}
+.single-block .item-monstrosity,
+.item-list .monstrosity {
+  border-top: 4px solid #447317;
+  background-color: #32531e;
+}
+.craft .item-monstrosity {
+  background-color: #32531e;
+}
+/* Middle Border */
+.single-block .item-monstrosity:before,
+.item-list .monstrosity:before {
+  background: #2b471a   ;
+}
+/* End Single Item Trade Monstrosity */
+
+/* Single Item Stellar */
+.single-block .header .item-stellar i,
+.item-list .stellar i,
+.stellar {background-color: #260000;}
+.single-block .item-stellar,
+.item-list .stellar {
+  border-top: 4px solid #260000;
+  background-color: #200f14;
+}
+.craft .item-stellar {background-color: #200f14;}
+/* Middle Border */
+.single-block .item-stellar:before,
+.item-list .stellar:before {
+  background: #1b0d11;
+}
+/* End Single Item Stellar */
+
+/* Single Item Upgrades */
+.single-block .item-upgrade {
+  border-top: 4px solid #095C77;
+  background-color: #1B3E4B;
+}
+/* Middle Border */
+.single-block .item-upgrade:before {
+  background: #142C35;
+}
+.item-list .upgrade {
+  background-color: #1B3E4B;
+  border-top: 4px solid #095C77;
+}
+.item-list .upgrade:before {
+  background: #142C35;
+}
+.upgrade.current {
+  box-shadow: 0px 0px 0 2px #ffc107;
+}
+/* End Single Item Upgrades */
+
+
+/* Products CSS */
+
+/* Single Item Stars */
+.single-block .item-star,
+.item-list .star {
+  border-top: 4px solid #B61C26;
+  background-color: #86191C;
+}
+/* Middle Border */
+.single-block .item-star:before,
+.item-list .star:before {
+  background: #740700;
+}
+/* End Single Item Stars */
+
+/* Single Item Galaxy */
+.single-block .item-galaxy,
+.item-list .galaxybg {
+  background-color: #4B6C91;
+}
+/* Middle Border */
+.single-block .item-galaxybg:before,
+.item-list .galaxybg:before {
+  background: #354C66;
+}
+/* End Single Item Galaxy */
+
+/*Single Item Device */
+.single-block .item-devices {
+  border-top: 4px solid #0062B4;
+  background-color: #17416B;
+}
+/* Middle Border */
+.single-block .item-devices:before {
+  background: #0C314E;
+}
+.item-list .devices {
+  background-color: #17416B;
+  border-top: 4px solid #0062B4;
+}
+.item-list .devices:before {
+  background: #17416B;
+}
+/* End Single Item Device */
+
+
+.single-item {
+  background-image: none;
+  background-color: transparent;
+  margin-bottom: 10px;
+}
+.single-block.recipes {
+    background-image: none;
+    background-color: transparent;
+    margin-bottom: 0;
+    display: block;
+    border-bottom: 1px solid #142025;
+}
+
+.Yellow_bg {
+  background-color: #ffcf10;
+}
+.Blue_bg {
+  background-color: #1e4fd0;
+}
+.Green_bg {
+  background-color: #15b71f;
+}
+.Red_bg {
+  background-color: #e02017;
+}
+
+
+.Lush_bg {
+  background-color: #208dab;
+}
+.Scorched_bg{
+  background-color: #b94318;
+}
+.Toxic_bg {
+  background-color: #00a64d;
+}
+.Radioactive_bg {
+  background-color: #c5871d;
+}
+.Frozen_bg {
+  background-color: #1e4fd0;
+}
+.Barren_bg {
+  background-color: #e57002;
+}
+.Dead_bg {
+  background-color: #653000;
+}
+
+
+.resources .header .top_border,
+.single-block .header .top_border {
+    height: 4px;
+}
+.list .top_border {
+    height: 3px;
+}
+.resources .header .middle_border,
+.single-block .header .middle_border {
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.list .middle_border {
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.resources .header .bg,
+.single-block .header .bg,
+.craft .item-block .bg, 
+.result .item-block .bg, 
+.item-list .list .bg,
+.build .recharge .bg {
+    background-color: rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+.single-block.recipes .header .title {
+    display: table-cell;
+    font-family: 'GeoNMS', Microsoft YaHei;
+    font-size: 18px;
+    color: #fff;
+    padding: 5px 5px 5px 8px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    line-height: 20px;
+    vertical-align: middle;
+    height: 50px;
+}
+.single-block .header i,
+.resources .header i {
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  margin: 0 0 0 10px;
+  background-repeat: no-repeat;
+  background-color: rgba(255, 255, 255, 0.10);
+  flex-shrink: 0;
+}
+.item-list .single-block .header i {
+  width: 48px;
+  height: 48px;
+ 
+}
+.single-block.recipes .header i {
+  
+}
+.single-block .header i.none {display: none;}
+
+.single-block .title_sub {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.single-block .title_sub.proc {
+  justify-content: center;
+}
+.single-block .title {
+  display: table-cell;
+  font-family: 'GeoNMS', Microsoft YaHei;
+  font-size: 20px;
+  color: #fff;
+  padding: 4px 10px 0px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 20px;
+  margin: 0;
+}
+.single-block .title.planets {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  padding: 0 10px;
+}
+.single-block .title.galaxies {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    padding: 0 10px;
+}
+.single-block .title span {
+    margin-right: 8px;
+    display: inline-block;
+}
+.single-block .title span.margin-right0,
+.single-block .info span.margin-right0 {
+  margin-right:0px;
+}
+.single-block .sub {
+  display: flex;
+  padding: 0px 5px 0px 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+@-webkit-keyframes rotate360 {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate360 {
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.proc_type_block {
+    display: block;
+}
+.proc_type_block .proc_title {
+    display: block;
+    color: #fff;
+    font-family: 'GeoNMS', Microsoft YaHei;
+    font-size: 22px;
+    margin: 5px 15px 0;
+    text-transform: uppercase;
+}
+.gen_button {
+  display: block;
+  margin: 0 auto;
+  width: 160px;
+  padding: 0 10px 3px;
+}
+.gen_item_text {
+  color: #E2E2E2;
+  line-height: 26px;
+  margin-right: 8px;
+}
+.refresh {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-image: url(../img/icons/refresh_icon.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+  vertical-align: middle;
+}
+.refresh.spin {
+  animation: rotate360 .25s infinite linear;
+}
+.noclick {
+  pointer-events: none;
+}
+
+.single-block .title_sub.proc .title {
+    padding: 4px 10px;
+}
+.single-block .time_text {
+  display: inline-block;
+  padding: 0px 5px 0px 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 26px;
+  letter-spacing: 1px;
+}
+.single-block .info_time {
+    display: inline-block;
+    padding: 0px 10px 0px 0px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 1px;
+}
+.single-block .desc {
+  padding: 5px 10px 5px;
+  background: #1f3341;
+  color: #E2E2E2;
+  font-weight: 400;
+}
+.single-block .desc_proc {
+    padding: 5px 10px 0px;
+    background: #1f3341;
+    color: #E2E2E2;
+    font-weight: 400;
+}
+.single-block.recipes .desc {
+    padding: 5px 0px 5px;
+}
+.single-block .desc.price {
+    padding: 2px 10px 5px;
+}
+.single-block .desc:after {
+  content: "";
+  height: 1px;
+  background-color: #fff;
+  opacity: 0.15;
+  width: 100%;
+  display: block;
+}
+.single-block .heroimage {
+    display: block;
+    margin: 5px 0 10px;
+}
+.single-block .heroimage img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width : 512px;
+}
+.single-block .info {
+  color: #E2E2E2;
+  font-weight: 400;
+  margin: 5px 0;
+}
+.single-block .info span {
+    margin-right: 5px;
+}
+.single-block .info i.units-light {
+  width: 22px;
+  height: 22px;
+  background-size: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  bottom: 1px;
+  margin: 0;
+  background-color: rgba(255, 255, 255, 0.10);
+}
+.single-block .info.price {
+  margin: 0 0 8px;
+}
+.single-block .info.price i {
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  margin: 0 8px 0 0;
+  background-color: rgba(255, 255, 255, 0.10);
+  background-size: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+.single-block .info .value_text {
+  font-size: 16px;
+  display: inline-block;
+  padding: 0;
+  vertical-align: middle;
+  margin: 0 5px 0 0;
+}
+.single-block .value {
+  display: inline-block;
+  color: #ffc323;
+  font-family: 'Roboto', Microsoft YaHei;
+  font-weight: 400;
+  padding: 0;
+  font-size: 16px;
+  vertical-align: middle;
+}
+.single-block .info:last-child {
+  margin-bottom: 8px;
+}
+.single-block .statsblock {
+  display: inline-block;
+  margin-right: 10px;
+  min-width: 250px;
+}
+.single-block .statsblock .stats {
+  margin: 0 0 5px;
+  color: #E2E2E2;
+  font-weight: 400;
+}
+.single-block .statsblock .stats i {
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 36px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.single-block .statsblock .stats .infotext {
+  display: inline-block;
+  vertical-align: middle;
+}
+.single-block .statsblock .stats .info {
+  margin: 0;
+}
+
+.build .items {
+  padding: 0 5px 0;
+  background-color: #1f3341;
+}
+.build .items:after {
+  content: "";
+  height: 1px;
+  background-color: #fff;
+  opacity: 0.15;
+  width: 100%;
+  display: block;
+  margin-top:5px;
+}
+.single-block.recipes .build .items {
+  padding: 0 5px;
+}
+.craft {
+  background: none;
+  display: inline-block;
+  margin: 0;
+}
+.recharge {
+  background: none;
+  display: inline-block;
+  margin: 0;
+}
+.single-item .item-list {
+    padding: 0px 5px;
+    background-color: #1f3341;
+}
+.single-item .tab .item-list {padding: 0 0 5px;}
+.single-block.recipes .item-list {
+    padding: 0 0 5px;
+}
+.item-list .list,
+.item-list .result,
+.item-list .list.shop {
+    background: none;
+    display: inline-block;
+}
+.item-list .result {
+  margin: 0 5px;
+}
+.item-list a {
+  padding: 0;
+  color: #333;
+  display: block;
+  margin: 5px;
+  cursor: pointer;
+  width: 300px;
+  max-width: 300px;
+  transition: 0.1s ease;
+  filter: drop-shadow(0px 1px 1px rgba(0,0,0,0.50));
+}
+.item-list i {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  flex-shrink: 0;
+}
+.single-block .iname,
+.resources .iname{
+  display: flex;
+  font-family: 'GeoNMS', Microsoft YaHei;
+  font-size: 20px;
+  line-height: 18px;
+  padding: 0 8px;
+  color: #fff;
+  height: 48px;
+  align-items: center;
+  width: 100%;
+}
+.item-list .iname {
+  display: flex;
+  line-height: 20px;
+  padding: 0 8px;
+  margin: 0;
+  color: #fff;
+  text-shadow: 0px 1px 0px #000;
+  height: 48px;
+  align-items: center;
+  width: 100%;
+}
+.item-list .proc_name {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.item-list .iname span {
+  margin-right: 4px;
+  display: inline-block;
+}
+.item-list .result .iname {
+  font-family: 'Roboto', Microsoft YaHei;
+  font-size: 14px;
+  font-weight: 400;
+  justify-content: center;
+}
+.item-list .value,
+.craft .value {
+  display: flex;
+  font-family: 'Roboto', Microsoft YaHei;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  padding: 0 8px;
+  color: #fff;
+  text-shadow: 0px 1px 0px #000;
+  align-items: center;
+  min-width: 44px;
+  justify-content: flex-end;
+}
+.item-list .list.shop .value {
+    color: #ffcf21;
+		font-weight: 400;
+}
+.item-list i.units-light {
+    width: 16px;
+    height: 46px;
+    background-position: center;
+    margin: 0 10px 0 0;
+}
+.item-list i.quicksilver {
+    width: 16px;
+    height: 46px;
+    background-position: center;
+    margin: 0 10px 0 0;
+}
+.build .items .item-block i.units-light {
+    width: 16px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 10px 0 0;
+}
+.item-list .item-block,
+.build .item-block {
+	display: block;
+	color: #fff;
+	margin: 5px;
+	padding: 0px;
+	border: none;
+	cursor: pointer;
+	min-width: 220px;
+	text-align: center;
+	width: 300px;
+}
+.item-list .items .item-block i, .build .items .item-block i {
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  flex-shrink: 0;
+}
+.item-list .item-block .name, .build .item-block .name {
+  display: flex;
+  font-family: 'Roboto', Microsoft YaHei;
+  font-size: 13px;
+  color: #fff;
+  padding: 0 10px;
+  width: 100%;
+  justify-content: center;
+  text-shadow: 0px 1px 0px #000;
+  height: 32px;
+  line-height: 14px;
+  align-items: center;
+}
+.item-list .item-block .qnt,
+.build .item-block .qnt {
+  line-height: 32px;
+  display: flex;
+  color: #ffffff;
+  font-family: 'Roboto', Microsoft YaHei;
+  font-weight: 400;
+  padding: 0px 5px 0px 5px;
+  min-width: 35px;
+  text-shadow: 0px 1px 0px #000;
+  justify-content: center;
+}
+.item-list .result .qnt {
+	line-height: 48px;
+	display: inline-block;
+	color: #ffffff;
+	font-family: 'Roboto', Microsoft YaHei;
+	font-weight: 400;
+	padding: 0px 0px 0px 0px;
+	float: right;
+	text-shadow: 0px 1px 0px #000;
+}
+.build .items .item-block i.recharge {
+    background-image: url(../img/icons/recharge-icon.png);
+    background-repeat: no-repeat;
+    background-position: 2px center;
+    background-size: 18px;
+    width: 55px;
+    height: 32px;
+    float: right;
+    text-align: right;
+    line-height: 32px;
+    font-style: normal;
+    background-color: #222;
+    padding: 0 5px 0 0;
+    margin: 0;
+}
+
+.crafting-text,
+.upgrades-text,
+.recipes-text,
+.build-text{
+  padding: 0px 10px 5px;
+  background: #1f3341;
+  color: #E2E2E2;
+  font-size: 16px;
+  font-weight: 300;
+}
+.build-text {
+  padding: 5px 10px 0px;
+}
+.item-list-text{
+  padding: 0 10px;
+  background: #1f3341;
+  color: #E2E2E2;
+  font-size: 16px;
+  font-weight: 300;
+}
+.item-list-text.toggle.planets {
+  background-color: #1b2c38;
+  margin: 0 0 2px;
+  padding: 0 5px;
+  height: 36px;
+  line-height: 36px;
+
+}
+.single-block.recipes .build-text {
+  padding: 5px 5px 0;
+}
+.single-block.recipes .input-text,
+.single-block.recipes .output-text {
+  color: #E2E2E2;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0 10px;
+}
+.single-block .galaxies.text {
+    padding: 5px 0;
+}
+.single-block .text {
+  padding: 0px;
+  color: #E2E2E2;
+  font-weight: 300;
+  background-color: #1b2c38;
+  margin-bottom: 2px;
+}
+.single-block .text p, .info-text p {
+  margin: 0;
+  padding: 0 10px;
+  margin: 6px 0 2px;
+}
+.single-block .text p.text_title {
+  font-size: 17px;
+  font-weight: 400;
+}
+.products .symbol,
+.card.nanites .units {
+  display: none;
+}
+
+/* TABS */
+.tabs-menu li i.ml10px {margin-left: 10px;}
+.tabs-menu {
+  display: flex;
+  justify-content: space-between;
+  background: #272627;
+  list-style: none;
+  width: 100%;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+.tabs-menu li {
+  margin: 0 auto;
+  display: inline-block;
+  background-color: #272627;
+  width: 100%;
+}
+.tabs-menu li i {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  flex-shrink: 0;
+  filter: grayscale(1);
+}
+.tabs-menu li.current i {
+  filter: grayscale(0);
+}
+.tabs-menu .tab_usedin.current a {
+  color: #fff;
+  display: flex;
+  background: #aa7618;
+}
+.tabs-menu .tab_usedin i {
+  background-color: #f3a923;
+}
+.tabs-menu .tab_recipes.current a {
+  background-color: #064053;
+}
+.tabs-menu .tab_recipes i {
+  background-color: #095c77;
+}
+.tabs-menu .tab_recipes_results.current a {
+  background-color: #064053;
+}
+.tab_recipes .used_in_text {
+    margin: 0 10px;
+}
+
+.tabs-menu li.current {
+  position: relative;
+  background-color: #333;
+}
+.tabs-menu li a {
+  display: flex;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+.tabs-menu .current a {
+  color: #fff;
+  display: flex;
+  background: #333;
+}
+.tabs-menu li span {
+  font-family: 'Roboto', Microsoft YaHei;
+  -webkit-font-smoothing: antialiased;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  white-space: normal;
+  text-transform: capitalize;
+  margin: 0 0 0 8px;
+}
+.tabs-menu li.none {
+    display: none;
+}
+
+.tab {
+  float: left;
+  width: 100%;
+  padding: 0;
+}
+
+.tab-content {
+  display: none;
+  margin: 0 auto;
+}
+#tab-1 {
+  display: block;
+}
+/* END TABS */
+
+.none {
+  display: none;
+}
+.toggle {
+  cursor: pointer;
+}
+.single-block.recipes .header i.plus_toggle,
+.item-list .single-block .header i.plus_toggle,
+.resources .header i.plus_toggle {
+  display: flex;
+  width: 36px;
+  height: 50px;
+  background-size: 16px;
+  background-image: url(../img/icons/plus.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+}
+.single-block.recipes .header.toggle.active i.plus_toggle,
+.item-list .single-block .header.toggle.active i.plus_toggle,
+.resources .header.toggle.active i.plus_toggle {
+  background-image:url(../img/icons/minus.png);
+}
+.toggle.planets:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: sub;
+  background-size: 16px;
+  background-image: url(../img/icons/plus.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 2px;
+}
+.toggle.planets.active:before {
+  background-image:url(../img/icons/minus.png);
+}
+.hidden-content {
+  display: none;
+}
+
+
+/* MEDIA QUERIES */
+/*
+@media screen and (min-width:320px) { }
+@media screen and (min-width:480px) { }
+@media screen and (min-width:600px) { }
+@media screen and (min-width:768px) { }
+@media screen and (min-width:992px) { }
+*/
+@media screen and (min-width:320px) {
+  .navbar .center, .subnavbar .center {
+    font-family: 'GeoNMS', Microsoft YaHei;
+    font-size: 28px;
+  }
+}
+@media screen and (device-width: 360px) and (device-height: 640px) {
+	.item-list .upgrade,
+	.item-list .tech,
+	.item-list .devices,
+	.item-list .plants,
+	.item-list .alloy,
+	.item-list .buildings,
+	.item-list .upgrade,
+	.upgrades-list .upgrade {
+		padding: 0;
+		color: #333;
+		display: block;
+		margin: 10px auto;
+		cursor: pointer;
+		width: 100%;
+		max-width: 300px;
+	}
+	.item-card-holder {
+		background: transparent;
+		margin: 10px auto;
+		float: none;
+		display: block;
+		width: 300px;
+	}
+    .item-list .items,
+    .build .items{
+        padding: 0 10px 15px;
+    }
+    .item-list .item-block,
+    .build .item-block {
+        display: block;
+        color: #fff;
+        margin: 5px;
+        padding: 0px;
+        border: none;
+        cursor: pointer;
+        width: 300px;
+    }
+    .item-list .item-block .qnt, .build .item-block .qnt {
+        line-height: 32px;
+				display: flex;
+				color: #ffffff;
+				font-family: 'Roboto', Microsoft YaHei;
+				font-weight: 400;
+				padding: 0px 5px 0px 0px;
+				align-items: center;
+    }
+		.group-isotopes,
+		.group-silicates,
+		.group-oxides,
+		.group-neutrals,
+		.group-precious {
+			display: block;
+			text-align: center;
+			margin: 8px auto;
+		}
+	.item-card-holder.devices,
+	.item-card-holder.components,
+	.item-card-holder.tradables,
+	.item-card-holder.alloys,
+	.item-card-holder.energy {
+	display: block;
+	text-align: left;
+	margin: 8px auto;
+	}
+    
+}
+@media screen and (min-width: 640px) {
+	.item-card-holder {
+    background: transparent;
+    margin: 8px;
+    float: none;
+    display: inline-table;
+	}
+	.group .item-list .upgrade {
+    margin: 10px 5px;
+	}
+	.item-list .upgrade,
+	.item-list .tech,
+	.item-list .devices,
+	.item-list .plants,
+	.item-list .alloy,
+	.item-list .buildings,
+	.item-list .upgrade,
+	.upgrades-list .upgrade {
+    padding: 0;
+    color: #333;
+    display: inline-block;
+    margin: 10px 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 280px;
+	}
+	.item-list .items, .build .items {
+    text-align: center;
+	}
+	.group-isotopes,
+	.group-silicates,
+	.group-oxides,
+	.group-neutrals,
+	.group-precious {
+		display: block;
+		text-align: center;
+		margin: 8px auto;
+  }
+	.item-card-holder.devices,
+	.item-card-holder.components,
+	.item-card-holder.tradables,
+	.item-card-holder.alloys,
+	.item-card-holder.energy {
+		display: block;
+		text-align: left;
+		margin: 8px auto;
+	}
+}
+/*
+.item-list a:nth-child(2) {
+  margin-left: 20px;
+}
+.item-list a:nth-child(3) {
+  margin-left: 40px;
+}
+.item-list {
+  padding: 0px 5px 0px 15px;
+  background: #DDD;
+  display: inline-block;
+  border-bottom: 1px solid #333;
+  font-size: 12px;
+  font-family: 'Roboto', Microsoft YaHei;
+}*/

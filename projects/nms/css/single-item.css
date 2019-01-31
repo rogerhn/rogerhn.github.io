@@ -1,0 +1,89 @@
+.product-block,
+.element-block,
+.tech-block {
+    border-top: 4px solid;
+}
+/* Icon Color */
+.yellow {
+    border-color: #EFA325;
+}
+
+.etitle, .ptitle, .ttitle {
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px 0 0;
+    border-top: 3px solid;
+}
+.ptitle.tech-component {
+    background-color: #906521;
+    border-color: #674717;
+}
+.etitle i, .ptitle i, .ttitle i {
+    background-size: contain;
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    float: left;
+}
+.etitle span, .ptitle span, .ttitle span {
+    display: inline-block;
+    font-family: 'GeoNMS', Microsoft YaHei;
+    font-size: 26px;
+    color: #fff;
+    padding: 10px 5px 4px 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+.rarity-isotope, .rarity-silicate, .rarity-oxide, .rarity-neutral, .rarity-precious, .tech-type {
+    display: block;
+    padding: 0px 15px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 80px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+}
+/* Tech Type Color */
+.tech-type {
+    background-color: #906521;
+}
+.info-value {
+    display: inline-block;
+    color: #fff;
+    float: right;
+    position: relative;
+    bottom: 2px;
+    font-size: 13px;
+}
+.info-value .value {
+    line-height: 20px;
+    display: inline-block;
+    color: #fff;
+    font-family: 'Roboto', Microsoft YaHei;
+    font-weight: bold;
+    padding: 3px 0px 0px;
+}
+.info-value i.units-light {
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+    margin: 0px 4px;
+}
+.etext {
+    padding: 10px 15px;
+    background: #EEEEEE;
+    color: #333333;
+}
+.etext p {
+    margin: 0;
+}
+/* Build Part */
