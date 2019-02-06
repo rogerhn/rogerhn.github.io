@@ -1,0 +1,4517 @@
+var RECIPES = [
+{
+  "recipe":"RECIPE_BURIEDTECH__1",
+  "recipe_name":"Nanite Extraction",
+  "recipe_i18n":"RECIPE_BURIEDTECH",
+  "refiner":"portable_refiner",
+  "time":"320",
+  "result":"TECHFRAG",
+  "result_type":"Substance",
+  "result_qnt":"15",
+  "ingredients":[
+      {"item":"BP_SALVAGE","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_CLAMPEARL__2",
+  "recipe_name":"Calcite Transmutation",
+  "recipe_i18n":"RECIPE_CLAMPEARL",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"ASTEROID2",
+  "result_type":"Substance",
+  "result_qnt":"100",
+  "ingredients":[
+      {"item":"CLAMPEARL","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_EYEBALL__3",
+  "recipe_name":"Biological Purge",
+  "recipe_i18n":"RECIPE_EYEBALL",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"SPACEGUNK4",
+  "result_type":"Substance",
+  "result_qnt":"50",
+  "ingredients":[
+      {"item":"EYEBALL","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FISHCORE__4",
+  "recipe_name":"Doom Cycling",
+  "recipe_i18n":"RECIPE_FISHCORE",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"TECHFRAG",
+  "result_type":"Substance",
+  "result_qnt":"50",
+  "ingredients":[
+      {"item":"FISHCORE","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_VENTGEM__5",
+  "recipe_name":"Sulphur Release",
+  "recipe_i18n":"RECIPE_VENTGEM",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"50",
+  "ingredients":[
+      {"item":"VENTGEM","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FIENDCORE__6",
+  "recipe_name":"NOT RECOMMENDED",
+  "recipe_i18n":"RECIPE_FIENDCORE",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"TECHFRAG",
+  "result_type":"Substance",
+  "result_qnt":"50",
+  "ingredients":[
+      {"item":"FIENDCORE","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_WATERPLANT__7",
+  "recipe_name":"Algal Processing",
+  "recipe_i18n":"RECIPE_WATERPLANT",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"FUEL2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"WATERPLANT","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_POOP_ALCHEMY__8",
+  "recipe_name":"Alchemical Construction",
+  "recipe_i18n":"RECIPE_POOP_ALCHEMY",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"ASTEROID2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"SPECPOOP","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ASTEROID1__9",
+  "recipe_name":"Extreme Polishing",
+  "recipe_i18n":"RECIPE_ASTEROID1",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"FARMPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"ASTEROID1","qnt":"100"},
+  ]
+},
+{
+  "recipe":"RECIPE_ASTEROID2__10",
+  "recipe_name":"Metal Restructuring",
+  "recipe_i18n":"RECIPE_ASTEROID2",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"DUSTY1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"ASTEROID2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ASTEROID3__11",
+  "recipe_name":"Reality Warping",
+  "recipe_i18n":"RECIPE_ASTEROID3",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"TECHFRAG",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_ROBOT1__12",
+  "recipe_name":"Reality Filtering",
+  "recipe_i18n":"RECIPE_ROBOT1",
+  "refiner":"portable_refiner",
+  "time":"30",
+  "result":"TECHFRAG",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"ROBOT1","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_CREATURE1__13",
+  "recipe_name":"Assisted Decomposition",
+  "recipe_i18n":"RECIPE_CREATURE1",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"PLANT_POOP",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"CREATURE1","qnt":"3"},
+  ]
+},
+{
+  "recipe":"RECIPE_OXYGEN__14",
+  "recipe_name":"Inefficient Burn",
+  "recipe_i18n":"RECIPE_OXYGEN",
+  "refiner":"portable_refiner",
+  "time":"20",
+  "result":"FUEL1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAUNCHFUEL__15",
+  "recipe_name":"Condense Di-hydrogen",
+  "recipe_i18n":"RECIPE_LAUNCHFUEL",
+  "refiner":"portable_refiner",
+  "time":"120",
+  "result":"JELLY",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAUNCHSUB","qnt":"30"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUELPROD3__16",
+  "recipe_name":"Carbon Melting",
+  "recipe_i18n":"RECIPE_FUELPROD3",
+  "refiner":"portable_refiner",
+  "time":"200",
+  "result":"FUEL2",
+  "result_type":"Substance",
+  "result_qnt":"150",
+  "ingredients":[
+      {"item":"FUELPROD3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LANDPROD3__17",
+  "recipe_name":"Rare Metal Detoxification",
+  "recipe_i18n":"RECIPE_LANDPROD3",
+  "refiner":"portable_refiner",
+  "time":"200",
+  "result":"LAND2",
+  "result_type":"Substance",
+  "result_qnt":"150",
+  "ingredients":[
+      {"item":"LANDPROD3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_CAVEPROD3__18",
+  "recipe_name":"Cobalt Cracking",
+  "recipe_i18n":"RECIPE_CAVEPROD3",
+  "refiner":"portable_refiner",
+  "time":"200",
+  "result":"CAVE2",
+  "result_type":"Substance",
+  "result_qnt":"150",
+  "ingredients":[
+      {"item":"CAVEPROD3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_WATERPROD3__19",
+  "recipe_name":"Chloride De-latticing",
+  "recipe_i18n":"RECIPE_WATERPROD3",
+  "refiner":"portable_refiner",
+  "time":"200",
+  "result":"WATER2",
+  "result_type":"Substance",
+  "result_qnt":"150",
+  "ingredients":[
+      {"item":"WATERPROD3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_CATAPROD3__20",
+  "recipe_name":"Sodium Stabilisation",
+  "recipe_i18n":"RECIPE_CATAPROD3",
+  "refiner":"portable_refiner",
+  "time":"200",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"150",
+  "ingredients":[
+      {"item":"CATAPROD3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_OXYPROD3__21",
+  "recipe_name":"Oxygen Decompression",
+  "recipe_i18n":"RECIPE_OXYPROD3",
+  "refiner":"portable_refiner",
+  "time":"200",
+  "result":"OXYGEN",
+  "result_type":"Substance",
+  "result_qnt":"150",
+  "ingredients":[
+      {"item":"OXYPROD3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_JELLY__22",
+  "recipe_name":"Di-hydrogen Cycling",
+  "recipe_i18n":"RECIPE_JELLY",
+  "refiner":"portable_refiner",
+  "time":"100",
+  "result":"LAUNCHSUB",
+  "result_type":"Substance",
+  "result_qnt":"50",
+  "ingredients":[
+      {"item":"JELLY","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_CAVE1__23",
+  "recipe_name":"Ionise Mineral",
+  "recipe_i18n":"RECIPE_CAVE1",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"CAVE2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"CAVE1","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_CAVE2__24",
+  "recipe_name":"Deionise Mineral",
+  "recipe_i18n":"RECIPE_CAVE2",
+  "refiner":"portable_refiner",
+  "time":"30",
+  "result":"CAVE1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"CAVE2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUEL2__25",
+  "recipe_name":"Release Carbon",
+  "recipe_i18n":"RECIPE_FUEL2",
+  "refiner":"portable_refiner",
+  "time":"30",
+  "result":"FUEL1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUEL1__26",
+  "recipe_name":"Condense Carbon",
+  "recipe_i18n":"RECIPE_FUEL1",
+  "refiner":"portable_refiner",
+  "time":"45",
+  "result":"FUEL2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"FUEL1","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_CATALYST1__27",
+  "recipe_name":"Process Sodium",
+  "recipe_i18n":"RECIPE_CATALYST1",
+  "refiner":"portable_refiner",
+  "time":"100",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"CATALYST1","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_CATALYST2__28",
+  "recipe_name":"Free Sodium",
+  "recipe_i18n":"RECIPE_CATALYST2",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"CATALYST1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"CATALYST2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND1__29",
+  "recipe_name":"Extract Metallic Elements",
+  "recipe_i18n":"RECIPE_LAND1",
+  "refiner":"portable_refiner",
+  "time":"30",
+  "result":"LAND2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND2__30",
+  "recipe_name":"Magnetise Metal",
+  "recipe_i18n":"RECIPE_LAND2",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAND2","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND3__31",
+  "recipe_name":"Demagnetise Metal",
+  "recipe_i18n":"RECIPE_LAND3",
+  "refiner":"portable_refiner",
+  "time":"40",
+  "result":"LAND2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"LAND3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_RED2__32",
+  "recipe_name":"Extract Chromatic Material",
+  "recipe_i18n":"RECIPE_RED2",
+  "refiner":"portable_refiner",
+  "time":"70",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RED2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_BLUE2__33",
+  "recipe_name":"Extract Chromatic Material",
+  "recipe_i18n":"RECIPE_BLUE2",
+  "refiner":"portable_refiner",
+  "time":"25",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"BLUE2","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_GREEN2__34",
+  "recipe_name":"Extract Chromatic Material",
+  "recipe_i18n":"RECIPE_GREEN2",
+  "refiner":"portable_refiner",
+  "time":"40",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"GREEN2","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_YELLOW2__35",
+  "recipe_name":"Extract Chromatic Material",
+  "recipe_i18n":"RECIPE_YELLOW2",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"YELLOW2","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_RED2__36",
+  "recipe_name":"Extract Chromatic Material",
+  "recipe_i18n":"RECIPE_RED2",
+  "refiner":"portable_refiner",
+  "time":"50",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"EX_RED","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_BLUE2__37",
+  "recipe_name":"Extract Chromatic Material",
+  "recipe_i18n":"RECIPE_BLUE2",
+  "refiner":"portable_refiner",
+  "time":"30",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"EX_BLUE","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GREEN2__38",
+  "recipe_name":"Extract Chromatic Material",
+  "recipe_i18n":"RECIPE_GREEN2",
+  "refiner":"portable_refiner",
+  "time":"40",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"EX_GREEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_YELLOW2__39",
+  "recipe_name":"Extract Chromatic Material",
+  "recipe_i18n":"RECIPE_YELLOW2",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"EX_YELLOW","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LUSH1__40",
+  "recipe_name":"Ferrite Dust Extraction",
+  "recipe_i18n":"RECIPE_LUSH1",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"LAND1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_DUSTY1__41",
+  "recipe_name":"Ferrite Dust Extraction",
+  "recipe_i18n":"RECIPE_DUSTY1",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"LAND1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_TOXIC1__42",
+  "recipe_name":"Ferrite Dust Extraction",
+  "recipe_i18n":"RECIPE_TOXIC1",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"LAND1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_RADIO1__43",
+  "recipe_name":"Ferrite Dust Extraction",
+  "recipe_i18n":"RECIPE_RADIO1",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"LAND1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_COLD1__44",
+  "recipe_name":"Ferrite Dust Extraction",
+  "recipe_i18n":"RECIPE_COLD1",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"LAND1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_HOT1__45",
+  "recipe_name":"Ferrite Dust Extraction",
+  "recipe_i18n":"RECIPE_HOT1",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"LAND1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_WATER1__46",
+  "recipe_name":"Concentrate Salt",
+  "recipe_i18n":"RECIPE_WATER1",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"WATER2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"WATER1","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_WATER2__47",
+  "recipe_name":"Salt Production",
+  "recipe_i18n":"RECIPE_WATER2",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"WATER1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"WATER2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS1__48",
+  "recipe_name":"Gas Transfer",
+  "recipe_i18n":"RECIPE_GAS1",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"GAS2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS1","qnt":"3"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS2__49",
+  "recipe_name":"Gas Transfer",
+  "recipe_i18n":"RECIPE_GAS2",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"GAS3",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS2","qnt":"3"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS3__50",
+  "recipe_name":"Gas Transfer",
+  "recipe_i18n":"RECIPE_GAS3",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"GAS1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS3","qnt":"3"},
+  ]
+},
+{
+  "recipe":"RECIPE_SPACEGUNK1__51",
+  "recipe_name":"Recycle Waste Materials",
+  "recipe_i18n":"RECIPE_SPACEGUNK1",
+  "refiner":"portable_refiner",
+  "time":"150",
+  "result":"SPACEGUNK5",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"SPACEGUNK1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_SPACEGUNK2__52",
+  "recipe_name":"Recycle Waste Materials",
+  "recipe_i18n":"RECIPE_SPACEGUNK2",
+  "refiner":"portable_refiner",
+  "time":"150",
+  "result":"TECHFRAG",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"SPACEGUNK2","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_SPACEGUNK3__53",
+  "recipe_name":"Recycle Waste Materials",
+  "recipe_i18n":"RECIPE_SPACEGUNK3",
+  "refiner":"portable_refiner",
+  "time":"160",
+  "result":"LAND1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"SPACEGUNK3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_SPACEGUNK4__54",
+  "recipe_name":"Recycle Waste Materials",
+  "recipe_i18n":"RECIPE_SPACEGUNK4",
+  "refiner":"portable_refiner",
+  "time":"150",
+  "result":"SPACEGUNK2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"SPACEGUNK4","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_SPACEGUNK5__55",
+  "recipe_name":"Recycle Waste Materials",
+  "recipe_i18n":"RECIPE_SPACEGUNK5",
+  "refiner":"portable_refiner",
+  "time":"150",
+  "result":"SPACEGUNK4",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"SPACEGUNK5","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ROCKETSUB__56",
+  "recipe_name":"Tritium Cycling",
+  "recipe_i18n":"RECIPE_ROCKETSUB",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"LAUNCHSUB",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"ROCKETSUB","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_ROCKETSUB__57",
+  "recipe_name":"Tritium Cycling",
+  "recipe_i18n":"RECIPE_ROCKETSUB",
+  "refiner":"portable_refiner",
+  "time":"90",
+  "result":"ROCKETSUB",
+  "result_type":"Substance",
+  "result_qnt":"5",
+  "ingredients":[
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_TOXIC__58",
+  "recipe_name":"Burn Plantlife",
+  "recipe_i18n":"RECIPE_PLANT_TOXIC",
+  "refiner":"portable_refiner",
+  "time":"30",
+  "result":"FUEL1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_TOXIC","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_SNOW__59",
+  "recipe_name":"Burn Plantlife",
+  "recipe_i18n":"RECIPE_PLANT_SNOW",
+  "refiner":"portable_refiner",
+  "time":"30",
+  "result":"FUEL1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_SNOW","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_RADIO__60",
+  "recipe_name":"Burn Plantlife",
+  "recipe_i18n":"RECIPE_PLANT_RADIO",
+  "refiner":"portable_refiner",
+  "time":"30",
+  "result":"FUEL1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_RADIO","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_DUST__61",
+  "recipe_name":"Burn Plantlife",
+  "recipe_i18n":"RECIPE_PLANT_DUST",
+  "refiner":"portable_refiner",
+  "time":"30",
+  "result":"FUEL1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_DUST","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_HOT__62",
+  "recipe_name":"Burn Plantlife",
+  "recipe_i18n":"RECIPE_PLANT_HOT",
+  "refiner":"portable_refiner",
+  "time":"30",
+  "result":"FUEL1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_HOT","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_LUSH__63",
+  "recipe_name":"Burn Plantlife",
+  "recipe_i18n":"RECIPE_PLANT_LUSH",
+  "refiner":"portable_refiner",
+  "time":"30",
+  "result":"FUEL1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_LUSH","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_CAVE__64",
+  "recipe_name":"Extract Organic Sodium",
+  "recipe_i18n":"RECIPE_PLANT_CAVE",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"CATALYST1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"PLANT_CAVE","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_WATER__65",
+  "recipe_name":"Extract Micro-Bubbles",
+  "recipe_i18n":"RECIPE_PLANT_WATER",
+  "refiner":"portable_refiner",
+  "time":"60",
+  "result":"OXYGEN",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"PLANT_WATER","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_POOP__66",
+  "recipe_name":"Organic Reassembly",
+  "recipe_i18n":"RECIPE_PLANT_POOP",
+  "refiner":"portable_refiner",
+  "time":"180",
+  "result":"CREATURE1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_POOP","qnt":"3"},
+  ]
+},
+{
+  "recipe":"RECIPE_ALLOY1__67",
+  "recipe_name":"Extreme Alloy Separation",
+  "recipe_i18n":"RECIPE_ALLOY1",
+  "refiner":"portable_refiner",
+  "time":"300",
+  "result":"ASTEROID1",
+  "result_type":"Substance",
+  "result_qnt":"250",
+  "ingredients":[
+      {"item":"ALLOY1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ALLOY2__68",
+  "recipe_name":"Extreme Alloy Separation",
+  "recipe_i18n":"RECIPE_ALLOY2",
+  "refiner":"portable_refiner",
+  "time":"300",
+  "result":"ASTEROID1",
+  "result_type":"Substance",
+  "result_qnt":"250",
+  "ingredients":[
+      {"item":"ALLOY2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ALLOY3__69",
+  "recipe_name":"Extreme Alloy Separation",
+  "recipe_i18n":"RECIPE_ALLOY3",
+  "refiner":"portable_refiner",
+  "time":"250",
+  "result":"ASTEROID1",
+  "result_type":"Substance",
+  "result_qnt":"250",
+  "ingredients":[
+      {"item":"ALLOY3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ALLOY4__70",
+  "recipe_name":"Extreme Alloy Separation",
+  "recipe_i18n":"RECIPE_ALLOY4",
+  "refiner":"portable_refiner",
+  "time":"300",
+  "result":"ASTEROID2",
+  "result_type":"Substance",
+  "result_qnt":"125",
+  "ingredients":[
+      {"item":"ALLOY4","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ALLOY5__71",
+  "recipe_name":"Extreme Alloy Separation",
+  "recipe_i18n":"RECIPE_ALLOY5",
+  "refiner":"portable_refiner",
+  "time":"300",
+  "result":"ASTEROID2",
+  "result_type":"Substance",
+  "result_qnt":"125",
+  "ingredients":[
+      {"item":"ALLOY5","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ALLOY6__72",
+  "recipe_name":"Extreme Alloy Separation",
+  "recipe_i18n":"RECIPE_ALLOY6",
+  "refiner":"portable_refiner",
+  "time":"300",
+  "result":"ASTEROID2",
+  "result_type":"Substance",
+  "result_qnt":"125",
+  "ingredients":[
+      {"item":"ALLOY6","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ALLOY7__73",
+  "recipe_name":"Extreme Alloy Separation",
+  "recipe_i18n":"RECIPE_ALLOY7",
+  "refiner":"portable_refiner",
+  "time":"300",
+  "result":"ASTEROID3",
+  "result_type":"Substance",
+  "result_qnt":"250",
+  "ingredients":[
+      {"item":"ALLOY7","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ALLOY8__74",
+  "recipe_name":"Extreme Alloy Separation",
+  "recipe_i18n":"RECIPE_ALLOY8",
+  "refiner":"portable_refiner",
+  "time":"300",
+  "result":"ASTEROID3",
+  "result_type":"Substance",
+  "result_qnt":"250",
+  "ingredients":[
+      {"item":"ALLOY8","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_SALT_GLASS__75",
+  "recipe_name":"Salt Crystal Polishing",
+  "recipe_i18n":"RECIPE_SALT_GLASS",
+  "refiner":"medium_refiner",
+  "time":"20",
+  "result":"FARMPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"WATERPLANT","qnt":"50"},
+      {"item":"WATER1","qnt":"50"},
+  ]
+},
+{
+  "recipe":"RECIPE_WATERPLANT_SALT__76",
+  "recipe_name":"Algal Salination",
+  "recipe_i18n":"RECIPE_WATERPLANT_SALT",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"WATER2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"WATERPLANT","qnt":"1"},
+      {"item":"WATER1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_POOP_ALCHEMY__77",
+  "recipe_name":"Alchemical Construction",
+  "recipe_i18n":"RECIPE_POOP_ALCHEMY",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"TECHFRAG",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"PLANT_POOP","qnt":"1"},
+      {"item":"SPECIAL_POOP","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_POOP_ALCHEMY__78",
+  "recipe_name":"Alchemical Construction",
+  "recipe_i18n":"RECIPE_POOP_ALCHEMY",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"ASTEROID2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"PLANT_POOP","qnt":"1"},
+      {"item":"SPACEGUNK1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ASTEROID_MIX__79",
+  "recipe_name":"Transmutation",
+  "recipe_i18n":"RECIPE_ASTEROID_MIX",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"ASTEROID3",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"ASTEROID2","qnt":"1"},
+      {"item":"ASTEROID1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAUNCHSUB_RADIO__80",
+  "recipe_name":"Harness Energy",
+  "recipe_i18n":"RECIPE_LAUNCHSUB_RADIO",
+  "refiner":"medium_refiner",
+  "time":"10",
+  "result":"FUEL2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"1"},
+      {"item":"LAUNCHSUB","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAUNCHSUB_GAS1__81",
+  "recipe_name":"Sulphur Injection",
+  "recipe_i18n":"RECIPE_LAUNCHSUB_GAS1",
+  "refiner":"medium_refiner",
+  "time":"40",
+  "result":"PLANT_HOT",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS1","qnt":"1"},
+      {"item":"LAUNCHSUB","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAUNCHSUB_GAS2__82",
+  "recipe_name":"Catalyse Radiation",
+  "recipe_i18n":"RECIPE_LAUNCHSUB_GAS2",
+  "refiner":"medium_refiner",
+  "time":"40",
+  "result":"RADIO1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS2","qnt":"1"},
+      {"item":"LAUNCHSUB","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAUNCHSUB_GAS3__83",
+  "recipe_name":"Organic Fusion",
+  "recipe_i18n":"RECIPE_LAUNCHSUB_GAS3",
+  "refiner":"medium_refiner",
+  "time":"40",
+  "result":"TOXIC1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS3","qnt":"1"},
+      {"item":"LAUNCHSUB","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAUNCHSUB_OXYGEN__84",
+  "recipe_name":"Rapid Formation Evaporation",
+  "recipe_i18n":"RECIPE_LAUNCHSUB_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"20",
+  "result":"WATER1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAUNCHSUB","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_CREATURE1__85",
+  "recipe_name":"Assisted Decomposition",
+  "recipe_i18n":"RECIPE_CREATURE1",
+  "refiner":"medium_refiner",
+  "time":"20",
+  "result":"PLANT_POOP",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAUNCHSUB","qnt":"1"},
+      {"item":"FUEL1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_POOP__86",
+  "recipe_name":"Organic Reassembly",
+  "recipe_i18n":"RECIPE_PLANT_POOP",
+  "refiner":"medium_refiner",
+  "time":"20",
+  "result":"CREATURE1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAUNCHSUB","qnt":"1"},
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_REINFORCE_METAL__87",
+  "recipe_name":"Carbonise Metal",
+  "recipe_i18n":"RECIPE_REINFORCE_METAL",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAND1","qnt":"1"},
+      {"item":"FUEL1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_REINFORCE_METAL__88",
+  "recipe_name":"Carbonise Metal",
+  "recipe_i18n":"RECIPE_REINFORCE_METAL",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"LAND1","qnt":"1"},
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_REINFORCE_METAL__89",
+  "recipe_name":"Carbonise Metal",
+  "recipe_i18n":"RECIPE_REINFORCE_METAL",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"LAND2","qnt":"1"},
+      {"item":"FUEL1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_REINFORCE_METAL__90",
+  "recipe_name":"Carbonise Metal",
+  "recipe_i18n":"RECIPE_REINFORCE_METAL",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"LAND2","qnt":"1"},
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_JELLY__91",
+  "recipe_name":"Di-hydrogen Cycling",
+  "recipe_i18n":"RECIPE_JELLY",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"LAUNCHSUB2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAUNCHSUB","qnt":"1"},
+      {"item":"ROCKETSUB","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_RUST__92",
+  "recipe_name":"Oxidise Metal",
+  "recipe_i18n":"RECIPE_RUST",
+  "refiner":"medium_refiner",
+  "time":"100",
+  "result":"SPACEGUNK3",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"LAND2","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_RUST__93",
+  "recipe_name":"Oxidise Metal",
+  "recipe_i18n":"RECIPE_RUST",
+  "refiner":"medium_refiner",
+  "time":"100",
+  "result":"SPACEGUNK3",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAND1","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUEL1_OXYGEN__94",
+  "recipe_name":"Oxygenate Carbon",
+  "recipe_i18n":"RECIPE_FUEL1_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"FUEL2",
+  "result_type":"Substance",
+  "result_qnt":"5",
+  "ingredients":[
+      {"item":"FUEL1","qnt":"2"},
+      {"item":"OXYGEN","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUEL2_OXYGEN__95",
+  "recipe_name":"Oxygenate Carbon",
+  "recipe_i18n":"RECIPE_FUEL2_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"FUEL2",
+  "result_type":"Substance",
+  "result_qnt":"6",
+  "ingredients":[
+      {"item":"FUEL2","qnt":"1"},
+      {"item":"OXYGEN","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_CATALYST1_OXYGEN__96",
+  "recipe_name":"Oxygenate Sodium",
+  "recipe_i18n":"RECIPE_CATALYST1_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"CATALYST1","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_CATALYST2_OXYGEN__97",
+  "recipe_name":"Oxygenate Sodium",
+  "recipe_i18n":"RECIPE_CATALYST2_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"CATALYST2","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUEL1_CATALYST1__98",
+  "recipe_name":"Catalyse Carbon",
+  "recipe_i18n":"RECIPE_FUEL1_CATALYST1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"FUEL1","qnt":"1"},
+      {"item":"CATALYST1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUEL2_CATALYST1__99",
+  "recipe_name":"Catalyse Carbon",
+  "recipe_i18n":"RECIPE_FUEL2_CATALYST1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"FUEL2","qnt":"1"},
+      {"item":"CATALYST1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUEL1_CATALYST2__100",
+  "recipe_name":"Advanced Carbon Processing",
+  "recipe_i18n":"RECIPE_FUEL1_CATALYST2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"COLD1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"FUEL1","qnt":"1"},
+      {"item":"CATALYST2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUEL2_CATALYST2__101",
+  "recipe_name":"Advanced Carbon Processing",
+  "recipe_i18n":"RECIPE_FUEL2_CATALYST2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"COLD1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"FUEL2","qnt":"1"},
+      {"item":"CATALYST2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUEL1_ROBOT1__102",
+  "recipe_name":"Anomaly Organic Hybridisation",
+  "recipe_i18n":"RECIPE_FUEL1_ROBOT1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CREATURE1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"FUEL1","qnt":"1"},
+      {"item":"ROBOT1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUEL2_ROBOT1__103",
+  "recipe_name":"Anomaly Organic Hybridisation",
+  "recipe_i18n":"RECIPE_FUEL2_ROBOT1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CREATURE1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"FUEL2","qnt":"1"},
+      {"item":"ROBOT1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_CATALYST1_ROBOT1__104",
+  "recipe_name":"Sentinel Catalysation",
+  "recipe_i18n":"RECIPE_CATALYST1_ROBOT1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"CATALYST1","qnt":"1"},
+      {"item":"ROBOT1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_CATALYST2_ROBOT1__105",
+  "recipe_name":"Sentinel Catalysation",
+  "recipe_i18n":"RECIPE_CATALYST2_ROBOT1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"CATALYST2","qnt":"1"},
+      {"item":"ROBOT1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUEL1_CREATURE1__106",
+  "recipe_name":"Runaway Decomposition",
+  "recipe_i18n":"RECIPE_FUEL1_CREATURE1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_POOP",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"FUEL1","qnt":"2"},
+      {"item":"CREATURE1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUEL2_CREATURE1__107",
+  "recipe_name":"Runaway Decomposition",
+  "recipe_i18n":"RECIPE_FUEL2_CREATURE1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_POOP",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"FUEL2","qnt":"1"},
+      {"item":"CREATURE1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_CATALYST1_CREATURE1__108",
+  "recipe_name":"Fertiliser Synthesis",
+  "recipe_i18n":"RECIPE_CATALYST1_CREATURE1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_CAVE",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"CATALYST1","qnt":"2"},
+      {"item":"CREATURE1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_CATALYST2_CREATURE1__109",
+  "recipe_name":"Fertiliser Synthesis",
+  "recipe_i18n":"RECIPE_CATALYST2_CREATURE1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_CAVE",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"CATALYST2","qnt":"1"},
+      {"item":"CREATURE1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND1_ROBOT1__110",
+  "recipe_name":"Matter Expansion",
+  "recipe_i18n":"RECIPE_LAND1_ROBOT1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LAND2",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"LAND1","qnt":"2"},
+      {"item":"ROBOT1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND2_ROBOT1__111",
+  "recipe_name":"Matter Expansion",
+  "recipe_i18n":"RECIPE_LAND2_ROBOT1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"LAND2","qnt":"2"},
+      {"item":"ROBOT1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND3_ROBOT1__112",
+  "recipe_name":"Matter Expansion",
+  "recipe_i18n":"RECIPE_LAND3_ROBOT1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"LAND3","qnt":"3"},
+      {"item":"ROBOT1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_RED2_STELLAR2__113",
+  "recipe_name":"Chromatic Expansion",
+  "recipe_i18n":"RECIPE_RED2_STELLAR2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"RED2",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"RED2","qnt":"1"},
+      {"item":"STELLAR2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_BLUE2_STELLAR2__114",
+  "recipe_name":"Chromatic Expansion",
+  "recipe_i18n":"RECIPE_BLUE2_STELLAR2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"BLUE2",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"BLUE2","qnt":"1"},
+      {"item":"STELLAR2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GREEN2_STELLAR2__115",
+  "recipe_name":"Chromatic Expansion",
+  "recipe_i18n":"RECIPE_GREEN2_STELLAR2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"GREEN2",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"GREEN2","qnt":"1"},
+      {"item":"STELLAR2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_YELLOW2_STELLAR2__116",
+  "recipe_name":"Chromatic Expansion",
+  "recipe_i18n":"RECIPE_YELLOW2_STELLAR2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"YELLOW2",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"YELLOW2","qnt":"1"},
+      {"item":"STELLAR2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LUSH1_PLANT_LUSH__117",
+  "recipe_name":"Organic Expansion",
+  "recipe_i18n":"RECIPE_LUSH1_PLANT_LUSH",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_LUSH",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"1"},
+      {"item":"PLANT_LUSH","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_DUSTY1_PLANT_DUST__118",
+  "recipe_name":"Organic Expansion",
+  "recipe_i18n":"RECIPE_DUSTY1_PLANT_DUST",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_DUST",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"1"},
+      {"item":"PLANT_DUST","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_TOXIC1_PLANT_TOXIC__119",
+  "recipe_name":"Organic Expansion",
+  "recipe_i18n":"RECIPE_TOXIC1_PLANT_TOXIC",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_TOXIC",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"1"},
+      {"item":"PLANT_TOXIC","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_RADIO1_PLANT_RADIO__120",
+  "recipe_name":"Organic Expansion",
+  "recipe_i18n":"RECIPE_RADIO1_PLANT_RADIO",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_RADIO",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"1"},
+      {"item":"PLANT_RADIO","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_COLD1_PLANT_SNOW__121",
+  "recipe_name":"Organic Expansion",
+  "recipe_i18n":"RECIPE_COLD1_PLANT_SNOW",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_SNOW",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"COLD1","qnt":"1"},
+      {"item":"PLANT_SNOW","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_HOT1_PLANT_HOT__122",
+  "recipe_name":"Organic Expansion",
+  "recipe_i18n":"RECIPE_HOT1_PLANT_HOT",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_HOT",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"HOT1","qnt":"1"},
+      {"item":"PLANT_HOT","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_WATER1_OXYGEN__123",
+  "recipe_name":"Efficient Salt Evaporation",
+  "recipe_i18n":"RECIPE_WATER1_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"WATER2",
+  "result_type":"Substance",
+  "result_qnt":"5",
+  "ingredients":[
+      {"item":"WATER1","qnt":"2"},
+      {"item":"OXYGEN","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_WATER2_OXYGEN__124",
+  "recipe_name":"Salt Production",
+  "recipe_i18n":"RECIPE_WATER2_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"WATER2",
+  "result_type":"Substance",
+  "result_qnt":"6",
+  "ingredients":[
+      {"item":"WATER2","qnt":"1"},
+      {"item":"OXYGEN","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_CAVE1_OXYGEN__125",
+  "recipe_name":"Efficient Cobalt Ionisation",
+  "recipe_i18n":"RECIPE_CAVE1_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CAVE2",
+  "result_type":"Substance",
+  "result_qnt":"5",
+  "ingredients":[
+      {"item":"CAVE1","qnt":"2"},
+      {"item":"OXYGEN","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_CAVE2_OXYGEN__126",
+  "recipe_name":"Efficient Cobalt Ionisation",
+  "recipe_i18n":"RECIPE_CAVE2_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CAVE2",
+  "result_type":"Substance",
+  "result_qnt":"6",
+  "ingredients":[
+      {"item":"CAVE2","qnt":"1"},
+      {"item":"OXYGEN","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_CREATURE1_ROBOT1__127",
+  "recipe_name":"Organic Anomaly Synthesis",
+  "recipe_i18n":"RECIPE_CREATURE1_ROBOT1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"ASTEROID2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"CREATURE1","qnt":"1"},
+      {"item":"ROBOT1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ASTEROID1_OXYGEN__128",
+  "recipe_name":"Mineral Alchemy",
+  "recipe_i18n":"RECIPE_ASTEROID1_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LUSH1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"ASTEROID1","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ASTEROID2_OXYGEN__129",
+  "recipe_name":"Mineral Alchemy",
+  "recipe_i18n":"RECIPE_ASTEROID2_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"DUSTY1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"ASTEROID2","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_ASTEROID3_OXYGEN__130",
+  "recipe_name":"Mineral Alchemy",
+  "recipe_i18n":"RECIPE_ASTEROID3_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"10",
+  "ingredients":[
+      {"item":"ASTEROID3","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS1_OXYGEN__131",
+  "recipe_name":"Gas Transfer",
+  "recipe_i18n":"RECIPE_GAS1_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"GAS2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS1","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS2_OXYGEN__132",
+  "recipe_name":"Gas Transfer",
+  "recipe_i18n":"RECIPE_GAS2_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"GAS3",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS2","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS3_OXYGEN__133",
+  "recipe_name":"Gas Transfer",
+  "recipe_i18n":"RECIPE_GAS3_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"GAS1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS3","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS1_CATALYST1__134",
+  "recipe_name":"Gas Catalysation",
+  "recipe_i18n":"RECIPE_GAS1_CATALYST1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"GAS2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS1","qnt":"1"},
+      {"item":"STELLAR2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS2_CATALYST1__135",
+  "recipe_name":"Gas Catalysation",
+  "recipe_i18n":"RECIPE_GAS2_CATALYST1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"GAS3",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS2","qnt":"1"},
+      {"item":"STELLAR2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS3_CATALYST1__136",
+  "recipe_name":"Gas Catalysation",
+  "recipe_i18n":"RECIPE_GAS3_CATALYST1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"GAS1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS3","qnt":"1"},
+      {"item":"STELLAR2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS2_CATALYST2__137",
+  "recipe_name":"Gas Catalysation",
+  "recipe_i18n":"RECIPE_GAS2_CATALYST2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS3","qnt":"1"},
+      {"item":"CATALYST1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS3_CATALYST2__138",
+  "recipe_name":"Gas Catalysation",
+  "recipe_i18n":"RECIPE_GAS3_CATALYST2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"GAS3","qnt":"1"},
+      {"item":"CATALYST2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_CAVE_OXYGEN__139",
+  "recipe_name":"Bonded Cobalt Extraction",
+  "recipe_i18n":"RECIPE_PLANT_CAVE_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CAVE2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_CAVE","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_WATER_OXYGEN__140",
+  "recipe_name":"Bonded Chlorine Extraction",
+  "recipe_i18n":"RECIPE_PLANT_WATER_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"WATER2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_POOP_OXYGEN__141",
+  "recipe_name":"Oxygenate Microbes",
+  "recipe_i18n":"RECIPE_PLANT_POOP_OXYGEN",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_POOP",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"PLANT_POOP","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_CAVE_ROBOT1__142",
+  "recipe_name":"Pugneum Washing",
+  "recipe_i18n":"RECIPE_PLANT_CAVE_ROBOT1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CAVE2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_CAVE","qnt":"1"},
+      {"item":"ROBOT1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_WATER_ROBOT1__143",
+  "recipe_name":"Pugneum Washing",
+  "recipe_i18n":"RECIPE_PLANT_WATER_ROBOT1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"WATER2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"ROBOT1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_CAVE_FUEL1__144",
+  "recipe_name":"Extract Organic Sodium",
+  "recipe_i18n":"RECIPE_PLANT_CAVE_FUEL1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_CAVE","qnt":"1"},
+      {"item":"FUEL1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_WATER_FUEL1__145",
+  "recipe_name":"Release Captured Oxygen",
+  "recipe_i18n":"RECIPE_PLANT_WATER_FUEL1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"OXYGEN",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"FUEL1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_POOP_FUEL1__146",
+  "recipe_name":"Feed Microbes",
+  "recipe_i18n":"RECIPE_PLANT_POOP_FUEL1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"FUEL2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_POOP","qnt":"1"},
+      {"item":"FUEL1","qnt":"2"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_CAVE_CATALYST1__147",
+  "recipe_name":"Harness Organic Nitrogren",
+  "recipe_i18n":"RECIPE_PLANT_CAVE_CATALYST1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_CAVE","qnt":"1"},
+      {"item":"CATALYST1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_WATER_CATALYST1__148",
+  "recipe_name":"Harness Organic Nitrogren",
+  "recipe_i18n":"RECIPE_PLANT_WATER_CATALYST1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"CATALYST1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_POOP_CATALYST1__149",
+  "recipe_name":"Feed Microbes",
+  "recipe_i18n":"RECIPE_PLANT_POOP_CATALYST1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_POOP","qnt":"1"},
+      {"item":"CATALYST1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_CAVE_FUEL2__150",
+  "recipe_name":"Extract Organic Sodium",
+  "recipe_i18n":"RECIPE_PLANT_CAVE_FUEL2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_CAVE","qnt":"1"},
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_WATER_FUEL2__151",
+  "recipe_name":"Release Captured Oxygen",
+  "recipe_i18n":"RECIPE_PLANT_WATER_FUEL2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"OXYGEN",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_POOP_FUEL2__152",
+  "recipe_name":"Feed Microbes",
+  "recipe_i18n":"RECIPE_PLANT_POOP_FUEL2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"FUEL2",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"PLANT_POOP","qnt":"1"},
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_CAVE_CATALYST2__153",
+  "recipe_name":"Harness Organic Nitrogren",
+  "recipe_i18n":"RECIPE_PLANT_CAVE_CATALYST2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_CAVE","qnt":"1"},
+      {"item":"CATALYST2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_WATER_CATALYST2__154",
+  "recipe_name":"Harness Organic Nitrogren",
+  "recipe_i18n":"RECIPE_PLANT_WATER_CATALYST2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"CATALYST2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_POOP_CATALYST2__155",
+  "recipe_name":"Feed Microbes",
+  "recipe_i18n":"RECIPE_PLANT_POOP_CATALYST2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_POOP","qnt":"1"},
+      {"item":"CATALYST2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_CAVE_CAVE1__156",
+  "recipe_name":"Ionise Bulbs",
+  "recipe_i18n":"RECIPE_PLANT_CAVE_CAVE1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CAVE2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_CAVE","qnt":"1"},
+      {"item":"CAVE1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_WATER_WATER1__157",
+  "recipe_name":"Dissolve Natural Salts",
+  "recipe_i18n":"RECIPE_PLANT_WATER_WATER1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"WATER2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"WATER1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_CAVE_CAVE2__158",
+  "recipe_name":"Ionise Bulbs",
+  "recipe_i18n":"RECIPE_PLANT_CAVE_CAVE2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"CAVE2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_CAVE","qnt":"1"},
+      {"item":"CAVE2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_WATER_WATER2__159",
+  "recipe_name":"Dissolve Natural Salts",
+  "recipe_i18n":"RECIPE_PLANT_WATER_WATER2",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"WATER2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"WATER2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_POOP_ROBOT1__160",
+  "recipe_name":"Pugneum Alchemy",
+  "recipe_i18n":"RECIPE_PLANT_POOP_ROBOT1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"ASTEROID2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_POOP","qnt":"1"},
+      {"item":"ROBOT1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_POOP_CREATURE1__161",
+  "recipe_name":"Feed Microbes",
+  "recipe_i18n":"RECIPE_PLANT_POOP_CREATURE1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"FUEL2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"PLANT_POOP","qnt":"1"},
+      {"item":"CREATURE1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND_FROM_STELLAR__162",
+  "recipe_name":"Stellar Metal Fusion",
+  "recipe_i18n":"RECIPE_LAND_FROM_STELLAR",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"BLUE2","qnt":"1"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND_FROM_STELLAR__163",
+  "recipe_name":"Stellar Metal Fusion",
+  "recipe_i18n":"RECIPE_LAND_FROM_STELLAR",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"RED2","qnt":"1"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND_FROM_STELLAR__164",
+  "recipe_name":"Stellar Metal Fusion",
+  "recipe_i18n":"RECIPE_LAND_FROM_STELLAR",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"GREEN2","qnt":"1"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND_FROM_STELLAR__165",
+  "recipe_name":"Stellar Metal Fusion",
+  "recipe_i18n":"RECIPE_LAND_FROM_STELLAR",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"YELLOW2","qnt":"1"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_STELLAR_FROM_LAND__166",
+  "recipe_name":"Chromatic Metal Fusion",
+  "recipe_i18n":"RECIPE_STELLAR_FROM_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"RED2","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_STELLAR_FROM_LAND__167",
+  "recipe_name":"Chromatic Metal Fusion",
+  "recipe_i18n":"RECIPE_STELLAR_FROM_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"GREEN2","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_STELLAR_FROM_LAND__168",
+  "recipe_name":"Chromatic Metal Fusion",
+  "recipe_i18n":"RECIPE_STELLAR_FROM_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"YELLOW2","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_STELLAR_FROM_LAND__169",
+  "recipe_name":"Chromatic Metal Fusion",
+  "recipe_i18n":"RECIPE_STELLAR_FROM_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"BLUE2","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND_FROM_STELLAR__170",
+  "recipe_name":"Stellar Metal Fusion",
+  "recipe_i18n":"RECIPE_LAND_FROM_STELLAR",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"EX_RED","qnt":"1"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND_FROM_STELLAR__171",
+  "recipe_name":"Stellar Metal Fusion",
+  "recipe_i18n":"RECIPE_LAND_FROM_STELLAR",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"8",
+  "ingredients":[
+      {"item":"EX_BLUE","qnt":"1"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND_FROM_STELLAR__172",
+  "recipe_name":"Stellar Metal Fusion",
+  "recipe_i18n":"RECIPE_LAND_FROM_STELLAR",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"6",
+  "ingredients":[
+      {"item":"EX_GREEN","qnt":"1"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LAND_FROM_STELLAR__173",
+  "recipe_name":"Stellar Metal Fusion",
+  "recipe_i18n":"RECIPE_LAND_FROM_STELLAR",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"EX_YELLOW","qnt":"1"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_STELLAR_FROM_LAND__174",
+  "recipe_name":"Chromatic Metal Fusion",
+  "recipe_i18n":"RECIPE_STELLAR_FROM_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"4",
+  "ingredients":[
+      {"item":"EX_RED","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_STELLAR_FROM_LAND__175",
+  "recipe_name":"Chromatic Metal Fusion",
+  "recipe_i18n":"RECIPE_STELLAR_FROM_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"8",
+  "ingredients":[
+      {"item":"EX_BLUE","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_STELLAR_FROM_LAND__176",
+  "recipe_name":"Chromatic Metal Fusion",
+  "recipe_i18n":"RECIPE_STELLAR_FROM_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"6",
+  "ingredients":[
+      {"item":"EX_GREEN","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_STELLAR_FROM_LAND__177",
+  "recipe_name":"Chromatic Metal Fusion",
+  "recipe_i18n":"RECIPE_STELLAR_FROM_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"EX_YELLOW","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__178",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_LUSH",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"2"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__179",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_DUST",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"2"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__180",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_TOXIC",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"2"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__181",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_RADIO",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"2"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__182",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_SNOW",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"2"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__183",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"PLANT_HOT",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"2"},
+      {"item":"OXYGEN","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LUSH1_LAND1__184",
+  "recipe_name":"Environmental Element Transfer",
+  "recipe_i18n":"RECIPE_LUSH1_LAND1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"TOXIC1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"2"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_DUSTY1_LAND1__185",
+  "recipe_name":"Environmental Element Transfer",
+  "recipe_i18n":"RECIPE_DUSTY1_LAND1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LUSH1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"2"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_TOXIC1_LAND1__186",
+  "recipe_name":"Environmental Element Transfer",
+  "recipe_i18n":"RECIPE_TOXIC1_LAND1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"COLD1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"2"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_RADIO1_LAND1__187",
+  "recipe_name":"Environmental Element Transfer",
+  "recipe_i18n":"RECIPE_RADIO1_LAND1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"DUSTY1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"2"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_COLD1_LAND1__188",
+  "recipe_name":"Environmental Element Transfer",
+  "recipe_i18n":"RECIPE_COLD1_LAND1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"HOT1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"2"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_HOT1_LAND1__189",
+  "recipe_name":"Environmental Element Transfer",
+  "recipe_i18n":"RECIPE_HOT1_LAND1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"RADIO1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"2"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LUSH1_LAND1__190",
+  "recipe_name":"Environmental Element Transfer",
+  "recipe_i18n":"RECIPE_LUSH1_LAND1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"TOXIC1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"2"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_DUSTY1_LAND1__191",
+  "recipe_name":"Environmental Element Transfer",
+  "recipe_i18n":"RECIPE_DUSTY1_LAND1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LUSH1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"2"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_TOXIC1_LAND1__192",
+  "recipe_name":"Environmental Element Transfer",
+  "recipe_i18n":"RECIPE_TOXIC1_LAND1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"COLD1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"2"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_RADIO1_LAND1__193",
+  "recipe_name":"Environmental Element Transfer",
+  "recipe_i18n":"RECIPE_RADIO1_LAND1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"DUSTY1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"2"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_COLD1_LAND1__194",
+  "recipe_name":"Environmental Element Transfer",
+  "recipe_i18n":"RECIPE_COLD1_LAND1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"HOT1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"2"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_HOT1_LAND1__195",
+  "recipe_name":"Environmental Element Transfer",
+  "recipe_i18n":"RECIPE_HOT1_LAND1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"RADIO1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"2"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_TOXIC_WATER1__196",
+  "recipe_name":"Floral Titration",
+  "recipe_i18n":"RECIPE_PLANT_TOXIC_WATER1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"TOXIC1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"PLANT_TOXIC","qnt":"2"},
+      {"item":"WATER1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_SNOW_WATER1__197",
+  "recipe_name":"Floral Titration",
+  "recipe_i18n":"RECIPE_PLANT_SNOW_WATER1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"COLD1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"PLANT_SNOW","qnt":"2"},
+      {"item":"WATER1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_RADIO_WATER1__198",
+  "recipe_name":"Floral Titration",
+  "recipe_i18n":"RECIPE_PLANT_RADIO_WATER1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"RADIO1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"PLANT_RADIO","qnt":"2"},
+      {"item":"WATER1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_DUST_WATER1__199",
+  "recipe_name":"Floral Titration",
+  "recipe_i18n":"RECIPE_PLANT_DUST_WATER1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"DUSTY1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"PLANT_DUST","qnt":"2"},
+      {"item":"WATER1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_HOT_WATER1__200",
+  "recipe_name":"Floral Titration",
+  "recipe_i18n":"RECIPE_PLANT_HOT_WATER1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"HOT1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"PLANT_HOT","qnt":"2"},
+      {"item":"WATER1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_PLANT_LUSH_WATER1__201",
+  "recipe_name":"Floral Titration",
+  "recipe_i18n":"RECIPE_PLANT_LUSH_WATER1",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LUSH1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"PLANT_LUSH","qnt":"2"},
+      {"item":"WATER1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUELPROD3_UP__202",
+  "recipe_name":"Carbon Crystallisation",
+  "recipe_i18n":"RECIPE_FUELPROD3_UP",
+  "refiner":"medium_refiner",
+  "time":"120",
+  "result":"FUELPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"FUEL1","qnt":"50"},
+      {"item":"FUEL2","qnt":"50"},
+  ]
+},
+{
+  "recipe":"RECIPE_CATAPROD3_UP__203",
+  "recipe_name":"Sodium Destabilisation",
+  "recipe_i18n":"RECIPE_CATAPROD3_UP",
+  "refiner":"medium_refiner",
+  "time":"120",
+  "result":"CATAPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"CATALYST1","qnt":"50"},
+      {"item":"CATALYST2","qnt":"50"},
+  ]
+},
+{
+  "recipe":"RECIPE_WATERPROD3_UP__204",
+  "recipe_name":"Chlorine Latticing",
+  "recipe_i18n":"RECIPE_WATERPROD3_UP",
+  "refiner":"medium_refiner",
+  "time":"120",
+  "result":"WATERPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"WATER1","qnt":"50"},
+      {"item":"WATER2","qnt":"50"},
+  ]
+},
+{
+  "recipe":"RECIPE_CAVEPROD3_UP__205",
+  "recipe_name":"Cobalt Supercharging",
+  "recipe_i18n":"RECIPE_CAVEPROD3_UP",
+  "refiner":"medium_refiner",
+  "time":"120",
+  "result":"CAVEPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"CAVE1","qnt":"50"},
+      {"item":"CAVE2","qnt":"50"},
+  ]
+},
+{
+  "recipe":"RECIPE_OXYPROD3_UP__206",
+  "recipe_name":"Oxygen Nucleation",
+  "recipe_i18n":"RECIPE_OXYPROD3_UP",
+  "refiner":"medium_refiner",
+  "time":"200",
+  "result":"OXYPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"OXYGEN","qnt":"100"},
+      {"item":"ROCKETSUB","qnt":"50"},
+  ]
+},
+{
+  "recipe":"RECIPE_LANDPROD3__207",
+  "recipe_name":"Rare Metal Detoxification",
+  "recipe_i18n":"RECIPE_LANDPROD3",
+  "refiner":"medium_refiner",
+  "time":"120",
+  "result":"LANDPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAND3","qnt":"25"},
+      {"item":"OXYGEN","qnt":"50"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS1_LAND__208",
+  "recipe_name":"Loosen Bonds",
+  "recipe_i18n":"RECIPE_GAS1_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LUSH1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS1","qnt":"1"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS2_LAND__209",
+  "recipe_name":"Metal Enrichment",
+  "recipe_i18n":"RECIPE_GAS2_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"RADIO1",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAND1","qnt":"1"},
+      {"item":"GAS2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS1_CATALYST1__210",
+  "recipe_name":"Gas Catalysation",
+  "recipe_i18n":"RECIPE_GAS1_CATALYST1",
+  "refiner":"medium_refiner",
+  "time":"120",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS3","qnt":"1"},
+      {"item":"LAND1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS1_LAND__211",
+  "recipe_name":"Loosen Bonds",
+  "recipe_i18n":"RECIPE_GAS1_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LUSH1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"GAS1","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS2_LAND__212",
+  "recipe_name":"Metal Enrichment",
+  "recipe_i18n":"RECIPE_GAS2_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"RADIO1",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"GAS2","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS1_CATALYST1__213",
+  "recipe_name":"Gas Catalysation",
+  "recipe_i18n":"RECIPE_GAS1_CATALYST1",
+  "refiner":"medium_refiner",
+  "time":"120",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"2",
+  "ingredients":[
+      {"item":"GAS3","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS1_LAND__214",
+  "recipe_name":"Loosen Bonds",
+  "recipe_i18n":"RECIPE_GAS1_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"LUSH1",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"GAS1","qnt":"1"},
+      {"item":"LAND3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS2_LAND__215",
+  "recipe_name":"Metal Enrichment",
+  "recipe_i18n":"RECIPE_GAS2_LAND",
+  "refiner":"medium_refiner",
+  "time":"90",
+  "result":"RADIO1",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"GAS2","qnt":"1"},
+      {"item":"LAND3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GAS1_CATALYST1__216",
+  "recipe_name":"Gas Catalysation",
+  "recipe_i18n":"RECIPE_GAS1_CATALYST1",
+  "refiner":"medium_refiner",
+  "time":"120",
+  "result":"CATALYST2",
+  "result_type":"Substance",
+  "result_qnt":"3",
+  "ingredients":[
+      {"item":"GAS3","qnt":"1"},
+      {"item":"LAND3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__217",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"PLANT_TOXIC",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"1"},
+      {"item":"GAS3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__218",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"PLANT_SNOW",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"1"},
+      {"item":"GAS2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__219",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"PLANT_RADIO",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"1"},
+      {"item":"GAS2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__220",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"PLANT_DUST",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"1"},
+      {"item":"GAS1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__221",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"PLANT_HOT",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"1"},
+      {"item":"GAS1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__222",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"PLANT_LUSH",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"1"},
+      {"item":"GAS3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__223",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"PLANT_CAVE",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"CAVE1","qnt":"1"},
+      {"item":"GAS3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__224",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"PLANT_WATER",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"WATER1","qnt":"1"},
+      {"item":"GAS3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_GROW_PLANT__225",
+  "recipe_name":"Encourage Growth",
+  "recipe_i18n":"RECIPE_GROW_PLANT",
+  "refiner":"medium_refiner",
+  "time":"60",
+  "result":"PLANT_POOP",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS1","qnt":"1"},
+      {"item":"GAS3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_LANDPROD3_UP__226",
+  "recipe_name":"Rare Metal Fusion",
+  "recipe_i18n":"RECIPE_LANDPROD3_UP",
+  "refiner":"large_refiner",
+  "time":"120",
+  "result":"LANDPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAND1","qnt":"35"},
+      {"item":"LAND2","qnt":"35"},
+      {"item":"LAND3","qnt":"35"},
+  ]
+},
+{
+  "recipe":"RECIPE_ASTEROID_MIX__227",
+  "recipe_name":"Transmutation",
+  "recipe_i18n":"RECIPE_ASTEROID_MIX",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"TECHFRAG",
+  "result_type":"Substance",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"ASTEROID1","qnt":"250"},
+      {"item":"ASTEROID2","qnt":"250"},
+      {"item":"ASTEROID3","qnt":"250"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_LAND3__228",
+  "recipe_name":"Deep Metal Compression",
+  "recipe_i18n":"RECIPE_3INPUT_LAND3",
+  "refiner":"large_refiner",
+  "time":"120",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"5",
+  "ingredients":[
+      {"item":"LAND1","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+      {"item":"ASTEROID1","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_LAND3__229",
+  "recipe_name":"Deep Metal Compression",
+  "recipe_i18n":"RECIPE_3INPUT_LAND3",
+  "refiner":"large_refiner",
+  "time":"120",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"8",
+  "ingredients":[
+      {"item":"LAND1","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+      {"item":"ASTEROID2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_LAND3__230",
+  "recipe_name":"Deep Metal Compression",
+  "recipe_i18n":"RECIPE_3INPUT_LAND3",
+  "refiner":"large_refiner",
+  "time":"120",
+  "result":"LAND3",
+  "result_type":"Substance",
+  "result_qnt":"12",
+  "ingredients":[
+      {"item":"LAND1","qnt":"1"},
+      {"item":"LAND2","qnt":"1"},
+      {"item":"ASTEROID3","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_FUELPROD3_UP__231",
+  "recipe_name":"Carbon Crystallisation",
+  "recipe_i18n":"RECIPE_FUELPROD3_UP",
+  "refiner":"large_refiner",
+  "time":"200",
+  "result":"FUELPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"FUEL1","qnt":"40"},
+      {"item":"FUEL2","qnt":"40"},
+      {"item":"ROCKETSUB","qnt":"50"},
+  ]
+},
+{
+  "recipe":"RECIPE_LANDPROD3_UP__232",
+  "recipe_name":"Rare Metal Fusion",
+  "recipe_i18n":"RECIPE_LANDPROD3_UP",
+  "refiner":"large_refiner",
+  "time":"200",
+  "result":"LANDPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"OXYGEN","qnt":"20"},
+      {"item":"LAND3","qnt":"20"},
+      {"item":"ROCKETSUB","qnt":"25"},
+  ]
+},
+{
+  "recipe":"RECIPE_CAVEPROD3_UP__233",
+  "recipe_name":"Cobalt Supercharging",
+  "recipe_i18n":"RECIPE_CAVEPROD3_UP",
+  "refiner":"large_refiner",
+  "time":"200",
+  "result":"CAVEPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"CAVE1","qnt":"40"},
+      {"item":"CAVE2","qnt":"40"},
+      {"item":"ROCKETSUB","qnt":"50"},
+  ]
+},
+{
+  "recipe":"RECIPE_WATERPROD3_UP__234",
+  "recipe_name":"Chlorine Latticing",
+  "recipe_i18n":"RECIPE_WATERPROD3_UP",
+  "refiner":"large_refiner",
+  "time":"200",
+  "result":"WATERPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"WATER1","qnt":"40"},
+      {"item":"WATER2","qnt":"40"},
+      {"item":"ROCKETSUB","qnt":"50"},
+  ]
+},
+{
+  "recipe":"RECIPE_CATAPROD3_UP__235",
+  "recipe_name":"Sodium Destabilisation",
+  "recipe_i18n":"RECIPE_CATAPROD3_UP",
+  "refiner":"large_refiner",
+  "time":"200",
+  "result":"CATAPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"CATALYST1","qnt":"40"},
+      {"item":"CATALYST2","qnt":"40"},
+      {"item":"ROCKETSUB","qnt":"50"},
+  ]
+},
+{
+  "recipe":"RECIPE_OXYPROD3_UP__236",
+  "recipe_name":"Oxygen Nucleation",
+  "recipe_i18n":"RECIPE_OXYPROD3_UP",
+  "refiner":"large_refiner",
+  "time":"200",
+  "result":"OXYPROD3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"OXYGEN","qnt":"40"},
+      {"item":"RADIO1","qnt":"40"},
+      {"item":"ROCKETSUB","qnt":"50"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_OXYGEN_1__237",
+  "recipe_name":"Artificial Photosynthesis",
+  "recipe_i18n":"RECIPE_3INPUT_OXYGEN_1",
+  "refiner":"large_refiner",
+  "time":"900",
+  "result":"OXYGEN",
+  "result_type":"Substance",
+  "result_qnt":"10",
+  "ingredients":[
+      {"item":"PLANT_TOXIC","qnt":"1"},
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_OXYGEN_2__238",
+  "recipe_name":"Artificial Photosynthesis",
+  "recipe_i18n":"RECIPE_3INPUT_OXYGEN_2",
+  "refiner":"large_refiner",
+  "time":"900",
+  "result":"OXYGEN",
+  "result_type":"Substance",
+  "result_qnt":"10",
+  "ingredients":[
+      {"item":"PLANT_SNOW","qnt":"1"},
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_OXYGEN_3__239",
+  "recipe_name":"Artificial Photosynthesis",
+  "recipe_i18n":"RECIPE_3INPUT_OXYGEN_3",
+  "refiner":"large_refiner",
+  "time":"900",
+  "result":"OXYGEN",
+  "result_type":"Substance",
+  "result_qnt":"10",
+  "ingredients":[
+      {"item":"PLANT_DUST","qnt":"1"},
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_OXYGEN_4__240",
+  "recipe_name":"Artificial Photosynthesis",
+  "recipe_i18n":"RECIPE_3INPUT_OXYGEN_4",
+  "refiner":"large_refiner",
+  "time":"900",
+  "result":"OXYGEN",
+  "result_type":"Substance",
+  "result_qnt":"10",
+  "ingredients":[
+      {"item":"PLANT_HOT","qnt":"1"},
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_OXYGEN_5__241",
+  "recipe_name":"Artificial Photosynthesis",
+  "recipe_i18n":"RECIPE_3INPUT_OXYGEN_5",
+  "refiner":"large_refiner",
+  "time":"900",
+  "result":"OXYGEN",
+  "result_type":"Substance",
+  "result_qnt":"10",
+  "ingredients":[
+      {"item":"PLANT_RADIO","qnt":"1"},
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_OXYGEN_6__242",
+  "recipe_name":"Artificial Photosynthesis",
+  "recipe_i18n":"RECIPE_3INPUT_OXYGEN_6",
+  "refiner":"large_refiner",
+  "time":"900",
+  "result":"OXYGEN",
+  "result_type":"Substance",
+  "result_qnt":"10",
+  "ingredients":[
+      {"item":"PLANT_LUSH","qnt":"1"},
+      {"item":"PLANT_WATER","qnt":"1"},
+      {"item":"FUEL2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_STELLAR2__243",
+  "recipe_name":"Chromatic Stellar Fusion",
+  "recipe_i18n":"RECIPE_3INPUT_STELLAR2",
+  "refiner":"large_refiner",
+  "time":"1200",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"5",
+  "ingredients":[
+      {"item":"ASTEROID1","qnt":"1"},
+      {"item":"ASTEROID2","qnt":"1"},
+      {"item":"YELLOW2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_STELLAR2__244",
+  "recipe_name":"Chromatic Stellar Fusion",
+  "recipe_i18n":"RECIPE_3INPUT_STELLAR2",
+  "refiner":"large_refiner",
+  "time":"1200",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"10",
+  "ingredients":[
+      {"item":"ASTEROID1","qnt":"1"},
+      {"item":"ASTEROID2","qnt":"1"},
+      {"item":"RED2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_STELLAR2__245",
+  "recipe_name":"Chromatic Stellar Fusion",
+  "recipe_i18n":"RECIPE_3INPUT_STELLAR2",
+  "refiner":"large_refiner",
+  "time":"1200",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"20",
+  "ingredients":[
+      {"item":"ASTEROID1","qnt":"1"},
+      {"item":"ASTEROID2","qnt":"1"},
+      {"item":"GREEN2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_STELLAR2__246",
+  "recipe_name":"Chromatic Stellar Fusion",
+  "recipe_i18n":"RECIPE_3INPUT_STELLAR2",
+  "refiner":"large_refiner",
+  "time":"1200",
+  "result":"STELLAR2",
+  "result_type":"Substance",
+  "result_qnt":"30",
+  "ingredients":[
+      {"item":"ASTEROID1","qnt":"1"},
+      {"item":"ASTEROID2","qnt":"1"},
+      {"item":"BLUE2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ASTEROID1__247",
+  "recipe_name":"Chromatic Alchemy",
+  "recipe_i18n":"RECIPE_3INPUT_ASTEROID1",
+  "refiner":"large_refiner",
+  "time":"1200",
+  "result":"ASTEROID2",
+  "result_type":"Substance",
+  "result_qnt":"10",
+  "ingredients":[
+      {"item":"LAND1","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+      {"item":"GREEN2","qnt":"1"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ASTEROID3__248",
+  "recipe_name":"Chromatic Alchemy",
+  "recipe_i18n":"RECIPE_3INPUT_ASTEROID3",
+  "refiner":"large_refiner",
+  "time":"1200",
+  "result":"ASTEROID3",
+  "result_type":"Substance",
+  "result_qnt":"10",
+  "ingredients":[
+      {"item":"LAND1","qnt":"1"},
+      {"item":"OXYGEN","qnt":"1"},
+      {"item":"STELLAR2","qnt":"250"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_HYPERFUEL1_1__249",
+  "recipe_name":"Antimatter Bypass",
+  "recipe_i18n":"RECIPE_3INPUT_HYPERFUEL1_1",
+  "refiner":"large_refiner",
+  "time":"600",
+  "result":"HYPERFUEL1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"FUEL2","qnt":"25"},
+      {"item":"CATALYST1","qnt":"10"},
+      {"item":"STELLAR2","qnt":"250"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_HYPERFUEL1_2__250",
+  "recipe_name":"Antimatter Bypass",
+  "recipe_i18n":"RECIPE_3INPUT_HYPERFUEL1_2",
+  "refiner":"large_refiner",
+  "time":"600",
+  "result":"HYPERFUEL1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"FUEL1","qnt":"50"},
+      {"item":"CATALYST2","qnt":"5"},
+      {"item":"STELLAR2","qnt":"250"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_HYPERFUEL1_3__251",
+  "recipe_name":"Antimatter Bypass",
+  "recipe_i18n":"RECIPE_3INPUT_HYPERFUEL1_3",
+  "refiner":"large_refiner",
+  "time":"600",
+  "result":"HYPERFUEL1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"FUEL2","qnt":"25"},
+      {"item":"CATALYST2","qnt":"5"},
+      {"item":"STELLAR2","qnt":"250"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_GRENFUEL1_1__252",
+  "recipe_name":"Plasma Pressurisation",
+  "recipe_i18n":"RECIPE_3INPUT_GRENFUEL1_1",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"GRENFUEL1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"OXYGEN","qnt":"10"},
+      {"item":"LAND1","qnt":"20"},
+      {"item":"FUEL1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_GRENFUEL1_2__253",
+  "recipe_name":"Plasma Pressurisation",
+  "recipe_i18n":"RECIPE_3INPUT_GRENFUEL1_2",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"GRENFUEL1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"OXYGEN","qnt":"10"},
+      {"item":"LAND1","qnt":"20"},
+      {"item":"FUEL2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_GRENFUEL1_3__254",
+  "recipe_name":"Plasma Pressurisation",
+  "recipe_i18n":"RECIPE_3INPUT_GRENFUEL1_3",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"GRENFUEL1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"OXYGEN","qnt":"10"},
+      {"item":"LAND2","qnt":"20"},
+      {"item":"FUEL1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_GRENFUEL1_4__255",
+  "recipe_name":"Plasma Pressurisation",
+  "recipe_i18n":"RECIPE_3INPUT_GRENFUEL1_4",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"GRENFUEL1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"OXYGEN","qnt":"10"},
+      {"item":"FUEL2","qnt":"10"},
+      {"item":"LAND2","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_PRODFUEL2__256",
+  "recipe_name":"Advanced Oxygen Capture",
+  "recipe_i18n":"RECIPE_3INPUT_PRODFUEL2",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"PRODFUEL2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"OXYGEN","qnt":"10"},
+      {"item":"FUEL2","qnt":"10"},
+      {"item":"LAUNCHSUB","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_LAUNCHFUEL_1__257",
+  "recipe_name":"Di-hydrogen Capture",
+  "recipe_i18n":"RECIPE_3INPUT_LAUNCHFUEL_1",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"LAUNCHFUEL",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAUNCHSUB","qnt":"10"},
+      {"item":"LAND1","qnt":"20"},
+      {"item":"CATALYST2","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_LAUNCHFUEL_2__258",
+  "recipe_name":"Di-hydrogen Capture",
+  "recipe_i18n":"RECIPE_3INPUT_LAUNCHFUEL_2",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"LAUNCHFUEL",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAUNCHSUB","qnt":"10"},
+      {"item":"LAND2","qnt":"20"},
+      {"item":"CATALYST1","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_LAUNCHFUEL_3__259",
+  "recipe_name":"Di-hydrogen Capture",
+  "recipe_i18n":"RECIPE_3INPUT_LAUNCHFUEL_3",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"LAUNCHFUEL",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAUNCHSUB","qnt":"10"},
+      {"item":"LAND3","qnt":"10"},
+      {"item":"CATALYST2","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_POWERCELL__260",
+  "recipe_name":"Ion Capture",
+  "recipe_i18n":"RECIPE_3INPUT_POWERCELL",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"POWERCELL",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAND1","qnt":"10"},
+      {"item":"ASTEROID1","qnt":"10"},
+      {"item":"CATALYST1","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_POWERCELL2__261",
+  "recipe_name":"Advanced Ion Capture",
+  "recipe_i18n":"RECIPE_3INPUT_POWERCELL2",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"POWERCELL2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LAND2","qnt":"10"},
+      {"item":"CATALYST2","qnt":"10"},
+      {"item":"ASTEROID1","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__262",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ROCKETSUB","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__263",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ROCKETSUB","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__264",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ASTEROID1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__265",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ASTEROID1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__266",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ASTEROID2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__267",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ASTEROID2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__268",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__269",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"LUSH1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__270",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"30"},
+      {"item":"LAND1","qnt":"120"},
+      {"item":"ROCKETSUB","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__271",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"30"},
+      {"item":"LAND2","qnt":"60"},
+      {"item":"ROCKETSUB","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__272",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"30"},
+      {"item":"LAND1","qnt":"120"},
+      {"item":"ASTEROID1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__273",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"30"},
+      {"item":"LAND2","qnt":"60"},
+      {"item":"ASTEROID1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__274",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"30"},
+      {"item":"LAND1","qnt":"120"},
+      {"item":"ASTEROID2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__275",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"30"},
+      {"item":"LAND2","qnt":"60"},
+      {"item":"ASTEROID2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__276",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"30"},
+      {"item":"LAND1","qnt":"120"},
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__277",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"DUSTY1","qnt":"30"},
+      {"item":"LAND2","qnt":"60"},
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__278",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ROCKETSUB","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__279",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ROCKETSUB","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__280",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ASTEROID1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__281",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ASTEROID1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__282",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ASTEROID2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__283",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ASTEROID2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__284",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__285",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"TOXIC1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__286",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY4",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"30"},
+      {"item":"LAND1","qnt":"120"},
+      {"item":"ROCKETSUB","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__287",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY4",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"30"},
+      {"item":"LAND2","qnt":"60"},
+      {"item":"ROCKETSUB","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__288",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY4",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"30"},
+      {"item":"LAND1","qnt":"120"},
+      {"item":"ASTEROID1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__289",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY4",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"30"},
+      {"item":"LAND2","qnt":"60"},
+      {"item":"ASTEROID1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__290",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY4",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"30"},
+      {"item":"LAND1","qnt":"120"},
+      {"item":"ASTEROID2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__291",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY4",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"30"},
+      {"item":"LAND2","qnt":"60"},
+      {"item":"ASTEROID2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__292",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY4",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"30"},
+      {"item":"LAND1","qnt":"120"},
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__293",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY4",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"RADIO1","qnt":"30"},
+      {"item":"LAND2","qnt":"60"},
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__294",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY5",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ROCKETSUB","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__295",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY5",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ROCKETSUB","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__296",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY5",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ASTEROID1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__297",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY5",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ASTEROID1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__298",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY5",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ASTEROID2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__299",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY5",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ASTEROID2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__300",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY5",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__301",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY5",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"HOT1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__302",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY6",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ROCKETSUB","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__303",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY6",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ROCKETSUB","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__304",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY6",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ASTEROID1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__305",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY6",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ASTEROID1","qnt":"20"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__306",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY6",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ASTEROID2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__307",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY6",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ASTEROID2","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__308",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY6",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"30"},
+      {"item":"CAVE1","qnt":"60"},
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_ALLOY__309",
+  "recipe_name":"Alloy Latticing",
+  "recipe_i18n":"RECIPE_3INPUT_ALLOY",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"ALLOY6",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"COLD1","qnt":"30"},
+      {"item":"CAVE2","qnt":"30"},
+      {"item":"ASTEROID3","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_REACTION1_1__310",
+  "recipe_name":"High-Speed Sublimation",
+  "recipe_i18n":"RECIPE_3INPUT_REACTION1_1",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"REACTION1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS1","qnt":"100"},
+      {"item":"FUEL1","qnt":"20"},
+      {"item":"WATER1","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_REACTION2_1__311",
+  "recipe_name":"High-Speed Sublimation",
+  "recipe_i18n":"RECIPE_3INPUT_REACTION2_1",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"REACTION2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS2","qnt":"100"},
+      {"item":"FUEL1","qnt":"20"},
+      {"item":"WATER1","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_REACTION3_1__312",
+  "recipe_name":"High-Speed Sublimation",
+  "recipe_i18n":"RECIPE_3INPUT_REACTION3_1",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"REACTION3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS3","qnt":"100"},
+      {"item":"FUEL1","qnt":"20"},
+      {"item":"WATER1","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_REACTION1_2__313",
+  "recipe_name":"High-Speed Sublimation",
+  "recipe_i18n":"RECIPE_3INPUT_REACTION1_2",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"REACTION1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS1","qnt":"100"},
+      {"item":"FUEL2","qnt":"10"},
+      {"item":"WATER1","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_REACTION2_2__314",
+  "recipe_name":"High-Speed Sublimation",
+  "recipe_i18n":"RECIPE_3INPUT_REACTION2_2",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"REACTION2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS2","qnt":"100"},
+      {"item":"FUEL2","qnt":"10"},
+      {"item":"WATER1","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_REACTION3_2__315",
+  "recipe_name":"High-Speed Sublimation",
+  "recipe_i18n":"RECIPE_3INPUT_REACTION3_2",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"REACTION3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS3","qnt":"100"},
+      {"item":"FUEL2","qnt":"10"},
+      {"item":"WATER1","qnt":"10"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_REACTION1_3__316",
+  "recipe_name":"High-Speed Sublimation",
+  "recipe_i18n":"RECIPE_3INPUT_REACTION1_3",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"REACTION1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS1","qnt":"100"},
+      {"item":"FUEL1","qnt":"20"},
+      {"item":"WATER2","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_REACTION2_3__317",
+  "recipe_name":"High-Speed Sublimation",
+  "recipe_i18n":"RECIPE_3INPUT_REACTION2_3",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"REACTION2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS2","qnt":"100"},
+      {"item":"FUEL1","qnt":"20"},
+      {"item":"WATER2","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_REACTION3_3__318",
+  "recipe_name":"High-Speed Sublimation",
+  "recipe_i18n":"RECIPE_3INPUT_REACTION3_3",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"REACTION3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS3","qnt":"100"},
+      {"item":"FUEL1","qnt":"20"},
+      {"item":"WATER2","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_REACTION1_4__319",
+  "recipe_name":"High-Speed Sublimation",
+  "recipe_i18n":"RECIPE_3INPUT_REACTION1_4",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"REACTION1",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS1","qnt":"100"},
+      {"item":"FUEL2","qnt":"10"},
+      {"item":"WATER2","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_REACTION2_4__320",
+  "recipe_name":"High-Speed Sublimation",
+  "recipe_i18n":"RECIPE_3INPUT_REACTION2_4",
+  "refiner":"large_refiner",
+  "time":"90",
+  "result":"REACTION2",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS2","qnt":"100"},
+      {"item":"FUEL2","qnt":"10"},
+      {"item":"WATER2","qnt":"5"},
+  ]
+},
+{
+  "recipe":"RECIPE_3INPUT_REACTION3_4__321",
+  "recipe_name":"High-Speed Sublimation",
+  "recipe_i18n":"RECIPE_3INPUT_REACTION3_4",
+  "refiner":"large_refiner",
+  "time":"20",
+  "result":"REACTION3",
+  "result_type":"Product",
+  "result_qnt":"1",
+  "ingredients":[
+      {"item":"GAS3","qnt":"100"},
+      {"item":"FUEL2","qnt":"10"},
+      {"item":"WATER2","qnt":"5"},
+  ]
+},
+]
