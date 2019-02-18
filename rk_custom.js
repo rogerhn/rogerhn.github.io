@@ -1,3 +1,16 @@
+var rk_settings = {
+  "using_nsfw":false
+};
+function get_settings(){
+  if (localStorage.rk_settings !== undefined) {
+    rk_settings = JSON.parse(localStorage.rk_settings);
+  } else {
+    localStorage.rk_settings = JSON.stringify(rk_settings);
+  }
+};
+
+
+
 function addCss(rule) {
   var css = document.createElement('style');
   css.type = 'text/css';
@@ -290,9 +303,9 @@ function checktitle(){
 }
 
 function insert_movs_page(){
-  toggleimg
   var toggleimg =  document.createElement("div");
   toggleimg.className ="toggleimg";
+  toggleimg.setAttribute('title', 'Toggle NSFW content');
   document.body.appendChild(toggleimg);
 
   var mov_settings =  document.createElement("div");
@@ -428,39 +441,45 @@ function movs_page_imgdown(){
       var img_name = e.target.getAttribute("img_name");
       img_name = img_name.replace(/\(/g, "[").replace(/\)/g, "]")+ '.jpg';
       imageDownload(img_link, img_name)
-    }
+    };
+
     if ( e.target.classList.contains( 'toggleimg' ) ) {
       e.target.classList.toggle('active');
+      var using_nsfw = rk_settings.using_nsfw;
       var images = document.querySelectorAll('.slick-slide img,.player-video .video-js,article .card-thumb__img img,.picture-list a img,.mov_collection img.mov_col_img,.model-picture__thumb img').forEach(function (image) {
-        var temp = window.getComputedStyle(image).getPropertyValue("opacity");
-        console.log(temp);
-        if (temp < 1){
-          image.style.opacity = "1";
-          image.classList.remove("hiding");
-          image.classList.add("showing");
-        } else {
-          image.style.opacity = "0.03";
+        if (using_nsfw){
+          //image.style.opacity = "0.03";
           image.classList.remove("showing");
           image.classList.add("hiding");
+          rk_settings.using_nsfw = false;
+          localStorage.rk_settings = JSON.stringify(rk_settings);
+        } else {
+          image.classList.remove("hiding");
+          image.classList.add("showing");
+          //image.style.opacity = "1";
+          rk_settings.using_nsfw = true;
+          localStorage.rk_settings = JSON.stringify(rk_settings);
         }
 
       });
     }
   }, false);
+};
+
+function sfw(){
   var toggle_img = document.querySelector('.toggleimg');
+  var using_nsfw = rk_settings.using_nsfw;
   var images = document.querySelectorAll('.slick-slide img,.player-video .video-js,article .card-thumb__img img,.picture-list a img,.mov_collection img.mov_col_img,.model-picture__thumb img').forEach(function (image) {
-    var temp = window.getComputedStyle(image).getPropertyValue("opacity");
-    if (temp < 1){
-      image.style.opacity = "1";
+    if (using_nsfw){
+      //image.style.opacity = "1";
       image.classList.remove("hiding");
       image.classList.add("showing");
-      toggle_img.classList.toggle('active');
+      toggle_img.classList.add('active');
     } else {
-      image.style.opacity = "0.03";
+      //image.style.opacity = "0.03";
       image.classList.remove("showing");
       image.classList.add("hiding");
     }
-
   });
 }
 
@@ -482,12 +501,15 @@ function imageDownload(url, fileName){
 }
 
 function RK_buttons(){
+  get_settings();
   addCss(rule);
   var url = window.location.href;
+  //url = 'https://members.realitykings.com/video/full/
   if(url.indexOf("video/full") > -1) {
     insertButtons();
     insertImage();
     insert_movs_page();
+    sfw()
     checktitle();
     movs_page();
     movs_page_content();
@@ -496,6 +518,7 @@ function RK_buttons(){
   }
   else {
     insert_movs_page();
+    sfw()
     movs_page();
     movs_page_content();
     movs_page_imgdown();
