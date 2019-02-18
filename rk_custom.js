@@ -156,7 +156,7 @@ function checktitle(){
   var remove_buttom = document.querySelector('.remove_buttom');
   var mov_link = document.querySelector('.player-nav__tab--movie');
   mov_link = mov_link.getAttribute("href");
-  mov_link = 'https://members.realitykings.com/'+mov_link;
+  mov_link = 'https://members.realitykings.com'+mov_link;
 
   var mov_id = mov_link.split('/video/full/');
   mov_id = mov_id[1].replace(/\/(.*?)\//g,"");
@@ -368,20 +368,24 @@ function check_movs(){
   document.querySelectorAll('.card-info').forEach(function (link) {
     var card = link.parentElement;
     var mov_id = card.children[1].childNodes[3].attributes[1].value;
-    mov_id = mov_id.split('/video/full/');
-    mov_id = mov_id[1].replace(/\/(.*?)\//g,"");
-    var cardimg = card.children[1];
+    if(mov_id.indexOf("video/full") > -1){
+      mov_id = mov_id.split('/video/full/');
+      mov_id = mov_id[1].replace(/\/(.*?)\//g,"");
+      var cardimg = card.children[1];
 
-    if (localStorage.rk_movs) {
-      var storage = JSON.parse(localStorage.rk_movs);
-      for (var i = 0; i < storage.length; i++){
-        var stored = storage[i];
-        if (mov_id === stored.mov_id){
-          link.classList.add("downloaded");
-          cardimg.classList.add("downloaded");
+      if (localStorage.rk_movs) {
+        var storage = JSON.parse(localStorage.rk_movs);
+        for (var i = 0; i < storage.length; i++){
+          var stored = storage[i];
+          if (mov_id === stored.mov_id){
+            link.classList.add("downloaded");
+            cardimg.classList.add("downloaded");
+          }
         }
       }
     }
+
+
   });
   var url = window.location.href;
   if(url.indexOf("video/full") > -1) {
@@ -504,12 +508,12 @@ function RK_buttons(){
   get_settings();
   addCss(rule);
   var url = window.location.href;
-  //url = 'https://members.realitykings.com/video/full/
+  //url = 'https://members.realitykings.com/video/full/2286602/thicker-the-berry-sweeter-the-juice/';
   if(url.indexOf("video/full") > -1) {
     insertButtons();
     insertImage();
     insert_movs_page();
-    sfw()
+    sfw();
     checktitle();
     movs_page();
     movs_page_content();
@@ -518,7 +522,7 @@ function RK_buttons(){
   }
   else {
     insert_movs_page();
-    sfw()
+    sfw();
     movs_page();
     movs_page_content();
     movs_page_imgdown();
