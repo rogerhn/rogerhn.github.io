@@ -367,23 +367,29 @@ function check_movs(){
   var mov_thumbs = [];
   document.querySelectorAll('.card-info').forEach(function (link) {
     var card = link.parentElement;
-    var mov_id = card.children[1].childNodes[3].attributes[1].value;
-    if(mov_id.indexOf("video/full") > -1){
-      mov_id = mov_id.split('/video/full/');
-      mov_id = mov_id[1].replace(/\/(.*?)\//g,"");
-      var cardimg = card.children[1];
+    var link_id = card.querySelector('.card-thumb__img');
+    link_id = link_id.getAttribute("href");
+    if(link_id){
+      var mov_id = link_id
+      //console.log(mov_id)
+      if(mov_id.indexOf("video/full") > -1){
+        mov_id = mov_id.split('/video/full/');
+        mov_id = mov_id[1].replace(/\/(.*?)\//g,"");
+        var cardimg = card.children[1];
 
-      if (localStorage.rk_movs) {
-        var storage = JSON.parse(localStorage.rk_movs);
-        for (var i = 0; i < storage.length; i++){
-          var stored = storage[i];
-          if (mov_id === stored.mov_id){
-            link.classList.add("downloaded");
-            cardimg.classList.add("downloaded");
+        if (localStorage.rk_movs) {
+          var storage = JSON.parse(localStorage.rk_movs);
+          for (var i = 0; i < storage.length; i++){
+            var stored = storage[i];
+            if (mov_id === stored.mov_id){
+              link.classList.add("downloaded");
+              cardimg.classList.add("downloaded");
+            }
           }
         }
       }
     }
+
 
 
   });
