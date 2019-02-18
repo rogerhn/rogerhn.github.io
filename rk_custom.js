@@ -11,6 +11,8 @@ function get_settings(){
 
 
 
+
+
 function addCss(rule) {
   var css = document.createElement('style');
   css.type = 'text/css';
@@ -162,8 +164,11 @@ function checktitle(){
 
   movnameblock.value = movname_final;
   var imgtosave_down = document.querySelector('.img_added');
-  var mov_img_name = movname_final.replace(/\[/g, "(").replace(/\]/g, ")")+ '.jpg';
-  imgtosave_down.setAttribute('img_name', mov_img_name);
+  if(imgtosave_down){
+    var mov_img_name = movname_final.replace(/\[/g, "(").replace(/\]/g, ")")+ '.jpg';
+    imgtosave_down.setAttribute('img_name', mov_img_name);
+  }
+
 
   var mov_link = document.querySelector('.player-nav__tab--movie');
   mov_link = mov_link.getAttribute("href");
@@ -377,6 +382,8 @@ function movs_page(){
 function check_movs(){
   var streamate_card = document.querySelector('article.card.card--streamate');
   if(streamate_card){streamate_card.remove();}
+  var secrev_container = document.querySelector('.secrev-container');
+  if(secrev_container){secrev_container.remove();}
   var mov_thumbs = [];
   document.querySelectorAll('.card-info').forEach(function (link) {
     var card = link.parentElement;
@@ -481,8 +488,8 @@ function movs_page_imgdown(){
       img_name = img_name.replace(/\(/g, "[").replace(/\)/g, "]")+ '.jpg';
       imageDownload(img_link, img_name)
     };
-    
-    
+
+
 
     if ( e.target.classList.contains( 'toggleimg' ) ) {
       e.target.classList.toggle('active');
