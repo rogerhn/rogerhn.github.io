@@ -366,182 +366,152 @@ var PUBGITEMS = {
 	"ITEM:11010053": {
 			item_id: 11010053,
 			game_item_short_id: "Item_Body_ZeratoR_01_C",
-			name: "ZeratoR's Shirt",
-			description: "ZeratoR"
+			name: "ZeratoR's Shirt"
 	},
 	"ITEM:11010054": {
 			item_id: 11010054,
 			game_item_short_id: "Item_Body_MisterMV_01_C",
-			name: "MisterMV's Shirt",
-			description: "MisterMV"
+			name: "MisterMV's Shirt"
 	},
 	"ITEM:11010055": {
 			item_id: 11010055,
 			game_item_short_id: "Item_Body_CyanidePlaysGames_01_C",
-			name: "CyanidePlaysGames' Shirt",
-			description: "CyanidePlaysGames"
+			name: "CyanidePlaysGames' Shirt"
 	},
 	"ITEM:11010056": {
 			item_id: 11010056,
 			game_item_short_id: "Item_Body_SNAILKICKtm_01_C",
-			name: "SNAILKICKtm's Shirt",
-			description: "SNAILKICKtm"
+			name: "SNAILKICKtm's Shirt"
 	},
 	"ITEM:11010057": {
 			item_id: 11010057,
 			game_item_short_id: "Item_Body_ceh9_01_C",
-			name: "ceh9's Shirt",
-			description: "ceh9"
+			name: "ceh9's Shirt"
 	},
 	"ITEM:11010058": {
 			item_id: 11010058,
 			game_item_short_id: "Item_Body_P4wnyhof_01_C",
-			name: "P4wnyhof's Shirt",
-			description: "P4wnyhof"
+			name: "P4wnyhof's Shirt"
 	},
 	"ITEM:11010059": {
 			item_id: 11010059,
 			game_item_short_id: "Item_Body_JennaJulien_01_C",
-			name: "JennaJulien's Shirt",
-			description: "JennaJulien"
+			name: "JennaJulien's Shirt"
 	},
 	"ITEM:11010060": {
 			item_id: 11010060,
 			game_item_short_id: "Item_Body_Ashek_01_C",
-			name: "Ashek's Shirt",
-			description: "Ashek"
+			name: "Ashek's Shirt"
 	},
 	"ITEM:11010061": {
 			item_id: 11010061,
 			game_item_short_id: "Item_Body_AnthonyKongphan_01_C",
-			name: "Anthony_Kongphan's Shirt",
-			description: "Anthony_Kongphan"
+			name: "Anthony_Kongphan's Shirt"
 	},
 	"ITEM:11010062": {
 			item_id: 11010062,
 			game_item_short_id: "Item_Body_JasonSulli_01_C",
-			name: "JasonSulli's Shirt",
-			description: "JasonSulli"
+			name: "JasonSulli's Shirt"
 	},
 	"ITEM:11010063": {
 			item_id: 11010063,
 			game_item_short_id: "Item_Body_xChocoBars_01_C",
-			name: "xChocoBar's Shirt",
-			description: "xChocoBar"
+			name: "xChocoBar's Shirt"
 	},
 	"ITEM:11010064": {
 			item_id: 11010064,
 			game_item_short_id: "Item_Body_Halifax_01_C",
-			name: "Halifax's Shirt",
-			description: "Halifax"
+			name: "Halifax's Shirt"
 	},
 	"ITEM:11010065": {
 			item_id: 11010065,
 			game_item_short_id: "Item_Body_Swagger_01_C",
-			name: "Swagger's Shirt",
-			description: "Swagger"
+			name: "Swagger's Shirt"
 	},
 	"ITEM:11010066": {
 			item_id: 11010066,
 			game_item_short_id: "Item_Body_SPYGEA_01_C",
-			name: "SPYGEA's Shirt",
-			description: "SPYGEA"
+			name: "SPYGEA's Shirt"
 	},
 	"ITEM:11010067": {
 			item_id: 11010067,
 			game_item_short_id: "Item_Body_ShoboSuke_01_C",
-			name: "ShoboSuke's Shirt",
-			description: "ShoboSuke"
+			name: "ShoboSuke's Shirt"
 	},
 	"ITEM:11010068": {
 			item_id: 11010068,
 			game_item_short_id: "Item_Body_Sonycast_01_C",
-			name: "Sonycast_'s Shirt",
-			description: "Sonycast_"
+			name: "Sonycast_'s Shirt"
 	},
 	"ITEM:11010069": {
 			item_id: 11010069,
 			game_item_short_id: "Item_Body_Ko0416_01_C",
-			name: "Ko0416's Shirt",
-			description: "Ko0416"
+			name: "Ko0416's Shirt"
 	},
 	"ITEM:11010070": {
 			item_id: 11010070,
 			game_item_short_id: "Item_Body_Wackyjacky101_01_C",
-			name: "WackyJacky101's Shirt",
-			description: "WackyJacky101"
+			name: "WackyJacky101's Shirt"
 	},
 	"ITEM:11010071": {
 			item_id: 11010071,
 			game_item_short_id: "Item_Body_SkipNhO_01_C",
-			name: "SkipNhO's Shirt",
-			description: "SkipNhO"
+			name: "SkipNhO's Shirt"
 	},
 	"ITEM:11010072": {
 			item_id: 11010072,
 			game_item_short_id: "Item_Body_Fugglet_01_C",
-			name: "Fugglet's Shirt",
-			description: "Fugglet"
+			name: "Fugglet's Shirt"
 	},
 	"ITEM:11010073": {
 			item_id: 11010073,
 			game_item_short_id: "Item_Body_magalzaoshow_01_C",
-			name: "magalzaoshow's Shirt",
-			description: "magalzaoshow"
+			name: "magalzaoshow's Shirt"
 	},
 	"ITEM:11010074": {
 			item_id: 11010074,
 			game_item_short_id: "Item_Body_BURGAOfps_01_C",
-			name: "BURGAOfps' Shirt",
-			description: "BURGAOfps"
+			name: "BURGAOfps' Shirt"
 	},
 	"ITEM:11010075": {
 			item_id: 11010075,
 			game_item_short_id: "Item_Body_TheF0rever_01_C",
-			name: "TheF0rever's Shirt",
-			description: "TheF0rever"
+			name: "TheF0rever's Shirt"
 	},
 	"ITEM:11010076": {
 			item_id: 11010076,
 			game_item_short_id: "Item_Body_Luuauler_01_C",
-			name: "Luuauler's Shirt",
-			description: "Luuauler"
+			name: "Luuauler's Shirt"
 	},
 	"ITEM:11010077": {
 			item_id: 11010077,
 			game_item_short_id: "Item_Body_netenho1_01_C",
-			name: "netenho1's Shirt",
-			description: "netenho1"
+			name: "netenho1's Shirt"
 	},
 	"ITEM:11010078": {
 			item_id: 11010078,
 			game_item_short_id: "Item_Body_ddolking555_01_C",
-			name: "ddolking555's Shirt",
-			description: "ddolking555"
+			name: "ddolking555's Shirt"
 	},
 	"ITEM:11010079": {
 			item_id: 11010079,
 			game_item_short_id: "Item_Body_JB_Sniper_01_C",
-			name: "JB_Sniper's Shirt",
-			description: "JB_Sniper"
+			name: "JB_Sniper's Shirt"
 	},
 	"ITEM:11010080": {
 			item_id: 11010080,
 			game_item_short_id: "Item_Body_Cabritoz_01_C",
-			name: "Cabritoz's Shirt",
-			description: "Cabritoz"
+			name: "Cabritoz's Shirt"
 	},
 	"ITEM:11010081": {
 			item_id: 11010081,
 			game_item_short_id: "Item_Body_Kate_01_C",
-			name: "Kate's Shirt",
-			description: "Kate"
+			name: "Kate's Shirt"
 	},
 	"ITEM:11010082": {
 			item_id: 11010082,
 			game_item_short_id: "Item_Body_JL_ZeratoR_C",
-			name: "ZeratoR's Long Sleeve Shirt",
-			description: "ZeratoR"
+			name: "ZeratoR's Long Sleeve Shirt"
 	},
 	"ITEM:11010083": {
 			item_id: 11010083,
@@ -551,56 +521,47 @@ var PUBGITEMS = {
 	"ITEM:11010084": {
 			item_id: 11010084,
 			game_item_short_id: "Item_Body_J_fps_shaka_01_C",
-			name: "fps_shaka's Long Sleeved Turtleneck",
-			description: "fps_shaka"
+			name: "fps_shaka's Long Sleeved Turtleneck"
 	},
 	"ITEM:11010085": {
 			item_id: 11010085,
 			game_item_short_id: "Item_Body_P_JennaJulien_01_C",
-			name: "JennaJulien's Cropped Corset",
-			description: "JennaJulien"
+			name: "JennaJulien's Cropped Corset"
 	},
 	"ITEM:11010086": {
 			item_id: 11010086,
 			game_item_short_id: "Item_Body_JL_Pava_01_C",
-			name: "pava's Long Sleeved Shirt",
-			description: "pava"
+			name: "pava's Long Sleeved Shirt"
 	},
 	"ITEM:11010087": {
 			item_id: 11010087,
 			game_item_short_id: "Item_Body_C_Xargon0731_01_C",
-			name: "Xargon's Tank Top",
-			description: "Xargon0731"
+			name: "Xargon's Tank Top"
 	},
 	"ITEM:11010088": {
 			item_id: 11010088,
 			game_item_short_id: "Item_Body_P_Xargon0731_01_C",
-			name: "Xargon's Cropped Corset",
-			description: "Xargon0731"
+			name: "Xargon's Cropped Corset"
 	},
 	"ITEM:11010089": {
 			item_id: 11010089,
 			game_item_short_id: "Item_Body_Lumi_01_C",
-			name: "Lumi's Shirt",
-			description: "Lumi"
+			name: "Lumi's Shirt"
 	},
 	"ITEM:11010090": {
 			item_id: 11010090,
 			game_item_short_id: "Item_Body_LilLex_01_C",
-			name: "Lil_Lexi's Shirt",
-			description: "Lil_Lexi"
+			name: "Lil_Lexi's Shirt"
 	},
 	"ITEM:11010091": {
 			item_id: 11010091,
 			game_item_short_id: "Item_Body_DiegoSimoura_01_C",
-			name: "DiegoSimoura's Shirt",
-			description: "DiegoSimoura"
+			name: "DiegoSimoura's Shirt"
 	},
 	"ITEM:11010092": {
 			item_id: 11010092,
 			game_item_short_id: "Item_Body_Xargon0731_01_C",
-			name: "Xargon's Shirt",
-			description: "Xargon0731"
+			name: "Xargon's Shirt"
 	},
 	"ITEM:11010093": {
 			item_id: 11010093,
@@ -625,66 +586,57 @@ var PUBGITEMS = {
 	"ITEM:11010097": {
 			item_id: 11010097,
 			game_item_short_id: "Item_Body_D_NeoticaCH_01_C",
-			name: "NeoticaCH's Shirt",
-			description: "NeoticaCH"
+			name: "NeoticaCH's Shirt"
 	},
 	"ITEM:11010098": {
 			item_id: 11010098,
 			game_item_short_id: "Item_Body_C_THZ_TV_01_C",
-			name: "thz_tv's Champion Tank",
-			description: "thz_tv"
+			name: "thz_tv's Champion Tank"
 	},
 	"ITEM:11010099": {
 			item_id: 11010099,
 			game_item_short_id: "Item_Body_D_THZ_TV_01_C",
-			name: "thz_tv's Champion Shirt",
-			description: "thz_tv"
+			name: "thz_tv's Champion Shirt"
 	},
 	"ITEM:11010100": {
 			item_id: 11010100,
 			game_item_short_id: "Item_Body_C_Dahmien7_01_C",
-			name: "Dahmien7's Champion Tank",
-			description: "Dahmien7"
+			name: "Dahmien7's Champion Tank"
 	},
 	"ITEM:11010101": {
 			item_id: 11010101,
 			game_item_short_id: "Item_Body_D_Dahmien7_01_C",
-			name: "Dahmien7's Champion T-Shirt",
-			description: "Dahmien7"
+			name: "Dahmien7's Champion T-Shirt"
 	},
 	"ITEM:11010102": {
 			item_id: 11010102,
 			game_item_short_id: "Item_Body_D_edb_potato_01_C",
-			name: "Edberg's Shirt",
-			description: "Edberg"
+			name: "Edberg's Shirt"
 	},
 	"ITEM:11010103": {
 			item_id: 11010103,
 			game_item_short_id: "Item_Body_HQ_01_C",
-			name: "Harley Quinn Daddy\u2019s Lil\u2019 Monster Outfit"
+			name: "Harley Quinn Daddy’s Lil’ Monster Outfit"
 	},
 	"ITEM:11010104": {
 			item_id: 11010104,
 			game_item_short_id: "Item_Body_Joker_01_C",
-			name: "The Joker\u2019s Night Club Outfit"
+			name: "The Joker’s Night Club Outfit"
 	},
 	"ITEM:11010105": {
 			item_id: 11010105,
 			game_item_short_id: "Item_Body_TBR_fuffenz_01_C",
-			name: "fuffenz's Shirt",
-			description: "fuffenz"
+			name: "fuffenz's Shirt"
 	},
 	"ITEM:11010106": {
 			item_id: 11010106,
 			game_item_short_id: "Item_Body_TBR_D_CigaretteSTV_01_C",
-			name: "CigaretteSTV's Shirt",
-			description: "CigaretteSTV"
+			name: "CigaretteSTV's Shirt"
 	},
 	"ITEM:11010107": {
 			item_id: 11010107,
 			game_item_short_id: "Item_Body_TBR_D_ewanng_01_C",
-			name: "ewanng's Shirt",
-			description: "ewanng"
+			name: "ewanng's Shirt"
 	},
 	"ITEM:11010108": {
 			item_id: 11010108,
@@ -699,14 +651,12 @@ var PUBGITEMS = {
 	"ITEM:11010110": {
 			item_id: 11010110,
 			game_item_short_id: "Item_Body_Edberg_01_C",
-			name: "Edberg's Season 2 Shirt",
-			description: "Edberg"
+			name: "Edberg's Season 2 Shirt"
 	},
 	"ITEM:11010111": {
 			item_id: 11010111,
 			game_item_short_id: "Item_Body_ShoboSuke_02_C",
-			name: "ShoboSuke's Season 2 Shirt",
-			description: "ShoboSuke"
+			name: "ShoboSuke's Season 2 Shirt"
 	},
 	"ITEM:11010112": {
 			item_id: 11010112,
@@ -772,6 +722,71 @@ var PUBGITEMS = {
 			item_id: 11010124,
 			game_item_short_id: "Item_Body_Yukata_01_C",
 			name: "Floral Yukata Outfit"
+	},
+	"ITEM:11010125": {
+			item_id: 11010125,
+			game_item_short_id: "Item_Body_Party_01_C",
+			name: "Form-fitting Dress (Gray)"
+	},
+	"ITEM:11010126": {
+			item_id: 11010126,
+			game_item_short_id: "Item_Body_Party_02_C",
+			name: "Form-fitting Dress (Red)"
+	},
+	"ITEM:11010127": {
+			item_id: 11010127,
+			game_item_short_id: "Item_Body_Tuxedo_01_C",
+			name: "Suit Top (White)"
+	},
+	"ITEM:11010128": {
+			item_id: 11010128,
+			game_item_short_id: "Item_Body_Xsuit_03_C",
+			name: "Suit Top (Brown)"
+	},
+	"ITEM:11010129": {
+			item_id: 11010129,
+			game_item_short_id: "Item_Body_P_02_C",
+			name: "Floral Print Corset"
+	},
+	"ITEM:11010130": {
+			item_id: 11010130,
+			game_item_short_id: "Item_Body_D_08_C",
+			name: "Floral Print Shirt"
+	},
+	"ITEM:11010131": {
+			item_id: 11010131,
+			game_item_short_id: "Item_Body_S_03_C",
+			name: "Sweater and Dress Shirt (Blue)"
+	},
+	"ITEM:11010132": {
+			item_id: 11010132,
+			game_item_short_id: "Item_Body_Xmas_04_C",
+			name: "Sweater (Tan)"
+	},
+	"ITEM:11010133": {
+			item_id: 11010133,
+			game_item_short_id: "Item_Body_Half_11_C",
+			name: "LLS T-shirt"
+	},
+	"ITEM:11010134": {
+			item_id: 11010134,
+			game_item_short_id: "Item_Body_J_04_C",
+			name: "Long Sleeved Turtleneck (Navy)"
+	},
+	"ITEM:11010135": {
+			item_id: 11010135,
+			game_item_short_id: "Item_Body_M_05_C",
+			name: "Polo Shirt (White)"
+	},
+	"ITEM:11010136": {
+			item_id: 11010136,
+			game_item_short_id: "Item_Body_PU_09_C",
+			name: "Shirt (Plaid)"
+	},
+	"ITEM:11010137": {
+			item_id: 11010137,
+			game_item_short_id: "Item_Body_BR03_02_C",
+			name: "Biker Shirt (Black)"
 	},
 	"ITEM:11020001": {
 			item_id: 11020001,
@@ -956,50 +971,42 @@ var PUBGITEMS = {
 	"ITEM:11020037": {
 			item_id: 11020037,
 			game_item_short_id: "Item_Legs_BR07_ZeratoR_01_C",
-			name: "ZeratoR's Pleated Skirt",
-			description: "ZeratoR"
+			name: "ZeratoR's Pleated Skirt"
 	},
 	"ITEM:11020038": {
 			item_id: 11020038,
 			game_item_short_id: "Item_Legs_BR01_Burgaofps_01_C",
-			name: "BURGAOfps' Tracksuit Pants",
-			description: "BURGAOfps"
+			name: "BURGAOfps' Tracksuit Pants"
 	},
 	"ITEM:11020039": {
 			item_id: 11020039,
 			game_item_short_id: "Item_Legs_BR02_fps_shaka_01_C",
-			name: "fps_shaka's Combat Pants",
-			description: "fps_shaka"
+			name: "fps_shaka's Combat Pants"
 	},
 	"ITEM:11020040": {
 			item_id: 11020040,
 			game_item_short_id: "Item_Legs_BR06_02_JennaJulien_01_C",
-			name: "JennaJulien's Pleated Skirt",
-			description: "JennaJulien"
+			name: "JennaJulien's Pleated Skirt"
 	},
 	"ITEM:11020041": {
 			item_id: 11020041,
 			game_item_short_id: "Item_Legs_P_06_Netenho1_01_C",
-			name: "netenho1's Hotpants",
-			description: "netenho1"
+			name: "netenho1's Hotpants"
 	},
 	"ITEM:11020042": {
 			item_id: 11020042,
 			game_item_short_id: "Item_Legs_BR02_P4wnyhof_01_C",
-			name: "P4wnyhof's Hotpants",
-			description: "P4wnyhof"
+			name: "P4wnyhof's Hotpants"
 	},
 	"ITEM:11020043": {
 			item_id: 11020043,
 			game_item_short_id: "Item_Legs_BR05_SkipNhO_01_C",
-			name: "SkipNhO's Track Suit Pants",
-			description: "SkipNhO"
+			name: "SkipNhO's Track Suit Pants"
 	},
 	"ITEM:11020044": {
 			item_id: 11020044,
 			game_item_short_id: "Item_Legs_J_Xargon0731_01_C",
-			name: "Xargon's Skirt",
-			description: "Xargon0731"
+			name: "Xargon's Skirt"
 	},
 	"ITEM:11020045": {
 			item_id: 11020045,
@@ -1034,20 +1041,17 @@ var PUBGITEMS = {
 	"ITEM:11020051": {
 			item_id: 11020051,
 			game_item_short_id: "Item_Legs_BR03_THZ_TV_01_C",
-			name: "thz_tv's Champion Shorts",
-			description: "thz_tv"
+			name: "thz_tv's Champion Shorts"
 	},
 	"ITEM:11020052": {
 			item_id: 11020052,
 			game_item_short_id: "Item_Legs_BR03_Dahmien7_01_C",
-			name: "Dahmien7's Champion Shorts",
-			description: "Dahmien7"
+			name: "Dahmien7's Champion Shorts"
 	},
 	"ITEM:11020053": {
 			item_id: 11020053,
 			game_item_short_id: "Item_Legs_fuffenz_01_C",
-			name: "fuffenz's Combat Pants",
-			description: "fuffenz"
+			name: "fuffenz's Combat Pants"
 	},
 	"ITEM:11020055": {
 			item_id: 11020055,
@@ -1082,8 +1086,7 @@ var PUBGITEMS = {
 	"ITEM:11020062": {
 			item_id: 11020062,
 			game_item_short_id: "Item_Legs_BR05_LilLexi_01_C",
-			name: "Lil_Lexi's Pants",
-			description: "Lil_Lexi"
+			name: "Lil_Lexi's Pants"
 	},
 	"ITEM:11020063": {
 			item_id: 11020063,
@@ -1123,26 +1126,22 @@ var PUBGITEMS = {
 	"ITEM:11020070": {
 			item_id: 11020070,
 			game_item_short_id: "Item_Legs_MidPants_CNStreamer_01_C",
-			name: "XDD\u2019s Tracksuit Pants",
-			description: "XDD"
+			name: "XDD’s Tracksuit Pants"
 	},
 	"ITEM:11020071": {
 			item_id: 11020071,
 			game_item_short_id: "Item_Legs_MidPants_CNStreamer_02_C",
-			name: "XingHun\u2019s Tracksuit Pants",
-			description: "XingHun"
+			name: "XingHun’s Tracksuit Pants"
 	},
 	"ITEM:11020072": {
 			item_id: 11020072,
 			game_item_short_id: "Item_Legs_MidPants_CNStreamer_03_C",
-			name: "manson's Tracksuit Pants",
-			description: "manson"
+			name: "manson's Tracksuit Pants"
 	},
 	"ITEM:11020073": {
 			item_id: 11020073,
 			game_item_short_id: "Item_Legs_MidPants_CNStreamer_04_C",
-			name: "chengzi\u2019s Tracksuit Pants",
-			description: "chengzi"
+			name: "chengzi’s Tracksuit Pants"
 	},
 	"ITEM:11020074": {
 			item_id: 11020074,
@@ -1158,6 +1157,36 @@ var PUBGITEMS = {
 			item_id: 11020076,
 			game_item_short_id: "Item_Legs_Hunter_05_C",
 			name: "Sosnovka Military Pants"
+	},
+	"ITEM:11020077": {
+			item_id: 11020077,
+			game_item_short_id: "Item_Legs_Xmas_04_C",
+			name: "Dress Pants (Black)"
+	},
+	"ITEM:11020078": {
+			item_id: 11020078,
+			game_item_short_id: "Item_Legs_Xmas_05_C",
+			name: "Dress Pants (Brown)"
+	},
+	"ITEM:11020079": {
+			item_id: 11020079,
+			game_item_short_id: "Item_Legs_J_04_C",
+			name: "Floral Print Skirt"
+	},
+	"ITEM:11020080": {
+			item_id: 11020080,
+			game_item_short_id: "Item_Legs_Sanhok_06_C",
+			name: "Beach Shorts (Textured)"
+	},
+	"ITEM:11020081": {
+			item_id: 11020081,
+			game_item_short_id: "Item_Legs_Jean_01_C",
+			name: "Distressed Jeans"
+	},
+	"ITEM:11020082": {
+			item_id: 11020082,
+			game_item_short_id: "Item_Legs_K_04_C",
+			name: "Biker Pants (Blue)"
 	},
 	"ITEM:11030001": {
 			item_id: 11030001,
@@ -1262,8 +1291,7 @@ var PUBGITEMS = {
 	"ITEM:11030021": {
 			item_id: 11030021,
 			game_item_short_id: "Item_Feet_P4wnyhof_01_C",
-			name: "P4wnyhof's Shoes",
-			description: "P4wnyhof"
+			name: "P4wnyhof's Shoes"
 	},
 	"ITEM:11030022": {
 			item_id: 11030022,
@@ -1308,14 +1336,12 @@ var PUBGITEMS = {
 	"ITEM:11030030": {
 			item_id: 11030030,
 			game_item_short_id: "Item_Feet_BR02_THZ_TV_01_C",
-			name: "thz_tv's Champion Shoes",
-			description: "thz_tv"
+			name: "thz_tv's Champion Shoes"
 	},
 	"ITEM:11030031": {
 			item_id: 11030031,
 			game_item_short_id: "Item_Feet_BR02_Dahmien7_01_C",
-			name: "Dahmien7's Champion Shoes",
-			description: "Dahmien7"
+			name: "Dahmien7's Champion Shoes"
 	},
 	"ITEM:11030032": {
 			item_id: 11030032,
@@ -1335,8 +1361,7 @@ var PUBGITEMS = {
 	"ITEM:11030035": {
 			item_id: 11030035,
 			game_item_short_id: "Item_Feet_Lumi_01_C",
-			name: "Lumi's Shoes",
-			description: "Lumi"
+			name: "Lumi's Shoes"
 	},
 	"ITEM:11030036": {
 			item_id: 11030036,
@@ -1398,6 +1423,26 @@ var PUBGITEMS = {
 			game_item_short_id: "Item_Feet_Slipper_03_C",
 			name: "Floral Geta Slippers"
 	},
+	"ITEM:11030048": {
+			item_id: 11030048,
+			game_item_short_id: "Item_Feet_Stocking_01_C",
+			name: "Dress Shoes with Stockings (Black)"
+	},
+	"ITEM:11030049": {
+			item_id: 11030049,
+			game_item_short_id: "Item_Feet_H_05_C",
+			name: "Fancy Shoes (White)"
+	},
+	"ITEM:11030050": {
+			item_id: 11030050,
+			game_item_short_id: "Item_Feet_J_02_C",
+			name: "Loafers with Socks (Brown)"
+	},
+	"ITEM:11030051": {
+			item_id: 11030051,
+			game_item_short_id: "Item_Feet_D_03_C",
+			name: "Biker Boots (Black)"
+	},
 	"ITEM:11040001": {
 			item_id: 11040001,
 			game_item_short_id: "Item_Hands_D_01_C",
@@ -1441,8 +1486,7 @@ var PUBGITEMS = {
 	"ITEM:11040009": {
 			item_id: 11040009,
 			game_item_short_id: "Item_Hands_E_Shroud_01_C",
-			name: "shroud's Tactical Gloves",
-			description: "shroud"
+			name: "shroud's Tactical Gloves"
 	},
 	"ITEM:11040010": {
 			item_id: 11040010,
@@ -1617,32 +1661,27 @@ var PUBGITEMS = {
 	"ITEM:11050030": {
 			item_id: 11050030,
 			game_item_short_id: "Item_Jacket_M_Shroud_01_C",
-			name: "shroud's Varsity Jacket",
-			description: "shroud"
+			name: "shroud's Varsity Jacket"
 	},
 	"ITEM:11050031": {
 			item_id: 11050031,
 			game_item_short_id: "Item_Jacket_BR06_Burgaofps_01_C",
-			name: "BURGAOfps' Jacket",
-			description: "BURGAOfps"
+			name: "BURGAOfps' Jacket"
 	},
 	"ITEM:11050032": {
 			item_id: 11050032,
 			game_item_short_id: "Item_Jacket_O_Netenho1_01_C",
-			name: "netenho1's Hoodie",
-			description: "netenho1"
+			name: "netenho1's Hoodie"
 	},
 	"ITEM:11050033": {
 			item_id: 11050033,
 			game_item_short_id: "Item_Jacket_O_Pava_01_C",
-			name: "pava's Hoodie",
-			description: "pava"
+			name: "pava's Hoodie"
 	},
 	"ITEM:11050034": {
 			item_id: 11050034,
 			game_item_short_id: "Item_Jacket_O_SkipNhO_01_C",
-			name: "SkipNhO's Hoodie",
-			description: "SkipNhO"
+			name: "SkipNhO's Hoodie"
 	},
 	"ITEM:11050035": {
 			item_id: 11050035,
@@ -1667,8 +1706,7 @@ var PUBGITEMS = {
 	"ITEM:11050039": {
 			item_id: 11050039,
 			game_item_short_id: "Item_Jacket_ewanng_01_C",
-			name: "ewanng's Tracksuit Jacket",
-			description: "ewanng"
+			name: "ewanng's Tracksuit Jacket"
 	},
 	"ITEM:11050040": {
 			item_id: 11050040,
@@ -1713,20 +1751,17 @@ var PUBGITEMS = {
 	"ITEM:11050048": {
 			item_id: 11050048,
 			game_item_short_id: "Item_Jacket_J_LilLexi_01_C",
-			name: "Lil_Lexi's Jacket",
-			description: "Lil_Lexi"
+			name: "Lil_Lexi's Jacket"
 	},
 	"ITEM:11050049": {
 			item_id: 11050049,
 			game_item_short_id: "Item_Jacket_O_Lumi_01_C",
-			name: "Lumi's Hoodie",
-			description: "Lumi"
+			name: "Lumi's Hoodie"
 	},
 	"ITEM:11050050": {
 			item_id: 11050050,
 			game_item_short_id: "Item_Jacket_Edberg_01_C",
-			name: "Edberg's Skull Jacket",
-			description: "Edberg"
+			name: "Edberg's Skull Jacket"
 	},
 	"ITEM:11050052": {
 			item_id: 11050052,
@@ -1746,31 +1781,42 @@ var PUBGITEMS = {
 	"ITEM:11050055": {
 			item_id: 11050055,
 			game_item_short_id: "Item_Jacket_Hoodie_CNStreamer_01_C",
-			name: "XDD\u2019s Hoodie",
-			description: "XDD"
+			name: "XDD’s Hoodie"
 	},
 	"ITEM:11050056": {
 			item_id: 11050056,
 			game_item_short_id: "Item_Jacket_Hoodie_CNStreamer_02_C",
-			name: "XingHun\u2019s Hoodie",
-			description: "XingHun"
+			name: "XingHun’s Hoodie"
 	},
 	"ITEM:11050057": {
 			item_id: 11050057,
 			game_item_short_id: "Item_Jacket_Hoodie_CNStreamer_03_C",
-			name: "manson's Hoodie",
-			description: "manson"
+			name: "manson's Hoodie"
 	},
 	"ITEM:11050058": {
 			item_id: 11050058,
 			game_item_short_id: "Item_Jacket_Hoodie_CNStreamer_04_C",
-			name: "chengzi\u2019s Hoodie",
-			description: "chengzi"
+			name: "chengzi’s Hoodie"
 	},
 	"ITEM:11050059": {
 			item_id: 11050059,
 			game_item_short_id: "Item_Jacket_Pilot_02_C",
 			name: "Sosnovka Military Jacket"
+	},
+	"ITEM:11050060": {
+			item_id: 11050060,
+			game_item_short_id: "Item_Jacket_Bomber_06_C",
+			name: "Floral Print Bomber Jacket"
+	},
+	"ITEM:11050061": {
+			item_id: 11050061,
+			game_item_short_id: "Item_Jacket_Bomber_05_C",
+			name: "Bomber Jacket (Gray)"
+	},
+	"ITEM:11050062": {
+			item_id: 11050062,
+			game_item_short_id: "Item_Jacket_H_03_C",
+			name: "Biker Jacket (Blue)"
 	},
 	"ITEM:11060001": {
 			item_id: 11060001,
@@ -1870,8 +1916,7 @@ var PUBGITEMS = {
 	"ITEM:11060020": {
 			item_id: 11060020,
 			game_item_short_id: "Item_Head_C_WackyJacky_01_C",
-			name: "WackyJacky101's Hat",
-			description: "WackyJacky101"
+			name: "WackyJacky101's Hat"
 	},
 	"ITEM:11060021": {
 			item_id: 11060021,
@@ -1933,6 +1978,16 @@ var PUBGITEMS = {
 			game_item_short_id: "Item_Head_Hanbok_01_C",
 			name: "Floral Jeonmo"
 	},
+	"ITEM:11060033": {
+			item_id: 11060033,
+			game_item_short_id: "Item_Head_C_08_C",
+			name: "Distressed Cap"
+	},
+	"ITEM:11060034": {
+			item_id: 11060034,
+			game_item_short_id: "Item_Head_C_07_C",
+			name: "2 Year Anniversary Cap"
+	},
 	"ITEM:11070001": {
 			item_id: 11070001,
 			game_item_short_id: "Item_Mask_B_01_C",
@@ -1981,8 +2036,7 @@ var PUBGITEMS = {
 	"ITEM:11070010": {
 			item_id: 11070010,
 			game_item_short_id: "Item_Mask_Biker_Shroud_01_C",
-			name: "shroud's Cloth Mask",
-			description: "shroud"
+			name: "shroud's Cloth Mask"
 	},
 	"ITEM:11070011": {
 			item_id: 11070011,
@@ -2064,6 +2118,11 @@ var PUBGITEMS = {
 			game_item_short_id: "Item_Mask_F_03_C",
 			name: '"Baby Bear" Face Mask'
 	},
+	"ITEM:11070030": {
+			item_id: 11070030,
+			game_item_short_id: "Item_Mask_Beard_03_C",
+			name: "Biker Beard"
+	},
 	"ITEM:11070029": {
 			item_id: 11070029,
 			game_item_short_id: "Item_Mask_E_02_C",
@@ -2124,6 +2183,26 @@ var PUBGITEMS = {
 			game_item_short_id: "Item_Eyes_F_01_C",
 			name: "Tinted Biker Shades"
 	},
+	"ITEM:11080012": {
+			item_id: 11080012,
+			game_item_short_id: "Item_Eyes_Q_01_C",
+			name: "Diva Glasses (White)"
+	},
+	"ITEM:11080013": {
+			item_id: 11080013,
+			game_item_short_id: "Item_Eyes_F_01_C",
+			name: "Tinted Biker Shades"
+	},
+	"ITEM:11080014": {
+			item_id: 11080014,
+			game_item_short_id: "Item_Eyes_G_01_C",
+			name: "Sophisticated Glasses"
+	},
+	"ITEM:11080015": {
+			item_id: 11080015,
+			game_item_short_id: "Item_Eyes_Q_02_C",
+			name: "Diva Glasses (Black)"
+	},
 	"ITEM:11090001": {
 			item_id: 11090001,
 			game_item_short_id: "Item_Belt_D_02_C",
@@ -2152,13 +2231,12 @@ var PUBGITEMS = {
 	"ITEM:12010004": {
 			item_id: 12010004,
 			game_item_short_id: "Item_Skin_UMP_Glory_01_C",
-			name: "Glory - UMP9"
+			name: "Glory - UMP45"
 	},
 	"ITEM:12010005": {
 			item_id: 12010005,
 			game_item_short_id: "Item_Skin_Scar-L_Tri_01_C",
-			name: "Trifecta - SCAR-L",
-			description: "ewanng"
+			name: "Trifecta - SCAR-L"
 	},
 	"ITEM:12010006": {
 			item_id: 12010006,
@@ -2298,7 +2376,7 @@ var PUBGITEMS = {
 	"ITEM:12010033": {
 			item_id: 12010033,
 			game_item_short_id: "Item_Skin_UMP_Orange_01_C",
-			name: "Rugged (Orange) - UMP9"
+			name: "Rugged (Orange) - UMP45"
 	},
 	"ITEM:12010034": {
 			item_id: 12010034,
@@ -2368,7 +2446,7 @@ var PUBGITEMS = {
 	"ITEM:12010047": {
 			item_id: 12010047,
 			game_item_short_id: "Item_Skin_UMP_Silver_01_C",
-			name: "Silver Plate - UMP9"
+			name: "Silver Plate - UMP45"
 	},
 	"ITEM:12010048": {
 			item_id: 12010048,
@@ -2443,86 +2521,72 @@ var PUBGITEMS = {
 	"ITEM:12010062": {
 			item_id: 12010062,
 			game_item_short_id: "Item_Skin_M24_JJ_01_C",
-			name: "JennaJulien's M24",
-			description: "JennaJulien"
+			name: "JennaJulien's M24"
 	},
 	"ITEM:12010063": {
 			item_id: 12010063,
 			game_item_short_id: "Item_Skin_M16A4_SH_01_C",
-			name: "shroud's M16A4",
-			description: "shroud"
+			name: "shroud's M16A4"
 	},
 	"ITEM:12010064": {
 			item_id: 12010064,
 			game_item_short_id: "Item_Skin_FNFal_SkipNhO_01_C",
-			name: "SkipNhO's SLR",
-			description: "SkipNhO"
+			name: "SkipNhO's SLR"
 	},
 	"ITEM:12010065": {
 			item_id: 12010065,
 			game_item_short_id: "Item_Skin_VSS_P4wnyhof_01_C",
-			name: "P4wnyhof's VSS Vintorez",
-			description: "P4wnyhof"
+			name: "P4wnyhof's VSS Vintorez"
 	},
 	"ITEM:12010066": {
 			item_id: 12010066,
 			game_item_short_id: "Item_Skin_Uzi_Xargon0731_01_C",
-			name: "Xargon's Micro Uzi",
-			description: "Xargon0731"
+			name: "Xargon's Micro Uzi"
 	},
 	"ITEM:12010067": {
 			item_id: 12010067,
 			game_item_short_id: "Item_Skin_M24_Spygea_01_C",
-			name: "SPYGEA's M24",
-			description: "SPYGEA"
+			name: "SPYGEA's M24"
 	},
 	"ITEM:12010068": {
 			item_id: 12010068,
 			game_item_short_id: "Item_Skin_AK47_Ashek_01_C",
-			name: "Ashek's AKM",
-			description: "Ashek"
+			name: "Ashek's AKM"
 	},
 	"ITEM:12010069": {
 			item_id: 12010069,
 			game_item_short_id: "Item_Skin_HK416_NeoticaCH_01_C",
-			name: "NeoticaCH's M416",
-			description: "NeoticaCH"
+			name: "NeoticaCH's M416"
 	},
 	"ITEM:12010070": {
 			item_id: 12010070,
 			game_item_short_id: "Item_Skin_Pan_thz_tv_01_C",
-			name: "thz_tv's Champion Pan",
-			description: "thz_tv"
+			name: "thz_tv's Champion Pan"
 	},
 	"ITEM:12010071": {
 			item_id: 12010071,
 			game_item_short_id: "Item_Skin_Pan_Dahmien7_01_C",
-			name: "Dahmien7's Champion Pan",
-			description: "Dahmien7"
+			name: "Dahmien7's Champion Pan"
 	},
 	"ITEM:12010072": {
 			item_id: 12010072,
 			game_item_short_id: "Item_Skin_Cowbar_HarleyQuinn_01_C",
-			name: "Harley Quinn Good Night Bat",
-			description: "This item can be applied to both Crowbar and Machete"
+			name: "Harley Quinn Good Night Bat"
 	},
 	"ITEM:12010073": {
 			item_id: 12010073,
 			game_item_short_id: "Item_Skin_HK416_CigaretteSTV_01_C",
-			name: "CigaretteSTV's M416",
-			description: "CigaretteSTV"
+			name: "CigaretteSTV's M416"
 	},
 	"ITEM:12010074": {
 			item_id: 12010074,
 			game_item_short_id: "Item_Skin_Scar-L_ewanng_01_C",
-			name: "ewanng's SCAR-L",
-			description: "ewanng"
+			name: "ewanng's SCAR-L"
 	},
 	"ITEM:12010075": {
 			item_id: 12010075,
 			game_item_short_id: "Item_Skin_FNFAL_fuffenz_01_C",
-			name: "fuffenz's SLR",
-			description: "fuffenz"
+			name: "fuffenz's SLR"
 	},
 	"ITEM:12010076": {
 			item_id: 12010076,
@@ -2587,12 +2651,12 @@ var PUBGITEMS = {
 	"ITEM:12010088": {
 			item_id: 12010088,
 			game_item_short_id: "Item_Skin_UMP_Scamo_01_C",
-			name: "Arctic Digital - UMP9"
+			name: "Arctic Digital - UMP45"
 	},
 	"ITEM:12010089": {
 			item_id: 12010089,
 			game_item_short_id: "Item_Skin_UMP_MadDog_01_C",
-			name: "MadDog - UMP9"
+			name: "MadDog - UMP45"
 	},
 	"ITEM:12010090": {
 			item_id: 12010090,
@@ -2667,43 +2731,137 @@ var PUBGITEMS = {
 	"ITEM:12010105": {
 			item_id: 12010105,
 			game_item_short_id: "Item_Skin_VSS_LilLexi_01_C",
-			name: "Lil_Lexi's VSS",
-			description: "Lil_Lexi"
+			name: "Lil_Lexi's VSS"
 	},
 	"ITEM:12010106": {
 			item_id: 12010106,
 			game_item_short_id: "Item_Skin_Kar98k_Lumi_01_C",
-			name: "Lumi's Kar98k",
-			description: "Lumi"
+			name: "Lumi's Kar98k"
 	},
 	"ITEM:12010107": {
 			item_id: 12010107,
 			game_item_short_id: "Item_Skin_Kar98k_XDD_01_C",
-			name: "XDD\u2019s Kar98k",
-			description: "XDD"
+			name: "XDD’s Kar98k"
 	},
 	"ITEM:12010108": {
 			item_id: 12010108,
 			game_item_short_id: "Item_Skin_AK47_Xinghun_01_C",
-			name: "XingHun\u2019s AKM",
-			description: "XingHun"
+			name: "XingHun’s AKM"
 	},
 	"ITEM:12010109": {
 			item_id: 12010109,
 			game_item_short_id: "Item_Skin_Kar98k_Manson_01_C",
-			name: "manson\u2019s Kar98k",
-			description: "manson"
+			name: "manson’s Kar98k"
 	},
 	"ITEM:12010110": {
 			item_id: 12010110,
 			game_item_short_id: "Item_Skin_HK416_Chengzi_01_C",
-			name: "chengzi\u2019s M416",
-			description: "chengzi"
+			name: "chengzi’s M416"
 	},
 	"ITEM:12010111": {
 			item_id: 12010111,
 			game_item_short_id: "Item_Skin_BizonPP19_Paint_01_C",
 			name: "Guerrilla - PP-19 Bizon"
+	},
+	"ITEM:12010112": {
+			item_id: 12010112,
+			game_item_short_id: "Item_Skin_Saiga12_Elegant_01_C",
+			name: "Elegant - S12K"
+	},
+	"ITEM:12010113": {
+			item_id: 12010113,
+			game_item_short_id: "Item_Skin_Thompson_Elegant_01_C",
+			name: "Elegant - Tommy Gun"
+	},
+	"ITEM:12010114": {
+			item_id: 12010114,
+			game_item_short_id: "Item_Skin_G18_Elegant_01_C",
+			name: "Elegant - P18C"
+	},
+	"ITEM:12010115": {
+			item_id: 12010115,
+			game_item_short_id: "Item_Skin_G36C_Elegant_01_C",
+			name: "Elegant - G36C"
+	},
+	"ITEM:12010116": {
+			item_id: 12010116,
+			game_item_short_id: "Item_Skin_M9_RedLine_01_C",
+			name: "Red Line - P92"
+	},
+	"ITEM:12010117": {
+			item_id: 12010117,
+			game_item_short_id: "Item_Skin_Berreta686_RedLine_01_C",
+			name: "Red Line - S686"
+	},
+	"ITEM:12010118": {
+			item_id: 12010118,
+			game_item_short_id: "Item_Skin_M16A4_RedLine_01_C",
+			name: "Red Line - M16A4"
+	},
+	"ITEM:12010119": {
+			item_id: 12010119,
+			game_item_short_id: "Item_Skin_UMP_RedLine_01_C",
+			name: "Red Line - UMP45"
+	},
+	"ITEM:12010120": {
+			item_id: 12010120,
+			game_item_short_id: "Item_Skin_Rhino_Diamond_01_C",
+			name: "Wild Card - R45"
+	},
+	"ITEM:12010121": {
+			item_id: 12010121,
+			game_item_short_id: "Item_Skin_QBU88_Diamond_01_C",
+			name: "Wild Card - QBU"
+	},
+	"ITEM:12010122": {
+			item_id: 12010122,
+			game_item_short_id: "Item_Skin_Win94_Diamond_01_C",
+			name: "Wild Card - Win94"
+	},
+	"ITEM:12010123": {
+			item_id: 12010123,
+			game_item_short_id: "Item_Skin_QBZ95_Diamond_01_C",
+			name: "Wild Card - QBZ"
+	},
+	"ITEM:12010124": {
+			item_id: 12010124,
+			game_item_short_id: "Item_Skin_Crossbow_Leo_01_C",
+			name: "Leopard - Crossbow"
+	},
+	"ITEM:12010125": {
+			item_id: 12010125,
+			game_item_short_id: "Item_Skin_M249_Leo_01_C",
+			name: "Snow Leopard - M249"
+	},
+	"ITEM:12010126": {
+			item_id: 12010126,
+			game_item_short_id: "Item_Skin_NagantM1895_Leo_01_C",
+			name: "Snow Leopard - R1895"
+	},
+	"ITEM:12010127": {
+			item_id: 12010127,
+			game_item_short_id: "Item_Skin_Sawedoff_Leo_01_C",
+			name: "Leopard - Sawed-Off\t"
+	},
+	"ITEM:12010128": {
+			item_id: 12010128,
+			game_item_short_id: "Item_Skin_BerylM762_Toxic_01_C",
+			name: "Toxic - Beryl M762"
+	},
+	"ITEM:12010129": {
+			item_id: 12010129,
+			game_item_short_id: "Item_Skin_M1911_Toxic_01_C",
+			name: "Toxic - P1911"
+	},
+	"ITEM:12010130": {
+			item_id: 12010130,
+			game_item_short_id: "Item_Skin_VSS_Toxic_01_C",
+			name: "Toxic - VSS"
+	},
+	"ITEM:12010131": {
+			item_id: 12010131,
+			game_item_short_id: "Item_Skin_Winchester_Toxic_01_C",
+			name: "Toxic - S1897"
 	},
 	"ITEM:12011001": {
 			item_id: 12011001,
@@ -2735,6 +2893,11 @@ var PUBGITEMS = {
 			item_id: 12030005,
 			game_item_short_id: "Item_Skin_Parachute_Skin_011_C",
 			name: "Triumphant Survivor"
+	},
+	"ITEM:12030006": {
+			item_id: 12030006,
+			game_item_short_id: "Item_Skin_Parachute_Skin_012_C",
+			name: "Biker Parachute"
 	},
 	"ITEM:12031001": {
 			item_id: 12031001,
@@ -2781,6 +2944,26 @@ var PUBGITEMS = {
 			item_id: 12031009,
 			game_item_short_id: "Item_Skin_Helmet_G_02_C",
 			name: "Medieval - Helmet (Level 3)"
+	},
+	"ITEM:12032001": {
+			item_id: 12032001,
+			game_item_short_id: "Item_Skin_BackLV2_A_02_C",
+			name: "Floral Print Backpack (Level 2)"
+	},
+	"ITEM:12032002": {
+			item_id: 12032002,
+			game_item_short_id: "Item_Skin_BackLv2_A_01_C",
+			name: "Leather Rucksack (Level 2)"
+	},
+	"ITEM:12032003": {
+			item_id: 12032003,
+			game_item_short_id: "Item_Skin_BackLv1_A_01_C",
+			name: "Marksman Backpack (Level 1)"
+	},
+	"ITEM:12032004": {
+			item_id: 12032004,
+			game_item_short_id: "Item_Skin_BackLV3_B_01_C",
+			name: "Survivalist Backpack (Level 3)"
 	},
 	"ITEM:13000001": {
 			item_id: 13000001,
@@ -2863,20 +3046,17 @@ var PUBGITEMS = {
 	"ITEM:13000016": {
 			item_id: 13000016,
 			game_item_short_id: "Item_Set_Shroud_01_C",
-			name: "SHROUD's CRATE",
-			description: "shroud"
+			name: "SHROUD's CRATE"
 	},
 	"ITEM:13000017": {
 			item_id: 13000017,
 			game_item_short_id: "Item_Set_JJ_01_C",
-			name: "JENNAJULIEN's CRATE",
-			description: "JennaJulien"
+			name: "JENNAJULIEN's CRATE"
 	},
 	"ITEM:13000018": {
 			item_id: 13000018,
 			game_item_short_id: "Item_Set_SkipNhO_01_C",
-			name: "SKIPNHO's CRATE",
-			description: "SkipNho"
+			name: "SKIPNHO's CRATE"
 	},
 	"ITEM:13000019": {
 			item_id: 13000019,
@@ -2901,14 +3081,12 @@ var PUBGITEMS = {
 	"ITEM:13000023": {
 			item_id: 13000023,
 			game_item_short_id: "Item_Set_BRS1WINNER_01_C",
-			name: "thz_tv's BROADCASTER ROYALE CHAMPION CRATE",
-			description: "thz_tv"
+			name: "thz_tv's BROADCASTER ROYALE CHAMPION CRATE"
 	},
 	"ITEM:13000024": {
 			item_id: 13000024,
 			game_item_short_id: "Item_Set_BRS1WINNER_02_C",
-			name: "Dahmien7's BROADCASTER ROYALE CHAMPION CRATE",
-			description: "Dahmien7"
+			name: "Dahmien7's BROADCASTER ROYALE CHAMPION CRATE"
 	},
 	"ITEM:13000025": {
 			item_id: 13000025,
@@ -2930,23 +3108,19 @@ var PUBGITEMS = {
 	},
 	"ITEM:13000029": {
 			item_id: 13000029,
-			name: "XDD'S CRATE",
-			description: "XDD"
+			name: "XDD'S CRATE"
 	},
 	"ITEM:13000030": {
 			item_id: 13000030,
-			name: "XINGHUN'S CRATE",
-			description: "XingHun"
+			name: "XINGHUN'S CRATE"
 	},
 	"ITEM:13000031": {
 			item_id: 13000031,
-			name: "MANSON'S CRATE",
-			description: "manson"
+			name: "MANSON'S CRATE"
 	},
 	"ITEM:13000032": {
 			item_id: 13000032,
-			name: "CHENGZI'S CRATE",
-			description: "chengzi"
+			name: "CHENGZI'S CRATE"
 	},
 	"ITEM:13000101": {
 			item_id: 13000101,
@@ -3068,6 +3242,15 @@ var PUBGITEMS = {
 			game_item_short_id: "Item_Box_L_1805_XB_C",
 			name: "AVIATOR CRATE"
 	},
+	"ITEM:14200001": {
+			item_id: 14200001,
+			name: "RANDOM KEY",
+			description: "You will receive one of the following keys randomly upon purchase. All keys are non-marketable.<br>- WEAPON SKIN KEY<br>- AVIATOR KEY<br>- EARLY BIRD KEY"
+	},
+	"ITEM:14200002": {
+			item_id: 14200002,
+			name: "BLUE COUPON"
+	},
 	"ITEM:15100001": {
 			item_id: 15100001,
 			game_item_short_id: "Item_Key_1712_C",
@@ -3089,6 +3272,26 @@ var PUBGITEMS = {
 			item_id: 15100004,
 			name: "EAST ERANGEL POLICE KEY",
 			description: "Unlocks EAST ERANGEL POLICE CRATE"
+	},
+	"ITEM:15100005": {
+			item_id: 15100005,
+			name: "WEAPON SKIN KEY (NON-MARKETABLE)",
+			description: "Unlocks EQUINOX CRATE and TRIUMPH CRATE<br>This key cannot be sold"
+	},
+	"ITEM:15100006": {
+			item_id: 15100006,
+			name: "AVIATOR KEY (NON-MARKETABLE)",
+			description: "Unlocks AVIATOR CRATE<br>This key cannot be sold"
+	},
+	"ITEM:15100007": {
+			item_id: 15100007,
+			name: "EAST ERANGEL POLICE KEY (NON-MARKETABLE)",
+			description: "Unlocks EAST ERANGEL POLICE CRATE<br>This key cannot be sold"
+	},
+	"ITEM:15100008": {
+			item_id: 15100008,
+			name: "EARLY BIRD KEY (NON-MARKETABLE)",
+			description: "Unlocks FEVER CRATE, DESPERADO CRATE, and GAMESCOM INVITATIONAL CRATE<br>This key cannot be sold"
 	},
 	"ITEM:21010001": {
 			item_id: 21010001,
@@ -3385,7 +3588,7 @@ var PUBGITEMS = {
 	"ITEM:31010048": {
 			item_id: 31010048,
 			game_item_short_id: "Item_Body_Cowboy_01_C",
-			name: "Gunslinger\u2019s Formal Shirt & Vest"
+			name: "Gunslinger’s Formal Shirt & Vest"
 	},
 	"ITEM:31010049": {
 			item_id: 31010049,
@@ -3442,11 +3645,21 @@ var PUBGITEMS = {
 			game_item_short_id: "Item_Body_CHHalf_01_C",
 			name: "HUYA T-shirt"
 	},
+	"ITEM:31010060": {
+			item_id: 31010060,
+			game_item_short_id: "Item_Body_Horizon_01_C",
+			name: "Horizon Zero Dawn Eclipse Top"
+	},
 	"ITEM:31019901": {
 			item_id: 31019901,
 			game_item_short_id: "Item_Body_DEV_01_C",
 			name: "Developer's Shirt ",
 			description: "Developer's Shirt "
+	},
+	"ITEM:31019902": {
+			item_id: 31019902,
+			game_item_short_id: "Item_Body_G_06_C",
+			name: "Featured App T-Shirt"
 	},
 	"ITEM:31020001": {
 			item_id: 31020001,
@@ -3666,7 +3879,7 @@ var PUBGITEMS = {
 	"ITEM:31020044": {
 			item_id: 31020044,
 			game_item_short_id: "Item_Legs_Cowboy_01_C",
-			name: "Gunslinger\u2019s Formal Pants"
+			name: "Gunslinger’s Formal Pants"
 	},
 	"ITEM:31020045": {
 			item_id: 31020045,
@@ -3806,7 +4019,7 @@ var PUBGITEMS = {
 	"ITEM:31030021": {
 			item_id: 31030021,
 			game_item_short_id: "Item_Feet_Cowboy_01_C",
-			name: "Gunslinger\u2019s Formal Boots"
+			name: "Gunslinger’s Formal Boots"
 	},
 	"ITEM:31030022": {
 			item_id: 31030022,
@@ -4116,7 +4329,7 @@ var PUBGITEMS = {
 	"ITEM:31050057": {
 			item_id: 31050057,
 			game_item_short_id: "Item_Jacket_Cowboy_01_C",
-			name: "Gunslinger\u2019s Formal Jacket"
+			name: "Gunslinger’s Formal Jacket"
 	},
 	"ITEM:31050058": {
 			item_id: 31050058,
@@ -4162,6 +4375,11 @@ var PUBGITEMS = {
 			item_id: 31050066,
 			game_item_short_id: "Item_Jacket_CNHoodie_02_C",
 			name: "Jijing's Hoodie"
+	},
+	"ITEM:31050067": {
+			item_id: 31050067,
+			game_item_short_id: "Item_Jacket_O_07_C",
+			name: "FaceIt Global Summit Hoodie"
 	},
 	"ITEM:31060001": {
 			item_id: 31060001,
@@ -4241,7 +4459,7 @@ var PUBGITEMS = {
 	"ITEM:31060016": {
 			item_id: 31060016,
 			game_item_short_id: "Item_Head_Cowboy_01_C",
-			name: "Gunslinger\u2019s Formal Hat"
+			name: "Gunslinger’s Formal Hat"
 	},
 	"ITEM:31060017": {
 			item_id: 31060017,
@@ -4318,6 +4536,16 @@ var PUBGITEMS = {
 			item_id: 31070013,
 			game_item_short_id: "Item_Mask_F_04_C",
 			name: "Esports Cat Face Mask"
+	},
+	"ITEM:31070014": {
+			item_id: 31070014,
+			game_item_short_id: "Item_Mask_Horizon_01_C",
+			name: "Horizon Zero Dawn Eclipse Mask"
+	},
+	"ITEM:31070015": {
+			item_id: 31070015,
+			game_item_short_id: "Item_Mask_F_05_C",
+			name: "FaceIt Global Summit Mask"
 	},
 	"ITEM:31080001": {
 			item_id: 31080001,
@@ -4413,6 +4641,16 @@ var PUBGITEMS = {
 			item_id: 32010014,
 			game_item_short_id: "Item_Skin_SKS_Kimsungtae_01_C",
 			name: "Pirate KIM's SKS"
+	},
+	"ITEM:32010015": {
+			item_id: 32010015,
+			game_item_short_id: "Item_Skin_Kar98k_HZD_01_C",
+			name: "Horizon Zero Dawn Eclipse Kar98k"
+	},
+	"ITEM:32010016": {
+			item_id: 32010016,
+			game_item_short_id: "Item_Skin_Pan_HZD_01_C",
+			name: "Horizon Zero Dawn Pan"
 	},
 	"ITEM:32030001": {
 			item_id: 32030001,
@@ -4699,162 +4937,270 @@ var PUBGITEMS = {
 			name: "EARLY BIRD KEY",
 			description: "Unlocks FEVER CRATE, DESPERADO CRATE, and GAMESCOM INVITATIONAL CRATE"
 	},
-	"ITEM:41020009": {
-			item_id: 41020009,
-			name: "Hotpants (Blue)"
+	"ITEM:16100001": {
+			item_id: 16100001,
+			name: "Thanks"
 	},
-	"ITEM:41020011": {
-			item_id: 41020011,
-			name: "Pleated Mini-skirt (Black)"
+	"ITEM:16100002": {
+			item_id: 16100002,
+			name: "Surrender"
 	},
-	"ITEM:41050005": {
-			item_id: 41050005,
-			name: "Tracksuit Top (Yellow)"
+	"ITEM:16100003": {
+			item_id: 16100003,
+			name: "Provoke"
 	},
-	"ITEM:41020007": {
-			item_id: 41020007,
-			name: "Tracksuit Pants (Yellow)"
+	"ITEM:16100004": {
+			item_id: 16100004,
+			name: "Affirmative"
 	},
-	"ITEM:41050026": {
-			item_id: 41050026,
-			name: "Violent Violet Jacket"
+	"ITEM:16100005": {
+			item_id: 16100005,
+			name: "Negative"
 	},
-	"ITEM:42010012": {
-			item_id: 42010012,
-			name: "Gold Plate - S686"
+	"ITEM:16100006": {
+			item_id: 16100006,
+			name: "Rage"
 	},
-	"ITEM:42010015": {
-			item_id: 42010015,
-			name: "Turquoise Delight - Kar98k"
+	"ITEM:16100007": {
+			item_id: 16100007,
+			name: "Laugh"
 	},
-	"ITEM:45000001": {
-			item_id: 45000001,
-			name: "XP Boost 100%",
-			description: "Doubled XP will be gained after a match during the Event Pass period"
+	"ITEM:16100008": {
+			item_id: 16100008,
+			name: "Go"
 	},
-	"ITEM:45000002": {
-			item_id: 45000002,
-			name: "BP Boost {0}",
-			description: "{0} Bonus BP will be gained after a match during the Event Pass period"
+	"ITEM:16100009": {
+			item_id: 16100009,
+			name: "Hello"
 	},
-	"ITEM:45000014": {
-			item_id: 45000014,
-			name: "BP Boost {0} - 1days",
-			description: "{0} Bonus BP will be gained after a match during the Event Pass period"
+	"ITEM:16100010": {
+			item_id: 16100010,
+			name: "You're done"
 	},
-	"ITEM:45000003": {
-			item_id: 45000003,
-			name: "Nickname Change",
-			description: 'Change your nickname. "Identity theft is not a joke!"'
+	"ITEM:16100011": {
+			item_id: 16100011,
+			name: "Clap"
 	},
-	"ITEM:45000004": {
-			item_id: 45000004,
-			name: "5 Levels",
-			description: " Instantly raise your Survivor Pass level by 5"
+	"ITEM:16100012": {
+			item_id: 16100012,
+			name: "Come here"
 	},
-	"ITEM:42010016": {
-			item_id: 42010016,
-			name: "Turquoise Delight - Kar98k"
+	"ITEM:16100013": {
+			item_id: 16100013,
+			name: "Shrug"
 	},
-	"ITEM:45000005": {
-			item_id: 45000005,
-			name: "1 Level",
-			description: " Instantly raise your Survivor Pass level by 1"
+	"ITEM:16100014": {
+			item_id: 16100014,
+			name: "Jealous"
 	},
-	"ITEM:41020030": {
-			item_id: 41020030,
-			name: "Work Pants"
+	"ITEM:16100015": {
+			item_id: 16100015,
+			name: "Kick"
 	},
-	"ITEM:41020010": {
-			item_id: 41020010,
-			name: "Cargo Pants (Khaki)"
+	"ITEM:16100016": {
+			item_id: 16100016,
+			name: "Cry"
+	},
+	"ITEM:16100017": {
+			item_id: 16100017,
+			name: "Cower"
+	},
+	"ITEM:16100018": {
+			item_id: 16100018,
+			name: "Stop!"
+	},
+	"ITEM:16100019": {
+			item_id: 16100019,
+			name: "Impatient"
+	},
+	"ITEM:16100020": {
+			item_id: 16100020,
+			name: "Thumbs up"
+	},
+	"ITEM:16100021": {
+			item_id: 16100021,
+			name: "Celebrate"
+	},
+	"ITEM:16100022": {
+			item_id: 16100022,
+			name: "Air Guitar"
+	},
+	"ITEM:16100023": {
+			item_id: 16100023,
+			name: "Zapped"
+	},
+	"ITEM:16100024": {
+			item_id: 16100024,
+			name: "Draw!"
+	},
+	"ITEM:16100025": {
+			item_id: 16100025,
+			name: "Embarrassed"
+	},
+	"ITEM:16100026": {
+			item_id: 16100026,
+			name: "GO GO GO"
+	},
+	"ITEM:16100027": {
+			item_id: 16100027,
+			name: "Get Down!"
+	},
+	"ITEM:16100028": {
+			item_id: 16100028,
+			name: "Plead"
+	},
+	"ITEM:16100029": {
+			item_id: 16100029,
+			name: "#1"
+	},
+	"ITEM:16100030": {
+			item_id: 16100030,
+			name: "Quiet!"
+	},
+	"ITEM:16100031": {
+			item_id: 16100031,
+			name: "Bow"
+	},
+	"ITEM:16100032": {
+			item_id: 16100032,
+			name: "Bring It!"
+	},
+	"ITEM:16100034": {
+			item_id: 16100034,
+			name: "Victory"
+	},
+	"ITEM:16100035": {
+			item_id: 16100035,
+			name: "Flex"
+	},
+	"ITEM:16100036": {
+			item_id: 16100036,
+			name: "Dance"
+	},
+	"ITEM:16100037": {
+			item_id: 16100037,
+			name: "Victory Dance 3"
+	},
+	"ITEM:16100038": {
+			item_id: 16100038,
+			name: "Victory Dance 4"
+	},
+	"ITEM:16100039": {
+			item_id: 16100039,
+			name: "Victory Dance 5"
+	},
+	"ITEM:16100040": {
+			item_id: 16100040,
+			name: "Victory Dance 2"
+	},
+	"ITEM:16100041": {
+			item_id: 16100041,
+			name: "Victory Dance"
+	},
+	"ITEM:16100042": {
+			item_id: 16100042,
+			name: "Kung fu bow"
+	},
+	"ITEM:16100043": {
+			item_id: 16100043,
+			name: "Sebae1"
+	},
+	"ITEM:16100044": {
+			item_id: 16100044,
+			name: "Sebae2"
+	},
+	"ITEM:16100045": {
+			item_id: 16100045,
+			name: "Pocket money"
+	},
+	"ITEM:16100046": {
+			item_id: 16100046,
+			name: "Seduction"
+	},
+	"ITEM:16100047": {
+			item_id: 16100047,
+			name: "Bored"
+	},
+	"ITEM:16100048": {
+			item_id: 16100048,
+			name: "Yes Sir"
+	},
+	"ITEM:16100049": {
+			item_id: 16100049,
+			name: "Rock Star"
+	},
+	"ITEM:16100050": {
+			item_id: 16100050,
+			name: "Space Ranger Pose 1"
+	},
+	"ITEM:16100051": {
+			item_id: 16100051,
+			name: "Gun Show"
+	},
+	"ITEM:16100052": {
+			item_id: 16100052,
+			name: "Gracious Bow"
+	},
+	"ITEM:16100053": {
+			item_id: 16100053,
+			name: "Space Ranger Pose 2"
+	},
+	"ITEM:16100054": {
+			item_id: 16100054,
+			name: "Victory Dance 6"
+	},
+	"ITEM:16100055": {
+			item_id: 16100055,
+			name: "Victory Dance 7"
+	},
+	"ITEM:17210001": {
+			item_id: 17210001,
+			name: "Hairstyle 10"
+	},
+	"ITEM:17210002": {
+			item_id: 17210002,
+			name: "Hairstyle 11"
+	},
+	"ITEM:17220001": {
+			item_id: 17220001,
+			name: "Male Face 7"
+	},
+	"ITEM:17220002": {
+			item_id: 17220002,
+			name: "Female Face 7"
+	},
+	"ITEM:37110001": {
+			item_id: 37110001,
+			name: "The Joker's Hair",
+			description: "This item can be used with both male and female characters"
+	},
+	"ITEM:37130001": {
+			item_id: 37130001,
+			name: "The Joker's Makeup",
+			description: "This item can be used with both male and female characters"
+	},
+	"ITEM:37210001": {
+			item_id: 37210001,
+			name: "Harley Quinn's Hair",
+			description: "This item can be used with both male and female characters"
+	},
+	"ITEM:37230001": {
+			item_id: 37230001,
+			name: "Harley Quinn's Makeup",
+			description: "This item can be used with both male and female characters"
+	},
+	"ITEM:37230002": {
+			item_id: 37230002,
+			name: "Arctic Face Camo",
+			description: "This item can be used with both male and female characters"
+	},
+	"ITEM:37230003": {
+			item_id: 37230003,
+			name: "Woodland Face Camo",
+			description: "This item can be used with both male and female characters"
 	},
 	"ITEM:41010001": {
 			item_id: 41010001,
-			name: "Bloody Tank Top (White)"
-	},
-	"ITEM:41020019": {
-			item_id: 41020019,
-			name: "Skinny Jeans (Pink)"
-	},
-	"ITEM:41020026": {
-			item_id: 41020026,
-			name: "Military Trousers (Black)"
-	},
-	"ITEM:41060002": {
-			item_id: 41060002,
-			name: "Beanie "
-	},
-	"ITEM:41020002": {
-			item_id: 41020002,
-			name: "Camo Combat Pants (Gray)"
-	},
-	"ITEM:41021011": {
-			item_id: 41021011,
-			name: "Cargo Pants (Blue)"
-	},
-	"ITEM:41060005": {
-			item_id: 41060005,
-			name: "Vintage Baseball Cap (Black)"
-	},
-	"ITEM:41070001": {
-			item_id: 41070001,
-			name: "Gas Mask (Half) "
-	},
-	"ITEM:41020003": {
-			item_id: 41020003,
-			name: "Bloody Combat Pants"
-	},
-	"ITEM:41060001": {
-			item_id: 41060001,
-			name: "Baseball cap"
-	},
-	"ITEM:41021007": {
-			item_id: 41021007,
-			name: "Combat Pants (White)"
-	},
-	"ITEM:41020020": {
-			item_id: 41020020,
-			name: "Skinny Jeans (Khaki)"
-	},
-	"ITEM:41010038": {
-			item_id: 41010038,
-			name: "Vintage Polo Shirt"
-	},
-	"ITEM:41010037": {
-			item_id: 41010037,
-			name: "Polo Shirt (Pink)"
-	},
-	"ITEM:41020004": {
-			item_id: 41020004,
-			name: "Combat Pants (Black)"
-	},
-	"ITEM:41020001": {
-			item_id: 41020001,
-			name: "Camo Combat Pants"
-	},
-	"ITEM:41020008": {
-			item_id: 41020008,
-			name: "Combat Pants (Blue)"
-	},
-	"ITEM:41010045": {
-			item_id: 41010045,
-			name: "Raglan T-shirt (Red/White)"
-	},
-	"ITEM:41060004": {
-			item_id: 41060004,
-			name: "Vintage Baseball Cap (White)"
-	},
-	"ITEM:42010032": {
-			item_id: 42010032,
-			name: "Rugged (Beige) - S686"
-	},
-	"ITEM:42010039": {
-			item_id: 42010039,
-			name: "Rugged (Beige) - SKS"
-	},
-	"ITEM:41011001": {
-			item_id: 41011001,
 			name: "Bloody Tank Top (White)"
 	},
 	"ITEM:41010002": {
@@ -4997,12 +5343,12 @@ var PUBGITEMS = {
 			item_id: 41010036,
 			name: "Retro Polo Shirt"
 	},
-	"ITEM:41011037": {
-			item_id: 41011037,
+	"ITEM:41010037": {
+			item_id: 41010037,
 			name: "Polo Shirt (Pink)"
 	},
-	"ITEM:41011038": {
-			item_id: 41011038,
+	"ITEM:41010038": {
+			item_id: 41010038,
 			name: "Vintage Polo Shirt"
 	},
 	"ITEM:41010039": {
@@ -5029,8 +5375,8 @@ var PUBGITEMS = {
 			item_id: 41010044,
 			name: "Raglan T-shirt (White/Black)"
 	},
-	"ITEM:41011045": {
-			item_id: 41011045,
+	"ITEM:41010045": {
+			item_id: 41010045,
 			name: "Raglan T-shirt (Red/White)"
 	},
 	"ITEM:41010046": {
@@ -5044,564 +5390,6 @@ var PUBGITEMS = {
 	"ITEM:41010048": {
 			item_id: 41010048,
 			name: "Denim Shirt with Necktie"
-	},
-	"ITEM:41021001": {
-			item_id: 41021001,
-			name: "Camo Combat Pants"
-	},
-	"ITEM:41021002": {
-			item_id: 41021002,
-			name: "Camo Combat Pants (Gray)"
-	},
-	"ITEM:41021003": {
-			item_id: 41021003,
-			name: "Bloody Combat Pants"
-	},
-	"ITEM:41021004": {
-			item_id: 41021004,
-			name: "Combat Pants (Black)"
-	},
-	"ITEM:41020005": {
-			item_id: 41020005,
-			name: "Biker Pants (Black) "
-	},
-	"ITEM:41020006": {
-			item_id: 41020006,
-			name: "Skinny Jeans (Blue)"
-	},
-	"ITEM:41022007": {
-			item_id: 41022007,
-			name: "Combat Pants (White)"
-	},
-	"ITEM:41021008": {
-			item_id: 41021008,
-			name: "Combat Pants (Blue)"
-	},
-	"ITEM:41021009": {
-			item_id: 41021009,
-			name: "Hotpants (Blue)"
-	},
-	"ITEM:41021010": {
-			item_id: 41021010,
-			name: "Cargo Pants (Khaki)"
-	},
-	"ITEM:41022011": {
-			item_id: 41022011,
-			name: "Cargo Pants (Blue)"
-	},
-	"ITEM:41020012": {
-			item_id: 41020012,
-			name: "Cargo Pants (Beige)"
-	},
-	"ITEM:41020013": {
-			item_id: 41020013,
-			name: "Tracksuit Pants (Light Blue)"
-	},
-	"ITEM:41020014": {
-			item_id: 41020014,
-			name: "Wide Pants (Red)"
-	},
-	"ITEM:41020015": {
-			item_id: 41020015,
-			name: "Biker Pants (Gray)"
-	},
-	"ITEM:41020016": {
-			item_id: 41020016,
-			name: "Baggy Pants (Black)"
-	},
-	"ITEM:41020017": {
-			item_id: 41020017,
-			name: "Baggy Pants (Brown)"
-	},
-	"ITEM:41020018": {
-			item_id: 41020018,
-			name: "Baggy Pants (Black)"
-	},
-	"ITEM:41021019": {
-			item_id: 41021019,
-			name: "Skinny Jeans (Pink)"
-	},
-	"ITEM:41021020": {
-			item_id: 41021020,
-			name: "Skinny Jeans (Khaki)"
-	},
-	"ITEM:41020021": {
-			item_id: 41020021,
-			name: "Zest Bootcut Pants"
-	},
-	"ITEM:41020022": {
-			item_id: 41020022,
-			name: "Leather Bootcut Pants"
-	},
-	"ITEM:41020023": {
-			item_id: 41020023,
-			name: "Denim Bootcut Pants"
-	},
-	"ITEM:41020024": {
-			item_id: 41020024,
-			name: "Military Skirt (Black)"
-	},
-	"ITEM:41020025": {
-			item_id: 41020025,
-			name: "Military Trousers (White)"
-	},
-	"ITEM:41021026": {
-			item_id: 41021026,
-			name: "Military Trousers (Black)"
-	},
-	"ITEM:41020027": {
-			item_id: 41020027,
-			name: "Military Skirt (White)"
-	},
-	"ITEM:41020028": {
-			item_id: 41020028,
-			name: "Zest Checkered Skirt"
-	},
-	"ITEM:41020029": {
-			item_id: 41020029,
-			name: "Snow Leopard Skirt"
-	},
-	"ITEM:41021030": {
-			item_id: 41021030,
-			name: "Leopard Skirt"
-	},
-	"ITEM:41020031": {
-			item_id: 41020031,
-			name: "Combat Pants (Coral)"
-	},
-	"ITEM:41020032": {
-			item_id: 41020032,
-			name: "Fringed Hotpants"
-	},
-	"ITEM:41020033": {
-			item_id: 41020033,
-			name: "Pilot Pants"
-	},
-	"ITEM:41020034": {
-			item_id: 41020034,
-			name: "Lazy Sunday Sweatpants"
-	},
-	"ITEM:41030001": {
-			item_id: 41030001,
-			name: "Working Boots"
-	},
-	"ITEM:41030002": {
-			item_id: 41030002,
-			name: "Dress Shoes (Black)"
-	},
-	"ITEM:41030003": {
-			item_id: 41030003,
-			name: "Slip-on Shoes"
-	},
-	"ITEM:41030004": {
-			item_id: 41030004,
-			name: "Punk Boots"
-	},
-	"ITEM:41030005": {
-			item_id: 41030005,
-			name: "Hi-top Trainers (Blue)"
-	},
-	"ITEM:41030006": {
-			item_id: 41030006,
-			name: "Hi-top Trainers (Brown)"
-	},
-	"ITEM:41030007": {
-			item_id: 41030007,
-			name: "Boots (Gray)"
-	},
-	"ITEM:41030008": {
-			item_id: 41030008,
-			name: "Sneakers (Black)"
-	},
-	"ITEM:41030009": {
-			item_id: 41030009,
-			name: "Dress Shoes (Brown)"
-	},
-	"ITEM:41030010": {
-			item_id: 41030010,
-			name: "Leather Boots (Brown)"
-	},
-	"ITEM:41030011": {
-			item_id: 41030011,
-			name: "Leather Boots (Black)"
-	},
-	"ITEM:41030012": {
-			item_id: 41030012,
-			name: "Long Leather Boots (Brown)"
-	},
-	"ITEM:41030013": {
-			item_id: 41030013,
-			name: "Military Boots (Black)"
-	},
-	"ITEM:41030014": {
-			item_id: 41030014,
-			name: "Military Boots (Brown)"
-	},
-	"ITEM:41030015": {
-			item_id: 41030015,
-			name: "Zest Loafers with Socks"
-	},
-	"ITEM:41030016": {
-			item_id: 41030016,
-			name: "Countryside Sneakers"
-	},
-	"ITEM:41030017": {
-			item_id: 41030017,
-			name: "Hi-top Canvas Sneakers (Pink)"
-	},
-	"ITEM:41030018": {
-			item_id: 41030018,
-			name: "School Shoes (Beige)"
-	},
-	"ITEM:41030019": {
-			item_id: 41030019,
-			name: "Snake Skin Sneakers"
-	},
-	"ITEM:41040001": {
-			item_id: 41040001,
-			name: "Fingerless Gloves (Leather)"
-	},
-	"ITEM:41040002": {
-			item_id: 41040002,
-			name: "Fingerless Gloves (Tan)"
-	},
-	"ITEM:41040003": {
-			item_id: 41040003,
-			name: "Fingerless Gloves (Camo)"
-	},
-	"ITEM:41040004": {
-			item_id: 41040004,
-			name: "Punk Knuckle Gloves (Red)"
-	},
-	"ITEM:41040005": {
-			item_id: 41040005,
-			name: "Punk Knuckle Gloves (Black)"
-	},
-	"ITEM:41040006": {
-			item_id: 41040006,
-			name: "Combat Gloves (Khaki)"
-	},
-	"ITEM:41040007": {
-			item_id: 41040007,
-			name: "Tactical Gloves"
-	},
-	"ITEM:41050001": {
-			item_id: 41050001,
-			name: "Urban Padded Jacket"
-	},
-	"ITEM:41050002": {
-			item_id: 41050002,
-			name: "Padded Jacket (Purple)"
-	},
-	"ITEM:41050003": {
-			item_id: 41050003,
-			name: "Padded Jacket (Beige)"
-	},
-	"ITEM:41050004": {
-			item_id: 41050004,
-			name: "Camo Padded Jacket "
-	},
-	"ITEM:41051005": {
-			item_id: 41051005,
-			name: "Padded Jacket (Khaki)"
-	},
-	"ITEM:41050006": {
-			item_id: 41050006,
-			name: "Padded Jacket (Gray)"
-	},
-	"ITEM:41050007": {
-			item_id: 41050007,
-			name: "Coat (Black)"
-	},
-	"ITEM:41050008": {
-			item_id: 41050008,
-			name: "Coat (Gray) "
-	},
-	"ITEM:41050009": {
-			item_id: 41050009,
-			name: "Coat (Camel)"
-	},
-	"ITEM:41050010": {
-			item_id: 41050010,
-			name: "Coat (Red)"
-	},
-	"ITEM:41050011": {
-			item_id: 41050011,
-			name: "Sleeveless Biker Jacket (Black)"
-	},
-	"ITEM:41050012": {
-			item_id: 41050012,
-			name: "Custom Trenchcoat"
-	},
-	"ITEM:41050014": {
-			item_id: 41050014,
-			name: "Punk Jacket (Black)"
-	},
-	"ITEM:41050015": {
-			item_id: 41050015,
-			name: "Checkered Jacket"
-	},
-	"ITEM:41050016": {
-			item_id: 41050016,
-			name: "Sleeveless Biker Jacket (Brown)"
-	},
-	"ITEM:41050017": {
-			item_id: 41050017,
-			name: "Leather Hoodie (Black)"
-	},
-	"ITEM:41050018": {
-			item_id: 41050018,
-			name: "Leather Hoodie (White)"
-	},
-	"ITEM:41050019": {
-			item_id: 41050019,
-			name: "Military Jacket (Black)"
-	},
-	"ITEM:41050020": {
-			item_id: 41050020,
-			name: "Military Jacket (Blue)"
-	},
-	"ITEM:41050021": {
-			item_id: 41050021,
-			name: "Zest Denim Jacket"
-	},
-	"ITEM:41050022": {
-			item_id: 41050022,
-			name: "Faux Leather Jacket"
-	},
-	"ITEM:41050023": {
-			item_id: 41050023,
-			name: "Worker Jacket"
-	},
-	"ITEM:41050024": {
-			item_id: 41050024,
-			name: "Floral Retro Jacket"
-	},
-	"ITEM:41050025": {
-			item_id: 41050025,
-			name: "Zest Retro Jacket"
-	},
-	"ITEM:41051026": {
-			item_id: 41051026,
-			name: "Violent Violet Jacket"
-	},
-	"ITEM:41050027": {
-			item_id: 41050027,
-			name: 'Leather "Skyrocket" Jacket'
-	},
-	"ITEM:41061001": {
-			item_id: 41061001,
-			name: "Vintage Baseball Cap (Red/White)"
-	},
-	"ITEM:41061002": {
-			item_id: 41061002,
-			name: "Beanie (Black)"
-	},
-	"ITEM:41060003": {
-			item_id: 41060003,
-			name: "Patrol Cap (Gray)"
-	},
-	"ITEM:41061004": {
-			item_id: 41061004,
-			name: "Vintage Baseball Cap (White)"
-	},
-	"ITEM:41061005": {
-			item_id: 41061005,
-			name: "Vintage Baseball Cap (Red/Black)"
-	},
-	"ITEM:41060006": {
-			item_id: 41060006,
-			name: "Beanie (Brown)"
-	},
-	"ITEM:41060007": {
-			item_id: 41060007,
-			name: "Beanie (Gray)"
-	},
-	"ITEM:41060008": {
-			item_id: 41060008,
-			name: "Patrol Cap (Brown)"
-	},
-	"ITEM:41060009": {
-			item_id: 41060009,
-			name: "Military Cap (Black)"
-	},
-	"ITEM:41060010": {
-			item_id: 41060010,
-			name: "Military Cap (White)"
-	},
-	"ITEM:41060011": {
-			item_id: 41060011,
-			name: "Cowboy Hat (Brown)"
-	},
-	"ITEM:41060012": {
-			item_id: 41060012,
-			name: "Cowboy Hat (White)"
-	},
-	"ITEM:41060013": {
-			item_id: 41060013,
-			name: "Cowboy Hat (Gray)"
-	},
-	"ITEM:41060014": {
-			item_id: 41060014,
-			name: "Paddy Cap"
-	},
-	"ITEM:41060015": {
-			item_id: 41060015,
-			name: "Suede Aviator Cap"
-	},
-	"ITEM:41071001": {
-			item_id: 41071001,
-			name: "Gas Mask (Half) "
-	},
-	"ITEM:41070002": {
-			item_id: 41070002,
-			name: "Gas Mask (Full)"
-	},
-	"ITEM:41070003": {
-			item_id: 41070003,
-			name: "Ballistic Mask"
-	},
-	"ITEM:41070004": {
-			item_id: 41070004,
-			name: "Cloth Mask (Leopard)"
-	},
-	"ITEM:41070005": {
-			item_id: 41070005,
-			name: "Cloth Mask (Checkered)"
-	},
-	"ITEM:41070006": {
-			item_id: 41070006,
-			name: "Vintage Gas Mask"
-	},
-	"ITEM:41070007": {
-			item_id: 41070007,
-			name: "Zest Silk Scarf"
-	},
-	"ITEM:41070008": {
-			item_id: 41070008,
-			name: "Desert Shemagh"
-	},
-	"ITEM:41080001": {
-			item_id: 41080001,
-			name: "Punk Glasses"
-	},
-	"ITEM:41080002": {
-			item_id: 41080002,
-			name: "Sunglasses"
-	},
-	"ITEM:41080003": {
-			item_id: 41080003,
-			name: "Aviator Goggles"
-	},
-	"ITEM:41080004": {
-			item_id: 41080004,
-			name: "Aviator Sunglasses"
-	},
-	"ITEM:41080005": {
-			item_id: 41080005,
-			name: "Rimless Sunglasses"
-	},
-	"ITEM:41080006": {
-			item_id: 41080006,
-			name: "Protective Glasses"
-	},
-	"ITEM:41080007": {
-			item_id: 41080007,
-			name: "Horn-rimmed Glasses (Black)"
-	},
-	"ITEM:41080008": {
-			item_id: 41080008,
-			name: "Horn-rimmed Glasses (Brown)"
-	},
-	"ITEM:41080009": {
-			item_id: 41080009,
-			name: "Zest Sunglasses"
-	},
-	"ITEM:41080010": {
-			item_id: 41080010,
-			name: "Vintage Aviator Goggles"
-	},
-	"ITEM:41090001": {
-			item_id: 41090001,
-			name: "Utility Belt (Brown)"
-	},
-	"ITEM:41090002": {
-			item_id: 41090002,
-			name: "Battle Belt"
-	},
-	"ITEM:45000006": {
-			item_id: 45000006,
-			name: "XP Boost 100%",
-			description: "Doubled XP will be gained after a match during the Event Pass period"
-	},
-	"ITEM:45000007": {
-			item_id: 45000007,
-			name: "BP Boost {0}",
-			description: "{0} Bonus BP will be gained after a match during the Event Pass period"
-	},
-	"ITEM:45000008": {
-			item_id: 45000008,
-			name: "EVENT PASS: SANHOK",
-			description: "Subscribe to Event Pass: Sanhok!"
-	},
-	"ITEM:45000009": {
-			item_id: 45000009,
-			name: "500 G-COIN",
-			description: "Receive 500 G-Coin!"
-	},
-	"ITEM:45000010": {
-			item_id: 45000010,
-			name: "1100 G-COIN",
-			description: "Receive 1100 G-Coin!"
-	},
-	"ITEM:45000011": {
-			item_id: 45000011,
-			name: "2300 G-COIN",
-			description: "Receive 2300 G-Coin!"
-	},
-	"ITEM:45000012": {
-			item_id: 45000012,
-			name: "6000 G-COIN",
-			description: "Receive 6000 G-Coin!"
-	},
-	"ITEM:45000013": {
-			item_id: 45000013,
-			name: "13000 G-COIN",
-			description: "Receive 13000 G-Coin!"
-	},
-	"ITEM:45000020": {
-			item_id: 45000020,
-			name: "13500 G-COIN",
-			description: "Receive 13500 G-Coin!"
-	},
-	"ITEM:45000015": {
-			item_id: 45000015,
-			name: "SURVIVOR PASS: VIKENDI",
-			description: "This item will be removed upon the launch of Survivor Pass: Vikendi and will unlock the premium version of the pass"
-	},
-	"ITEM:45000016": {
-			item_id: 45000016,
-			name: "SURVIVOR PASS: VIKENDI",
-			description: "Purchase the premium version of Survivor Pass: Vikendi to unlock exclusive missions and rewards"
-	},
-	"ITEM:45000017": {
-			item_id: 45000017,
-			name: "BP Boost {0}",
-			description: "{0} Bonus BP will be gained after a match during the Survivor Pass period"
-	},
-	"ITEM:45000018": {
-			item_id: 45000018,
-			name: "20 Levels",
-			description: " Instantly raise your Survivor Pass level by 20"
-	},
-	"ITEM:45000019": {
-			item_id: 45000019,
-			name: "50 Levels",
-			description: " Instantly raise your Survivor Pass level by 50"
-	},
-	"ITEM:41040008": {
-			item_id: 41040008,
-			name: "Rubber Coated Gloves"
 	},
 	"ITEM:41010049": {
 			item_id: 41010049,
@@ -5795,6 +5583,174 @@ var PUBGITEMS = {
 			item_id: 41010096,
 			name: "Denim Shirt with Necktie"
 	},
+	"ITEM:41010097": {
+			item_id: 41010097,
+			name: "DOUYU T-Shirt"
+	},
+	"ITEM:41010098": {
+			item_id: 41010098,
+			name: "Tweed Vest (Gray)"
+	},
+	"ITEM:41010099": {
+			item_id: 41010099,
+			name: "Floral Shirt (Black)"
+	},
+	"ITEM:41011001": {
+			item_id: 41011001,
+			name: "Bloody Tank Top (White)"
+	},
+	"ITEM:41011037": {
+			item_id: 41011037,
+			name: "Polo Shirt (Pink)"
+	},
+	"ITEM:41011038": {
+			item_id: 41011038,
+			name: "Vintage Polo Shirt"
+	},
+	"ITEM:41011045": {
+			item_id: 41011045,
+			name: "Raglan T-shirt (Red/White)"
+	},
+	"ITEM:41011046": {
+			item_id: 41011046,
+			name: "HUYA T-shirt"
+	},
+	"ITEM:41020001": {
+			item_id: 41020001,
+			name: "Camo Combat Pants"
+	},
+	"ITEM:41020002": {
+			item_id: 41020002,
+			name: "Camo Combat Pants (Gray)"
+	},
+	"ITEM:41020003": {
+			item_id: 41020003,
+			name: "Bloody Combat Pants"
+	},
+	"ITEM:41020004": {
+			item_id: 41020004,
+			name: "Combat Pants (Black)"
+	},
+	"ITEM:41020005": {
+			item_id: 41020005,
+			name: "Biker Pants (Black) "
+	},
+	"ITEM:41020006": {
+			item_id: 41020006,
+			name: "Skinny Jeans (Blue)"
+	},
+	"ITEM:41020007": {
+			item_id: 41020007,
+			name: "Tracksuit Pants (Yellow)"
+	},
+	"ITEM:41020008": {
+			item_id: 41020008,
+			name: "Combat Pants (Blue)"
+	},
+	"ITEM:41020009": {
+			item_id: 41020009,
+			name: "Hotpants (Blue)"
+	},
+	"ITEM:41020010": {
+			item_id: 41020010,
+			name: "Cargo Pants (Khaki)"
+	},
+	"ITEM:41020011": {
+			item_id: 41020011,
+			name: "Pleated Mini-skirt (Black)"
+	},
+	"ITEM:41020012": {
+			item_id: 41020012,
+			name: "Cargo Pants (Beige)"
+	},
+	"ITEM:41020013": {
+			item_id: 41020013,
+			name: "Tracksuit Pants (Light Blue)"
+	},
+	"ITEM:41020014": {
+			item_id: 41020014,
+			name: "Wide Pants (Red)"
+	},
+	"ITEM:41020015": {
+			item_id: 41020015,
+			name: "Biker Pants (Gray)"
+	},
+	"ITEM:41020016": {
+			item_id: 41020016,
+			name: "Baggy Pants (Black)"
+	},
+	"ITEM:41020017": {
+			item_id: 41020017,
+			name: "Baggy Pants (Brown)"
+	},
+	"ITEM:41020018": {
+			item_id: 41020018,
+			name: "Baggy Pants (Black)"
+	},
+	"ITEM:41020019": {
+			item_id: 41020019,
+			name: "Skinny Jeans (Pink)"
+	},
+	"ITEM:41020020": {
+			item_id: 41020020,
+			name: "Skinny Jeans (Khaki)"
+	},
+	"ITEM:41020021": {
+			item_id: 41020021,
+			name: "Zest Bootcut Pants"
+	},
+	"ITEM:41020022": {
+			item_id: 41020022,
+			name: "Leather Bootcut Pants"
+	},
+	"ITEM:41020023": {
+			item_id: 41020023,
+			name: "Denim Bootcut Pants"
+	},
+	"ITEM:41020024": {
+			item_id: 41020024,
+			name: "Military Skirt (Black)"
+	},
+	"ITEM:41020025": {
+			item_id: 41020025,
+			name: "Military Trousers (White)"
+	},
+	"ITEM:41020026": {
+			item_id: 41020026,
+			name: "Military Trousers (Black)"
+	},
+	"ITEM:41020027": {
+			item_id: 41020027,
+			name: "Military Skirt (White)"
+	},
+	"ITEM:41020028": {
+			item_id: 41020028,
+			name: "Zest Checkered Skirt"
+	},
+	"ITEM:41020029": {
+			item_id: 41020029,
+			name: "Snow Leopard Skirt"
+	},
+	"ITEM:41020030": {
+			item_id: 41020030,
+			name: "Work Pants"
+	},
+	"ITEM:41020031": {
+			item_id: 41020031,
+			name: "Combat Pants (Coral)"
+	},
+	"ITEM:41020032": {
+			item_id: 41020032,
+			name: "Fringed Hotpants"
+	},
+	"ITEM:41020033": {
+			item_id: 41020033,
+			name: "Pilot Pants"
+	},
+	"ITEM:41020034": {
+			item_id: 41020034,
+			name: "Lazy Sunday Sweatpants"
+	},
 	"ITEM:41020035": {
 			item_id: 41020035,
 			name: "Camo Combat Pants"
@@ -5931,6 +5887,162 @@ var PUBGITEMS = {
 			item_id: 41020068,
 			name: "Lazy Sunday Sweatpants"
 	},
+	"ITEM:41020069": {
+			item_id: 41020069,
+			name: "Work Pants"
+	},
+	"ITEM:41020070": {
+			item_id: 41020070,
+			name: "Suit Pants (Gray)"
+	},
+	"ITEM:41020071": {
+			item_id: 41020071,
+			name: "Pilot Pants"
+	},
+	"ITEM:41020072": {
+			item_id: 41020072,
+			name: "Fringed Hotpants"
+	},
+	"ITEM:41020073": {
+			item_id: 41020073,
+			name: "Biker Pants (Gray)"
+	},
+	"ITEM:41021001": {
+			item_id: 41021001,
+			name: "Camo Combat Pants"
+	},
+	"ITEM:41021002": {
+			item_id: 41021002,
+			name: "Camo Combat Pants (Gray)"
+	},
+	"ITEM:41021003": {
+			item_id: 41021003,
+			name: "Bloody Combat Pants"
+	},
+	"ITEM:41021004": {
+			item_id: 41021004,
+			name: "Combat Pants (Black)"
+	},
+	"ITEM:41021007": {
+			item_id: 41021007,
+			name: "Combat Pants (White)"
+	},
+	"ITEM:41021008": {
+			item_id: 41021008,
+			name: "Combat Pants (Blue)"
+	},
+	"ITEM:41021009": {
+			item_id: 41021009,
+			name: "Hotpants (Blue)"
+	},
+	"ITEM:41021010": {
+			item_id: 41021010,
+			name: "Cargo Pants (Khaki)"
+	},
+	"ITEM:41021011": {
+			item_id: 41021011,
+			name: "Cargo Pants (Blue)"
+	},
+	"ITEM:41021019": {
+			item_id: 41021019,
+			name: "Skinny Jeans (Pink)"
+	},
+	"ITEM:41021020": {
+			item_id: 41021020,
+			name: "Skinny Jeans (Khaki)"
+	},
+	"ITEM:41021026": {
+			item_id: 41021026,
+			name: "Military Trousers (Black)"
+	},
+	"ITEM:41021030": {
+			item_id: 41021030,
+			name: "Leopard Skirt"
+	},
+	"ITEM:41022007": {
+			item_id: 41022007,
+			name: "Combat Pants (White)"
+	},
+	"ITEM:41022011": {
+			item_id: 41022011,
+			name: "Cargo Pants (Blue)"
+	},
+	"ITEM:41030001": {
+			item_id: 41030001,
+			name: "Working Boots"
+	},
+	"ITEM:41030002": {
+			item_id: 41030002,
+			name: "Dress Shoes (Black)"
+	},
+	"ITEM:41030003": {
+			item_id: 41030003,
+			name: "Slip-on Shoes"
+	},
+	"ITEM:41030004": {
+			item_id: 41030004,
+			name: "Punk Boots"
+	},
+	"ITEM:41030005": {
+			item_id: 41030005,
+			name: "Hi-top Trainers (Blue)"
+	},
+	"ITEM:41030006": {
+			item_id: 41030006,
+			name: "Hi-top Trainers (Brown)"
+	},
+	"ITEM:41030007": {
+			item_id: 41030007,
+			name: "Boots (Gray)"
+	},
+	"ITEM:41030008": {
+			item_id: 41030008,
+			name: "Sneakers (Black)"
+	},
+	"ITEM:41030009": {
+			item_id: 41030009,
+			name: "Dress Shoes (Brown)"
+	},
+	"ITEM:41030010": {
+			item_id: 41030010,
+			name: "Leather Boots (Brown)"
+	},
+	"ITEM:41030011": {
+			item_id: 41030011,
+			name: "Leather Boots (Black)"
+	},
+	"ITEM:41030012": {
+			item_id: 41030012,
+			name: "Long Leather Boots (Brown)"
+	},
+	"ITEM:41030013": {
+			item_id: 41030013,
+			name: "Military Boots (Black)"
+	},
+	"ITEM:41030014": {
+			item_id: 41030014,
+			name: "Military Boots (Brown)"
+	},
+	"ITEM:41030015": {
+			item_id: 41030015,
+			name: "Zest Loafers with Socks"
+	},
+	"ITEM:41030016": {
+			item_id: 41030016,
+			name: "Countryside Sneakers"
+	},
+	"ITEM:41030017": {
+			item_id: 41030017,
+			name: "Hi-top Canvas Sneakers (Pink)"
+	},
+	"ITEM:41030018": {
+			item_id: 41030018,
+			name: "School Shoes (Beige)"
+	},
+	"ITEM:41030019": {
+			item_id: 41030019,
+			name: "Snake Skin Sneakers"
+	},
 	"ITEM:41030020": {
 			item_id: 41030020,
 			name: "Working Boots"
@@ -6007,9 +6119,53 @@ var PUBGITEMS = {
 			item_id: 41030038,
 			name: "Snake Skin Sneakers"
 	},
-	"ITEM:41040015": {
-			item_id: 41040015,
+	"ITEM:41030039": {
+			item_id: 41030039,
+			name: "Slip-ons (Gray)"
+	},
+	"ITEM:41030040": {
+			item_id: 41030040,
+			name: "Snake Skin Sneakers"
+	},
+	"ITEM:41030041": {
+			item_id: 41030041,
+			name: "Countryside Sneakers"
+	},
+	"ITEM:41030042": {
+			item_id: 41030042,
+			name: "Sneakers (Black)"
+	},
+	"ITEM:41040001": {
+			item_id: 41040001,
 			name: "Fingerless Gloves (Leather)"
+	},
+	"ITEM:41040002": {
+			item_id: 41040002,
+			name: "Fingerless Gloves (Tan)"
+	},
+	"ITEM:41040003": {
+			item_id: 41040003,
+			name: "Fingerless Gloves (Camo)"
+	},
+	"ITEM:41040004": {
+			item_id: 41040004,
+			name: "Punk Knuckle Gloves (Red)"
+	},
+	"ITEM:41040005": {
+			item_id: 41040005,
+			name: "Punk Knuckle Gloves (Black)"
+	},
+	"ITEM:41040006": {
+			item_id: 41040006,
+			name: "Combat Gloves (Khaki)"
+	},
+	"ITEM:41040007": {
+			item_id: 41040007,
+			name: "Tactical Gloves"
+	},
+	"ITEM:41040008": {
+			item_id: 41040008,
+			name: "Rubber Coated Gloves"
 	},
 	"ITEM:41040009": {
 			item_id: 41040009,
@@ -6034,6 +6190,124 @@ var PUBGITEMS = {
 	"ITEM:41040014": {
 			item_id: 41040014,
 			name: "Tactical Gloves"
+	},
+	"ITEM:41040015": {
+			item_id: 41040015,
+			name: "Fingerless Gloves (Leather)"
+	},
+	"ITEM:41040016": {
+			item_id: 41040016,
+			name: "Rubber Coated Gloves"
+	},
+	"ITEM:41040017": {
+			item_id: 41040017,
+			name: "Tactical Gloves"
+	},
+	"ITEM:41050001": {
+			item_id: 41050001,
+			name: "Urban Padded Jacket"
+	},
+	"ITEM:41050002": {
+			item_id: 41050002,
+			name: "Padded Jacket (Purple)"
+	},
+	"ITEM:41050003": {
+			item_id: 41050003,
+			name: "Padded Jacket (Beige)"
+	},
+	"ITEM:41050004": {
+			item_id: 41050004,
+			name: "Camo Padded Jacket "
+	},
+	"ITEM:41050005": {
+			item_id: 41050005,
+			name: "Tracksuit Top (Yellow)"
+	},
+	"ITEM:41050006": {
+			item_id: 41050006,
+			name: "Padded Jacket (Gray)"
+	},
+	"ITEM:41050007": {
+			item_id: 41050007,
+			name: "Coat (Black)"
+	},
+	"ITEM:41050008": {
+			item_id: 41050008,
+			name: "Coat (Gray) "
+	},
+	"ITEM:41050009": {
+			item_id: 41050009,
+			name: "Coat (Camel)"
+	},
+	"ITEM:41050010": {
+			item_id: 41050010,
+			name: "Coat (Red)"
+	},
+	"ITEM:41050011": {
+			item_id: 41050011,
+			name: "Sleeveless Biker Jacket (Black)"
+	},
+	"ITEM:41050012": {
+			item_id: 41050012,
+			name: "Custom Trenchcoat",
+			description: "NOT AVAILABLE ITEM"
+	},
+	"ITEM:41050014": {
+			item_id: 41050014,
+			name: "Punk Jacket (Black)",
+			description: "NOT AVAILABLE ITEM"
+	},
+	"ITEM:41050015": {
+			item_id: 41050015,
+			name: "Checkered Jacket"
+	},
+	"ITEM:41050016": {
+			item_id: 41050016,
+			name: "Sleeveless Biker Jacket (Brown)"
+	},
+	"ITEM:41050017": {
+			item_id: 41050017,
+			name: "Leather Hoodie (Black)"
+	},
+	"ITEM:41050018": {
+			item_id: 41050018,
+			name: "Leather Hoodie (White)"
+	},
+	"ITEM:41050019": {
+			item_id: 41050019,
+			name: "Military Jacket (Black)"
+	},
+	"ITEM:41050020": {
+			item_id: 41050020,
+			name: "Military Jacket (Blue)"
+	},
+	"ITEM:41050021": {
+			item_id: 41050021,
+			name: "Zest Denim Jacket"
+	},
+	"ITEM:41050022": {
+			item_id: 41050022,
+			name: "Faux Leather Jacket"
+	},
+	"ITEM:41050023": {
+			item_id: 41050023,
+			name: "Worker Jacket"
+	},
+	"ITEM:41050024": {
+			item_id: 41050024,
+			name: "Floral Retro Jacket"
+	},
+	"ITEM:41050025": {
+			item_id: 41050025,
+			name: "Zest Retro Jacket"
+	},
+	"ITEM:41050026": {
+			item_id: 41050026,
+			name: "Violent Violet Jacket"
+	},
+	"ITEM:41050027": {
+			item_id: 41050027,
+			name: 'Leather "Skyrocket" Jacket'
 	},
 	"ITEM:41050028": {
 			item_id: 41050028,
@@ -6081,11 +6355,13 @@ var PUBGITEMS = {
 	},
 	"ITEM:41050039": {
 			item_id: 41050039,
-			name: "Custom Trenchcoat"
+			name: "Custom Trenchcoat",
+			description: "NOT AVAILABLE ITEM"
 	},
 	"ITEM:41050040": {
 			item_id: 41050040,
-			name: "Punk Jacket (Black)"
+			name: "Punk Jacket (Black)",
+			description: "NOT AVAILABLE ITEM"
 	},
 	"ITEM:41050041": {
 			item_id: 41050041,
@@ -6138,6 +6414,106 @@ var PUBGITEMS = {
 	"ITEM:41050053": {
 			item_id: 41050053,
 			name: 'Leather "Skyrocket" Jacket'
+	},
+	"ITEM:41050055": {
+			item_id: 41050055,
+			name: "Work Jacket"
+	},
+	"ITEM:41050056": {
+			item_id: 41050056,
+			name: "Work Jacket"
+	},
+	"ITEM:41050059": {
+			item_id: 41050059,
+			name: "Ryan the Lion Hoodie"
+	},
+	"ITEM:41050060": {
+			item_id: 41050060,
+			name: "Ryan the Lion Hoodie"
+	},
+	"ITEM:41050061": {
+			item_id: 41050061,
+			name: "Suit Coat (Gray)"
+	},
+	"ITEM:41050062": {
+			item_id: 41050062,
+			name: 'Leather "Skyrocket" Jacket'
+	},
+	"ITEM:41050063": {
+			item_id: 41050063,
+			name: "Violent Violet Jacket"
+	},
+	"ITEM:41050064": {
+			item_id: 41050064,
+			name: "Sleeveless Biker Jacket (Black)"
+	},
+	"ITEM:41051005": {
+			item_id: 41051005,
+			name: "Padded Jacket (Khaki)"
+	},
+	"ITEM:41051026": {
+			item_id: 41051026,
+			name: "Violent Violet Jacket"
+	},
+	"ITEM:41060001": {
+			item_id: 41060001,
+			name: "Baseball cap"
+	},
+	"ITEM:41060002": {
+			item_id: 41060002,
+			name: "Beanie "
+	},
+	"ITEM:41060003": {
+			item_id: 41060003,
+			name: "Patrol Cap (Gray)"
+	},
+	"ITEM:41060004": {
+			item_id: 41060004,
+			name: "Vintage Baseball Cap (White)"
+	},
+	"ITEM:41060005": {
+			item_id: 41060005,
+			name: "Vintage Baseball Cap (Black)"
+	},
+	"ITEM:41060006": {
+			item_id: 41060006,
+			name: "Beanie (Brown)"
+	},
+	"ITEM:41060007": {
+			item_id: 41060007,
+			name: "Beanie (Gray)"
+	},
+	"ITEM:41060008": {
+			item_id: 41060008,
+			name: "Patrol Cap (Brown)"
+	},
+	"ITEM:41060009": {
+			item_id: 41060009,
+			name: "Military Cap (Black)"
+	},
+	"ITEM:41060010": {
+			item_id: 41060010,
+			name: "Military Cap (White)"
+	},
+	"ITEM:41060011": {
+			item_id: 41060011,
+			name: "Cowboy Hat (Brown)"
+	},
+	"ITEM:41060012": {
+			item_id: 41060012,
+			name: "Cowboy Hat (White)"
+	},
+	"ITEM:41060013": {
+			item_id: 41060013,
+			name: "Cowboy Hat (Gray)"
+	},
+	"ITEM:41060014": {
+			item_id: 41060014,
+			name: "Paddy Cap"
+	},
+	"ITEM:41060015": {
+			item_id: 41060015,
+			name: "Suede Aviator Cap"
 	},
 	"ITEM:41060016": {
 			item_id: 41060016,
@@ -6199,6 +6575,66 @@ var PUBGITEMS = {
 			item_id: 41060030,
 			name: "Suede Aviator Cap"
 	},
+	"ITEM:41060031": {
+			item_id: 41060031,
+			name: "Suede Aviator Cap"
+	},
+	"ITEM:41060032": {
+			item_id: 41060032,
+			name: "Suede Aviator Cap"
+	},
+	"ITEM:41060033": {
+			item_id: 41060033,
+			name: "Festive Beanie with Pom Pom"
+	},
+	"ITEM:41061001": {
+			item_id: 41061001,
+			name: "Vintage Baseball Cap (Red/White)"
+	},
+	"ITEM:41061002": {
+			item_id: 41061002,
+			name: "Beanie (Black)"
+	},
+	"ITEM:41061004": {
+			item_id: 41061004,
+			name: "Vintage Baseball Cap (White)"
+	},
+	"ITEM:41061005": {
+			item_id: 41061005,
+			name: "Vintage Baseball Cap (Red/Black)"
+	},
+	"ITEM:41070001": {
+			item_id: 41070001,
+			name: "Gas Mask (Half) "
+	},
+	"ITEM:41070002": {
+			item_id: 41070002,
+			name: "Gas Mask (Full)"
+	},
+	"ITEM:41070003": {
+			item_id: 41070003,
+			name: "Ballistic Mask"
+	},
+	"ITEM:41070004": {
+			item_id: 41070004,
+			name: "Cloth Mask (Leopard)"
+	},
+	"ITEM:41070005": {
+			item_id: 41070005,
+			name: "Cloth Mask (Checkered)"
+	},
+	"ITEM:41070006": {
+			item_id: 41070006,
+			name: "Vintage Gas Mask"
+	},
+	"ITEM:41070007": {
+			item_id: 41070007,
+			name: "Zest Silk Scarf"
+	},
+	"ITEM:41070008": {
+			item_id: 41070008,
+			name: "Desert Shemagh"
+	},
 	"ITEM:41070009": {
 			item_id: 41070009,
 			name: "Gas Mask (Half) "
@@ -6230,6 +6666,82 @@ var PUBGITEMS = {
 	"ITEM:41070016": {
 			item_id: 41070016,
 			name: "Desert Shemagh"
+	},
+	"ITEM:41070017": {
+			item_id: 41070017,
+			name: "Haunted Pumpkin Mask"
+	},
+	"ITEM:41070018": {
+			item_id: 41070018,
+			name: "Haunted Pumpkin Mask"
+	},
+	"ITEM:41070019": {
+			item_id: 41070019,
+			name: "Cloth Mask (Checkered)"
+	},
+	"ITEM:41070020": {
+			item_id: 41070020,
+			name: "Desert Shemagh"
+	},
+	"ITEM:41070021": {
+			item_id: 41070021,
+			name: "Cloth Mask (Checkered)"
+	},
+	"ITEM:41070022": {
+			item_id: 41070022,
+			name: "Red Nose"
+	},
+	"ITEM:41070023": {
+			item_id: 41070023,
+			name: "Red Nose"
+	},
+	"ITEM:41070024": {
+			item_id: 41070024,
+			name: "Red Nose"
+	},
+	"ITEM:41071001": {
+			item_id: 41071001,
+			name: "Gas Mask (Half) "
+	},
+	"ITEM:41080001": {
+			item_id: 41080001,
+			name: "Punk Glasses"
+	},
+	"ITEM:41080002": {
+			item_id: 41080002,
+			name: "Sunglasses"
+	},
+	"ITEM:41080003": {
+			item_id: 41080003,
+			name: "Aviator Goggles"
+	},
+	"ITEM:41080004": {
+			item_id: 41080004,
+			name: "Aviator Sunglasses"
+	},
+	"ITEM:41080005": {
+			item_id: 41080005,
+			name: "Rimless Sunglasses"
+	},
+	"ITEM:41080006": {
+			item_id: 41080006,
+			name: "Protective Glasses"
+	},
+	"ITEM:41080007": {
+			item_id: 41080007,
+			name: "Horn-rimmed Glasses (Black)"
+	},
+	"ITEM:41080008": {
+			item_id: 41080008,
+			name: "Horn-rimmed Glasses (Brown)"
+	},
+	"ITEM:41080009": {
+			item_id: 41080009,
+			name: "Zest Sunglasses"
+	},
+	"ITEM:41080010": {
+			item_id: 41080010,
+			name: "Vintage Aviator Goggles"
 	},
 	"ITEM:41080011": {
 			item_id: 41080011,
@@ -6271,6 +6783,22 @@ var PUBGITEMS = {
 			item_id: 41080020,
 			name: "Vintage Aviator Goggles"
 	},
+	"ITEM:41080021": {
+			item_id: 41080021,
+			name: "Vintage Aviator Goggles"
+	},
+	"ITEM:41080022": {
+			item_id: 41080022,
+			name: "Vintage Aviator Goggles"
+	},
+	"ITEM:41090001": {
+			item_id: 41090001,
+			name: "Utility Belt (Brown)"
+	},
+	"ITEM:41090002": {
+			item_id: 41090002,
+			name: "Battle Belt"
+	},
 	"ITEM:41090003": {
 			item_id: 41090003,
 			name: "Utility Belt (Brown)"
@@ -6279,371 +6807,168 @@ var PUBGITEMS = {
 			item_id: 41090004,
 			name: "Battle Belt"
 	},
-	"ITEM:41050055": {
-			item_id: 41050055,
-			name: "Work Jacket"
-	},
-	"ITEM:41040016": {
-			item_id: 41040016,
-			name: "Rubber Coated Gloves"
-	},
-	"ITEM:41020069": {
-			item_id: 41020069,
-			name: "Work Pants"
-	},
-	"ITEM:41050056": {
-			item_id: 41050056,
-			name: "Work Jacket"
-	},
-	"ITEM:41010097": {
-			item_id: 41010097,
-			name: "DOUYU T-Shirt"
-	},
-	"ITEM:37110001": {
-			item_id: 37110001,
-			name: "The Joker's Hair",
-			description: "This item can be used with both male and female characters"
-	},
-	"ITEM:37130001": {
-			item_id: 37130001,
-			name: "The Joker's Makeup",
-			description: "This item can be used with both male and female characters"
-	},
-	"ITEM:37210001": {
-			item_id: 37210001,
-			name: "Harley Quinn's Hair",
-			description: "This item can be used with both male and female characters"
-	},
-	"ITEM:37230001": {
-			item_id: 37230001,
-			name: "Harley Quinn's Makeup",
-			description: "This item can be used with both male and female characters"
-	},
-	"ITEM:37230002": {
-			item_id: 37230002,
-			name: "Arctic Face Camo",
-			description: "This item can be used with both male and female characters"
-	},
-	"ITEM:37230003": {
-			item_id: 37230003,
-			name: "Woodland Face Camo",
-			description: "This item can be used with both male and female characters"
-	},
-	"ITEM:41070017": {
-			item_id: 41070017,
-			name: "Haunted Pumpkin Mask"
-	},
-	"ITEM:41070018": {
-			item_id: 41070018,
-			name: "Haunted Pumpkin Mask"
-	},
-	"ITEM:41050059": {
-			item_id: 41050059,
-			name: "Ryan the Lion Hoodie"
-	},
-	"ITEM:42030003": {
-			item_id: 42030003,
-			name: "Flyin' Ryan"
-	},
-	"ITEM:41050060": {
-			item_id: 41050060,
-			name: "Ryan the Lion Hoodie"
-	},
-	"ITEM:42030004": {
-			item_id: 42030004,
-			name: "Flyin' Ryan"
-	},
-	"ITEM:16100001": {
-			item_id: 16100001,
-			name: "Thanks"
-	},
-	"ITEM:16100002": {
-			item_id: 16100002,
-			name: "Surrender"
-	},
-	"ITEM:16100003": {
-			item_id: 16100003,
-			name: "Provoke"
-	},
-	"ITEM:16100004": {
-			item_id: 16100004,
-			name: "Affirmative"
-	},
-	"ITEM:16100005": {
-			item_id: 16100005,
-			name: "Negative"
-	},
-	"ITEM:16100006": {
-			item_id: 16100006,
-			name: "Rage"
-	},
-	"ITEM:16100007": {
-			item_id: 16100007,
-			name: "Laugh"
-	},
-	"ITEM:16100008": {
-			item_id: 16100008,
-			name: "Go"
-	},
-	"ITEM:16100009": {
-			item_id: 16100009,
-			name: "Hello"
-	},
-	"ITEM:16100010": {
-			item_id: 16100010,
-			name: "You're done"
-	},
-	"ITEM:16100011": {
-			item_id: 16100011,
-			name: "Clap"
-	},
-	"ITEM:16100012": {
-			item_id: 16100012,
-			name: "Come here"
-	},
-	"ITEM:16100013": {
-			item_id: 16100013,
-			name: "Shrug"
-	},
-	"ITEM:16100014": {
-			item_id: 16100014,
-			name: "Jealous"
-	},
-	"ITEM:16100015": {
-			item_id: 16100015,
-			name: "Kick"
-	},
-	"ITEM:16100016": {
-			item_id: 16100016,
-			name: "Cry"
-	},
-	"ITEM:16100017": {
-			item_id: 16100017,
-			name: "Cower"
-	},
-	"ITEM:16100018": {
-			item_id: 16100018,
-			name: "Stop!"
-	},
-	"ITEM:16100019": {
-			item_id: 16100019,
-			name: "Impatient"
-	},
-	"ITEM:16100020": {
-			item_id: 16100020,
-			name: "Thumbs up"
-	},
-	"ITEM:16100021": {
-			item_id: 16100021,
-			name: "Celebrate"
-	},
-	"ITEM:16100022": {
-			item_id: 16100022,
-			name: "Air Guitar"
-	},
-	"ITEM:16100023": {
-			item_id: 16100023,
-			name: "Zapped"
-	},
-	"ITEM:16100024": {
-			item_id: 16100024,
-			name: "Draw!"
-	},
-	"ITEM:16100025": {
-			item_id: 16100025,
-			name: "Embarrassed"
-	},
-	"ITEM:16100026": {
-			item_id: 16100026,
-			name: "GO GO GO"
-	},
-	"ITEM:16100027": {
-			item_id: 16100027,
-			name: "Get Down!"
-	},
-	"ITEM:16100028": {
-			item_id: 16100028,
-			name: "Plead"
-	},
-	"ITEM:16100029": {
-			item_id: 16100029,
-			name: "#1"
-	},
-	"ITEM:16100030": {
-			item_id: 16100030,
-			name: "Quiet!"
-	},
-	"ITEM:16100031": {
-			item_id: 16100031,
-			name: "Bow"
-	},
-	"ITEM:16100032": {
-			item_id: 16100032,
-			name: "Bring It!"
-	},
-	"ITEM:16100034": {
-			item_id: 16100034,
-			name: "Victory"
-	},
-	"ITEM:16100035": {
-			item_id: 16100035,
-			name: "Flex"
-	},
-	"ITEM:16100036": {
-			item_id: 16100036,
-			name: "Dance"
-	},
-	"ITEM:16100037": {
-			item_id: 16100037,
-			name: "Victory Dance 3"
-	},
-	"ITEM:16100038": {
-			item_id: 16100038,
-			name: "Victory Dance 4"
-	},
-	"ITEM:16100039": {
-			item_id: 16100039,
-			name: "Victory Dance 5"
-	},
-	"ITEM:16100040": {
-			item_id: 16100040,
-			name: "Victory Dance 2"
-	},
-	"ITEM:16100041": {
-			item_id: 16100041,
-			name: "Victory Dance"
-	},
 	"ITEM:42010006": {
 			item_id: 42010006,
 			name: "Desert Digital"
-	},
-	"ITEM:41080021": {
-			item_id: 41080021,
-			name: "Vintage Aviator Goggles"
-	},
-	"ITEM:41070019": {
-			item_id: 41070019,
-			name: "Cloth Mask (Checkered)"
-	},
-	"ITEM:41060031": {
-			item_id: 41060031,
-			name: "Suede Aviator Cap"
-	},
-	"ITEM:42030005": {
-			item_id: 42030005,
-			name: "Bengal Tiger"
-	},
-	"ITEM:41050061": {
-			item_id: 41050061,
-			name: "Suit Coat (Gray)"
-	},
-	"ITEM:41020070": {
-			item_id: 41020070,
-			name: "Suit Pants (Gray)"
-	},
-	"ITEM:41030039": {
-			item_id: 41030039,
-			name: "Slip-ons (Gray)"
-	},
-	"ITEM:41010098": {
-			item_id: 41010098,
-			name: "Tweed Vest (Gray)"
 	},
 	"ITEM:42010007": {
 			item_id: 42010007,
 			name: "Target Practice"
 	},
-	"ITEM:41030040": {
-			item_id: 41030040,
-			name: "Snake Skin Sneakers"
+	"ITEM:42010012": {
+			item_id: 42010012,
+			name: "Gold Plate - S686"
 	},
-	"ITEM:41040017": {
-			item_id: 41040017,
-			name: "Tactical Gloves"
+	"ITEM:42010015": {
+			item_id: 42010015,
+			name: "Turquoise Delight - Kar98k"
 	},
-	"ITEM:41080022": {
-			item_id: 41080022,
-			name: "Vintage Aviator Goggles"
+	"ITEM:42010016": {
+			item_id: 42010016,
+			name: "Turquoise Delight - Kar98k"
 	},
-	"ITEM:41020071": {
-			item_id: 41020071,
-			name: "Pilot Pants"
+	"ITEM:42010032": {
+			item_id: 42010032,
+			name: "Rugged (Beige) - S686"
 	},
-	"ITEM:41050062": {
-			item_id: 41050062,
-			name: 'Leather "Skyrocket" Jacket'
+	"ITEM:42010039": {
+			item_id: 42010039,
+			name: "Rugged (Beige) - SKS"
 	},
-	"ITEM:41060032": {
-			item_id: 41060032,
-			name: "Suede Aviator Cap"
+	"ITEM:42030003": {
+			item_id: 42030003,
+			name: "Flyin' Ryan"
 	},
-	"ITEM:41030041": {
-			item_id: 41030041,
-			name: "Countryside Sneakers"
+	"ITEM:42030004": {
+			item_id: 42030004,
+			name: "Flyin' Ryan"
 	},
-	"ITEM:41070020": {
-			item_id: 41070020,
-			name: "Desert Shemagh"
+	"ITEM:42030005": {
+			item_id: 42030005,
+			name: "Bengal Tiger"
 	},
-	"ITEM:41050063": {
-			item_id: 41050063,
-			name: "Violent Violet Jacket"
+	"ITEM:45000001": {
+			item_id: 45000001,
+			name: "XP Boost 100%",
+			description: "Doubled XP will be gained after a match during the Event Pass period"
 	},
-	"ITEM:41020072": {
-			item_id: 41020072,
-			name: "Fringed Hotpants"
+	"ITEM:45000002": {
+			item_id: 45000002,
+			name: "BP Boost {0}",
+			description: "{0} Bonus BP will be gained after a match during the Event Pass period"
 	},
-	"ITEM:41030042": {
-			item_id: 41030042,
-			name: "Sneakers (Black)"
+	"ITEM:45000003": {
+			item_id: 45000003,
+			name: "Nickname Change",
+			description: 'Change your nickname. "Identity theft is not a joke!"'
 	},
-	"ITEM:41020073": {
-			item_id: 41020073,
-			name: "Biker Pants (Gray)"
+	"ITEM:45000004": {
+			item_id: 45000004,
+			name: "5 Levels",
+			description: " Instantly raise your Survivor Pass level by 5"
 	},
-	"ITEM:41010099": {
-			item_id: 41010099,
-			name: "Floral Shirt (Black)"
+	"ITEM:45000005": {
+			item_id: 45000005,
+			name: "1 Level",
+			description: " Instantly raise your Survivor Pass level by 1"
 	},
-	"ITEM:41050064": {
-			item_id: 41050064,
-			name: "Sleeveless Biker Jacket (Black)"
+	"ITEM:45000006": {
+			item_id: 45000006,
+			name: "XP Boost 100%",
+			description: "Doubled XP will be gained after a match during the Event Pass period"
 	},
-	"ITEM:41070021": {
-			item_id: 41070021,
-			name: "Cloth Mask (Checkered)"
+	"ITEM:45000007": {
+			item_id: 45000007,
+			name: "BP Boost {0}",
+			description: "{0} Bonus BP will be gained after a match during the Event Pass period"
 	},
-	"ITEM:41070022": {
-			item_id: 41070022,
-			name: "Red Nose"
+	"ITEM:45000008": {
+			item_id: 45000008,
+			name: "EVENT PASS: SANHOK",
+			description: "Subscribe to Event Pass: Sanhok!"
 	},
-	"ITEM:41070023": {
-			item_id: 41070023,
-			name: "Red Nose"
+	"ITEM:45000009": {
+			item_id: 45000009,
+			name: "500 G-COIN",
+			description: "Receive 500 G-Coin!"
 	},
-	"ITEM:41070024": {
-			item_id: 41070024,
-			name: "Red Nose"
+	"ITEM:45000010": {
+			item_id: 45000010,
+			name: "1100 G-COIN",
+			description: "Receive 1100 G-Coin!"
 	},
-	"ITEM:41060033": {
-			item_id: 41060033,
-			name: "Festive Beanie with Pom Pom"
+	"ITEM:45000011": {
+			item_id: 45000011,
+			name: "2300 G-COIN",
+			description: "Receive 2300 G-Coin!"
 	},
-	"ITEM:16100042": {
-			item_id: 16100042,
-			name: "Kung fu bow"
+	"ITEM:45000012": {
+			item_id: 45000012,
+			name: "6000 G-COIN",
+			description: "Receive 6000 G-Coin!"
 	},
-	"ITEM:16100043": {
-			item_id: 16100043,
-			name: "Sebae1"
+	"ITEM:45000013": {
+			item_id: 45000013,
+			name: "13000 G-COIN",
+			description: "Receive 13000 G-Coin!"
 	},
-	"ITEM:16100044": {
-			item_id: 16100044,
-			name: "Sebae2"
+	"ITEM:45000014": {
+			item_id: 45000014,
+			name: "BP Boost {0} - 1days",
+			description: "{0} Bonus BP will be gained after a match during the Event Pass period"
 	},
-	"ITEM:16100045": {
-			item_id: 16100045,
-			name: "Pocket money"
+	"ITEM:45000015": {
+			item_id: 45000015,
+			name: "SURVIVOR PASS: VIKENDI",
+			description: "This item will be removed upon the launch of Survivor Pass: Vikendi and will unlock the premium version of the pass"
+	},
+	"ITEM:45000016": {
+			item_id: 45000016,
+			name: "SURVIVOR PASS: VIKENDI",
+			description: "Purchase the premium version of Survivor Pass: Vikendi to unlock exclusive missions and rewards"
+	},
+	"ITEM:45000017": {
+			item_id: 45000017,
+			name: "BP Boost {0}",
+			description: "{0} Bonus BP will be gained after a match during the Survivor Pass period"
+	},
+	"ITEM:45000018": {
+			item_id: 45000018,
+			name: "20 Levels",
+			description: " Instantly raise your Survivor Pass level by 20"
+	},
+	"ITEM:45000019": {
+			item_id: 45000019,
+			name: "50 Levels",
+			description: " Instantly raise your Survivor Pass level by 50"
+	},
+	"ITEM:45000020": {
+			item_id: 45000020,
+			name: "13500 G-COIN",
+			description: "Receive 13500 G-Coin!"
+	},
+	"ITEM:45000021": {
+			item_id: 45000021,
+			name: "BP Boost {0}",
+			description: "{0} Bonus BP will be gained after a match during the Survivor Pass period"
+	},
+	"ITEM:41050065": {
+			item_id: 41050065,
+			name: "Leather Hoodie (White)"
+	},
+	"ITEM:41080023": {
+			item_id: 41080023,
+			name: "Aviator Sunglasses"
+	},
+	"ITEM:45000022": {
+			item_id: 45000022,
+			name: "30 Levels",
+			description: " Instantly raise your Survivor Pass level by 30"
+	},
+	"ITEM:45000023": {
+			item_id: 45000023,
+			name: "Survivor Pass 3: Wild Card",
+			description: "Purchase the premium version of Survivor Pass 3: Wild Card to unlock exclusive missions and rewards"
 	},
 	"MISSION:10101": {
 			description: "Play for 1 hour on Sanhok"
@@ -8521,34 +8846,745 @@ var PUBGITEMS = {
 			description: "Smash 3 doors"
 	},
 	"MISSION:390001": {
-			description: "1\uc8fc\ucc28 5\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 5개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:390002": {
-			description: "1\uc8fc\ucc28 6\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 6개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:390003": {
-			description: "1\uc8fc\ucc28 7\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 7개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:390004": {
-			description: "1\uc8fc\ucc28 8\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 8개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:390005": {
-			description: "1\uc8fc\ucc28 9\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 9개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:390006": {
-			description: "1\uc8fc\ucc28 10\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 10개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:390007": {
-			description: "1\uc8fc\ucc28 11\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 11개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:390008": {
-			description: "1\uc8fc\ucc28 12\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 12개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:390009": {
-			description: "1\uc8fc\ucc28 13\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 13개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:390010": {
-			description: "1\uc8fc\ucc28 14\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 14개 완료하기 (번역 필요 없음)"
+	},
+	"MISSION:410001": {
+			description: "Survive for 20 minutes"
+	},
+	"MISSION:410002": {
+			description: "Survive for 15 minutes in Solo"
+	},
+	"MISSION:410003": {
+			description: "Survive for 15 minutes in Duos"
+	},
+	"MISSION:410004": {
+			description: "Survive for 15 minutes in Squads"
+	},
+	"MISSION:410005": {
+			description: "Reach top 60 in Solo"
+	},
+	"MISSION:410006": {
+			description: "Reach top 30 in Duos"
+	},
+	"MISSION:410007": {
+			description: "Reach top 15 in Squads"
+	},
+	"MISSION:410008": {
+			description: "Deal 30 damage to enemies"
+	},
+	"MISSION:410009": {
+			description: "Travel 200 meters in any vehicle"
+	},
+	"MISSION:410010": {
+			description: "Revive a teammate"
+	},
+	"MISSION:410011": {
+			description: "Destroy 1\xa0vest of enemy"
+	},
+	"MISSION:410012": {
+			description: "Destroy 1\xa0helmet of enemy"
+	},
+	"MISSION:410013": {
+			description: "Drink 1 Energy Drink"
+	},
+	"MISSION:410014": {
+			description: "Use 1 Painkiller"
+	},
+	"MISSION:410015": {
+			description: "Use 1 Bandage"
+	},
+	"MISSION:410016": {
+			description: "Use 1 First Aid Kit"
+	},
+	"MISSION:410017": {
+			description: "Use 1 Gas Can to refuel a vehicle"
+	},
+	"MISSION:410018": {
+			description: "Get 1 kill"
+	},
+	"MISSION:410019": {
+			description: "Get 1 kill using an AR"
+	},
+	"MISSION:410020": {
+			description: "Get 1 kill using a DMR"
+	},
+	"MISSION:410021": {
+			description: "Get 1 kill using a shotgun"
+	},
+	"MISSION:410022": {
+			description: "Get 1 kill using an SMG"
+	},
+	"MISSION:410023": {
+			description: "Get 1 kill using an SR/DMR"
+	},
+	"MISSION:410024": {
+			description: "Kill 1 enemy with headshots"
+	},
+	"MISSION:410025": {
+			description: "Loot 1 item from player deathboxes"
+	},
+	"MISSION:410026": {
+			description: "Kill 1 enemy within 50 meters of you"
+	},
+	"MISSION:410027": {
+			description: "Drop into Yasnaya Polyana on Erangel"
+	},
+	"MISSION:410028": {
+			description: "Drop into El Pozo on Miramar"
+	},
+	"MISSION:410029": {
+			description: "Drop into Paradise Resort on Sanhok"
+	},
+	"MISSION:410030": {
+			description: "Drop into Goroka on Vikendi"
+	},
+	"MISSION:410031": {
+			description: "Fire 30 rounds of an M16A4 in a single match"
+	},
+	"MISSION:410032": {
+			description: "Fire 25 rounds of a Micro UZI in a single match"
+	},
+	"MISSION:410033": {
+			description: "Fire 19 rounds of a Vector in a single match"
+	},
+	"MISSION:410034": {
+			description: "Fire 2 shells of an S686 in a single match"
+	},
+	"MISSION:410035": {
+			description: "Fire 15 rounds of a P92 in a single match"
+	},
+	"MISSION:410036": {
+			description: "Fire 20 rounds of a Skorpion in a single match"
+	},
+	"MISSION:411001": {
+			description: "Survive for 40 minutes"
+	},
+	"MISSION:411002": {
+			description: "Survive for 30 minutes in Solo"
+	},
+	"MISSION:411003": {
+			description: "Survive for 30 minutes in Duos"
+	},
+	"MISSION:411004": {
+			description: "Survive for 30 minutes in Squads"
+	},
+	"MISSION:411005": {
+			description: "Reach top 30 in Solo"
+	},
+	"MISSION:411006": {
+			description: "Reach top 15 in Duos"
+	},
+	"MISSION:411007": {
+			description: "Reach top 8 in Squads"
+	},
+	"MISSION:411008": {
+			description: "Deal 150 damage to enemies"
+	},
+	"MISSION:411009": {
+			description: "Travel 400 meters in any vehicle"
+	},
+	"MISSION:411010": {
+			description: "Revive teammates 2 times"
+	},
+	"MISSION:411011": {
+			description: "Destroy 2\xa0vests of enemies"
+	},
+	"MISSION:411012": {
+			description: "Destroy 2 helmets of enemies"
+	},
+	"MISSION:411013": {
+			description: "Drink 3 Energy Drinks"
+	},
+	"MISSION:411014": {
+			description: "Use 2 Painkillers"
+	},
+	"MISSION:411015": {
+			description: "Use 1 Adrenaline Syringe"
+	},
+	"MISSION:411016": {
+			description: "Use 7 Bandages"
+	},
+	"MISSION:411017": {
+			description: "Use 3 First Aid Kits"
+	},
+	"MISSION:411018": {
+			description: "Use 1 Med Kit"
+	},
+	"MISSION:411019": {
+			description: "Use 2 Gas Cans to refuel a vehicle"
+	},
+	"MISSION:411020": {
+			description: "Get 3 kills"
+	},
+	"MISSION:411021": {
+			description: "Get 2 kills in a single match"
+	},
+	"MISSION:411022": {
+			description: "Get 2 kills using an AR\xa0"
+	},
+	"MISSION:411023": {
+			description: "Get 2 kills using a DMR"
+	},
+	"MISSION:411024": {
+			description: "Get 1 kill using Molotovs Cocktails"
+	},
+	"MISSION:411025": {
+			description: "Get 1 kill using a handgun"
+	},
+	"MISSION:411026": {
+			description: "Get 2 kills using a shotgun"
+	},
+	"MISSION:411027": {
+			description: "Get 2 kills using an SMG"
+	},
+	"MISSION:411028": {
+			description: "Get 2 kills using an SR/DMR"
+	},
+	"MISSION:411029": {
+			description: "Kill 2 enemies with headshots"
+	},
+	"MISSION:411030": {
+			description: "Loot 12 items from player deathboxes"
+	},
+	"MISSION:411031": {
+			description: "Loot 3 items from carepackages"
+	},
+	"MISSION:411032": {
+			description: "Kill 2 enemies within 50 meters of you"
+	},
+	"MISSION:411033": {
+			description: "Kill 2 enemies from over 100 meters away"
+	},
+	"MISSION:411034": {
+			description: "Pick up 20 items in a single match"
+	},
+	"MISSION:412001": {
+			description: "Survive for 80 minutes"
+	},
+	"MISSION:412002": {
+			description: "Survive for 60 minutes in Solo"
+	},
+	"MISSION:412003": {
+			description: "Survive for 60 minutes in Duos"
+	},
+	"MISSION:412004": {
+			description: "Survive for 60 minutes in Squads"
+	},
+	"MISSION:412005": {
+			description: "Reach top 10 in Solo"
+	},
+	"MISSION:412006": {
+			description: "Reach top 5 in Duos"
+	},
+	"MISSION:412007": {
+			description: "Reach top 4 in Squads"
+	},
+	"MISSION:412008": {
+			description: "Deal 500 damage to enemies"
+	},
+	"MISSION:412009": {
+			description: "Travel 1 km in any vehicle"
+	},
+	"MISSION:412010": {
+			description: "Revive teammates 4 times"
+	},
+	"MISSION:412011": {
+			description: "Destroy 5\xa0vests of enemies"
+	},
+	"MISSION:412012": {
+			description: "Destroy 4 helmets of enemies"
+	},
+	"MISSION:412013": {
+			description: "Drink 7 Energy Drinks"
+	},
+	"MISSION:412014": {
+			description: "Use 5 Painkillers"
+	},
+	"MISSION:412015": {
+			description: "Use 2 Adrenaline Syringes"
+	},
+	"MISSION:412016": {
+			description: "Use 15 Bandages"
+	},
+	"MISSION:412017": {
+			description: "Use 7 First Aid Kits"
+	},
+	"MISSION:412018": {
+			description: "Use 2 Med Kits"
+	},
+	"MISSION:412019": {
+			description: "Use 4 Gas Cans to refuel a vehicle"
+	},
+	"MISSION:412020": {
+			description: "Get 8 kills"
+	},
+	"MISSION:412021": {
+			description: "Get 2 kills in a single match"
+	},
+	"MISSION:412022": {
+			description: "Get 3 kills in a single match\xa0"
+	},
+	"MISSION:412023": {
+			description: "Get 4 kills in a single match\xa0"
+	},
+	"MISSION:412024": {
+			description: "Get 6 kills using an AR\xa0"
+	},
+	"MISSION:412025": {
+			description: "Get 1 kill using a Crossbow"
+	},
+	"MISSION:412026": {
+			description: "Get 5 kills using a DMR"
+	},
+	"MISSION:412027": {
+			description: "Get 1 kill using a melee weapon"
+	},
+	"MISSION:412028": {
+			description: "Get 2 kills using Molotov Cocktails"
+	},
+	"MISSION:412029": {
+			description: "Get 3 kills using a handgun"
+	},
+	"MISSION:412030": {
+			description: "Get 4 kills using a shotgun"
+	},
+	"MISSION:412031": {
+			description: "Get 5 kills using an SMG"
+	},
+	"MISSION:412032": {
+			description: "Get 3 kills using an SR"
+	},
+	"MISSION:412033": {
+			description: "Get 5 kills using an SR/DMR"
+	},
+	"MISSION:412034": {
+			description: "Kill 3 enemies with headshots"
+	},
+	"MISSION:412035": {
+			description: "Loot 30 items from player deathboxes"
+	},
+	"MISSION:412036": {
+			description: "Loot 7 items from carepackages"
+	},
+	"MISSION:412037": {
+			description: "Kill 2 enemies from over 300 meters away using an SR"
+	},
+	"MISSION:412038": {
+			description: "Kill 5 enemies from within 50 meters of you"
+	},
+	"MISSION:412039": {
+			description: "Kill 4 enemies from over 100 meters away"
+	},
+	"MISSION:412040": {
+			description: "Pick up 50 items in a single match"
+	},
+	"MISSION:420001": {
+			description: "Loot 150 items from player deathboxes"
+	},
+	"MISSION:420002": {
+			description: "Travel 5 km in any vehicle"
+	},
+	"MISSION:420003": {
+			description: "Get 30 kills"
+	},
+	"MISSION:420004": {
+			description: "Get 20 kills using an SMG"
+	},
+	"MISSION:420005": {
+			description: "Get 3 kills using a melee weapon"
+	},
+	"MISSION:420006": {
+			description: "Kill 8 enemies from over 100 meters away"
+	},
+	"MISSION:420007": {
+			description: "Get 3 kills using Molotov Cocktails"
+	},
+	"MISSION:420008": {
+			description: "Get 10 kills using a weapon equipped with a 2x Scope"
+	},
+	"MISSION:420009": {
+			description: "Get at least 1 kill in a single match"
+	},
+	"MISSION:420010": {
+			description: "Get 5 kills in a single match"
+	},
+	"MISSION:420011": {
+			description: "Get 1 kill using a Crossbow"
+	},
+	"MISSION:420012": {
+			description: "Destroy 15\xa0vests of enemies"
+	},
+	"MISSION:420013": {
+			description: "Use 3 Med Kits"
+	},
+	"MISSION:420014": {
+			description: "Use 50 Bandages"
+	},
+	"MISSION:420015": {
+			description: "Use 20 First Aid Kits"
+	},
+	"MISSION:420016": {
+			description: "Heal 200 health in a single match"
+	},
+	"MISSION:420017": {
+			description: "Use a Bandage, First Aid Kit, and Med Kit in a single match"
+	},
+	"MISSION:420018": {
+			description: "Revive teammates 3 times in a single match"
+	},
+	"MISSION:420019": {
+			description: "Survive for at least 15 minutes"
+	},
+	"MISSION:420020": {
+			description: "Survive for at least 7 minutes without using any healing or boost items"
+	},
+	"MISSION:420021": {
+			description: "Survive for at least 10 minutes without taking any damage from the blue zone"
+	},
+	"MISSION:420022": {
+			description: "Win a chicken dinner in Solo with 3 kills or less"
+	},
+	"MISSION:420023": {
+			description: "Reach top 25 in Solo"
+	},
+	"MISSION:420024": {
+			description: "Reach top 15 in Duos"
+	},
+	"MISSION:420025": {
+			description: "Win a chicken dinner in Squads"
+	},
+	"MISSION:420026": {
+			description: "Reach top 7 in Squads"
+	},
+	"MISSION:421001": {
+			description: "Loot 10 items from carepackages"
+	},
+	"MISSION:421002": {
+			description: "Pick up 50 items in a single match"
+	},
+	"MISSION:421003": {
+			description: "Jump in the water and swim 500 meters"
+	},
+	"MISSION:421004": {
+			description: "Travel at least 1 km by parachute in a single match"
+	},
+	"MISSION:421005": {
+			description: "Kill 10 enemies with headshots"
+	},
+	"MISSION:421006": {
+			description: "Kill 20 enemies within 50 meters of you"
+	},
+	"MISSION:421007": {
+			description: "Get 20 kills using an AR\xa0"
+	},
+	"MISSION:421008": {
+			description: "Get 7 kills with Frag\xa0Grenades"
+	},
+	"MISSION:421009": {
+			description: "Get 5 kills using a handgun"
+	},
+	"MISSION:421010": {
+			description: "Get 2 kills using a Pan"
+	},
+	"MISSION:421011": {
+			description: "Get 10 kills with a weapon equipped with a 4x Scope"
+	},
+	"MISSION:421012": {
+			description: "Kill an enemy with a headshot at least once per match"
+	},
+	"MISSION:421013": {
+			description: "Get 3 kills in a single match"
+	},
+	"MISSION:421014": {
+			description: "Headshot an enemy and use an Adrenaline Syringe in the same match"
+	},
+	"MISSION:421015": {
+			description: "Kill an enemy from over 300 meters away using an SR"
+	},
+	"MISSION:421016": {
+			description: "Get 1 roadkill using a vehicle"
+	},
+	"MISSION:421017": {
+			description: "Destroy 10 helmets of enemies"
+	},
+	"MISSION:421018": {
+			description: "Deal 500 damage to enemies in a single match"
+	},
+	"MISSION:421019": {
+			description: "Heal\xa02500 health"
+	},
+	"MISSION:421020": {
+			description: "Use 5 Gas Cans to refuel a vehicle"
+	},
+	"MISSION:421021": {
+			description: "Drink 30 Energy Drinks"
+	},
+	"MISSION:421022": {
+			description: "Use 50 healing or boost items"
+	},
+	"MISSION:421023": {
+			description: "Use 30 Painkillers"
+	},
+	"MISSION:421024": {
+			description: "Throw 7 Frag Grenades in a single match"
+	},
+	"MISSION:421025": {
+			description: "Use an Energy drink, Painkiller and Adrenaline Syringe in a single match"
+	},
+	"MISSION:421026": {
+			description: "Revive teammates 15 times"
+	},
+	"MISSION:421027": {
+			description: "Revive teammates 2 times and be revived 2 times in a single match"
+	},
+	"MISSION:421028": {
+			description: "Survive for at least 10 minutes"
+	},
+	"MISSION:421029": {
+			description: "Survive for at least 10 minutes and don't get any kills with an SR/DMR during the match"
+	},
+	"MISSION:421030": {
+			description: "Survive for at least 10 minutes without dealing any damage to enemies"
+	},
+	"MISSION:421031": {
+			description: "Survive for at least 5 minutes without using a First Aid Kit"
+	},
+	"MISSION:421032": {
+			description: "Win a chicken dinner in Solo"
+	},
+	"MISSION:421033": {
+			description: "Reach top 2 in Solo"
+	},
+	"MISSION:421034": {
+			description: "Win a chicken dinner in Duos"
+	},
+	"MISSION:421035": {
+			description: "Reach top 2 in Duos"
+	},
+	"MISSION:421036": {
+			description: "Reach top 2 in Squads"
+	},
+	"MISSION:421037": {
+			description: "Reach top 4 in Squads"
+	},
+	"MISSION:421038": {
+			description: "Reach top 5 in Squads"
+	},
+	"MISSION:440001": {
+			description: "Reach top 15 without using any healing or boost items"
+	},
+	"MISSION:440002": {
+			description: "Reach top 10\xa0without using any healing or boost items and\xa0get at least 1 kill"
+	},
+	"MISSION:440003": {
+			description: "Get 2 kills in a single match using a weapon equipped with a 2x Scope"
+	},
+	"MISSION:440004": {
+			description: "Get 3 kills in a single match using a weapon equipped with a 4x Scope"
+	},
+	"MISSION:440005": {
+			description: "Kill 5 enemies from over 200 meters away"
+	},
+	"MISSION:440006": {
+			description: "Kill 2 enemies with headshots from over 200 meters away in a single match"
+	},
+	"MISSION:440007": {
+			description: "Play 45 matches"
+	},
+	"MISSION:440008": {
+			description: "Survive for 600 minutes"
+	},
+	"MISSION:440009": {
+			description: "Kill 10 enemies within 10 meters of you"
+	},
+	"MISSION:440010": {
+			description: "Get 10 kills using a handgun"
+	},
+	"MISSION:450001": {
+			description: "Prove yourself ready for the Tommy Gun Challenges by reaching top 10 in Solo and getting a kill with a Tommy Gun"
+	},
+	"MISSION:450002": {
+			description: "Deal 500 damage to enemies with a Tommy Gun"
+	},
+	"MISSION:450003": {
+			description: "Get 2 kills with a Tommy Gun in a single match"
+	},
+	"MISSION:450004": {
+			description: "Get 20 kills with a Tommy Gun"
+	},
+	"MISSION:450005": {
+			description: "Get 5 kills with a Tommy Gun in a single match"
+	},
+	"MISSION:451001": {
+			description: "Prove yourself ready for the\xa0Beryl M762\xa0Challenges by reaching\xa0top 8 in Solo and getting a kill with a Beryl M762"
+	},
+	"MISSION:451002": {
+			description: "Deal 800 damage to enemies with a Beryl M762"
+	},
+	"MISSION:451003": {
+			description: "Reach top 5 and get a kill with a Beryl M762"
+	},
+	"MISSION:451004": {
+			description: "Get 20 kills with a Beryl M762"
+	},
+	"MISSION:451005": {
+			description: "Win a chicken dinner and get a kill with a Beryl M762"
+	},
+	"MISSION:451006": {
+			description: "Get 5 kills with a Beryl M762 in a single match"
+	},
+	"MISSION:452001": {
+			description: "Prove yourself ready for the S686 Challenges by reaching top 7 in Solo and getting a kill with an S686"
+	},
+	"MISSION:452002": {
+			description: "Deal 1000 damage to enemies with an S686"
+	},
+	"MISSION:452003": {
+			description: "Reach top 5 and get a kill with an S686"
+	},
+	"MISSION:452004": {
+			description: "Get 2 kills with an S686 in a single match"
+	},
+	"MISSION:452005": {
+			description: "Win a chicken dinner and get a kill with a S686"
+	},
+	"MISSION:452006": {
+			description: "Get 25 kills with an S686"
+	},
+	"MISSION:452007": {
+			description: "Get 4 kills with an S686 in a single match"
+	},
+	"MISSION:453001": {
+			description: "Prove yourself ready for the UMP45 Challenges by reaching top 5 in Solo and getting a kill with a UMP45"
+	},
+	"MISSION:453002": {
+			description: "Deal 1000 damage to enemies with a UMP45"
+	},
+	"MISSION:453003": {
+			description: "Get 3 kills with a UMP45 in a single match"
+	},
+	"MISSION:453004": {
+			description: "Win a chicken dinner and get a kill with a UMP45"
+	},
+	"MISSION:453005": {
+			description: "Get 30 kills with a UMP45"
+	},
+	"MISSION:453006": {
+			description: "Get 4 kills with a UMP45 in a single match"
+	},
+	"MISSION:453007": {
+			description: "Deal 2000 damage to enemies with a UMP45"
+	},
+	"MISSION:453008": {
+			description: "Get 5 kills with a UMP45 in a single match"
+	},
+	"MISSION:454001": {
+			description: "Prove yourself ready for the M16A4 Challenges by reaching top 5 in Solo and getting a kill with an M16A4"
+	},
+	"MISSION:454002": {
+			description: "Deal 1500 damage to enemies with an M16A4"
+	},
+	"MISSION:454003": {
+			description: "Get 3 kills with an M16A4 in a single match"
+	},
+	"MISSION:454004": {
+			description: "Reach top 3 and get a kill with an M16A4"
+	},
+	"MISSION:454005": {
+			description: "Win a chicken dinner and get a kill with an M16A4"
+	},
+	"MISSION:454006": {
+			description: "Get 50 kills with an M16A4"
+	},
+	"MISSION:454007": {
+			description: "Get 4 kills with an M16A4 in a single match"
+	},
+	"MISSION:454008": {
+			description: "Deal 3000 damage to enemies with an M16A4"
+	},
+	"MISSION:454009": {
+			description: "Reach top 2 and get a kill with an M16A4"
+	},
+	"MISSION:454010": {
+			description: "Get 6 kills with an M16A4 in a single match"
+	},
+	"MISSION:460001": {
+			description: "Play a Solo match using the Quick Join option"
+	},
+	"MISSION:460003": {
+			description: "Enter the Training Mode"
+	},
+	"MISSION:460004": {
+			description: "Purchase an item from the Store"
+	},
+	"MISSION:460005": {
+			description: "Purchase a random crate from the Store"
+	},
+	"MISSION:460006": {
+			description: "Equip a weapon skin under the Customize > Weapons tab"
+	},
+	"MISSION:460007": {
+			description: "Read the Patch Notes by clicking the note icon at the top right of the lobby"
+	},
+	"MISSION:460008": {
+			description: "Customize the emote wheel from the Customize > Emotes tab"
+	},
+	"MISSION:460009": {
+			description: "Replace a daily mission"
+	},
+	"MISSION:460010": {
+			description: "Equip a new outfit under the Customize > Wardrobe tab"
+	},
+	"MISSION:460011": {
+			description: "Use DROP IN SUPPLY from the Survivor Pass screen to claim a coupon"
+	},
+	"MISSION:490001": {
+			description: "TommyGun 미션 모두 완료 (번역 필요 없음)"
+	},
+	"MISSION:490002": {
+			description: "Beryl M762 미션 모두 완료 (번역 필요 없음)"
+	},
+	"MISSION:490003": {
+			description: "S686 미션 모두 완료 (번역 필요 없음)"
+	},
+	"MISSION:490004": {
+			description: "UMP45 미션 모두 완료 (번역 필요 없음)"
+	},
+	"MISSION:490005": {
+			description: "M16A4 미션 모두 완료 (번역 필요 없음)"
+	},
+	"MISSION:490006": {
+			description: "Daily 미션 완료"
+	},
+	"MISSION:490007": {
+			description: "Daily Normal 미션 완료"
 	},
 	"MISSION:100310001": {
 			description: "Play for 20 minutes on any map"
@@ -9214,34 +10250,739 @@ var PUBGITEMS = {
 			description: "Revive at least two teammates and use a bandage, first aid kit and a med kit, all within a single match"
 	},
 	"MISSION:100390001": {
-			description: "1\uc8fc\ucc28 5\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 5개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:100390002": {
-			description: "1\uc8fc\ucc28 6\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 6개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:100390003": {
-			description: "1\uc8fc\ucc28 7\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 7개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:100390004": {
-			description: "1\uc8fc\ucc28 8\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 8개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:100390005": {
-			description: "1\uc8fc\ucc28 9\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 9개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:100390006": {
-			description: "1\uc8fc\ucc28 10\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 10개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:100390007": {
-			description: "1\uc8fc\ucc28 11\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 11개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:100390008": {
-			description: "1\uc8fc\ucc28 12\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 12개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:100390009": {
-			description: "1\uc8fc\ucc28 13\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 13개 완료하기 (번역 필요 없음)"
 	},
 	"MISSION:100390010": {
-			description: "1\uc8fc\ucc28 14\uac1c \uc644\ub8cc\ud558\uae30 (\ubc88\uc5ed \ud544\uc694 \uc5c6\uc74c)"
+			description: "1주차 14개 완료하기 (번역 필요 없음)"
 	}
 }
-       
+
+var MISSION_ACTION = {
+		13101: "PLAY_COUNT",
+		13102: "SURVIVAL_TIME",
+		13103: "DRIVE",
+		13104: "RANK",
+		13105: "RANK",
+		13106: "ITEM_USE",
+		13107: "ITEM_USE",
+		13108: "ITEM_USE",
+		13109: "ITEM_USE",
+		13110: "ITEM_USE",
+		13201: "PLAY_COUNT",
+		13202: "SURVIVAL_TIME",
+		13203: "DRIVE",
+		13204: "RANK",
+		13205: "RANK",
+		13206: "ITEM_USE",
+		13207: "ITEM_USE",
+		13208: "ITEM_USE",
+		13209: "ITEM_USE",
+		13210: "ITEM_USE",
+		13211: "DAMAGE",
+		13212: "PLAY_COUNT",
+		13213: "KILL",
+		13214: "KILL",
+		13215: "KILL",
+		13216: "KILL",
+		13217: "KILL",
+		13218: "KILL",
+		13219: "REVIVE",
+		13301: "PLAY_COUNT",
+		13302: "SURVIVAL_TIME",
+		13303: "DRIVE",
+		13304: "RANK",
+		13305: "RANK",
+		13306: "ITEM_USE",
+		13307: "ITEM_USE",
+		13308: "ITEM_USE",
+		13309: "ITEM_USE",
+		13310: "ITEM_USE",
+		13311: "DAMAGE",
+		13312: "PLAY_COUNT",
+		13313: "KILL",
+		13314: "KILL",
+		13315: "KILL",
+		13316: "KILL",
+		13317: "KILL",
+		13318: "KILL",
+		13319: "REVIVE",
+		20501: "DAMAGE",
+		20502: "PLAY_COUNT",
+		20503: "KILL",
+		20504: "KILL",
+		20505: "KILL",
+		20506: "KILL",
+		20507: "KILL",
+		20508: "KILL",
+		20509: "KILL",
+		20510: "KILL",
+		20511: "KILL",
+		20512: "REVIVE",
+		20513: "PLAY_COUNT",
+		20514: "SURVIVAL_TIME",
+		20515: "DRIVE",
+		20516: "RANK",
+		20517: "RANK",
+		20518: "ITEM_USE",
+		20519: "ITEM_USE",
+		20520: "ITEM_USE",
+		20521: "ITEM_USE",
+		20522: "ITEM_USE",
+		20523: "RANK",
+		20524: "RANK",
+		20601: "DAMAGE",
+		20602: "PLAY_COUNT",
+		20603: "KILL",
+		20604: "KILL",
+		20605: "KILL",
+		20606: "KILL",
+		20607: "KILL",
+		20608: "KILL",
+		20609: "KILL",
+		20610: "KILL",
+		20611: "KILL",
+		20612: "REVIVE",
+		20613: "PLAY_COUNT",
+		20614: "SURVIVAL_TIME",
+		20615: "DRIVE",
+		20616: "RANK",
+		20617: "RANK",
+		20618: "ITEM_USE",
+		20619: "ITEM_USE",
+		20620: "ITEM_USE",
+		20621: "ITEM_USE",
+		20622: "ITEM_USE",
+		20623: "RANK",
+		20624: "RANK",
+		20701: "DAMAGE",
+		20702: "PLAY_COUNT",
+		20703: "KILL",
+		20704: "KILL",
+		20705: "KILL",
+		20706: "KILL",
+		20707: "KILL",
+		20708: "KILL",
+		20709: "KILL",
+		20710: "KILL",
+		20711: "KILL",
+		20712: "REVIVE",
+		20713: "PLAY_COUNT",
+		20714: "SURVIVAL_TIME",
+		20715: "DRIVE",
+		20716: "RANK",
+		20717: "RANK",
+		20718: "ITEM_USE",
+		20719: "ITEM_USE",
+		20720: "ITEM_USE",
+		20721: "ITEM_USE",
+		20722: "ITEM_USE",
+		20723: "RANK",
+		20724: "RANK",
+		310001: "GENERAL",
+		310002: "GENERAL",
+		310003: "GENERAL",
+		310004: "GENERAL",
+		310005: "GENERAL",
+		310006: "GENERAL",
+		310007: "GENERAL",
+		310008: "GENERAL",
+		310009: "GENERAL",
+		310010: "GENERAL",
+		310011: "GENERAL",
+		310012: "GENERAL",
+		310013: "MOVE",
+		310014: "MOVE",
+		310015: "MOVE",
+		310016: "MOVE",
+		310017: "REVIVE",
+		310018: "REVIVE",
+		310019: "REVIVE",
+		310020: "REVIVE",
+		310021: "DESTROY",
+		310022: "DESTROY",
+		310023: "DESTROY",
+		310024: "DESTROY",
+		310025: "ITEM_USE",
+		310026: "ITEM_USE",
+		310027: "ITEM_USE",
+		310028: "ITEM_USE",
+		310029: "ITEM_USE",
+		310030: "ITEM_USE",
+		310031: "ITEM_USE",
+		310032: "KILL",
+		310033: "KILL",
+		310034: "KILL",
+		310035: "KILL",
+		310036: "KILL",
+		310037: "KILL",
+		310038: "KILL",
+		310039: "KILL",
+		310040: "KILL",
+		310041: "KILL",
+		310042: "KILL",
+		310043: "KILL",
+		310044: "KILL",
+		310045: "KILL",
+		310046: "KILL",
+		310047: "ITEM_PICK",
+		310048: "ITEM_PICK",
+		310049: "ITEM_PICK",
+		310050: "ITEM_PICK",
+		310051: "ITEM_PICK",
+		310052: "ITEM_PICK",
+		310053: "ITEM_PICK",
+		310054: "ITEM_PICK",
+		310055: "KILL",
+		310056: "KILL",
+		310057: "GENERAL",
+		310058: "GENERAL",
+		310059: "GENERAL",
+		311001: "GENERAL",
+		311002: "GENERAL",
+		311003: "GENERAL",
+		311004: "GENERAL",
+		311005: "GENERAL",
+		311006: "GENERAL",
+		311007: "GENERAL",
+		311008: "GENERAL",
+		311009: "GENERAL",
+		311010: "GENERAL",
+		311011: "GENERAL",
+		311012: "GENERAL",
+		311013: "GENERAL",
+		311014: "GENERAL",
+		311015: "GENERAL",
+		311016: "MOVE",
+		311017: "MOVE",
+		311018: "MOVE",
+		311019: "MOVE",
+		311020: "REVIVE",
+		311021: "REVIVE",
+		311022: "REVIVE",
+		311023: "REVIVE",
+		311024: "DESTROY",
+		311025: "DESTROY",
+		311026: "DESTROY",
+		311027: "DESTROY",
+		311028: "ITEM_USE",
+		311029: "ITEM_USE",
+		311030: "ITEM_USE",
+		311031: "ITEM_USE",
+		311032: "ITEM_USE",
+		311033: "ITEM_USE",
+		311034: "ITEM_USE",
+		311035: "KILL",
+		311036: "KILL",
+		311037: "KILL",
+		311038: "KILL",
+		311039: "KILL",
+		311040: "KILL",
+		311041: "KILL",
+		311042: "KILL",
+		311043: "KILL",
+		311044: "KILL",
+		311045: "KILL",
+		311046: "KILL",
+		311047: "KILL",
+		311048: "KILL",
+		311049: "KILL",
+		311050: "KILL",
+		311051: "KILL",
+		311052: "ITEM_PICK",
+		311053: "ITEM_PICK",
+		311054: "ITEM_USE",
+		311055: "ITEM_PICK",
+		311056: "ITEM_PICK",
+		311057: "ITEM_PICK",
+		311058: "ITEM_PICK",
+		311059: "ITEM_PICK",
+		311060: "KILL",
+		311061: "KILL",
+		311062: "GENERAL",
+		311063: "GENERAL",
+		311064: "GENERAL",
+		312001: "GENERAL",
+		312002: "GENERAL",
+		312003: "GENERAL",
+		312004: "GENERAL",
+		312005: "GENERAL",
+		312006: "GENERAL",
+		312007: "GENERAL",
+		312008: "GENERAL",
+		312009: "GENERAL",
+		312010: "GENERAL",
+		312011: "GENERAL",
+		312012: "GENERAL",
+		312013: "GENERAL",
+		312014: "GENERAL",
+		312015: "GENERAL",
+		312016: "MOVE",
+		312017: "MOVE",
+		312018: "MOVE",
+		312019: "MOVE",
+		312020: "REVIVE",
+		312021: "REVIVE",
+		312022: "REVIVE",
+		312023: "REVIVE",
+		312024: "DESTROY",
+		312025: "DESTROY",
+		312026: "DESTROY",
+		312027: "DESTROY",
+		312028: "ITEM_USE",
+		312029: "ITEM_USE",
+		312030: "ITEM_USE",
+		312031: "ITEM_USE",
+		312032: "ITEM_USE",
+		312033: "ITEM_USE",
+		312034: "ITEM_USE",
+		312035: "KILL",
+		312036: "KILL",
+		312037: "KILL",
+		312038: "KILL",
+		312039: "KILL",
+		312040: "KILL",
+		312041: "KILL",
+		312042: "KILL",
+		312043: "KILL",
+		312044: "KILL",
+		312045: "KILL",
+		312046: "KILL",
+		312047: "KILL",
+		312048: "KILL",
+		312049: "KILL",
+		312050: "KILL",
+		312051: "KILL",
+		312052: "KILL",
+		312053: "KILL",
+		312054: "KILL",
+		312055: "KILL",
+		312056: "KILL",
+		312057: "KILL",
+		312058: "ITEM_PICK",
+		312059: "ITEM_PICK",
+		312060: "ITEM_USE",
+		312061: "ITEM_PICK",
+		312062: "ITEM_PICK",
+		312063: "ITEM_PICK",
+		312064: "ITEM_PICK",
+		312065: "ITEM_PICK",
+		312066: "ITEM_PICK",
+		312067: "ITEM_PICK",
+		312068: "ITEM_PICK",
+		312069: "ITEM_PICK",
+		312070: "ITEM_PICK",
+		312071: "KILL",
+		312072: "KILL",
+		312073: "KILL",
+		312074: "GENERAL",
+		312075: "GENERAL",
+		312076: "GENERAL",
+		312077: "GENERAL",
+		320001: "WEAPON_USE",
+		320002: "MOVE",
+		320003: "KILL",
+		320004: "REVIVE",
+		320005: "GENERAL",
+		320006: "GENERAL",
+		320007: "GENERAL",
+		320008: "ITEM_PICK",
+		320009: "KILL",
+		320010: "KILL",
+		320011: "ITEM_USE",
+		320012: "KILL",
+		320013: "MOVE",
+		320014: "MOVE",
+		320015: "GENERAL",
+		320016: "GENERAL",
+		320017: "ITEM_PICK",
+		320018: "REVIVE",
+		320019: "DESTROY",
+		320020: "KILL",
+		320021: "VISIT",
+		320022: "KILL",
+		320023: "ITEM_USE",
+		320024: "KILL",
+		320025: "GENERAL",
+		320026: "ITEM_PICK",
+		320027: "KILL",
+		320028: "MOVE",
+		320029: "KILL",
+		320030: "REVIVE",
+		320031: "GENERAL",
+		320032: "WEAPON_USE",
+		320033: "KILL",
+		320034: "ITEM_USE",
+		320035: "GENERAL",
+		320036: "GENERAL",
+		320037: "GENERAL",
+		320038: "GENERAL",
+		320039: "ITEM_USE",
+		320040: "MOVE",
+		320041: "ITEM_USE",
+		320042: "ITEM_USE",
+		320043: "ITEM_USE",
+		320044: "ITEM_USE",
+		320045: "ITEM_USE",
+		320046: "KILL",
+		320047: "KILL",
+		320048: "KILL",
+		320049: "KILL",
+		320050: "GENERAL",
+		320051: "GENERAL",
+		320052: "DAMAGE",
+		320053: "ITEM_PICK",
+		320054: "KILL",
+		320055: "MOVE",
+		320056: "DESTROY",
+		320057: "MOVE",
+		320058: "KILL",
+		320059: "KILL",
+		320060: "GENERAL",
+		320061: "DAMAGE",
+		320062: "ITEM_USE",
+		320063: "REVIVE",
+		320064: "DESTROY",
+		320065: "REVIVE",
+		320066: "ITEM_USE",
+		320067: "KILL",
+		320068: "SKIN_REMOVE",
+		320069: "KILL",
+		320070: "GENERAL",
+		320071: "DAMAGE",
+		320072: "KILL",
+		320073: "DESTROY",
+		320074: "DESTROY",
+		320075: "EMOTE",
+		320076: "KILL",
+		320077: "DESTROY",
+		320078: "VAULTING",
+		320079: "MOVE",
+		320080: "REVIVE",
+		320081: "KILL",
+		320082: "GENERAL",
+		320083: "GENERAL",
+		320084: "GENERAL",
+		320085: "KILL",
+		320086: "KILL",
+		320087: "ITEM_PICK",
+		320088: "KILL",
+		320089: "DAMAGE",
+		320090: "GENERAL",
+		320091: "GENERAL",
+		320092: "ITEM_USE",
+		320093: "ITEM_USE",
+		320094: "KILL",
+		320095: "GENERAL",
+		320096: "ITEM_USE",
+		320097: "ITEM_USE",
+		320098: "KILL",
+		320099: "ITEM_PICK",
+		320100: "KILL",
+		330001: "ITEM_PICK",
+		330002: "KILL",
+		330003: "ITEM_PICK",
+		330004: "SKIN_REMOVE",
+		330005: "VISIT",
+		330006: "VISIT",
+		330007: "VISIT",
+		330008: "KILL",
+		330009: "KILL",
+		330010: "KILL",
+		330011: "DESTROY",
+		330012: "GENERAL",
+		330013: "GENERAL",
+		340001: "GENERAL",
+		340002: "GENERAL",
+		340003: "MOVE",
+		340004: "ITEM_USE",
+		340005: "VISIT",
+		340006: "KILL",
+		340007: "VISIT",
+		340008: "KILL",
+		340009: "VISIT",
+		340010: "KILL",
+		350001: "KILL",
+		350002: "DAMAGE",
+		350003: "KILL",
+		350004: "MOVE",
+		350005: "GENERAL",
+		350006: "MOVE",
+		350007: "GENERAL",
+		350008: "GENERAL",
+		350009: "GENERAL",
+		350010: "REVIVE",
+		350011: "DESTROY",
+		350012: "DESTROY",
+		350013: "DESTROY",
+		390001: "MISSION",
+		390002: "MISSION",
+		390003: "MISSION",
+		390004: "MISSION",
+		390005: "MISSION",
+		390006: "MISSION",
+		390007: "MISSION",
+		390008: "MISSION",
+		390009: "MISSION",
+		390010: "MISSION",
+		410001: "GENERAL",
+		410002: "GENERAL",
+		410003: "GENERAL",
+		410004: "GENERAL",
+		410005: "GOODSKILL",
+		410006: "GOODSKILL",
+		410007: "GOODSKILL",
+		410008: "DAMAGE",
+		410009: "MOVE",
+		410010: "REVIVE",
+		410011: "DESTROY",
+		410012: "DESTROY",
+		410013: "ITEM_USE",
+		410014: "ITEM_USE",
+		410015: "ITEM_USE",
+		410016: "ITEM_USE",
+		410017: "ITEM_USE",
+		410018: "KILL",
+		410019: "KILL",
+		410020: "KILL",
+		410021: "KILL",
+		410022: "KILL",
+		410023: "KILL",
+		410024: "KILL",
+		410025: "ITEM_PICK",
+		410026: "KILL",
+		410027: "VISIT",
+		410028: "VISIT",
+		410029: "VISIT",
+		410030: "VISIT",
+		410031: "GUN_USE",
+		410032: "GUN_USE",
+		410033: "GUN_USE",
+		410034: "GUN_USE",
+		410035: "GUN_USE",
+		410036: "GUN_USE",
+		411001: "GENERAL",
+		411002: "GENERAL",
+		411003: "GENERAL",
+		411004: "GENERAL",
+		411005: "GOODSKILL",
+		411006: "GOODSKILL",
+		411007: "GOODSKILL",
+		411008: "DAMAGE",
+		411009: "MOVE",
+		411010: "REVIVE",
+		411011: "DESTROY",
+		411012: "DESTROY",
+		411013: "ITEM_USE",
+		411014: "ITEM_USE",
+		411015: "ITEM_USE",
+		411016: "ITEM_USE",
+		411017: "ITEM_USE",
+		411018: "ITEM_USE",
+		411019: "ITEM_USE",
+		411020: "KILL",
+		411021: "KILL",
+		411022: "KILL",
+		411023: "KILL",
+		411024: "KILL",
+		411025: "KILL",
+		411026: "KILL",
+		411027: "KILL",
+		411028: "KILL",
+		411029: "KILL",
+		411030: "ITEM_PICK",
+		411031: "ITEM_PICK",
+		411032: "KILL",
+		411033: "KILL",
+		411034: "ITEM_PICK",
+		412001: "GENERAL",
+		412002: "GENERAL",
+		412003: "GENERAL",
+		412004: "GENERAL",
+		412005: "GOODSKILL",
+		412006: "GOODSKILL",
+		412007: "GOODSKILL",
+		412008: "DAMAGE",
+		412009: "MOVE",
+		412010: "REVIVE",
+		412011: "DESTROY",
+		412012: "DESTROY",
+		412013: "ITEM_USE",
+		412014: "ITEM_USE",
+		412015: "ITEM_USE",
+		412016: "ITEM_USE",
+		412017: "ITEM_USE",
+		412018: "ITEM_USE",
+		412019: "ITEM_USE",
+		412020: "KILL",
+		412021: "KILL",
+		412022: "KILL",
+		412023: "KILL",
+		412024: "KILL",
+		412025: "KILL",
+		412026: "KILL",
+		412027: "KILL",
+		412028: "KILL",
+		412029: "KILL",
+		412030: "KILL",
+		412031: "KILL",
+		412032: "KILL",
+		412033: "KILL",
+		412034: "KILL",
+		412035: "ITEM_PICK",
+		412036: "ITEM_PICK",
+		412037: "KILL",
+		412038: "KILL",
+		412039: "KILL",
+		412040: "ITEM_PICK",
+		420001: "ITEM_PICK",
+		420002: "MOVE",
+		420003: "KILL",
+		420004: "KILL",
+		420005: "KILL",
+		420006: "KILL",
+		420007: "KILL",
+		420008: "KILL",
+		420009: "KILL",
+		420010: "KILL",
+		420011: "KILL",
+		420012: "DESTROY",
+		420013: "ITEM_USE",
+		420014: "ITEM_USE",
+		420015: "ITEM_USE",
+		420016: "ITEM_USE",
+		420017: "ITEM_USE",
+		420018: "REVIVE",
+		420019: "GENERAL",
+		420020: "GENERAL",
+		420021: "GENERAL",
+		420022: "GOODSKILL",
+		420023: "GOODSKILL",
+		420024: "GOODSKILL",
+		420025: "GOODSKILL",
+		420026: "GOODSKILL",
+		421001: "ITEM_PICK",
+		421002: "ITEM_PICK",
+		421003: "MOVE",
+		421004: "MOVE",
+		421005: "KILL",
+		421006: "KILL",
+		421007: "KILL",
+		421008: "KILL",
+		421009: "KILL",
+		421010: "KILL",
+		421011: "KILL",
+		421012: "KILL",
+		421013: "KILL",
+		421014: "ITEM_USE",
+		421015: "KILL",
+		421016: "KILL",
+		421017: "DESTROY",
+		421018: "DAMAGE",
+		421019: "ITEM_USE",
+		421020: "ITEM_USE",
+		421021: "ITEM_USE",
+		421022: "ITEM_USE",
+		421023: "ITEM_USE",
+		421024: "ITEM_USE",
+		421025: "ITEM_USE",
+		421026: "REVIVE",
+		421027: "REVIVE",
+		421028: "GENERAL",
+		421029: "GENERAL",
+		421030: "GENERAL",
+		421031: "GENERAL",
+		421032: "GOODSKILL",
+		421033: "GOODSKILL",
+		421034: "GOODSKILL",
+		421035: "GOODSKILL",
+		421036: "GOODSKILL",
+		421037: "GOODSKILL",
+		421038: "GOODSKILL",
+		440001: "GOODSKILL",
+		440002: "GOODSKILL",
+		440003: "KILL",
+		440004: "KILL",
+		440005: "KILL",
+		440006: "KILL",
+		440007: "GENERAL",
+		440008: "GENERAL",
+		440009: "KILL",
+		440010: "KILL",
+		450001: "GOODSKILL",
+		450002: "DAMAGE",
+		450003: "KILL",
+		450004: "KILL",
+		450005: "KILL",
+		451001: "GOODSKILL",
+		451002: "DAMAGE",
+		451003: "GOODSKILL",
+		451004: "KILL",
+		451005: "GOODSKILL",
+		451006: "KILL",
+		452001: "GOODSKILL",
+		452002: "DAMAGE",
+		452003: "GOODSKILL",
+		452004: "KILL",
+		452005: "GOODSKILL",
+		452006: "KILL",
+		452007: "KILL",
+		453001: "GOODSKILL",
+		453002: "DAMAGE",
+		453003: "KILL",
+		453004: "GOODSKILL",
+		453005: "KILL",
+		453006: "KILL",
+		453007: "DAMAGE",
+		453008: "KILL",
+		454001: "GOODSKILL",
+		454002: "DAMAGE",
+		454003: "KILL",
+		454004: "GOODSKILL",
+		454005: "GOODSKILL",
+		454006: "KILL",
+		454007: "KILL",
+		454008: "DAMAGE",
+		454009: "GOODSKILL",
+		454010: "KILL",
+		460001: "OUTGAME",
+		460003: "OUTGAME",
+		460004: "OUTGAME",
+		460005: "OUTGAME",
+		460006: "OUTGAME",
+		460007: "OUTGAME",
+		460008: "OUTGAME",
+		460009: "OUTGAME",
+		460010: "OUTGAME",
+		460011: "OUTGAME",
+		490001: "MISSION",
+		490002: "MISSION",
+		490003: "MISSION",
+		490004: "MISSION",
+		490005: "MISSION",
+		490006: "MISSION",
+		490007: "MISSION"
+}
