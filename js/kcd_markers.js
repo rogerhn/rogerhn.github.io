@@ -1,4 +1,4 @@
-{
+var kcd_markers = {
 	"MarkIdMap": {
 		"Mark": [
 			{
