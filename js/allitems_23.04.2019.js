@@ -788,6 +788,26 @@ var PUBGITEMS = {
 			game_item_short_id: "Item_Body_BR03_02_C",
 			name: "Biker Shirt (Black)"
 	},
+	"ITEM:11010138": {
+			item_id: 11010138,
+			game_item_short_id: "Item_Body_Just9n_01_C",
+			name: "Just9n's Shirt"
+	},
+	"ITEM:11010139": {
+			item_id: 11010139,
+			game_item_short_id: "Item_Body_TShirt_03_C",
+			name: "Esports Chicken Dinner Shirt"
+	},
+	"ITEM:11010140": {
+			item_id: 11010140,
+			game_item_short_id: "Item_Body_TShirt_04_C",
+			name: "Esports Camper Shirt"
+	},
+	"ITEM:11010141": {
+			item_id: 11010141,
+			game_item_short_id: "Item_Body_TShirt_05_C",
+			name: "Esports Driver Shirt"
+	},
 	"ITEM:11020001": {
 			item_id: 11020001,
 			game_item_short_id: "Item_Legs_C_05_C",
@@ -1443,6 +1463,11 @@ var PUBGITEMS = {
 			game_item_short_id: "Item_Feet_D_03_C",
 			name: "Biker Boots (Black)"
 	},
+	"ITEM:11030052": {
+			item_id: 11030052,
+			game_item_short_id: "Item_Feet_ChocoTaco_01_C",
+			name: "chocoTaco's Kicks"
+	},
 	"ITEM:11040001": {
 			item_id: 11040001,
 			game_item_short_id: "Item_Hands_D_01_C",
@@ -1818,6 +1843,46 @@ var PUBGITEMS = {
 			game_item_short_id: "Item_Jacket_H_03_C",
 			name: "Biker Jacket (Blue)"
 	},
+	"ITEM:11050063": {
+			item_id: 11050063,
+			game_item_short_id: "Item_Jacket_Just9n_01_C",
+			name: "Just9n's Jacket"
+	},
+	"ITEM:11050064": {
+			item_id: 11050064,
+			game_item_short_id: "Item_Jacket_NPL_01_C",
+			name: "NPL 2019 Phase 2 Jacket"
+	},
+	"ITEM:11050065": {
+			item_id: 11050065,
+			game_item_short_id: "Item_Jacket_PCL_01_C",
+			name: "PCL 2019 Phase 2 Jacket"
+	},
+	"ITEM:11050066": {
+			item_id: 11050066,
+			game_item_short_id: "Item_Jacket_PEL_01_C",
+			name: "PEL 2019 Phase 2 Jacket"
+	},
+	"ITEM:11050067": {
+			item_id: 11050067,
+			game_item_short_id: "Item_Jacket_PJS_01_C",
+			name: "PJS 2019 Phase 2 Jacket"
+	},
+	"ITEM:11050068": {
+			item_id: 11050068,
+			game_item_short_id: "Item_Jacket_PKL_01_C",
+			name: "PKL 2019 Phase 2 Jacket"
+	},
+	"ITEM:11050069": {
+			item_id: 11050069,
+			game_item_short_id: "Item_Jacket_PML_01_C",
+			name: "PML 2019 Phase 2 Jacket"
+	},
+	"ITEM:11050070": {
+			item_id: 11050070,
+			game_item_short_id: "Item_Jacket_Pilot_03_C",
+			name: "Laborer's Jacket"
+	},
 	"ITEM:11060001": {
 			item_id: 11060001,
 			game_item_short_id: "Item_Head_C_01_C",
@@ -2122,6 +2187,11 @@ var PUBGITEMS = {
 			item_id: 11070030,
 			game_item_short_id: "Item_Mask_Beard_03_C",
 			name: "Biker Beard"
+	},
+	"ITEM:11070031": {
+			item_id: 11070031,
+			game_item_short_id: "Item_Mask_Just9n_01_C",
+			name: "Just9n's Cloth Mask"
 	},
 	"ITEM:11070029": {
 			item_id: 11070029,
@@ -2863,10 +2933,35 @@ var PUBGITEMS = {
 			game_item_short_id: "Item_Skin_Winchester_Toxic_01_C",
 			name: "Toxic - S1897"
 	},
+	"ITEM:12010132": {
+			item_id: 12010132,
+			game_item_short_id: "Item_Skin_BerylM762_ChocoTaco_01_C",
+			name: "chocoTaco's Beryl M762"
+	},
+	"ITEM:12010133": {
+			item_id: 12010133,
+			game_item_short_id: "Item_Skin_MK47mutant_SH_01_C",
+			name: "shroud's MK47 Mutant"
+	},
+	"ITEM:12010134": {
+			item_id: 12010134,
+			game_item_short_id: "Item_Skin_VSS_WackyJacky_01_C",
+			name: "WackyJacky101's VSS"
+	},
+	"ITEM:12010135": {
+			item_id: 12010135,
+			game_item_short_id: "Item_Skin_Sickle_HandAxe_01_C",
+			name: "Fire Axe"
+	},
+	"ITEM:12010136": {
+			item_id: 12010136,
+			game_item_short_id: "Item_Skin_Crowbar_PipeWrench_01_C",
+			name: "Pipe Wrench"
+	},
 	"ITEM:12011001": {
 			item_id: 12011001,
 			game_item_short_id: "Item_Skin_AK47_BattleStat_01_C",
-			name: "[BattleStat] Industrial Security - AKM"
+			name: "[BATTLESTAT] Industrial Security - AKM"
 	},
 	"ITEM:12030001": {
 			item_id: 12030001,
@@ -2898,6 +2993,11 @@ var PUBGITEMS = {
 			item_id: 12030006,
 			game_item_short_id: "Item_Skin_Parachute_Skin_012_C",
 			name: "Biker Parachute"
+	},
+	"ITEM:12030007": {
+			item_id: 12030007,
+			game_item_short_id: "Item_Skin_Parachute_Skin_013_C",
+			name: "chocoTaco's Parachute"
 	},
 	"ITEM:12031001": {
 			item_id: 12031001,
@@ -3350,6 +3450,21 @@ var PUBGITEMS = {
 			name: "Event Server Crate 2",
 			description: "Event Server"
 	},
+	"ITEM:23000005": {
+			item_id: 23000005,
+			name: "Event Server Crate 3 - Costume",
+			description: "Event Server"
+	},
+	"ITEM:23000006": {
+			item_id: 23000006,
+			name: "Event Server Crate 3 - Weapon",
+			description: "Event Server"
+	},
+	"ITEM:23000007": {
+			item_id: 23000007,
+			name: "Event Server Crate 5 - All",
+			description: "Event Server"
+	},
 	"ITEM:31010001": {
 			item_id: 31010001,
 			game_item_short_id: "Item_Body_BR02_01_C",
@@ -3547,8 +3662,8 @@ var PUBGITEMS = {
 	},
 	"ITEM:31010040": {
 			item_id: 31010040,
-			game_item_short_id: "Item_Body_PU_09_C",
-			name: "Shirt (Plaid)"
+			game_item_short_id: "Item_Body_KAPU_01_C",
+			name: "Shirt (Gray)"
 	},
 	"ITEM:31010041": {
 			item_id: 31010041,
@@ -4936,6 +5051,106 @@ var PUBGITEMS = {
 			game_item_short_id: "Item_Key_GC_C",
 			name: "EARLY BIRD KEY",
 			description: "Unlocks FEVER CRATE, DESPERADO CRATE, and GAMESCOM INVITATIONAL CRATE"
+	},
+	"ITEM:18010001": {
+			item_id: 18010001,
+			name: "FRAGGED",
+			description: "MAYBE THIS WASN'T THE SAFEST WAY TO ATTACH IT"
+	},
+	"ITEM:18010002": {
+			item_id: 18010002,
+			name: "METAL HEAD",
+			description: "ITS ONLY WEAKNESS IS AN AWM CHARM"
+	},
+	"ITEM:18010003": {
+			item_id: 18010003,
+			name: "LUCKY CHARM",
+			description: "BETTER LUCK NEXT TIME"
+	},
+	"ITEM:18010004": {
+			item_id: 18010004,
+			name: "PLAYERPUGKNOWN",
+			description: "MORE LOYAL THAN YOUR AVERAGE TEAMMATE"
+	},
+	"ITEM:18010005": {
+			item_id: 18010005,
+			name: "LEVEL 4 ARMOR",
+			description: "WHAT IS THIS EVEN MADE OUT OF?"
+	},
+	"ITEM:18010006": {
+			item_id: 18010006,
+			name: "THE KEY",
+			description: "WHAT COULD IT BE FOR?"
+	},
+	"ITEM:18010007": {
+			item_id: 18010007,
+			name: "BEST BUDS",
+			description: "GIVE HALF TO YOUR DUO PARTNER <3"
+	},
+	"ITEM:18010008": {
+			item_id: 18010008,
+			name: "AVIATOR",
+			description: "SHE HAS A MICROPHONE - SHE JUST DOESN'T WANT TO TALK TO YOU"
+	},
+	"ITEM:18010009": {
+			item_id: 18010009,
+			name: "STRONGMAN",
+			description: "RUN FROM THE PAIN"
+	},
+	"ITEM:18010010": {
+			item_id: 18010010,
+			name: "VIKENDI SWORD",
+			description: "FORGED FROM THE FINEST PANS"
+	},
+	"ITEM:18010011": {
+			item_id: 18010011,
+			name: "CARE PACKAGE",
+			description: "IT'S FINE. JUST GO FOR IT"
+	},
+	"ITEM:18010012": {
+			item_id: 18010012,
+			name: "WING IT",
+			description: "JUST A TASTE OF VICTORY"
+	},
+	"ITEM:18010013": {
+			item_id: 18010013,
+			name: "LONE SURVIVOR",
+			description: "DRESS FOR THE JOB YOU WANT, NOT THE ONE YOU HAVE"
+	},
+	"ITEM:18010014": {
+			item_id: 18010014,
+			name: "KNEE SPLITTER",
+			description: "FOR THOSE WHO USED TO BE ADVENTUROUS"
+	},
+	"ITEM:18010015": {
+			item_id: 18010015,
+			name: "DEAD WEIGHT",
+			description: "GONE BUT ALSO FORGOTTEN"
+	},
+	"ITEM:18010016": {
+			item_id: 18010016,
+			name: "BOXING GLOVE",
+			description: "IT'S BETTER THAN NOTHIN'"
+	},
+	"ITEM:18010017": {
+			item_id: 18010017,
+			name: "MINIUNKNOWN",
+			description: "HE'S A LITTLE UNKNOWN..."
+	},
+	"ITEM:18010018": {
+			item_id: 18010018,
+			name: "FANBOY",
+			description: "REPRESENT"
+	},
+	"ITEM:18010019": {
+			item_id: 18010019,
+			name: "DINO PARK",
+			description: "I WENT TO DINO PARK AND ALL I GOT WAS THIS CHARM"
+	},
+	"ITEM:18010020": {
+			item_id: 18010020,
+			name: "PARADISE RESORT",
+			description: "IT'S A ONE WAY TICKET"
 	},
 	"ITEM:16100001": {
 			item_id: 16100001,
@@ -7874,16 +8089,16 @@ var PUBGITEMS = {
 			description: "Deal 100 damage to enemies on Vikendi"
 	},
 	"MISSION:310013": {
-			description: "Travel 1 km in any vehicle"
+			description: "Travel 1000 m in any vehicle"
 	},
 	"MISSION:310014": {
-			description: "Travel 1 km in any vehicle on Miramar"
+			description: "Travel 1000 m in any vehicle on Miramar"
 	},
 	"MISSION:310015": {
-			description: "Travel 1 km in any vehicle on Sanhok"
+			description: "Travel 1000 m in any vehicle on Sanhok"
 	},
 	"MISSION:310016": {
-			description: "Travel 1 km in any vehicle on Vikendi"
+			description: "Travel 1000 m in any vehicle on Vikendi"
 	},
 	"MISSION:310017": {
 			description: "Revive a teammate"
@@ -8060,7 +8275,7 @@ var PUBGITEMS = {
 			description: "Deal 200 damage to enemies on Vikendi"
 	},
 	"MISSION:311016": {
-			description: "Travel 8 km in any vehicle"
+			description: "Travel 8000 m in any vehicle"
 	},
 	"MISSION:311017": {
 			description: "Travel 10 km in any vehicle on Miramar"
@@ -8069,7 +8284,7 @@ var PUBGITEMS = {
 			description: "Travel 10 km in any vehicle on Sanhok"
 	},
 	"MISSION:311019": {
-			description: "Travel 5 km in any vehicle on Vikendi"
+			description: "Travel 5000 m in any vehicle on Vikendi"
 	},
 	"MISSION:311020": {
 			description: "Revive 3 teammates"
@@ -8900,7 +9115,7 @@ var PUBGITEMS = {
 			description: "Deal 30 damage to enemies"
 	},
 	"MISSION:410009": {
-			description: "Travel 200 meters in any vehicle"
+			description: "Travel 200 m in any vehicle"
 	},
 	"MISSION:410010": {
 			description: "Revive a teammate"
@@ -8987,7 +9202,7 @@ var PUBGITEMS = {
 			description: "Survive for 40 minutes"
 	},
 	"MISSION:411002": {
-			description: "Survive for 30 minutes in Solo"
+			description: "Survive for 20 minutes in Solo"
 	},
 	"MISSION:411003": {
 			description: "Survive for 30 minutes in Duos"
@@ -8996,7 +9211,7 @@ var PUBGITEMS = {
 			description: "Survive for 30 minutes in Squads"
 	},
 	"MISSION:411005": {
-			description: "Reach top 30 in Solo"
+			description: "Reach top 40 in Solo"
 	},
 	"MISSION:411006": {
 			description: "Reach top 15 in Duos"
@@ -9008,7 +9223,7 @@ var PUBGITEMS = {
 			description: "Deal 150 damage to enemies"
 	},
 	"MISSION:411009": {
-			description: "Travel 400 meters in any vehicle"
+			description: "Travel 400 m in any vehicle"
 	},
 	"MISSION:411010": {
 			description: "Revive teammates 2 times"
@@ -9080,7 +9295,7 @@ var PUBGITEMS = {
 			description: "Kill 2 enemies within 50 meters of you"
 	},
 	"MISSION:411033": {
-			description: "Kill 2 enemies from over 100 meters away"
+			description: "Kill 1 enemy from over 100 meters away"
 	},
 	"MISSION:411034": {
 			description: "Pick up 20 items in a single match"
@@ -9089,7 +9304,7 @@ var PUBGITEMS = {
 			description: "Survive for 80 minutes"
 	},
 	"MISSION:412002": {
-			description: "Survive for 60 minutes in Solo"
+			description: "Survive for 30 minutes in Solo"
 	},
 	"MISSION:412003": {
 			description: "Survive for 60 minutes in Duos"
@@ -9098,7 +9313,7 @@ var PUBGITEMS = {
 			description: "Survive for 60 minutes in Squads"
 	},
 	"MISSION:412005": {
-			description: "Reach top 10 in Solo"
+			description: "Reach top 20 in Solo"
 	},
 	"MISSION:412006": {
 			description: "Reach top 5 in Duos"
@@ -9110,7 +9325,7 @@ var PUBGITEMS = {
 			description: "Deal 500 damage to enemies"
 	},
 	"MISSION:412009": {
-			description: "Travel 1 km in any vehicle"
+			description: "Travel 1000 m in any vehicle"
 	},
 	"MISSION:412010": {
 			description: "Revive teammates 4 times"
@@ -9140,7 +9355,7 @@ var PUBGITEMS = {
 			description: "Use 2 Med Kits"
 	},
 	"MISSION:412019": {
-			description: "Use 4 Gas Cans to refuel a vehicle"
+			description: "Use 3 Gas Cans to refuel a vehicle"
 	},
 	"MISSION:412020": {
 			description: "Get 8 kills"
@@ -9161,28 +9376,28 @@ var PUBGITEMS = {
 			description: "Get 1 kill using a Crossbow"
 	},
 	"MISSION:412026": {
-			description: "Get 5 kills using a DMR"
+			description: "Get 3 kills using a DMR"
 	},
 	"MISSION:412027": {
 			description: "Get 1 kill using a melee weapon"
 	},
 	"MISSION:412028": {
-			description: "Get 2 kills using Molotov Cocktails"
+			description: "Get 1 kill using Molotov Cocktails"
 	},
 	"MISSION:412029": {
-			description: "Get 3 kills using a handgun"
+			description: "Get 1 kill using a handgun"
 	},
 	"MISSION:412030": {
-			description: "Get 4 kills using a shotgun"
+			description: "Get 3 kills using a shotgun"
 	},
 	"MISSION:412031": {
-			description: "Get 5 kills using an SMG"
+			description: "Get 3 kills using an SMG"
 	},
 	"MISSION:412032": {
-			description: "Get 3 kills using an SR"
+			description: "Get 2 kills using an SR"
 	},
 	"MISSION:412033": {
-			description: "Get 5 kills using an SR/DMR"
+			description: "Get 3 kills using an SR/DMR"
 	},
 	"MISSION:412034": {
 			description: "Kill 3 enemies with headshots"
@@ -9191,16 +9406,16 @@ var PUBGITEMS = {
 			description: "Loot 30 items from player deathboxes"
 	},
 	"MISSION:412036": {
-			description: "Loot 7 items from carepackages"
+			description: "Loot 3 items from carepackages"
 	},
 	"MISSION:412037": {
-			description: "Kill 2 enemies from over 300 meters away using an SR"
+			description: "Kill an enemy from over 200 meters away using an SR"
 	},
 	"MISSION:412038": {
 			description: "Kill 5 enemies from within 50 meters of you"
 	},
 	"MISSION:412039": {
-			description: "Kill 4 enemies from over 100 meters away"
+			description: "Kill 2 enemies from over 100 meters away"
 	},
 	"MISSION:412040": {
 			description: "Pick up 50 items in a single match"
@@ -9209,13 +9424,13 @@ var PUBGITEMS = {
 			description: "Loot 150 items from player deathboxes"
 	},
 	"MISSION:420002": {
-			description: "Travel 5 km in any vehicle"
+			description: "Travel 5000 m in any vehicle"
 	},
 	"MISSION:420003": {
 			description: "Get 30 kills"
 	},
 	"MISSION:420004": {
-			description: "Get 20 kills using an SMG"
+			description: "Get 15 kills using an SMG"
 	},
 	"MISSION:420005": {
 			description: "Get 3 kills using a melee weapon"
@@ -9227,7 +9442,7 @@ var PUBGITEMS = {
 			description: "Get 3 kills using Molotov Cocktails"
 	},
 	"MISSION:420008": {
-			description: "Get 10 kills using a weapon equipped with a 2x Scope"
+			description: "Get 5 kills using a weapon equipped with a 2x Scope"
 	},
 	"MISSION:420009": {
 			description: "Get at least 1 kill in a single match"
@@ -9263,13 +9478,13 @@ var PUBGITEMS = {
 			description: "Survive for at least 15 minutes"
 	},
 	"MISSION:420020": {
-			description: "Survive for at least 7 minutes without using any healing or boost items"
+			description: "Complete a match without using any healing/boost items and survive at least 7 minutes"
 	},
 	"MISSION:420021": {
-			description: "Survive for at least 10 minutes without taking any damage from the blue zone"
+			description: "Complete a match without taking any damage from the blue zone and survive at least 10 minutes"
 	},
 	"MISSION:420022": {
-			description: "Win a chicken dinner in Solo with 3 kills or less"
+			description: "Reach top 10 in Solo"
 	},
 	"MISSION:420023": {
 			description: "Reach top 25 in Solo"
@@ -9290,10 +9505,10 @@ var PUBGITEMS = {
 			description: "Pick up 50 items in a single match"
 	},
 	"MISSION:421003": {
-			description: "Jump in the water and swim 500 meters"
+			description: "Jump in the water and swim 300 meters"
 	},
 	"MISSION:421004": {
-			description: "Travel at least 1 km by parachute in a single match"
+			description: "Travel at least 500 meters by parachute in a single match"
 	},
 	"MISSION:421005": {
 			description: "Kill 10 enemies with headshots"
@@ -9305,16 +9520,16 @@ var PUBGITEMS = {
 			description: "Get 20 kills using an AR\xa0"
 	},
 	"MISSION:421008": {
-			description: "Get 7 kills with Frag\xa0Grenades"
+			description: "Get 4 kills with Frag\xa0Grenades"
 	},
 	"MISSION:421009": {
-			description: "Get 5 kills using a handgun"
+			description: "Get 3 kills using a handgun"
 	},
 	"MISSION:421010": {
 			description: "Get 2 kills using a Pan"
 	},
 	"MISSION:421011": {
-			description: "Get 10 kills with a weapon equipped with a 4x Scope"
+			description: "Get 7 kills with a weapon equipped with a 4x Scope"
 	},
 	"MISSION:421012": {
 			description: "Kill an enemy with a headshot at least once per match"
@@ -9326,7 +9541,7 @@ var PUBGITEMS = {
 			description: "Headshot an enemy and use an Adrenaline Syringe in the same match"
 	},
 	"MISSION:421015": {
-			description: "Kill an enemy from over 300 meters away using an SR"
+			description: "Kill 2 enemies from over 200 meters away using an SR"
 	},
 	"MISSION:421016": {
 			description: "Get 1 roadkill using a vehicle"
@@ -9341,7 +9556,7 @@ var PUBGITEMS = {
 			description: "Heal\xa02500 health"
 	},
 	"MISSION:421020": {
-			description: "Use 5 Gas Cans to refuel a vehicle"
+			description: "Use 4 Gas Cans to refuel a vehicle"
 	},
 	"MISSION:421021": {
 			description: "Drink 30 Energy Drinks"
@@ -9359,28 +9574,28 @@ var PUBGITEMS = {
 			description: "Use an Energy drink, Painkiller and Adrenaline Syringe in a single match"
 	},
 	"MISSION:421026": {
-			description: "Revive teammates 15 times"
+			description: "Revive teammates 10 times"
 	},
 	"MISSION:421027": {
-			description: "Revive teammates 2 times and be revived 2 times in a single match"
+			description: "Revive a teammate and be revived once in a single match"
 	},
 	"MISSION:421028": {
 			description: "Survive for at least 10 minutes"
 	},
 	"MISSION:421029": {
-			description: "Survive for at least 10 minutes and don't get any kills with an SR/DMR during the match"
+			description: "Complete a match without killing anyone with an SR/DMR and survive at least 10 minutes"
 	},
 	"MISSION:421030": {
-			description: "Survive for at least 10 minutes without dealing any damage to enemies"
+			description: "Complete a match without dealing damage to enemies and survive at least 10 minutes"
 	},
 	"MISSION:421031": {
-			description: "Survive for at least 5 minutes without using a First Aid Kit"
+			description: "Complete a match without using any first aid kits and survive at least 5 minutes"
 	},
 	"MISSION:421032": {
 			description: "Win a chicken dinner in Solo"
 	},
 	"MISSION:421033": {
-			description: "Reach top 2 in Solo"
+			description: "Reach top 5 in Solo"
 	},
 	"MISSION:421034": {
 			description: "Win a chicken dinner in Duos"
@@ -9398,10 +9613,10 @@ var PUBGITEMS = {
 			description: "Reach top 5 in Squads"
 	},
 	"MISSION:440001": {
-			description: "Reach top 15 without using any healing or boost items"
+			description: "Complete a match without using any healing/boost items and reach top 15"
 	},
 	"MISSION:440002": {
-			description: "Reach top 10\xa0without using any healing or boost items and\xa0get at least 1 kill"
+			description: "Complete a match without using any healing/boost items, get at least 1 kill and reach top 10"
 	},
 	"MISSION:440003": {
 			description: "Get 2 kills in a single match using a weapon equipped with a 2x Scope"
@@ -9428,7 +9643,7 @@ var PUBGITEMS = {
 			description: "Get 10 kills using a handgun"
 	},
 	"MISSION:450001": {
-			description: "Prove yourself ready for the Tommy Gun Challenges by reaching top 10 in Solo and getting a kill with a Tommy Gun"
+			description: "Prove yourself ready for the Tommy Gun Challenges by reaching top 10 and getting a kill with a Tommy Gun"
 	},
 	"MISSION:450002": {
 			description: "Deal 500 damage to enemies with a Tommy Gun"
@@ -9443,7 +9658,7 @@ var PUBGITEMS = {
 			description: "Get 5 kills with a Tommy Gun in a single match"
 	},
 	"MISSION:451001": {
-			description: "Prove yourself ready for the\xa0Beryl M762\xa0Challenges by reaching\xa0top 8 in Solo and getting a kill with a Beryl M762"
+			description: "Prove yourself ready for the\xa0Beryl M762\xa0Challenges by reaching\xa0top 8 and getting a kill with a Beryl M762"
 	},
 	"MISSION:451002": {
 			description: "Deal 800 damage to enemies with a Beryl M762"
@@ -9461,7 +9676,7 @@ var PUBGITEMS = {
 			description: "Get 5 kills with a Beryl M762 in a single match"
 	},
 	"MISSION:452001": {
-			description: "Prove yourself ready for the S686 Challenges by reaching top 7 in Solo and getting a kill with an S686"
+			description: "Prove yourself ready for the S686 Challenges by reaching top 7 and getting a kill with an S686"
 	},
 	"MISSION:452002": {
 			description: "Deal 1000 damage to enemies with an S686"
@@ -9482,7 +9697,7 @@ var PUBGITEMS = {
 			description: "Get 4 kills with an S686 in a single match"
 	},
 	"MISSION:453001": {
-			description: "Prove yourself ready for the UMP45 Challenges by reaching top 5 in Solo and getting a kill with a UMP45"
+			description: "Prove yourself ready for the UMP45 Challenges by reaching top 5 and getting a kill with a UMP45"
 	},
 	"MISSION:453002": {
 			description: "Deal 1000 damage to enemies with a UMP45"
@@ -9506,7 +9721,7 @@ var PUBGITEMS = {
 			description: "Get 5 kills with a UMP45 in a single match"
 	},
 	"MISSION:454001": {
-			description: "Prove yourself ready for the M16A4 Challenges by reaching top 5 in Solo and getting a kill with an M16A4"
+			description: "Prove yourself ready for the M16A4 Challenges by reaching top 5 and getting a kill with an M16A4"
 	},
 	"MISSION:454002": {
 			description: "Deal 1500 damage to enemies with an M16A4"
@@ -9596,7 +9811,7 @@ var PUBGITEMS = {
 			description: "Deal 100 damage to enemies on Vikendi"
 	},
 	"MISSION:100310016": {
-			description: "Travel 1 km in any vehicle on Vikendi"
+			description: "Travel 1000 m in any vehicle on Vikendi"
 	},
 	"MISSION:100310021": {
 			description: "Destroy the vests of 2 enemies"
@@ -9686,7 +9901,7 @@ var PUBGITEMS = {
 			description: "Deal 200 damage to enemies on Vikendi"
 	},
 	"MISSION:100311019": {
-			description: "Travel 5 km in any vehicle on Vikendi"
+			description: "Travel 5000 m in any vehicle on Vikendi"
 	},
 	"MISSION:100311024": {
 			description: "Destroy the vests of 4 enemies"
@@ -10278,10 +10493,757 @@ var PUBGITEMS = {
 	},
 	"MISSION:100390010": {
 			description: "1주차 14개 완료하기 (번역 필요 없음)"
+	},
+	"MISSION:100410001": {
+			description: "Survive for 5 minutes"
+	},
+	"MISSION:100410002": {
+			description: "Survive for 5 minutes in Solo"
+	},
+	"MISSION:100410003": {
+			description: "Survive for 5 minutes in Duos"
+	},
+	"MISSION:100410004": {
+			description: "Survive for 5 minutes in Squads"
+	},
+	"MISSION:100410005": {
+			description: "Reach top 60 in Solo"
+	},
+	"MISSION:100410006": {
+			description: "Reach top 30 in Duos"
+	},
+	"MISSION:100410007": {
+			description: "Reach top 15 in Squads"
+	},
+	"MISSION:100410008": {
+			description: "Deal 30 damage to enemies"
+	},
+	"MISSION:100410009": {
+			description: "Travel 200 m in any vehicle"
+	},
+	"MISSION:100410010": {
+			description: "Revive a teammate"
+	},
+	"MISSION:100410011": {
+			description: "Destroy 1\xa0vest of enemy"
+	},
+	"MISSION:100410012": {
+			description: "Destroy 1\xa0helmet of enemy"
+	},
+	"MISSION:100410013": {
+			description: "Drink 1 Energy Drink"
+	},
+	"MISSION:100410014": {
+			description: "Use 1 Painkiller"
+	},
+	"MISSION:100410015": {
+			description: "Use 1 Bandage"
+	},
+	"MISSION:100410016": {
+			description: "Use 1 First Aid Kit"
+	},
+	"MISSION:100410017": {
+			description: "Use 1 Gas Can to refuel a vehicle"
+	},
+	"MISSION:100410018": {
+			description: "Get 1 kill"
+	},
+	"MISSION:100410019": {
+			description: "Get 1 kill using an AR"
+	},
+	"MISSION:100410020": {
+			description: "Get 1 kill using a DMR"
+	},
+	"MISSION:100410021": {
+			description: "Get 1 kill using a shotgun"
+	},
+	"MISSION:100410022": {
+			description: "Get 1 kill using an SMG"
+	},
+	"MISSION:100410023": {
+			description: "Get 1 kill using an SR/DMR"
+	},
+	"MISSION:100410024": {
+			description: "Kill 1 enemy with headshots"
+	},
+	"MISSION:100410025": {
+			description: "Loot 1 item from player deathboxes"
+	},
+	"MISSION:100410026": {
+			description: "Kill 1 enemy within 50 meters of you"
+	},
+	"MISSION:100410031": {
+			description: "Fire 30 rounds of an M16A4 in a single match"
+	},
+	"MISSION:100410032": {
+			description: "Fire 25 rounds of a Micro UZI in a single match"
+	},
+	"MISSION:100410033": {
+			description: "Fire 19 rounds of a Vector in a single match"
+	},
+	"MISSION:100410034": {
+			description: "Fire 2 shells of an S686 in a single match"
+	},
+	"MISSION:100410035": {
+			description: "Fire 15 rounds of a P92 in a single match"
+	},
+	"MISSION:100410036": {
+			description: "Fire 20 rounds of a Skorpion in a single match"
+	},
+	"MISSION:100411001": {
+			description: "Survive for 5 minutes"
+	},
+	"MISSION:100411002": {
+			description: "Survive for 5 minutes in Solo"
+	},
+	"MISSION:100411003": {
+			description: "Survive for 5 minutes in Duos"
+	},
+	"MISSION:100411004": {
+			description: "Survive for 5 minutes in Squads"
+	},
+	"MISSION:100411005": {
+			description: "Reach top 30 in Solo"
+	},
+	"MISSION:100411006": {
+			description: "Reach top 15 in Duos"
+	},
+	"MISSION:100411007": {
+			description: "Reach top 8 in Squads"
+	},
+	"MISSION:100411008": {
+			description: "Deal 150 damage to enemies"
+	},
+	"MISSION:100411009": {
+			description: "Travel 400 m in any vehicle"
+	},
+	"MISSION:100411010": {
+			description: "Revive teammates 2 times"
+	},
+	"MISSION:100411011": {
+			description: "Destroy 2\xa0vests of enemies"
+	},
+	"MISSION:100411012": {
+			description: "Destroy 2 helmets of enemies"
+	},
+	"MISSION:100411013": {
+			description: "Drink 3 Energy Drinks"
+	},
+	"MISSION:100411014": {
+			description: "Use 2 Painkillers"
+	},
+	"MISSION:100411015": {
+			description: "Use 1 Adrenaline Syringe"
+	},
+	"MISSION:100411016": {
+			description: "Use 7 Bandages"
+	},
+	"MISSION:100411017": {
+			description: "Use 3 First Aid Kits"
+	},
+	"MISSION:100411018": {
+			description: "Use 1 Med Kit"
+	},
+	"MISSION:100411019": {
+			description: "Use 2 Gas Cans to refuel a vehicle"
+	},
+	"MISSION:100411020": {
+			description: "Get 3 kills"
+	},
+	"MISSION:100411021": {
+			description: "Get 2 kills in a single match"
+	},
+	"MISSION:100411022": {
+			description: "Get 2 kills using an AR\xa0"
+	},
+	"MISSION:100411023": {
+			description: "Get 2 kills using a DMR"
+	},
+	"MISSION:100411026": {
+			description: "Get 2 kills using a shotgun"
+	},
+	"MISSION:100411027": {
+			description: "Get 2 kills using an SMG"
+	},
+	"MISSION:100411028": {
+			description: "Get 2 kills using an SR/DMR"
+	},
+	"MISSION:100411029": {
+			description: "Kill 2 enemies with headshots"
+	},
+	"MISSION:100411030": {
+			description: "Loot 5 items from player deathboxes"
+	},
+	"MISSION:100411031": {
+			description: "Loot 3 items from carepackages"
+	},
+	"MISSION:100411032": {
+			description: "Kill 2 enemies within 50 meters of you"
+	},
+	"MISSION:100411033": {
+			description: "Kill 1 enemy from over 100 meters away"
+	},
+	"MISSION:100411034": {
+			description: "Pick up 20 items in a single match"
+	},
+	"MISSION:100412001": {
+			description: "Survive for 5 minutes"
+	},
+	"MISSION:100412002": {
+			description: "Survive for 5 minutes in Solo"
+	},
+	"MISSION:100412003": {
+			description: "Survive for 5 minutes in Duos"
+	},
+	"MISSION:100412004": {
+			description: "Survive for 5 minutes in Squads"
+	},
+	"MISSION:100412005": {
+			description: "Reach top 10 in Solo"
+	},
+	"MISSION:100412006": {
+			description: "Reach top 5 in Duos"
+	},
+	"MISSION:100412007": {
+			description: "Reach top 4 in Squads"
+	},
+	"MISSION:100412008": {
+			description: "Deal 500 damage to enemies"
+	},
+	"MISSION:100412009": {
+			description: "Travel 1000 m in any vehicle"
+	},
+	"MISSION:100412010": {
+			description: "Revive teammates 4 times"
+	},
+	"MISSION:100412011": {
+			description: "Destroy 5\xa0vests of enemies"
+	},
+	"MISSION:100412012": {
+			description: "Destroy 4 helmets of enemies"
+	},
+	"MISSION:100412013": {
+			description: "Drink 7 Energy Drinks"
+	},
+	"MISSION:100412014": {
+			description: "Use 5 Painkillers"
+	},
+	"MISSION:100412015": {
+			description: "Use 2 Adrenaline Syringes"
+	},
+	"MISSION:100412016": {
+			description: "Use 15 Bandages"
+	},
+	"MISSION:100412017": {
+			description: "Use 7 First Aid Kits"
+	},
+	"MISSION:100412018": {
+			description: "Use 2 Med Kits"
+	},
+	"MISSION:100412019": {
+			description: "Use 3 Gas Cans to refuel a vehicle"
+	},
+	"MISSION:100412020": {
+			description: "Get 8 kills"
+	},
+	"MISSION:100412021": {
+			description: "Get 2 kills in a single match"
+	},
+	"MISSION:100412022": {
+			description: "Get 3 kills in a single match\xa0"
+	},
+	"MISSION:100412023": {
+			description: "Get 4 kills in a single match\xa0"
+	},
+	"MISSION:100412024": {
+			description: "Get 6 kills using an AR\xa0"
+	},
+	"MISSION:100412026": {
+			description: "Get 3 kills using a DMR"
+	},
+	"MISSION:100412028": {
+			description: "Get 1 kill using Molotov Cocktails"
+	},
+	"MISSION:100412029": {
+			description: "Get 1 kill using a handgun"
+	},
+	"MISSION:100412030": {
+			description: "Get 3 kills using a shotgun"
+	},
+	"MISSION:100412031": {
+			description: "Get 3 kills using an SMG"
+	},
+	"MISSION:100412032": {
+			description: "Get 2 kills using an SR"
+	},
+	"MISSION:100412033": {
+			description: "Get 3 kills using an SR/DMR"
+	},
+	"MISSION:100412034": {
+			description: "Kill 3 enemies with headshots"
+	},
+	"MISSION:100412035": {
+			description: "Loot 5 items from player deathboxes"
+	},
+	"MISSION:100412036": {
+			description: "Loot 3 items from carepackages"
+	},
+	"MISSION:100412037": {
+			description: "Kill 2 enemies from over 300 meters away using an SR"
+	},
+	"MISSION:100412038": {
+			description: "Kill 5 enemies from within 50 meters of you"
+	},
+	"MISSION:100412039": {
+			description: "Kill 2 enemies from over 100 meters away"
+	},
+	"MISSION:100412040": {
+			description: "Pick up 50 items in a single match"
+	},
+	"MISSION:100420001": {
+			description: "Loot 15 items from player deathboxes"
+	},
+	"MISSION:100420002": {
+			description: "Travel 1500 m in any vehicle"
+	},
+	"MISSION:100420003": {
+			description: "Get 30 kills"
+	},
+	"MISSION:100420004": {
+			description: "Get 15 kills using an SMG"
+	},
+	"MISSION:100420006": {
+			description: "Kill 8 enemies from over 100 meters away"
+	},
+	"MISSION:100420008": {
+			description: "Get 5 kills using a weapon equipped with a 2x Scope"
+	},
+	"MISSION:100420009": {
+			description: "Get at least 1 kill in a single match"
+	},
+	"MISSION:100420010": {
+			description: "Get 5 kills in a single match"
+	},
+	"MISSION:100420012": {
+			description: "Destroy 15\xa0vests of enemies"
+	},
+	"MISSION:100420013": {
+			description: "Use 3 Med Kits"
+	},
+	"MISSION:100420014": {
+			description: "Use 50 Bandages"
+	},
+	"MISSION:100420015": {
+			description: "Use 20 First Aid Kits"
+	},
+	"MISSION:100420016": {
+			description: "Heal 200 health in a single match"
+	},
+	"MISSION:100420017": {
+			description: "Use a Bandage, First Aid Kit, and Med Kit in a single match"
+	},
+	"MISSION:100420018": {
+			description: "Revive teammates 3 times in a single match"
+	},
+	"MISSION:100420019": {
+			description: "Survive for at least 15 minutes"
+	},
+	"MISSION:100420020": {
+			description: "Complete a match without using any healing/boost items and survive at least 7 minutes"
+	},
+	"MISSION:100420021": {
+			description: "Complete a match without taking any damage from the blue zone and survive at least 10 minutes"
+	},
+	"MISSION:100420022": {
+			description: "Reach top 10 in Solo"
+	},
+	"MISSION:100420023": {
+			description: "Reach top 25 in Solo"
+	},
+	"MISSION:100420024": {
+			description: "Reach top 15 in Duos"
+	},
+	"MISSION:100420025": {
+			description: "Win a chicken dinner in Squads"
+	},
+	"MISSION:100420026": {
+			description: "Reach top 7 in Squads"
+	},
+	"MISSION:100421001": {
+			description: "Loot 10 items from carepackages"
+	},
+	"MISSION:100421002": {
+			description: "Pick up 50 items in a single match"
+	},
+	"MISSION:100421003": {
+			description: "Jump in the water and swim 300 meters"
+	},
+	"MISSION:100421004": {
+			description: "Travel at least 500 meters by parachute in a single match"
+	},
+	"MISSION:100421005": {
+			description: "Kill 10 enemies with headshots"
+	},
+	"MISSION:100421006": {
+			description: "Kill 20 enemies within 50 meters of you"
+	},
+	"MISSION:100421007": {
+			description: "Get 20 kills using an AR\xa0"
+	},
+	"MISSION:100421008": {
+			description: "Get 4 kills with Frag\xa0Grenades"
+	},
+	"MISSION:100421009": {
+			description: "Get 3 kills using a handgun"
+	},
+	"MISSION:100421011": {
+			description: "Get 7 kills with a weapon equipped with a 4x Scope"
+	},
+	"MISSION:100421012": {
+			description: "Kill an enemy with a headshot at least once per match"
+	},
+	"MISSION:100421013": {
+			description: "Get 3 kills in a single match"
+	},
+	"MISSION:100421014": {
+			description: "Headshot an enemy and use an Adrenaline Syringe in the same match"
+	},
+	"MISSION:100421015": {
+			description: "Kill 1 enemy from over 200 meters away using an SR"
+	},
+	"MISSION:100421017": {
+			description: "Destroy 10 helmets of enemies"
+	},
+	"MISSION:100421018": {
+			description: "Deal 500 damage to enemies in a single match"
+	},
+	"MISSION:100421019": {
+			description: "Heal\xa0500 health"
+	},
+	"MISSION:100421020": {
+			description: "Use 4 Gas Cans to refuel a vehicle"
+	},
+	"MISSION:100421021": {
+			description: "Drink 30 Energy Drinks"
+	},
+	"MISSION:100421022": {
+			description: "Use 50 healing or boost items"
+	},
+	"MISSION:100421023": {
+			description: "Use 30 Painkillers"
+	},
+	"MISSION:100421024": {
+			description: "Throw 7 Frag Grenades in a single match"
+	},
+	"MISSION:100421025": {
+			description: "Use an Energy drink, Painkiller and Adrenaline Syringe in a single match"
+	},
+	"MISSION:100421026": {
+			description: "Revive teammates 10 times"
+	},
+	"MISSION:100421027": {
+			description: "Revive a teammate and be revived once in a single match"
+	},
+	"MISSION:100421028": {
+			description: "Survive for at least 10 minutes"
+	},
+	"MISSION:100421029": {
+			description: "Complete a match without killing anyone with an SR/DMR and survive at least 10 minutes"
+	},
+	"MISSION:100421030": {
+			description: "Complete a match without dealing damage to enemies and survive at least 10 minutes"
+	},
+	"MISSION:100421031": {
+			description: "Complete a match without using any first aid kits and survive at least 5 minutes"
+	},
+	"MISSION:100421033": {
+			description: "Reach top 2 in Duos"
+	},
+	"MISSION:100421034": {
+			description: "Win a chicken dinner in Duos"
+	},
+	"MISSION:100421035": {
+			description: "Reach top 2 in Duos"
+	},
+	"MISSION:100421036": {
+			description: "Reach top 2 in Squads"
+	},
+	"MISSION:100421037": {
+			description: "Reach top 4 in Squads"
+	},
+	"MISSION:100421038": {
+			description: "Reach top 5 in Squads"
+	},
+	"MISSION:100440001": {
+			description: "Complete a match without using any healing/boost items and reach top 15"
+	},
+	"MISSION:100440002": {
+			description: "Complete a match without using any healing/boost items, get at least 1 kill and reach top 10"
+	},
+	"MISSION:100440003": {
+			description: "Get 2 kills in a single match using a weapon equipped with a 2x Scope"
+	},
+	"MISSION:100440004": {
+			description: "Get 3 kills in a single match using a weapon equipped with a 4x Scope"
+	},
+	"MISSION:100440005": {
+			description: "Kill 5 enemies from over 200 meters away"
+	},
+	"MISSION:100440006": {
+			description: "Kill 2 enemies with headshots from over 200 meters away in a single match"
+	},
+	"MISSION:100440007": {
+			description: "Play 45 matches"
+	},
+	"MISSION:100440008": {
+			description: "Survive for 100 minutes"
+	},
+	"MISSION:100440009": {
+			description: "Kill 10 enemies within 10 meters of you"
+	},
+	"MISSION:100440010": {
+			description: "Get 10 kills using a handgun"
+	},
+	"MISSION:100450001": {
+			description: "Prove yourself ready for the Tommy Gun Challenges by reaching top 10 in Solo and getting a kill with a Tommy Gun"
+	},
+	"MISSION:100450002": {
+			description: "Deal 500 damage to enemies with a Tommy Gun"
+	},
+	"MISSION:100450003": {
+			description: "Get 2 kills with a Tommy Gun in a single match"
+	},
+	"MISSION:100450004": {
+			description: "Get 20 kills with a Tommy Gun"
+	},
+	"MISSION:100450005": {
+			description: "Get 5 kills with a Tommy Gun in a single match"
+	},
+	"MISSION:100451001": {
+			description: "Prove yourself ready for the\xa0Beryl M762\xa0Challenges by reaching\xa0top 8 in Solo and getting a kill with a Beryl M762"
+	},
+	"MISSION:100451002": {
+			description: "Deal 800 damage to enemies with a Beryl M762"
+	},
+	"MISSION:100451003": {
+			description: "Reach top 5 and get a kill with a Beryl M762"
+	},
+	"MISSION:100451004": {
+			description: "Get 20 kills with a Beryl M762"
+	},
+	"MISSION:100451005": {
+			description: "Win a chicken dinner and get a kill with a Beryl M762"
+	},
+	"MISSION:100451006": {
+			description: "Get 5 kills with a Beryl M762 in a single match"
+	},
+	"MISSION:100452001": {
+			description: "Prove yourself ready for the S686 Challenges by reaching top 7 in Solo and getting a kill with an S686"
+	},
+	"MISSION:100452002": {
+			description: "Deal 1000 damage to enemies with an S686"
+	},
+	"MISSION:100452003": {
+			description: "Reach top 5 and get a kill with an S686"
+	},
+	"MISSION:100452004": {
+			description: "Get 2 kills with an S686 in a single match"
+	},
+	"MISSION:100452005": {
+			description: "Win a chicken dinner and get a kill with a S686"
+	},
+	"MISSION:100452006": {
+			description: "Get 25 kills with an S686"
+	},
+	"MISSION:100452007": {
+			description: "Get 4 kills with an S686 in a single match"
+	},
+	"MISSION:100453001": {
+			description: "Prove yourself ready for the UMP45 Challenges by reaching top 5 in Solo and getting a kill with a UMP45"
+	},
+	"MISSION:100453002": {
+			description: "Deal 1000 damage to enemies with a UMP45"
+	},
+	"MISSION:100453003": {
+			description: "Get 3 kills with a UMP45 in a single match"
+	},
+	"MISSION:100453004": {
+			description: "Win a chicken dinner and get a kill with a UMP45"
+	},
+	"MISSION:100453005": {
+			description: "Get 30 kills with a UMP45"
+	},
+	"MISSION:100453006": {
+			description: "Get 4 kills with a UMP45 in a single match"
+	},
+	"MISSION:100453007": {
+			description: "Deal 2000 damage to enemies with a UMP45"
+	},
+	"MISSION:100453008": {
+			description: "Get 5 kills with a UMP45 in a single match"
+	},
+	"MISSION:100454001": {
+			description: "Prove yourself ready for the M16A4 Challenges by reaching top 5 in Solo and getting a kill with an M16A4"
+	},
+	"MISSION:100454002": {
+			description: "Deal 1500 damage to enemies with an M16A4"
+	},
+	"MISSION:100454003": {
+			description: "Get 3 kills with an M16A4 in a single match"
+	},
+	"MISSION:100454004": {
+			description: "Reach top 3 and get a kill with an M16A4"
+	},
+	"MISSION:100454005": {
+			description: "Win a chicken dinner and get a kill with an M16A4"
+	},
+	"MISSION:100454006": {
+			description: "Get 50 kills with an M16A4"
+	},
+	"MISSION:100454007": {
+			description: "Get 4 kills with an M16A4 in a single match"
+	},
+	"MISSION:100454008": {
+			description: "Deal 3000 damage to enemies with an M16A4"
+	},
+	"MISSION:100454009": {
+			description: "Reach top 2 and get a kill with an M16A4"
+	},
+	"MISSION:100454010": {
+			description: "Get 6 kills with an M16A4 in a single match"
+	},
+	"MISSION:100460001": {
+			description: "Play a Solo match using the Quick Join option"
+	},
+	"MISSION:100460003": {
+			description: "Enter the Training Mode"
+	},
+	"MISSION:100460004": {
+			description: "Purchase an item from the Store"
+	},
+	"MISSION:100460005": {
+			description: "Purchase a random crate from the Store"
+	},
+	"MISSION:100460006": {
+			description: "Equip a weapon skin under the Customize > Weapons tab"
+	},
+	"MISSION:100460008": {
+			description: "Customize the emote wheel from the Customize > Emotes tab"
+	},
+	"MISSION:100460009": {
+			description: "Replace a daily mission"
+	},
+	"MISSION:100460010": {
+			description: "Equip a new outfit under the Customize > Wardrobe tab"
+	},
+	"MISSION:100460011": {
+			description: "Use DROP IN SUPPLY from the Survivor Pass screen to claim a coupon"
+	},
+	"MISSION:100490001": {
+			description: "TommyGun 미션 모두 완료 (번역 필요 없음)"
+	},
+	"MISSION:100490002": {
+			description: "Beryl M762 미션 모두 완료 (번역 필요 없음)"
+	},
+	"MISSION:100490003": {
+			description: "S686 미션 모두 완료 (번역 필요 없음)"
+	},
+	"MISSION:100490004": {
+			description: "UMP45 미션 모두 완료 (번역 필요 없음)"
+	},
+	"MISSION:100490005": {
+			description: "M16A4 미션 모두 완료 (번역 필요 없음)"
+	},
+	"MISSION:100490006": {
+			description: "Daily 미션 완료"
+	},
+	"MISSION:100490007": {
+			description: "Daily Normal 미션 완료"
+	},
+	"WM_TIER:0": {
+			name: "Newbie"
+	},
+	"WM_TIER:1": {
+			name: "Student"
+	},
+	"WM_TIER:2": {
+			name: "Novice"
+	},
+	"WM_TIER:3": {
+			name: "Amateur"
+	},
+	"WM_TIER:4": {
+			name: "Certified"
+	},
+	"WM_TIER:5": {
+			name: "Licensed"
+	},
+	"WM_TIER:6": {
+			name: "Specialist"
+	},
+	"WM_TIER:7": {
+			name: "Professional"
+	},
+	"WM_TIER:8": {
+			name: "Expert"
+	},
+	"WM_TIER:9": {
+			name: "Ace"
+	},
+	"WM_TIER:10": {
+			name: "Master"
+	},
+	"WM_MEDAL:MedalAnnihilation": {
+			name: "ANNIHILATION",
+			description: "DEFEAT A FOUR MEMBER SQUAD BY YOURSELF."
+	},
+	"WM_MEDAL:MedalAssassin": {
+			name: "ASSASSIN",
+			description: "DEFEAT AN ENEMY WITH A HEADSHOT WITHOUT TAKING DAMAGE FROM THEM."
+	},
+	"WM_MEDAL:MedalDoubleKill": {
+			name: "DOUBLE",
+			description: "DEFEAT 2 ENEMIES IN RAPID SUCCESSION."
+	},
+	"WM_MEDAL:MedalTripleKill": {
+			name: "TRIPLE",
+			description: "DEFEAT 3 ENEMIES IN RAPID SUCCESSION."
+	},
+	"WM_MEDAL:MedalQuadKill": {
+			name: "QUAD",
+			description: "DEFEAT 4 ENEMIES IN RAPID SUCCESSION."
+	},
+	"WM_MEDAL:MedalLongshot": {
+			name: "LONGSHOT",
+			description: "DEFEAT AN ENEMY FROM AT LEAST {0} METERS."
+	},
+	"WM_MEDAL:MedalDeadeye": {
+			name: "DEADEYE",
+			description: "DEFEAT AN ENEMY WITH A HEADSHOT."
+	},
+	"WM_MEDAL:MedalPunisher": {
+			name: "BULLETSTORM",
+			description: "DEAL {0} DAMAGE WITH A SINGLE WEAPON IN A MATCH."
+	},
+	"WM_MEDAL:MedalFirstBlood": {
+			name: "FIRST BLOOD",
+			description: "GET THE FIRST DEFEAT IN A MATCH."
+	},
+	"WM_MEDAL:MedalFrenzy": {
+			name: "FRENZY",
+			description: "DEFEAT {0} OPPONENTS WITH A SINGLE WEAPON IN A MATCH."
+	},
+	"WM_MEDAL:MedalRampage": {
+			name: "RAMPAGE",
+			description: "DEFEAT {0} OPPONENTS WITH A SINGLE WEAPON IN A MATCH."
+	},
+	"WM_MEDAL:MedalLastManStanding": {
+			name: "LAST MAN STANDING",
+			description: "DEFEAT LAST OPPONENT IN A MATCH."
 	}
 }
 
-var MISSIONACTION =  {
+var MISSIONACTION = {
 	13101: "PLAY_COUNT",
 	13102: "SURVIVAL_TIME",
 	13103: "DRIVE",
