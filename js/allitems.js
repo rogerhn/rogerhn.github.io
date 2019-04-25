@@ -1,4 +1,4 @@
-var PUBGITEMS = {
+var ITEMS_MISSIONS = {
 	"ITEM:1708001": {
 			item_id: 1708001,
 			game_item_short_id: "Item_UE_Body_C_01_C",
