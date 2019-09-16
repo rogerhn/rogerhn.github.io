@@ -1,0 +1,45 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #2f2f2f;
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+.output {
+    display: block;
+}
+.seed {
+  display: inline-block;
+  width: 200px;
+  height: auto;
+  background-color: #1d1d1d;
+  color: #fff;
+  margin: 1px;
+}
+.seed .shipimage {
+  display: flex;
+  width: 100%;
+}
+.seed .colorblock {
+    display: flex;
+    margin: 4px 0;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.seed .colorsqr {
+    display: flex;
+    width: 30px;
+    height: 30px;
+}
+
+.seed .seedcode {
+    display: flex;
+    padding: 0 10px;
+}
+
