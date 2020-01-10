@@ -176,8 +176,6 @@ function showStore(data){
           let itemparcelvalue = storedData[i].itemparcelvalue;
 
           if(itemparcelvalue){
-            totalBalance = totalBalance - itemparcelvalue;
-            totalBalanceMoney = totalBalance.toLocaleString('pt-br', {minimumFractionDigits: 2});
             itemparcelvalue = itemparcelvalue.toLocaleString('pt-br', {minimumFractionDigits: 2});
             let itemparcelsAll = storedData[i].itemparcelsAll;
             let itemparcelsCurrent = storedData[i].itemparcelsCurrent;
@@ -208,8 +206,6 @@ function showStore(data){
             console.log("Math")
             console.log(totalBalance)
             console.log(itemvalueraw)
-            totalBalance = totalBalance - itemvalueraw;
-            totalBalanceMoney = totalBalance.toLocaleString('pt-br', {minimumFractionDigits: 2});
             html += `
 <div class="list" data-entry="${id}">
 <div class="listentrytype">
@@ -232,8 +228,6 @@ function showStore(data){
         }
         $('.events').html(html);
         $('.events').hide().fadeIn({queue: false, duration: '150'});
-        $('.totalBalance').html(totalBalanceMoney)
-
 
       }
 
@@ -446,11 +440,15 @@ function showdata(selector){
 
     if ($("#parcelSwitcher").is(':checked')) {
       if(itemdate !== "" && itemname !== "" && itemvalue !== "" && (itemparcels > 0 && itemparcels !== "")){
+        let itemvalueraw = $(this).parents(".newEntry").find("#itemvalue").maskMoney('unmasked')[0];
+        totalBalance = totalBalance - itemvalueraw;
+        totalBalanceMoney = totalBalance.toLocaleString('pt-br', {minimumFractionDigits: 2});
         console.log("PARCELADO!")
         entry.itemparcels = itemparcels;
         entry.itemparcelsCurrent = "1";
         let itemparcelvalue = $(this).parents(".newEntry").find("#itemvalue").maskMoney('unmasked')[0];
-        itemparcelvalue = Number(itemparcelvalue) / itemparcels;
+        itemparcelvalue = Number(itemparcelvalue);
+        itemparcelvalue = itemparcelvalue / itemparcels;
         itemparcelvalue = itemparcelvalue.toFixed(2);
         entry.itemparcelvalue = itemparcelvalue;
         let itemparcelsAll = {};
@@ -540,6 +538,7 @@ function showdata(selector){
           resetInputs();
           $('.modal.newEvent').fadeOut({queue: false, duration: '75'});
           $('.modalbg.newEvent').fadeOut({queue: false, duration: '75'});
+          $('.totalBalance').html(totalBalance)
         }
       }
       else {
@@ -566,6 +565,9 @@ function showdata(selector){
         entry.itemdate = itemdate;
         entry.itemname = itemname;
         entry.itemvalue = itemvalueFormatted;
+        
+        totalBalance = totalBalance - itemvalueFormatted;
+        totalBalanceMoney = totalBalance.toLocaleString('pt-br', {minimumFractionDigits: 2});
 
         console.log(entry)
         let splititemdate = itemdate.split("/");
@@ -595,6 +597,7 @@ function showdata(selector){
         resetInputs();
         $('.modal.newEvent').fadeOut({queue: false, duration: '75'});
         $('.modalbg.newEvent').fadeOut({queue: false, duration: '75'});
+        $('.totalBalance').html(totalBalance);
       } else {
         let errorEmptyFields = `<span class="error">Favor preencher os campos obrigatórios</span>`;
         $('.modalError').html(errorEmptyFields)
