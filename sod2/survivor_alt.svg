@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="128px" height="128px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 128 128"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil0 {fill:#0E0F0D}
+    .fil1 {fill:#F5F2D6}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <polygon class="fil0" points="63.999,-0.001 127.999,63.999 63.999,127.999 -0.001,63.999 "/>
+  <path class="fil1" d="M63.999 34.133c1.98,0 3.584,2.407 3.584,5.376 0,2.969 -1.604,5.376 -3.584,5.376 -1.979,0 -3.584,-2.407 -3.584,-5.376 0,-2.969 1.605,-5.376 3.584,-5.376zm-10.752 30.463l2.39 0 2.09 -11.348 -0.299 11.348 -1.493 29.269 2.689 0 5.375 -23.893 5.078 23.893 2.986 0 -1.493 -29.269 -0.298 -11.945 2.09 11.945 2.39 0 -1.793 -16.724c-1.344,-1.083 -2.938,-1.638 -4.719,-1.792l-8.979 0c-1.951,0.192 -3.572,0.772 -4.819,1.792l-1.195 16.724z"/>
+ </g>
+</svg>
