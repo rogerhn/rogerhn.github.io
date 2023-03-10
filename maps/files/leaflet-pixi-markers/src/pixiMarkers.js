@@ -5,7 +5,7 @@ async function pixiTest() {
   }
 
   const markerTexture = await PIXI.Assets.load(
-    `https://1c03930b-6ab3-4cd6-bf2d-8681c11b1eec.id.repl.co/files/debug_marker.png`
+    `./files/debug_marker.png`
   );
   const markerLatLng = [0, 0];
   const marker = new PIXI.Sprite(markerTexture);
